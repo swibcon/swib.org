@@ -51,7 +51,7 @@ get_speaker_data();
 # output section markdown/html
 output_speaker_page();
 
-print Dumper \%person;
+##print Dumper \%person;
 
 #################################
 
