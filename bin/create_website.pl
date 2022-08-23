@@ -36,9 +36,8 @@ Readonly my %PAGE => (
 
 # variables used for markdown and rdf output
 
-# author values, keyed by encrypted email address
-my %author;
-
+# person values, keyed by encrypted email address
+my %person;
 
 # parser for source data files
 my $parser = XML::LibXML->new();
@@ -52,7 +51,7 @@ get_speaker_data();
 # output section markdown/html
 output_speaker_page();
 
-##print Dumper \%author;
+print Dumper \%person;
 
 #################################
 
@@ -66,13 +65,15 @@ sub get_speaker_data {
     # the email of the (first) submitting author of the bio identifies
     # the author in other contexts
     my $author_id = email2id( $node->findvalue('./sa_email') );
-    my %entry;
-    $entry{author_sort} = $node->findvalue('./submitting_author');
-    $entry{paper_id}    = $node->findvalue('./paperID');
-    $entry{title}       = $node->findvalue('./title');
-    $entry{abstract}    = $node->findvalue('./abstract');
+    my %entry     = (
+      author_sort => $node->findvalue('./submitting_author'),
+      paper_id    => $node->findvalue('./paperID'),
+      title       => $node->findvalue('./title'),
+      abstract    => $node->findvalue('./abstract'),
+    );
 
-    $author{$author_id}{current_bio} = \%entry;
+    $person{$author_id}{current_bio} = \%entry;
+    $person{$author_id}{is_speaker}  = 1;
   }
 }
 
@@ -81,16 +82,21 @@ sub output_speaker_page {
   my @speakers_loop;
   foreach my $author_id (
     sort {
-      $author{$a}{current_bio}{author_sort}
-        cmp $author{$b}{current_bio}{author_sort}
-    } keys %author
+      $person{$a}{current_bio}{author_sort}
+        cmp $person{$b}{current_bio}{author_sort}
+    } keys %person
     )
   {
+    my %author = %{ $person{$author_id} };
+
+    # skip non-authors and those without current bio
+    next unless ( $author{is_speaker} and exists $author{current_bio} );
+
     # only copy the values used in template
     my $entry = {
       author_id => $author_id,
-      title     => $author{$author_id}{current_bio}{title},
-      abstract  => $author{$author_id}{current_bio}{abstract},
+      title     => $author{current_bio}{title},
+      abstract  => $author{current_bio}{abstract},
     };
     push( @speakers_loop, $entry );
   }
