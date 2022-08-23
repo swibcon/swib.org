@@ -111,7 +111,7 @@ sub email2id {
   my $id = sha256_hex( lc($email) );
 
   # prefix with id_ to make values usable as xml id values
-  $id = "id_$id";
+  $id = "X$id";
 
   return $id;
 }
