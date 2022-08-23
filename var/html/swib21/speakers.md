@@ -1,5 +1,5 @@
 ---
-swib: SWIB21
+title: SWIB21 Speakers
 ---
 
 # Speakers

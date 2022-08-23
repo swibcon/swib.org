@@ -13,5 +13,5 @@ all: $(HTML_FILES)
 
 $(HTML_FILES): $(MD_FILES)
 	@echo $@
-	$(PANDOC) $(TMPL_OPTS) $(EXT_OPTS) -o $@ $<
+	@$(PANDOC) $(TMPL_OPTS) $(EXT_OPTS) -o $@ $<
 
