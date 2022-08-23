@@ -1,0 +1,9 @@
+*~
+.DS_Store
+._favicon.ico
+tmp/*
+# don't check in 
+bin/.secret
+bin/.conftool_secret
+# don't check in sources, which contain personal data, e.g. email addresses
+var/src
