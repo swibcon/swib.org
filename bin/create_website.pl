@@ -17,11 +17,13 @@ use YAML::Tiny;
 
 $Data::Dumper::Sortkeys = 1;
 
+Readonly my $ROOT_URI      => 'https://swib.org/';
 Readonly my $YAML_CONFIG   => YAML::Tiny->read('config.yaml')->[0];
 Readonly my $SWIB          => $YAML_CONFIG->{swib};
 Readonly my $HTML_ROOT     => path( '../var/html/' . lc($SWIB) );
 Readonly my $SRC_ROOT      => path( '../var/src/' . lc($SWIB) );
 Readonly my $TEMPLATE_ROOT => path('../etc/html_tmpl');
+Readonly my $RDF_FILE      => $HTML_ROOT->child( lc($SWIB) . '.ttl' );
 Readonly my %INPUT_FILE    => (
   abstracts => 'abstracts.xml',
   speakers  => 'speakers.xml',
@@ -33,6 +35,8 @@ Readonly my %PAGE => (
     output   => 'speakers.md',
   },
 );
+
+## TODO param for html|rdf|all output
 
 # variables used for markdown and rdf output
 
@@ -48,10 +52,15 @@ $HTML_ROOT->mkpath;
 # speaker data from "contributors biography"
 get_speaker_data();
 
-# output section markdown/html
+#### output section markdown/html
+
 output_speaker_page();
 
 ##print Dumper \%person;
+
+### output secton rdf
+
+output_rdf();
 
 #################################
 
@@ -108,6 +117,42 @@ sub output_speaker_page {
   );
   my $outfile = $HTML_ROOT->child( $PAGE{speakers}{output} );
   $outfile->spew_utf8( $tmpl->output );
+}
+
+sub output_rdf {
+
+  # concatenate text blocks with turtle statements
+  my $rdf_txt = build_prefix_rdf();
+  $rdf_txt .= build_person_rdf();
+  $RDF_FILE->spew_utf8($rdf_txt);
+}
+
+sub build_person_rdf {
+  my $rdf_txt;
+  foreach my $id ( keys %person ) {
+    my $pers_uri = $ROOT_URI . "person/$id";
+
+    # here for identifying the person if more precise name values or IDs are
+    # missing
+    $rdf_txt .=
+      "<$pers_uri> foaf:name \"" . $person{$id}{current_bio}{title} . "\" . \n";
+    $rdf_txt .=
+        "<$pers_uri> dct:description '''"
+      . $person{$id}{current_bio}{abstract}
+      . "''' . \n";
+  }
+  return $rdf_txt;
+}
+
+sub build_prefix_rdf {
+  my $prefixes = <<'EOF';
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+EOF
+
+  return $prefixes;
 }
 
 sub email2id {
