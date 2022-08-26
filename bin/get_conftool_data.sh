@@ -13,6 +13,10 @@ LC_SWIB=`echo $SWIB | tr '[:upper:]' '[:lower:]'`
 
 # get xml export files for abstract, speaker and session data from conftool
 
+# REST access has to be enabled in Conftool under "Integrations With Other
+# Systems / Enable General REST Interface". The password set here is used for
+# all REST access.  Additionally, a username is required.
+
 SERVER="https://www.conftool.org/$LC_SWIB/rest.php"
 USER="exportadmin"
 PASSWORD=`cat .conftool_secret`
