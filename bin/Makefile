@@ -1,8 +1,12 @@
 # Makefile
 # nbt, 23.08.2022
 
-MD_FILES := $(shell find ../var/html/swib21 -name "*.md")
+# read current swib from config
+LC_SWIB := $(shell grep ^swib: config.yaml | cut -d: -f2 | column -t | tr '[:upper:]' '[:lower:]' )
+
+MD_FILES := $(shell find ../var/html/$(LC_SWIB) -name "*.md")
 HTML_FILES := $(MD_FILES:.md=.html)
+##$(warning $(HTML_FILES))
 
 # binaries
 PANDOC=/usr/local/bin/pandoc
