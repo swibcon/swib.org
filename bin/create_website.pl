@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 # Create markdown files from conftools source files
+# and a turtle file with main content as RDF
 
 use strict;
 use warnings;
@@ -52,13 +53,13 @@ $HTML_ROOT->mkpath;
 # speaker data from "contributors biography"
 get_speaker_data();
 
-#### output section markdown/html
+#### output section for markdown/html
 
 output_speaker_page();
 
-##print Dumper \%person;
+print Dumper \%person;
 
-### output secton rdf
+### output secton for rdf
 
 output_rdf();
 
