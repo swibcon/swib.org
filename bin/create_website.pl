@@ -57,7 +57,7 @@ get_speaker_data();
 
 output_speaker_page();
 
-print Dumper \%person;
+##print Dumper \%person;
 
 ### output secton for rdf
 
@@ -136,11 +136,14 @@ sub build_person_rdf {
     # here for identifying the person if more precise name values or IDs are
     # missing
     $rdf_txt .=
-      "<$pers_uri> foaf:name \"" . $person{$id}{current_bio}{title} . "\" . \n";
+      "<$pers_uri> a schema:Person . \n";
+    $rdf_txt .=
+      "<$pers_uri> schema:name \"" . $person{$id}{current_bio}{title} . "\" . \n";
     $rdf_txt .=
         "<$pers_uri> dct:description '''"
       . $person{$id}{current_bio}{abstract}
       . "''' . \n";
+    $rdf_txt .= "\n";
   }
   return $rdf_txt;
 }
@@ -149,7 +152,6 @@ sub build_prefix_rdf {
   my $prefixes = <<'EOF';
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix schema: <http://schema.org/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 EOF
 
