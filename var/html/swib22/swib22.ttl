@@ -67,23 +67,7 @@
 
 <https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> a schema:Person . 
 <https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> schema:name "Osma Suominen" . 
-<https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> dct:description '''Osma Suominen is working as an information systems specialist at the
-
-National Library of Finland. He is currently working on automated
-
-subject indexing, in particular the Annif tool and the Finto AI service,
-
-as well as the publishing of bibliographic data as Linked Data. He is
-
-also one of the creators of the Finto.fi thesaurus and ontology service
-
-and is leading development of the Skosmos vocabulary browser used in
-
-Finto. Osma Suominen earned his doctoral degree at Aalto University
-
-while doing research on semantic portals and quality of controlled
-
-vocabularies within the FinnONTO series of projects.''' . 
+<https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> dct:description '''Osma Suominen is working as an information systems specialist at the National Library of Finland. He is currently working on automated subject indexing, in particular the Annif tool and the Finto AI service, as well as the publishing of bibliographic data as Linked Data. He is also one of the creators of the Finto.fi thesaurus and ontology service and is leading development of the Skosmos vocabulary browser used in Finto. Osma Suominen earned his doctoral degree at Aalto University while doing research on semantic portals and quality of controlled vocabularies within the FinnONTO series of projects.''' . 
 
 <https://swib.org/person/Xb7192fa1782e788b65627b3c255cf94bd047851526b6f32993ac4553e6ff2f7c> a schema:Person . 
 <https://swib.org/person/Xb7192fa1782e788b65627b3c255cf94bd047851526b6f32993ac4553e6ff2f7c> schema:name "Patrick Hochstenbach" . 

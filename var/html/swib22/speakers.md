@@ -145,23 +145,7 @@ Artem is a deep learning researcher at Barcelona Supercomputing Center. Being a 
 
 ## Osma Suominen
 
-Osma Suominen is working as an information systems specialist at the
-
-National Library of Finland. He is currently working on automated
-
-subject indexing, in particular the Annif tool and the Finto AI service,
-
-as well as the publishing of bibliographic data as Linked Data. He is
-
-also one of the creators of the Finto.fi thesaurus and ontology service
-
-and is leading development of the Skosmos vocabulary browser used in
-
-Finto. Osma Suominen earned his doctoral degree at Aalto University
-
-while doing research on semantic portals and quality of controlled
-
-vocabularies within the FinnONTO series of projects.
+Osma Suominen is working as an information systems specialist at the National Library of Finland. He is currently working on automated subject indexing, in particular the Annif tool and the Finto AI service, as well as the publishing of bibliographic data as Linked Data. He is also one of the creators of the Finto.fi thesaurus and ontology service and is leading development of the Skosmos vocabulary browser used in Finto. Osma Suominen earned his doctoral degree at Aalto University while doing research on semantic portals and quality of controlled vocabularies within the FinnONTO series of projects.
 
 </div>
 

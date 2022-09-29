@@ -11,7 +11,7 @@ HTML_FILES := $(MD_FILES:.md=.html)
 # binaries
 PANDOC=/usr/local/bin/pandoc
 EXT_OPTS    := --standalone -f markdown+pipe_tables+fenced_divs+bracketed_spans -t html
-TMPL_OPTS   := --template ../etc/pandoc_templates/default.html5 --css /styles/simple.css
+TMPL_OPTS   := --template ../etc/pandoc_templates/default.html5 --css /$(LC_SWIB)/styles/simple.css
 
 all: $(HTML_FILES)
 
