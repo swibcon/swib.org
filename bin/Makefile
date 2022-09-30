@@ -15,7 +15,7 @@ TMPL_OPTS   := --template ../etc/pandoc_templates/default.html5 --css /$(LC_SWIB
 
 all: $(HTML_FILES)
 
-$(HTML_FILES): $(MD_FILES)
+%.html: %.md
 	@echo $@
 	@$(PANDOC) $(TMPL_OPTS) $(EXT_OPTS) -o $@ $<
 
