@@ -1,0 +1,32 @@
+---
+title: <tmpl_var swib> Programme
+---
+
+# Programme
+
+<tmpl_loop days_loop>
+<div id="<tmpl_var day_id>">
+
+## <tmpl_var day>
+
+<tmpl_loop sessions_loop>
+<div id="<tmpl_var session_id>">
+
+### <tmpl_var session_title>
+
+
+<tmpl_loop abstracts_loop>
+<div id="<tmpl_var abstract_id>">
+
+#### <tmpl_var abstract_title>
+
+</div>
+</tmpl_loop>
+
+</div>
+</tmpl_loop>
+
+</div>
+</tmpl_loop>
+
+

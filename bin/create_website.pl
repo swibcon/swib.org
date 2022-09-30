@@ -21,6 +21,7 @@ $Data::Dumper::Sortkeys = 1;
 Readonly my $ROOT_URI      => 'https://swib.org/';
 Readonly my $YAML_CONFIG   => YAML::Tiny->read('config.yaml')->[0];
 Readonly my $SWIB          => $YAML_CONFIG->{swib};
+Readonly my @DAYS          => @{ $YAML_CONFIG->{days} };
 Readonly my $HTML_ROOT     => path( '../var/html/' . lc($SWIB) );
 Readonly my $SRC_ROOT      => path( '../var/src/' . lc($SWIB) );
 Readonly my $TEMPLATE_ROOT => path('../etc/html_tmpl');
@@ -35,7 +36,13 @@ Readonly my %PAGE => (
     template => 'speakers.md.tmpl',
     output   => 'speakers.md',
   },
+  programme => {
+    template => 'programme.md.tmpl',
+    output   => 'programme.md',
+  },
 );
+## maximum used in conftool 2022
+Readonly my $MAX_AUTHORS => 6;
 
 ## TODO param for html|rdf|all output
 
@@ -43,6 +50,7 @@ Readonly my %PAGE => (
 
 # person values, keyed by encrypted email address
 my %person;
+my %abstract;
 
 # parser for source data files
 my $parser = XML::LibXML->new();
@@ -53,9 +61,15 @@ $HTML_ROOT->mkpath;
 # speaker data from "contributors biography"
 get_speaker_data();
 
+# presentation abstracts from "presentation"
+get_abstracts();
+
+#print Dumper %abstract;
+
 #### output section for markdown/html
 
 output_speaker_page();
+output_programme_page();
 
 ##print Dumper \%person;
 
@@ -84,6 +98,30 @@ sub get_speaker_data {
 
     $person{$author_id}{current_bio} = \%entry;
     $person{$author_id}{is_speaker}  = 1;
+  }
+}
+
+sub get_abstracts {
+
+  my $dom = $parser->parse_file( $SRC_ROOT->child( $INPUT_FILE{abstracts} ) );
+
+  my @nodes = $dom->findnodes('/papers/paper');
+  foreach my $node (@nodes) {
+
+    # skip irrelevant papers
+    my $contribution_type = $node->findvalue('./contribution_type');
+    next unless $contribution_type eq 'Presentation';
+    my $acceptance_status = $node->findvalue('./acceptance_status');
+    next unless $acceptance_status gt 0;
+
+    my $abstract_id = 'contrib' . $node->findvalue('./paperID');
+    my %entry       = (
+      abstract_id => $node->findvalue('./paperID'),
+      title       => $node->findvalue('./title'),
+      abstract    => $node->findvalue('./abstract'),
+    );
+
+    $abstract{$abstract_id} = \%entry;
   }
 }
 
@@ -120,6 +158,56 @@ sub output_speaker_page {
   $outfile->spew_utf8( $tmpl->output );
 }
 
+sub output_programme_page {
+
+  my @days_loop;
+
+  foreach my $day (@DAYS) {
+    my $day_id;
+    if ( $day =~ m/DAY (\d) \|/ ) {
+      $day_id = "day$1";
+    } else {
+      die "Wrong day format $day\n";
+    }
+    ## TODO remove
+    next unless $day_id eq 'day1';
+
+    my @abstracts_loop;
+    foreach my $abstract_id ( keys %abstract ) {
+      my $entry = {
+        abstract_id    => $abstract_id,
+        abstract_title => $abstract{$abstract_id}{title},
+      };
+      push( @abstracts_loop, $entry );
+    }
+
+    # temporary dummy
+    my @sessions_loop = (
+      {
+        session_id     => "se-01",
+        session_title  => 'dummy',
+        abstracts_loop => \@abstracts_loop,
+      },
+    );
+
+    my $entry = {
+      day_id        => $day_id,
+      day           => $day,
+      sessions_loop => \@sessions_loop,
+    };
+    push( @days_loop, $entry );
+  }
+
+  my $tmpl = HTML::Template->new(
+    filename => $TEMPLATE_ROOT->child( $PAGE{programme}{template} ) );
+  $tmpl->param(
+    swib      => $SWIB,
+    days_loop => \@days_loop,
+  );
+  my $outfile = $HTML_ROOT->child( $PAGE{programme}{output} );
+  $outfile->spew_utf8( $tmpl->output );
+}
+
 sub output_rdf {
 
   # concatenate text blocks with turtle statements
@@ -135,10 +223,11 @@ sub build_person_rdf {
 
     # here for identifying the person if more precise name values or IDs are
     # missing
+    $rdf_txt .= "<$pers_uri> a schema:Person . \n";
     $rdf_txt .=
-      "<$pers_uri> a schema:Person . \n";
-    $rdf_txt .=
-      "<$pers_uri> schema:name \"" . $person{$id}{current_bio}{title} . "\" . \n";
+        "<$pers_uri> schema:name \""
+      . $person{$id}{current_bio}{title}
+      . "\" . \n";
     $rdf_txt .=
         "<$pers_uri> dct:description '''"
       . $person{$id}{current_bio}{abstract}
