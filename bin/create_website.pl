@@ -90,9 +90,9 @@ sub get_speaker_data {
 
     # the email of the (first) submitting author of the bio identifies
     # the author in other contexts
-    my $author_id = email2id( $node->findvalue('./sa_email') );
+    my $author_id = email2id( $node->findvalue('./authors_formatted_1_email') );
     my %entry     = (
-      author_sort => $node->findvalue('./submitting_author'),
+      author_sort => $node->findvalue('./authors_formatted_1_name'),
       paper_id    => $node->findvalue('./paperID'),
       title       => $node->findvalue('./title'),
       abstract    => $node->findvalue('./abstract'),
@@ -112,10 +112,13 @@ sub get_abstract_data {
 
     # skip irrelevant papers
     my $contribution_type = $node->findvalue('./contribution_type');
-    next unless $contribution_type eq 'Presentation';
+    next
+      unless $contribution_type eq 'Presentation'
+      or $contribution_type eq 'Workshop';
     my $acceptance_status = $node->findvalue('./acceptance_status');
     next unless $acceptance_status gt 0;
 
+    # read values
     my $abstract_id = 'contrib' . $node->findvalue('./paperID');
     my %entry       = (
       abstract_id   => $node->findvalue('./paperID'),
@@ -124,6 +127,19 @@ sub get_abstract_data {
       authors       => get_authors($node),
       organisations => get_organisations($node),
     );
+
+    # remove empty abstracts
+    if ( $entry{abstract} eq '.' ) {
+      delete $entry{abstract};
+    }
+
+    # remove empty author/organisation
+    # (indicated by '.' in fist and lastname fields
+    if ( $node->findvalue('./authors') eq '., .' ) {
+      $entry{authors}       = [];
+      $entry{organisations} = {};
+    }
+
     $abstract{$abstract_id} = \%entry;
   }
 }
@@ -183,14 +199,18 @@ sub output_programme_page {
         authors_loop       => mk_authors_loop($abstract_id),
         organisations_loop => mk_organisations_loop($abstract_id),
       };
+      ## skip empty abstracts
+      if ( $abstract{$abstract_id}{abstract} ) {
+        $entry->{abstract} = $abstract{$abstract_id}{abstract};
+      }
       push( @abstracts_loop, $entry );
     }
 
-    # temporary dummy
+    # TODO temporary dummy
     my @sessions_loop = (
       {
         session_id     => "se-01",
-        session_title  => 'dummy',
+        session_title  => 'dummy session',
         abstracts_loop => \@abstracts_loop,
       },
     );
@@ -294,7 +314,7 @@ sub get_authors {
 
     # add index and speaker status
     foreach my $author_indexed (@authors_indexed) {
-      if ( $author_indexed =~ m/^$entry{name}(\*?) \((\d)\)/ ) {
+      if ( $author_indexed =~ m/^$entry{name}(\*?) \((\d(,\d)?)\)/ ) {
         if ( $1 ne '' ) {
           $entry{speaker} = 1;
         }

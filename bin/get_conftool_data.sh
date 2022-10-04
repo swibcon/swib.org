@@ -64,6 +64,8 @@ PASSHASH=`echo -n "$TIMESTAMP$PASSWORD" | sha256sum | awk '{print $1;}'`
 ctdata="$common_param&nonce=$TIMESTAMP&passhash=$PASSHASH"
 ctdata+="&export_select=papers"
 ctdata+="&form_export_papers_options%5B%5D=abstracts"
+ctdata+="&form_export_papers_options%5B%5D=authors_extended_presenters"
+ctdata+="&form_export_papers_options%5B%5D=authors_extended_columns"
 ctdata+="&form_export_papers_options%5B%5D=authors_extended_email"
 ctdata+="&form_track=3"
 ctdata+="&form_status=1"

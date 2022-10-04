@@ -5,6 +5,30 @@ title: SWIB22 Speakers
 # Speakers
 
 
+<div id="Xd1676589b67af938ff2e171ebc3bbe43522268ee701192cd35d420859ca24157">
+
+## Kayt Ahnberg
+
+Katherine Ahnberg, MLS (She/Her), serves as the User Experience Researcher/Designer at the University of Pennsylvania Libraries. Advocating for users across a diverse service population, her foci are data informed design and evidence-based practice. Contact: ahnberg@upenn.edu. 
+
+</div>
+
+<div id="X29bd70e9548e6e90437e224ea05de9282b8717e03499b5be2872b8274d60777b">
+
+## José Calvo Tello
+
+José Calvo Tello works as a researcher and subject librarian at the Göttingen State and University Library responsible for Digital Humanities, Romance Studies, and History of Art. His research is focused on the application and development of computational methods such as Machine Learning and Natural Language Processing applied to Romance Literatures and library records.
+
+</div>
+
+<div id="X5109b7ebb8c24bda24351a321a98966b36871019be429b0a3f5ce7b948e1d183">
+
+## Beth Picknally Camden
+
+Since 2005, Beth Picknally Camden has been the Patricia and Bernard Goldstein Director of Information Processing, responsible for technical services at the University of Pennsylvania Libraries. Previously, she held positions at University of Virginia and University of Notre Dame. Beth holds a MS in Library Science from the Catholic University of America and a BA in English from the University of Notre Dame. She is involved in professional organizations including the American Library Association (ALA), ALA Core, and the Program for Cooperative Cataloging (PCC). Beth is chair of the PCC Standing Committee on Training (SCT) and a member of the PCC Policy Committee (PoCo). Beth is engaged in international linked-data initiatives, and chairs the Share-VDE Advisory Council. For additional information, please see: http://bpcamden.wordpress.com
+
+</div>
+
 <div id="Xff8c224c71806e4d7223891dd5d2dbd095213ed934b2528c2c27f7d3425b7f68">
 
 ## Sophy Shu-Jiun Chen
@@ -13,19 +37,19 @@ Sophy Shu-Jiun Chen is the Associate Research Fellow at the [Institute of Histor
 
 </div>
 
-<div id="X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136">
-
-## Theodore Gerontakos
-
-Theodore Gerontakos is the Head of the Metadata and Cataloging Initiatives Unit of the Cataloging and Metadata Services Department at the University of Washington Libraries, and is the project supervisor for the MARC21-to-RDA/LRM/RDF Mapping Project. 
-
-</div>
-
 <div id="Xfbe31afc10485a0f683b9a66955fd334b449b8c0e2f46be27f03bcec3f06528d">
 
 ## L.P. Coladangelo
 
 L.P. Coladangelo (he/him) is a doctoral student in the College of Communication and Information at Kent State University in Kent, Ohio. He also currently serves as Project Manager of Digital Scriptorium 2.0, a project to redevelop a national union catalog of premodern manuscripts in U.S. collections as Linked Open Data. He holds an MLIS from Kent State University’s School of Information and a BA from Sarah Lawrence College in Bronxville, New York. His current research interests include knowledge organization of cultural heritage, metadata, information representation of folk traditions, digital humanities, semantic technologies, and the information and organizational behaviors of cultural heritage and leisure communities of practice.
+
+</div>
+
+<div id="X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136">
+
+## Crystal Clements
+
+Crystal Clements is a Science Cataloger at the University of Washington Libraries, and is the project manager for the MARC21-to-RDA/LRM/RDF Mapping Project.
 
 </div>
 
@@ -53,11 +77,21 @@ Moritz Fürneisen is a research engineer at ZBW, where he develops and evaluates
 
 </div>
 
+<div id="X5e5415b576ceb41ae7c5d4c855a27760a06dd86b71bb1fa2599463b1781ec899">
+
+## Theodore Gerontakos
+
+Theodore Gerontakos is the Head of the Metadata and Cataloging Initiatives Unit of the Cataloging and Metadata Services Department at the University of Washington Libraries, and is the project supervisor for the MARC21-to-RDA/LRM/RDF Mapping Project. 
+
+</div>
+
 <div id="X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b">
 
-## Kayt Ahnberg
+## Jim Hahn
 
-Katherine Ahnberg, MLS (She/Her), serves as the User Experience Researcher/Designer at the University of Pennsylvania Libraries. Advocating for users across a diverse service population, her foci are data informed design and evidence-based practice. Contact: ahnberg@upenn.edu. 
+As the first Head of Metadata Research at University of Pennsylvania Libraries, Jim works collaboratively across the Libraries, developing a vision for the services, technologies and policies to enhance discovery of collections, and incorporating international standards and best practices for linked data and metadata. He plays a critical role in the Penn Libraries’ participation in the LD4 community and the Share-VDE project, as well as developing future partnerships. Before coming to the Penn Libraries Jim worked at the University of Illinois at Urbana-Champaign. At the Illinois Libraries Jim had roles in technology focused research and in the development of creative uses of technologies in research libraries. He led a number of successful and novel grant projects which integrate library services and emerging technology. He holds an M.S. in Library and Information Science and a C.A.S. in Library and Information Science both from the University of Illinois at Urbana-Champaign.
+
+
 
 </div>
 
@@ -69,11 +103,29 @@ Patrick Hochstenbach is a digital architect at Ghent University Library and PhD 
 
 </div>
 
+<div id="Xa4f82f49338a5fa53b6e45e739b2895982e5f658fed374aebc0c3f8ebe881af0">
+
+## Eero Hyvönen
+
+[Eero Hyvönen](https://seco.cs.aalto.fi/u/eahyvone/) is professor of semantic media technology at the Aalto University, Department of Computer Science, and director of Helsinki Centre for Digital Humanities (HELDIG) at the University of Helsinki. A major recent theme (since 2001) in his research has been the Semantic Web and linked (open) data technologies. He has been developing with his Semantic Computing Research Group [(SeCo)](https://seco.cs.aalto.fi/ ) the [national semantic web infrastructure](https://seco.cs.aalto.fi/projects/lodi4dh/) in Finland and its [applications](https://seco.cs.aalto.fi/applications/sampo/) in different areas, such as Cultural Heritage and Digital Humanities. Eero Hyvönen has published some 500 research articles and books and has got several international and national awards. He acts in the editorial boards of several international journals and has co-chaired and acted in the program committees of tens of major conferences.
+
+</div>
+
 <div id="X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782">
 
 ## Juho Inkinen
 
 I work as an Information Systems Specialist at the National Library of Finland. I have been developing Annif and working on related tasks since 2019.
+
+</div>
+
+<div id="X0c94abd1309a3f472879d915b0bb0ea645550c7e5c48d1592bde9f1833c38dd7">
+
+## Filip Jakobsen
+
+Filip Jakobsen is the founder and CEO of Samhæng, which is a specialized UX consultancy designing digital tools for handling complex data. With a focus on work tools for libraries, culture and the arts. Samhæng co-designs software with the people who end up using it: Staff and patrons. Samhæng has led co-design efforts on library projects like FOLIO, ReShare, Share-VDE and the Library of Congress BIBFRAME Editor. More information can be found on https://samhaeng.com/about
+
+
 
 </div>
 
@@ -101,11 +153,35 @@ Sven Lieber works as data manager for the Royal Library of Belgium (KBR) where h
 
 </div>
 
+<div id="X1a6fbcdffdfbcb3cd1a116a5e2d0e3f5c4b8f413499ad295ddb4eee519ef78bd">
+
+## Martin Lovell
+
+Martin Lovell is a principal full stack developer at Yale University Library. Martin works at Yale Library developing systems for the digital library, discovery, library processes, and metadata conversion and management. He has been developing software for over 20 years.
+
+</div>
+
 <div id="X3ee641789bd620e47bd528f57d62683606d909c8a8d7ad7bc41a23b1d7c9d396">
 
 ## Tobias Malmsheimer
 
-Tobias has a M.Sc. in computer science and is currently responsible for the IT infrastructure in the [https://jvmg.iuk.hdm-stuttgart.de/ Japanese Visual Media Graph project].
+Tobias has a M.Sc. in computer science and is currently responsible for the IT infrastructure in the [Japanese Visual Media Graph project](https://jvmg.iuk.hdm-stuttgart.de/).
+
+</div>
+
+<div id="X447adeba5246b6619ff8c313124b11ba4888ad0b8811ff276f91f611f8655f30">
+
+## Enrique Manjavacsa
+
+Enrique Manjavacsa is currently a post-doctoral researcher in Computational Linguistics at the University of Leiden. In his current work, he seeks to adapt and apply modern large scale language models like BERT in order to facilitate access to complex information from unstructured corpora in the Humanities.
+
+</div>
+
+<div id="Xe1af218db11177fdcb7141bcdf5539362ee8584504fe095fcd1b63c747d59ddd">
+
+## Zhuo Pan
+
+Zhuo Pan is a student employee at the University of Washington Libraries assigned to the MARC21-to-RDA/LRM/RDF Mapping Project, and a current Master of Library and Information Sciences student at the University of Washington Information School. Theodore and Zhuo are both contributors to the mapping work, and are leading authors of the transformation code, while Crystal is focused on project logistics and mapping work.
 
 </div>
 
@@ -113,11 +189,11 @@ Tobias has a M.Sc. in computer science and is currently responsible for the IT i
 
 ## Telma Peura
 
-Telma Peura is a Digital Humanities master student from Helsinki University, working as a research assistant for the [https://seco.cs.aalto.fi/applications/kirjasampo/ BookSampo] project at the Semantic Computing Research Group [https://seco.cs.aalto.fi/ SeCo] at Aalto University. Previously, she has worked in digital literary studies as part of the [https://centre-for-humanities-computing.github.io/fabula-net/ Fabula-NET] project at Aarhus University.
+Telma Peura is a Digital Humanities master student from Helsinki University, working as a research assistant for the [BookSampo](https://seco.cs.aalto.fi/applications/kirjasampo/) project at the Semantic Computing Research Group [SeCo](https://seco.cs.aalto.fi/) at Aalto University. Previously, she has worked in digital literary studies as part of the [Fabula-NET](https://centre-for-humanities-computing.github.io/fabula-net/) project at Aarhus University.
 
 </div>
 
-<div id="X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c">
+<div id="Xd96a2989a7cba284b23ee0d6fc55e33bf1e4eadc138a78771c12dbd753ad1078">
 
 ## Christoph Poley
 
@@ -149,11 +225,19 @@ Osma Suominen is working as an information systems specialist at the National Li
 
 </div>
 
+<div id="Xa5e687b58be6e9848803ac708b2502253bbcebdcb36c4309d5147f1efccb10b8">
+
+## Timothy A. Thompson
+
+Tim Thompson works as the Librarian for Applied Metadata Research at Yale University Library. As a metadata practitioner, his work focuses on the implementation of linked data standards and technologies in academic libraries. Over the past six years, he has been active in cooperative efforts such as the Linked Data for Production (LD4P) project.
+
+</div>
+
 <div id="X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13">
 
 ## Tina Trillitzsch
 
-[https://leibniz-psychology.org/en/staff/profile-tina-trillitzsch/ Tina Trillitzsch] works at the Leibniz Institute for Psychology (ZPID) in Germany. She is in charge of turning the PSYNDEX research literature database into Linked Open Data for the planned PsychPorta search portal, developing a metadata scheme based on BIBFRAME, coordinating the Linked-Data-friendlyness of the new cataloging software PSYNDEX2, and for the migration of existing database records to the new software. Moreover, she is responsible for controlled vocabularies in PSYNDEX, converting existing indexing schemes, creating new ones as needed and enabling their use in both PSYNDEX2, the PsychPorta portal, and the Linked Open Data knowledge graph that it is based on.
+[Tina Trillitzsch](https://leibniz-psychology.org/en/staff/profile-tina-trillitzsch/) works at the Leibniz Institute for Psychology (ZPID) in Germany. She is in charge of turning the PSYNDEX research literature database into Linked Open Data for the planned PsychPorta search portal, developing a metadata scheme based on BIBFRAME, coordinating the Linked-Data-friendlyness of the new cataloging software PSYNDEX2, and for the migration of existing database records to the new software. Moreover, she is responsible for controlled vocabularies in PSYNDEX, converting existing indexing schemes, creating new ones as needed and enabling their use in both PSYNDEX2, the PsychPorta portal, and the Linked Open Data knowledge graph that it is based on.
 
 </div>
 
