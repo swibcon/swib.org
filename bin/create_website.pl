@@ -42,7 +42,8 @@ Readonly my %PAGE => (
   },
 );
 ## maximum used in conftool 2022
-Readonly my $MAX_AUTHORS => 6;
+Readonly my $MAX_AUTHORS_PER_PRESENTATION  => 6;
+Readonly my $MAX_PRESENTATIONS_PER_SESSION => 7;
 
 ## TODO param for html|rdf|all output
 
@@ -53,6 +54,9 @@ my %speaker;
 
 # abstracts/contributions, keyed by conftool ids
 my %abstract;
+
+# sessions with linked abstracts, keyed by shortname
+my %session;
 
 # parser for source data files
 my $parser = XML::LibXML->new();
@@ -65,6 +69,9 @@ get_speaker_data();
 
 # presentation abstracts from "presentation"
 get_abstract_data();
+
+# sesion structure
+get_session_data();
 
 #print Dumper %abstract;
 
@@ -119,7 +126,7 @@ sub get_abstract_data {
     next unless $acceptance_status gt 0;
 
     # read values
-    my $abstract_id = 'contrib' . $node->findvalue('./paperID');
+    my $abstract_id = $node->findvalue('./paperID');
     my %entry       = (
       abstract_id   => $node->findvalue('./paperID'),
       title         => $node->findvalue('./title'),
@@ -144,8 +151,50 @@ sub get_abstract_data {
   }
 }
 
+sub get_session_data {
+
+  my $dom = $parser->parse_file( $SRC_ROOT->child( $INPUT_FILE{sessions} ) );
+
+  my @nodes = $dom->findnodes('/sessions/session');
+  foreach my $node (@nodes) {
+
+    my %entry = (
+      short => $node->findvalue('./session_short'),
+      start => $node->findvalue('./session_start'),
+      end   => $node->findvalue('./session_end'),
+      title => $node->findvalue('./session_title'),
+    );
+
+    if ( $entry{start} =~ m/^(\S+) (\S+)$/ ) {
+      $entry{start_date} = $1;
+      $entry{start_time} = $2;
+    } else {
+      die "Strange start $entry{start}\n";
+    }
+    if ( $entry{end} =~ m/^(\S+) (\S+)$/ ) {
+      $entry{end_date} = $1;
+      $entry{end_time} = $2;
+    } else {
+      die "Strange end $entry{end}\n";
+    }
+
+    # get sequence of presentations
+    my @presentations;
+    for ( my $i = 1 ; $i <= $MAX_PRESENTATIONS_PER_SESSION ; $i++ ) {
+      next unless $node->findvalue("./p${i}_paperID");
+
+      push( @presentations, $node->findvalue("./p${i}_paperID") );
+    }
+    $entry{presentations} = \@presentations;
+
+    $session{ $node->findvalue('./session_short') } = \%entry;
+  }
+  return \%session;
+}
+
 sub output_speaker_page {
 
+  # sort alphabetically by last name
   my @speakers_loop;
   foreach my $author_id (
     sort {
@@ -182,38 +231,51 @@ sub output_programme_page {
   my @days_loop;
 
   foreach my $day (@DAYS) {
-    my $day_id;
-    if ( $day =~ m/DAY (\d) \|/ ) {
-      $day_id = "day$1";
+    my ( $day_id, $day_of_week, $date );
+    if ( $day =~ m/^DAY (\d) \| (\w+), (\S+)$/ ) {
+      $day_id      = $1;
+      $day_of_week = $2;
+      $date        = $3;
     } else {
       die "Wrong day format $day\n";
     }
-    ## TODO remove
-    next unless $day_id eq 'day1';
 
-    my @abstracts_loop;
-    foreach my $abstract_id ( keys %abstract ) {
-      my $entry = {
-        abstract_id        => $abstract_id,
-        abstract_title     => $abstract{$abstract_id}{title},
-        authors_loop       => mk_authors_loop($abstract_id),
-        organisations_loop => mk_organisations_loop($abstract_id),
-      };
-      ## skip empty abstracts
-      if ( $abstract{$abstract_id}{abstract} ) {
-        $entry->{abstract} = $abstract{$abstract_id}{abstract};
+    # sequence by start session start
+    my @sessions_loop;
+    foreach my $session_id (
+      sort { $session{$a}{start} cmp $session{$b}{start} }
+      keys %session
+      )
+    {
+      ## iterate through all session and skip those for different day
+      next unless ( $session{$session_id}{start_date} eq $date );
+
+      print "$session{$session_id}{start_date} $session{$session_id}{short}\n";
+      my %entry = (
+        session_id    => $session_id,
+        session_title => $session{$session_id}{title},
+        start_time    => $session{$session_id}{start_time},
+        end_time      => $session{$session_id}{end_time},
+      );
+
+      my @presentations = @{ $session{$session_id}{presentations} };
+      my @abstracts_loop;
+      foreach my $abstract_id (@presentations) {
+        my $entry = {
+          abstract_id        => $abstract_id,
+          abstract_title     => $abstract{$abstract_id}{title},
+          authors_loop       => mk_authors_loop($abstract_id),
+          organisations_loop => mk_organisations_loop($abstract_id),
+        };
+        ## skip empty abstracts
+        if ( $abstract{$abstract_id}{abstract} ) {
+          $entry->{abstract} = $abstract{$abstract_id}{abstract};
+        }
+        push( @abstracts_loop, $entry );
       }
-      push( @abstracts_loop, $entry );
+      $entry{abstracts_loop} = \@abstracts_loop;
+      push( @sessions_loop, \%entry );
     }
-
-    # TODO temporary dummy
-    my @sessions_loop = (
-      {
-        session_id     => "se-01",
-        session_title  => 'dummy session',
-        abstracts_loop => \@abstracts_loop,
-      },
-    );
 
     my $entry = {
       day_id        => $day_id,
@@ -294,7 +356,7 @@ sub get_authors {
     split( /, /, $node->findvalue("./authors_formatted_index") );
 
   my @authors;
-  for ( my $i = 1 ; $i <= $MAX_AUTHORS ; $i++ ) {
+  for ( my $i = 1 ; $i <= $MAX_AUTHORS_PER_PRESENTATION ; $i++ ) {
     my $field_prefix = "authors_formatted_${i}";
     next unless $node->findvalue("./${field_prefix}_name");
 

@@ -10,117 +10,34 @@ title: SWIB22 Programme
 ## DAY 1 | Monday, 2022-11-28
 
 
+<div id="coll">
+
+12:00-13:00 h UTC
+
+### Collocated Events
+
+
+
+
+</div>
+
 <div id="se-01">
 
-### dummy session
+14:00-15:15 h UTC
+
+### Start of Conference
 
 
 
-<div id="contrib107">
+<div id="contrib159">
 
-#### On Leveraging Artifical Intelligence and Natural Language Processing to Create an Open Source Workflow for the Rapid Creation of Archival Linked Data for Digital Collections
+#### Opening
 
-[Jennifer Erin Proctor](speakers.html#X9cba550ee8ec35b971c9101431c514b7789c3d6b7984d72ad19444fe343b161f) [<img src="images/orcid.png" title="ORCID: 0000-0001-9711-5485">](https://orcid.org/0000-0001-9711-5485)
+Silke Schomburg<sup>1</sup>, Klaus Tochtermann<sup>2</sup>
 
-University of Maryland, College of Information Studies
-
-This paper proposes, tests, and evaluates an Artificial-Intelligence-supported workflow to enhance the ability of librarians and archivists to convert standardized metadata to better-than-item-level archival linked data. The protocol combines elements of computer vision with natural language processing, entity extraction, and metadata linking techniques to provide new approaches for findability and usability of cultural resources in digital spaces.
-
-Existing metadata and, optionally, images are taken as input. Metadata text is processed with natural language processing including sentenizing, tokenizing, part-of-speech tagging, chunking of phrases and clauses, and finally named entity recognition, extraction, and linking. Entities are used to query HIVE2, a search tool that matches ontology terms to linked data tags, which are then parsed into triples through semantic processing.
-
-For images, each image is processed to identify people who are pictured in it. Cropped sub-images are created for each person where each image is given a unique identifier to act as its primary linked data entity, and a first triple is created showing that that entity is depicted in the image being processed.
-
-Once the spreadsheet of triples is output, it can be imported into OpenRefine in order to convert it into the Wikidata format which is useful for linked digital collections, crowdsourcing, and cooperative collections-as-data programs.
-
-</div>
-
-<div id="contrib162">
-
-#### Lighning talks
+1: North Rhine-Westphalian Library Service Centre (hbz), Germany; 2: ZBW Leibniz Information Centre for Economics, Germany
 
 
-
-
-
-Use the opportunity to share your latest projects or ideas in a short lightning talk. Talks are registered after the start of the conference.
-
-</div>
-
-<div id="contrib160">
-
-#### Closing
-
-
-
-
-
-
-
-</div>
-
-<div id="contrib125">
-
-#### Introduction into the Solid Project and its implementations
-
-[Patrick Hochstenbach](speakers.html#Xb7192fa1782e788b65627b3c255cf94bd047851526b6f32993ac4553e6ff2f7c) [<img src="images/orcid.png" title="ORCID: 0000-0001-8390-6171">](https://orcid.org/0000-0001-8390-6171)
-
-Ghent University, Belgium
-
-This workshop will introduce the [Solid project](https://solidproject.org), the protocols and one of its implementations: the IMEC/Inrupt Community Solid Server [CSS](https://github.com/CommunitySolidServer/CommunitySolidServer).
-
-The Solid project promises a solution to get control of your own data and provides a choice who and which applications can have access to this data. The project was started as a response to the mass centralization of personal data by Internet platforms and the effects security breaches of these platforms had on manufacturing of public opinion. Although, the incentive of the project was based on a dissatisfaction with the centralization of personal information, the provided solution doesn't require a reboot of the Web. In the tradition of open standards, decentralized services and permissionless innovation, Solid build protocols to improve the current Web and not replace it.
-
-The core Solid protocols follow Semantic Web principles and apply it to management of (personal) data and documents. In this workshop we will discuss the principles behind Solid, the protocols and provides hands-on experience on the current state of the implementations.
-
-
-
-</div>
-
-<div id="contrib101">
-
-#### Performance Comparison of select and construct queries of triplestores on the example of the JVMG project
-
-[Tobias Malmsheimer](speakers.html#X3ee641789bd620e47bd528f57d62683606d909c8a8d7ad7bc41a23b1d7c9d396)
-
-Hochschule der Medien, Germany
-
-In the Japanese Visual Media Graph (JVMG) project ([Project blog](https://jvmg.iuk.hdm-stuttgart.de/), [JVMG web frontend (Beta)](https://mediagraph.link/)) we use the Resource Description Framework (RDF) to create a knowledge graph for researchers working with contemporary popular Japanese media. The project is funded by the German Research Foundation and the main project partners are Stuttgart Media University and Leipzig University Library.
-
-In order to easily access our RDF data we use a triplestore and SPARQL. We initially chose the Apache Fuseki triple store because of its open licensing terms and ease of installation and management.
-
-Once the database was completed to a certain degree, we implemented and tested our knowledge graph using different triplestore software solutions (Apache Fuseki, Blazegraph, Virtuoso and GraphDB) and compared their performance on several tasks that we consider representative operations on our data. These tasks include simple queries such as aggregating all data for a given entity and more complex analyses such as finding co-occurrence. We found major performance discrepancies, both between the different software solutions and between SELECT and CONSTRUCT SPARQL queries. Query times differ by factors of up to 100 across the software solutions, and CONSTRUCT queries consistently perform much worse, even when using the exact same WHERE patterns.
-
-In summary, the Apache Fuseki triple store performed quite well across all tasks. While some other software solutions were faster for some tasks, the gains were not significant enough to consider migrating our infrastructure to a new solution.
-
-
-
-</div>
-
-<div id="contrib117">
-
-#### The Application of International Image Interoperability Framework (IIIF) and Linked Open Data (LOD) in Digital Humanities: a Case Study of the Dictionary of Wooden Slips
-
-[Shu-Jiun Chen](speakers.html#Xff8c224c71806e4d7223891dd5d2dbd095213ed934b2528c2c27f7d3425b7f68) [<img src="images/orcid.png" title="ORCID: 0000-0003-4251-7633">](https://orcid.org/0000-0003-4251-7633)<sup>1,2</sup>
-
-1: Institute of History and Philology, Academia Sinica, Taiwan; 2: Academia Sinica Center for Digital Cultures
-
-This study explores the use of the International Image Interoperability Framework (IIIF) and linked open data (LOD) in digital humanities with regard to different layers of interoperability. Focusing on imaged texts, it takes the text interpretation and slip restoration of the “Juyan Han Wooden Slips (202-220 CE)” as use case, integrates the demands of scholars in wooden slip research in the humanities, and establishes a digital research environment.
-
-By analysing and deconstructing historians’ work on character interpretation and manuscript restoration into discrete tasks and categories, the study proposes that the digital humanities research platform needs to be able to provide a complete, structured annotation function that allows input of annotated information from different knowledge fields. In addition, it needs to provide functionalities for reading, comparing, and referring to images, for example for the annotation of interpretations in wooden slip images, zooming in or out of image areas, or side-by-side image comparison for multiple wooden slip regions, which allow arguments about the context surrounding a character, to be displayed together in the image interface.
-
-The study has adopted the image, presentation and content search APIs of IIIF, and developed a LOD lifecycle framework in order to transform the legacy data into LOD, enable access and cross-referencing for these resources, and satisfy different needs in research. “The Wooden Slips Character Dictionary–Database of Juyan Han Wooden Slips from the Institute of History and Philology Collections" ([WCD](https://ndweb.iis.sinica.edu.tw/woodslip_public/System/Main.htm))” and the "[Multi-database Search System for Historical Chinese Characters](https://wcd-ihp.ascdc.sinica.edu.tw/union)" were taken as practical examples to explain how interoperability is utilised in systems for the digital humanities. 
-
-</div>
-
-<div id="contrib111">
-
-#### Evaluation and evolution of the Share-VDE 2.0 Linked Data Catalog
-
-[Jim Hahn](speakers.html#X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b) [<img src="images/orcid.png" title="ORCID: 0000-0001-7924-5294">](https://orcid.org/0000-0001-7924-5294)<sup>1</sup>, [Beth Camden](speakers.html#X5109b7ebb8c24bda24351a321a98966b36871019be429b0a3f5ce7b948e1d183) [<img src="images/orcid.png" title="ORCID: 0000-0003-4964-5312">](https://orcid.org/0000-0003-4964-5312)<sup>1</sup>, [Kayt Ahnberg](speakers.html#Xd1676589b67af938ff2e171ebc3bbe43522268ee701192cd35d420859ca24157)<sup>1</sup>, [Filip Jakobsen](speakers.html#X0c94abd1309a3f472879d915b0bb0ea645550c7e5c48d1592bde9f1833c38dd7)<sup>2</sup>
-
-1: University of Pennsylvania, U.S.A.; 2: Samhæng, Danmark
-
-Share-VDE (SVDE) is a library-driven initiative which brings together the bibliographic catalogs and authority files of a community of libraries in an innovative discovery environment based on linked data. The beta release of the SVDE 2.0 (https://www.svde.org) catalog was collaboratively shaped among multiple perspectives and stakeholder groups. A team at the University of Pennsylvania Libraries gathered feedback through structured interviews and observations from library catalogers working in linked data, university faculty, and new undergraduate students in order to understand how linked data supports user tasks promulgated in the IFLA Library Reference Model (IFLA-LRM). Specific user tasks evaluated over remote testing sessions include ascertaining how library catalogers make use of advanced search functionality provided in the linked data interface. Context finding tasks included evaluating how Penn catalogers might find a linked data search useful for providing context to their searching or for helping to understand a research area. Specific LRM mapping focused on the LRM Identify user task; particularly disambiguation of similar name results. For comparative results similar questions are posed to students and faculty. Several targeted questions of faculty included understanding the relationships in linked data that are useful for future research planning using linked data search. In compiling results of the study we describe the linked data functionality and scenarios which the Share-VDE 2.0 discovery system addresses and the ways in which user feedback is supporting the evolution of linked data discovery. We will show how we have evolved the system to align with user needs based on evaluations across multiple stakeholder groups.
 
 </div>
 
@@ -136,45 +53,16 @@ TBA
 
 </div>
 
-<div id="contrib103">
-
-#### Working with linked open data in the context of annotation and semantic enrichment of 3D media: A new FOSS toolchain
-
-Lozana Rossenova [<img src="images/orcid.png" title="ORCID: 0000-0002-5190-1867">](https://orcid.org/0000-0002-5190-1867), Zoe Schubert, Paul Duchesne, Lucia Sohmen, Lukas Günther, Ina Blümel [<img src="images/orcid.png" title="ORCID: 0000-0002-3075-7640">](https://orcid.org/0000-0002-3075-7640)
-
-TIB – Leibniz Information Centre for Science and Technology, Germany
-
-This workshop aims to help researchers, digital curators and data managers learn how to make datasets including 3D models and other media files available as linked open data within a collaborative annotation and presentation-ready environment. Participants will take part in practical demonstrations using an integrated toolchain that connects three existing open source software tools: 1) OpenRefine – for data reconciliation and batch upload; 2) Wikibase – for linked open data storage; and 3) Kompakkt – for rendering and annotating 3D models, and other 2D and AV media files. This toolchain and associated workflow was developed in the context of NFDI4Culture, a German consortium of research and cultural institutions working towards a shared infrastructure for research data that meets the needs of 21st-century data creators, maintainers and end users across the broad spectrum of the digital libraries and archives field, and the digital humanities. All components of the toolchain feature graphical user interfaces aiming to lower the barrier of participation in the semantic web for a wide range of practitioners and researchers. Furthermore, the toolchain development involves the specification of a common data model that aims to increase interoperability across datasets of digitised objects from different domains of culture. The workshop will be of interest to researchers, digital curators and information science professionals who work with datasets containing 3D media, and want to learn more about the possibilities of linked open data, open source software and collaborative annotation workflows.
 
 </div>
 
-<div id="contrib122">
+<div id="se-02">
 
-#### BIBFRAME for Academic Publishing in Psychology
+15:30-16:45 h UTC
 
-[Tina Trillitzsch](speakers.html#X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13)
+### Linked Library Data I
 
-ZPID (Leibniz Institute for Psychology), Germany
 
-PSYNDEX of ZPID is a publically funded reference database for psychological research literature from German-speaking countries. We are currently rewriting our cataloging and indexing software and exposing all PSYNDEX publication data as linked open data, the resulting BIBFRAME-based knowledge graph serving as the basis for our new search portal PsychPorta. This case study discusses our rationales, modeling difficulties, and tools and strategies for migration and transformation.
-
-Our cataloging software had accumulated many errors and problems over the years; we needed a modern, maintainable application. PubPsych, our search portal for researchers, teaching staff, practicing psychologists, and laypeople is also showing its age. To compete with commercial search engines, its successor PsychPorta needs to offer an improved, modern search experience while also providing persistent, open, interoperable, and reusable data.
-
-PSYNDEX has high indexing standards: scientific publications are described with many details about the actual studies they document, using various keyword thesauri, classification systems, controlled vocabularies for research methods and study samples, metadata about preregistration, funding etc. BIBFRAME has little to offer for such details. To represent all this data and make it usable by humans and machines, other ontologies must be integrated, and new properties and classes have to be created. A new requirement was grouping "versions" of the same content in different publication forms – thus the adoption of BIBFRAME Works and Instances. Our experiences may be useful to other domains with indexing needs not covered by BIBFRAME, and also offer guidance on where BIBFRAME seems vague or unfinished. Our approach to handling e.g. dependent parts of things (journal articles, chapters) or aggregates and serials may be reused, thus improving interoperability.
-
-</div>
-
-<div id="contrib116">
-
-#### Improving language tags in cultural heritage data: a study of the metadata in Europeana
-
-[Nuno Freire](speakers.html#X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1) [<img src="images/orcid.png" title="ORCID: 0000-0002-3632-8046">](https://orcid.org/0000-0002-3632-8046)<sup>1</sup>, Paolo Scalia<sup>1</sup>, Antoine Isaac [<img src="images/orcid.png" title="ORCID: 0000-0001-9767-6979">](https://orcid.org/0000-0001-9767-6979)<sup>1</sup>, Eirini Kaldeli<sup>2</sup>, Arne Stabenau<sup>2</sup>
-
-1: Europeana Foundation, The Netherlands; 2: National Technical University of Athens, Greece
-
-Enhancing the multilingual accessibility of its rich cultural heritage material is a constant objective of Europeana and key to improving the user experience it offers. Technological advances are opening new ways for multilingual access but for their successful application the language of the existing data must be identified. In RDF data, language is indicated by the language tag in a dedicated attribute (xml:lang in RDF/XML). Previous studies conducted on Europeana datasets show that language tags are not used as often as they should, but we do not have precise statistics on this. Moreover, language tags found in Europeana have data quality issues – they do not always follow established standards even though Europeana already performs some (automatic) normalisation of tags. We conducted a study on the language tags included in the metadata of Europeana with two objectives in mind: First, to inform decision-making about possible improvements in the current language tag normalisation process, and second, to enhance the quality and quantity of training data for specialising automatic translation systems in the cultural heritage domain (a crucial objective for the Europeana Translate project, which aims to translate 25 million records of Europeana). Our study analysed the totality of the data in Europeana, which contains over 1,700 million RDF literals, and identified that only 15.9% of the literals are language-tagged. We also determined that 3.3% of the language tags are not valid according to the IETF BCP 47 standard. In our presentation, we recount the results of this study along with the improvements in the normalisation process we applied to collect training data for machine translation. 
-
-</div>
 
 <div id="contrib104">
 
@@ -192,35 +80,19 @@ Presenters describe the theoretical foundation of the project, review the mappin
 
 </div>
 
-<div id="contrib102">
+<div id="contrib123">
 
-#### Introduction to the Annif automated indexing tool
+#### A Crosswalk in the Park? Converting from MARC 21 to Linked Art
 
-[Osma Suominen](speakers.html#X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d) [<img src="images/orcid.png" title="ORCID: 0000-0003-0042-0745">](https://orcid.org/0000-0003-0042-0745)<sup>1</sup>, [Mona Lehtinen](speakers.html#X819cc62bd0b0371582dbd601114ec16f627df259b40c0fd1cca07938e8f00be1) [<img src="images/orcid.png" title="ORCID: 0000-0002-4735-0214">](https://orcid.org/0000-0002-4735-0214)<sup>1</sup>, [Juho Inkinen](speakers.html#X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782) [<img src="images/orcid.png" title="ORCID: 0000-0002-6497-6171">](https://orcid.org/0000-0002-6497-6171)<sup>1</sup>, [Moritz Fürneisen](speakers.html#X2420a0ddabfcc4f45d797c81d0506a87a30ffb4208f88ba0d63786c937c49d65)<sup>2</sup>, Anna Kasprzik [<img src="images/orcid.png" title="ORCID: 0000-0002-1019-3606">](https://orcid.org/0000-0002-1019-3606)<sup>2</sup>
+[Martin Lovell](speakers.html#X1a6fbcdffdfbcb3cd1a116a5e2d0e3f5c4b8f413499ad295ddb4eee519ef78bd), [Timothy A. Thompson](speakers.html#Xa5e687b58be6e9848803ac708b2502253bbcebdcb36c4309d5147f1efccb10b8) [<img src="images/orcid.png" title="ORCID: 0000-0001-6574-9010">](https://orcid.org/0000-0001-6574-9010)
 
-1: National Library of Finland, Finland; 2: ZBW – Leibniz Information Centre for Economics, Germany
+Yale University, United States of America
 
-Many libraries and related institutions are looking at ways of automating their metadata production processes. In this hands-on tutorial, participants will be introduced to the multilingual automated subject indexing tool Annif ([https//annif.org annif.org]) as a potential component in a library’s metadata generation system. By completing exercises, participants will get practical experience on setting up Annif, training algorithms using example data, and using Annif to produce subject suggestions for new documents.
+Yale University is currently undertaking a multiyear effort to create a cross-collections discovery environment called LUX, or “light,” from the university's Latin motto. LUX aggregates metadata from the catalogs of Yale’s four main collecting units, including the university library. The LUX platform has been designed using the [Linked Art](https://linked.art) (LA) profile of the CIDOC-CRM ontology as its common data model. Each collecting unit has developed a crosswalk from its local domain standard to the LA model. In the library, metadata librarians and software engineers have collaborated to develop and document a crosswalk from MARC 21 to LA JSON-LD.
 
-The participants are provided with a set of instructional videos and written exercises, and are expected to attempt to complete them on their own before the tutorial event. Exercises and introductory videos can be found in the [Annif-tutorial GitHub repository](https://github.com/NatLibFi/Annif-tutorial/). The actual event will be dedicated to solving problems, asking questions and getting a feeling of the community around Annif.
+Implementing the crosswalk has meant designing a system that is more complex than a typical transformation. A single MARC record may be expanded into multiple top-level LA entities. In total, Yale’s 12.5 million catalog records translate into 47.5 million entities in LA. To implement the semantics of the LA model and manage data dependencies within and across MARC records, a new system was developed using Java and Spring Boot with Postgres. The system was designed to serve up LA entities, exposed through an activity stream, and to provide a framework for a modular set of transformation components.
 
-Participants are instructed to use a computer with at least 8GB of RAM and at least 20 GB free disk space to complete the exercises. The organizers will provide the software as a preconfigured VirtualBox virtual machine. Alternatively, Docker images and a native Linux install option are provided. No prior experience with the Annif tool is required, but participants are expected to be familiar with subject vocabularies (e.g. thesauri, subject headings or classification systems) and subject metadata that reference those vocabularies.
-
-
-
-</div>
-
-<div id="contrib105">
-
-#### An Introduction to SKOS and SkoHub Vocabs
-
-Adrian Pohl [<img src="images/orcid.png" title="ORCID: 0000-0001-9083-7442">](https://orcid.org/0000-0001-9083-7442)<sup>1</sup>, Steffen Rörtgen [<img src="images/orcid.png" title="ORCID: 0000-0001-6378-2618">](https://orcid.org/0000-0001-6378-2618)<sup>2</sup>
-
-1: hbz, Cologne, Germany; 2: GWDG, Göttingen, Germany
-
-With Simple Knowledge Organization Systems (SKOS), the World Wide Web Consotrium (W3C) more than 15 years ago published a clear and simple RDF-based data model for publishing controlled vocabularies on the web following Linked Data principles. Although a large part of controlled vocabularies – from simple value lists, to thesaurus and classifications – is created and maintained in libraries, SKOS has not been widely adopted yet in the library world.
-
-This workshop gives an introduction to SKOS with hands-on exercises. Participants will create and publish their own SKOS vocabulary using GitHub/GitLab and SkoHub Vocabs, a static site generator for SKOS concept schemes.
+Generating linked data at scale was a new challenge for the library. The initial design used a database schema based on triples, with resolvable identifiers for all objects; this approach provided an intuitive way to create and query relationships without using a native triple store or graph database, given the learning curve that an unfamiliar system would have entailed. However, the triples-based approach proved too resource-intensive at scale, and the system was modified to store some data in JSON and resolve only top-level entities, while still storing a subset of the relationship data for querying.
 
 </div>
 
@@ -240,37 +112,83 @@ This contribution describes the approach, which is implemented as a 5-step workf
 
 </div>
 
-<div id="contrib108">
-
-#### Shapes, Forms and Footprints: web generation of RDF data without coding.
-
-[Patrick Hochstenbach](speakers.html#Xb7192fa1782e788b65627b3c255cf94bd047851526b6f32993ac4553e6ff2f7c) [<img src="images/orcid.png" title="ORCID: 0000-0001-8390-6171">](https://orcid.org/0000-0001-8390-6171)
-
-Ghent University, Belgium
-
-While browsing the Web a user is often confronted with a form requiring them to enter their personal data. We share book reviews on Goodreads; share our names, addresses and affiliations information with conference tools; submit our bibliography to institutional websites and centralized services such as ORCID. Filling out this information is a repetitive task for many users, using data that in principle should already be available in a knowledge graph somewhere.
-
-For the creation of (ad hoc) forms from scratch users do not have many options other than using platforms such as Google Forms which provide a limited set of input fields and a Google sheet as the end result, or asking their IT department to build a form which can require some time to implement and publish. During the COVID-19 pandemic many IT departments were asked to provide such ad hoc forms for all kinds of crowd sourcing where metadata was entered by library staff working from home. All these forms have hard-coded locations where the produced data needs to be stored, so a user has no choice in that matter.
-
-I will present an abstract way how RDF data can be read, updated, and stored in a decentralized way using RDF forms. The RDF data is defined by shapes, the forms are defined using a Form ontology, and the footprint (where to store the result) is also coded in RDF. All these inputs are web resources that declare to FormViewer apps how to read, update, and store data. An entire app can be written just by manipulating RDF resources, using the Solid protocol as persistence layer.
 
 </div>
 
-<div id="contrib112">
-
-#### How are data collections and vocabularies teaching AI systems human stereotypes?
-
-[Artem Reshetnikov](speakers.html#X0afed01575d565090f2d629220b8aed576618e81407dae63754ce4ef3055899f)
-
-Barcelona Supercomputing Center, Spain
-
-Bias is a concept found in machine learning which means that the data which was used for training is in some way not representative of the real world and therefore the patterns or models that are generated are systematically skewed. While bias is a technical concept, fairness is a more social concept that can have direct implications for users. Hannes Hapke et al. define the concept of fairness as “the ability to identify when some groups of people get a different experience than others in a problematic way”. The authors illustrate the problem of fairness with an example of people who tend not to pay back their loans. If an AI model is trying to predict who should have their credit extended, this group of people should have a different experience than others, i.e. not have their credit extended. An example of a situation to avoid is when people whose application for a loan is unfairly turned down are predominantly of a certain race.
-
-Digitalization of CH objects for machine ingestion may have started for preservation reasons, but it allowed applying AI technology in order to extract knowledge that can improve user experience and be a valuable resource for GLAM. Generating digitalized data for AI use implies that it is annotated according to what is envisioned to be meaningful and relevant for future ML tasks; Iconclass is a great example. These annotations are the basis on which the AI models are built, thus whatever ideas and concepts were included in these structures can be recognized in the final AI model, which will reflect the possible original bias.
-
-Our presentation will show data collections of GLAM and vocabularies such as Iconclass containing prejudices against LGBT, gender inequality, or colonization stereotypes, and we will illustrate how these systems can embed these human stereotypes in AI generated data and why fairness is important for AI in GLAM.
 
 </div>
+
+<div id="day2">
+
+## DAY 2 | Tuesday, 2022-11-29
+
+
+<div id="se-3">
+
+14:00-15:15 h UTC
+
+### Linked Library Data II
+
+
+
+<div id="contrib122">
+
+#### BIBFRAME for Academic Publishing in Psychology
+
+[Tina Trillitzsch](speakers.html#X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13)
+
+ZPID (Leibniz Institute for Psychology), Germany
+
+PSYNDEX of ZPID is a publically funded reference database for psychological research literature from German-speaking countries. We are currently rewriting our cataloging and indexing software and exposing all PSYNDEX publication data as linked open data, the resulting BIBFRAME-based knowledge graph serving as the basis for our new search portal PsychPorta. This case study discusses our rationales, modeling difficulties, and tools and strategies for migration and transformation.
+
+Our cataloging software had accumulated many errors and problems over the years; we needed a modern, maintainable application. PubPsych, our search portal for researchers, teaching staff, practicing psychologists, and laypeople is also showing its age. To compete with commercial search engines, its successor PsychPorta needs to offer an improved, modern search experience while also providing persistent, open, interoperable, and reusable data.
+
+PSYNDEX has high indexing standards: scientific publications are described with many details about the actual studies they document, using various keyword thesauri, classification systems, controlled vocabularies for research methods and study samples, metadata about preregistration, funding etc. BIBFRAME has little to offer for such details. To represent all this data and make it usable by humans and machines, other ontologies must be integrated, and new properties and classes have to be created. A new requirement was grouping "versions" of the same content in different publication forms – thus the adoption of BIBFRAME Works and Instances. Our experiences may be useful to other domains with indexing needs not covered by BIBFRAME, and also offer guidance on where BIBFRAME seems vague or unfinished. Our approach to handling e.g. dependent parts of things (journal articles, chapters) or aggregates and serials may be reused, thus improving interoperability.
+
+</div>
+
+<div id="contrib107">
+
+#### On Leveraging Artifical Intelligence and Natural Language Processing to Create an Open Source Workflow for the Rapid Creation of Archival Linked Data for Digital Collections
+
+[Jennifer Erin Proctor](speakers.html#X9cba550ee8ec35b971c9101431c514b7789c3d6b7984d72ad19444fe343b161f) [<img src="images/orcid.png" title="ORCID: 0000-0001-9711-5485">](https://orcid.org/0000-0001-9711-5485)
+
+University of Maryland, College of Information Studies
+
+This paper proposes, tests, and evaluates an Artificial-Intelligence-supported workflow to enhance the ability of librarians and archivists to convert standardized metadata to better-than-item-level archival linked data. The protocol combines elements of computer vision with natural language processing, entity extraction, and metadata linking techniques to provide new approaches for findability and usability of cultural resources in digital spaces.
+
+Existing metadata and, optionally, images are taken as input. Metadata text is processed with natural language processing including sentenizing, tokenizing, part-of-speech tagging, chunking of phrases and clauses, and finally named entity recognition, extraction, and linking. Entities are used to query HIVE2, a search tool that matches ontology terms to linked data tags, which are then parsed into triples through semantic processing.
+
+For images, each image is processed to identify people who are pictured in it. Cropped sub-images are created for each person where each image is given a unique identifier to act as its primary linked data entity, and a first triple is created showing that that entity is depicted in the image being processed.
+
+Once the spreadsheet of triples is output, it can be imported into OpenRefine in order to convert it into the Wikidata format which is useful for linked digital collections, crowdsourcing, and cooperative collections-as-data programs.
+
+</div>
+
+<div id="contrib109">
+
+#### Library data on Wikidata: a case study of the National Library of Latvia
+
+Eduards Skvireckis [<img src="images/orcid.png" title="ORCID: 0000-0003-2223-9744">](https://orcid.org/0000-0003-2223-9744)
+
+National Library of Latvia
+
+Libraries have changed but the core purpose of the library is very much the same – to give access to knowledge and learning. Knowledge organisation in libraries has moved from clay tablets to extensive catalogues, from the backs of playing cards to card indices. Then in the 1970s and early 1980s integrated library systems (ILS) appeared and changed the game. Now national libraries are increasingly stepping leaving locally used ILS behind and steering towards new technologies and possibilities that were not feasible before – bridging silos, multilingual support, alternatives to traditional authority control, etc. Although there is no right or prevailing answer, the direction is set.
+
+And that direction is toward the semantic web and linked data which are influencing how bibliographic and authority data are created, shared, and made available to potential users. In this presentation I will focus on modeling, mapping, and creating workflows for moving the bibliographic and authority data of the National Library of Latvia to Wikidata as a major hub of the semantic web. The main focus will be on modeling and integrating library authority files (persons, organizations, works, locations, etc.) to a full extent into Wikidata, reducing any possible data loss to a minimum. This way, Wikidata will not be used as just a hub for institutional identifiers but as a universal and collaborative knowledge base where libraries can truly share and disseminate their knowledge, connect it and use it to describe and query their resources.
+
+</div>
+
+
+</div>
+
+<div id="se-4">
+
+15:30-16:45 h UTC
+
+### Continued Progress
+
+
 
 <div id="contrib121">
 
@@ -290,15 +208,60 @@ This presentation will provide an overview of the production integration from th
 
 </div>
 
-<div id="contrib159">
+<div id="contrib116">
 
-#### Opening
+#### Improving language tags in cultural heritage data: a study of the metadata in Europeana
 
-Silke Schomburg<sup>1</sup>, Klaus Tochtermann<sup>2</sup>
+[Nuno Freire](speakers.html#X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1) [<img src="images/orcid.png" title="ORCID: 0000-0002-3632-8046">](https://orcid.org/0000-0002-3632-8046)<sup>1</sup>, Paolo Scalia<sup>1</sup>, Antoine Isaac [<img src="images/orcid.png" title="ORCID: 0000-0001-9767-6979">](https://orcid.org/0000-0001-9767-6979)<sup>1</sup>, Eirini Kaldeli<sup>2</sup>, Arne Stabenau<sup>2</sup>
 
-1: North Rhine-Westphalian Library Service Centre (hbz), Germany; 2: ZBW Leibniz Information Centre for Economics, Germany
+1: Europeana Foundation, The Netherlands; 2: National Technical University of Athens, Greece
+
+Enhancing the multilingual accessibility of its rich cultural heritage material is a constant objective of Europeana and key to improving the user experience it offers. Technological advances are opening new ways for multilingual access but for their successful application the language of the existing data must be identified. In RDF data, language is indicated by the language tag in a dedicated attribute (xml:lang in RDF/XML). Previous studies conducted on Europeana datasets show that language tags are not used as often as they should, but we do not have precise statistics on this. Moreover, language tags found in Europeana have data quality issues – they do not always follow established standards even though Europeana already performs some (automatic) normalisation of tags. We conducted a study on the language tags included in the metadata of Europeana with two objectives in mind: First, to inform decision-making about possible improvements in the current language tag normalisation process, and second, to enhance the quality and quantity of training data for specialising automatic translation systems in the cultural heritage domain (a crucial objective for the Europeana Translate project, which aims to translate 25 million records of Europeana). Our study analysed the totality of the data in Europeana, which contains over 1,700 million RDF literals, and identified that only 15.9% of the literals are language-tagged. We also determined that 3.3% of the language tags are not valid according to the IETF BCP 47 standard. In our presentation, we recount the results of this study along with the improvements in the normalisation process we applied to collect training data for machine translation. 
+
+</div>
+
+<div id="contrib111">
+
+#### Evaluation and evolution of the Share-VDE 2.0 Linked Data Catalog
+
+[Jim Hahn](speakers.html#X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b) [<img src="images/orcid.png" title="ORCID: 0000-0001-7924-5294">](https://orcid.org/0000-0001-7924-5294)<sup>1</sup>, [Beth Camden](speakers.html#X5109b7ebb8c24bda24351a321a98966b36871019be429b0a3f5ce7b948e1d183) [<img src="images/orcid.png" title="ORCID: 0000-0003-4964-5312">](https://orcid.org/0000-0003-4964-5312)<sup>1</sup>, [Kayt Ahnberg](speakers.html#Xd1676589b67af938ff2e171ebc3bbe43522268ee701192cd35d420859ca24157)<sup>1</sup>, [Filip Jakobsen](speakers.html#X0c94abd1309a3f472879d915b0bb0ea645550c7e5c48d1592bde9f1833c38dd7)<sup>2</sup>
+
+1: University of Pennsylvania, U.S.A.; 2: Samhæng, Danmark
+
+Share-VDE (SVDE) is a library-driven initiative which brings together the bibliographic catalogs and authority files of a community of libraries in an innovative discovery environment based on linked data. The beta release of the SVDE 2.0 (https://www.svde.org) catalog was collaboratively shaped among multiple perspectives and stakeholder groups. A team at the University of Pennsylvania Libraries gathered feedback through structured interviews and observations from library catalogers working in linked data, university faculty, and new undergraduate students in order to understand how linked data supports user tasks promulgated in the IFLA Library Reference Model (IFLA-LRM). Specific user tasks evaluated over remote testing sessions include ascertaining how library catalogers make use of advanced search functionality provided in the linked data interface. Context finding tasks included evaluating how Penn catalogers might find a linked data search useful for providing context to their searching or for helping to understand a research area. Specific LRM mapping focused on the LRM Identify user task; particularly disambiguation of similar name results. For comparative results similar questions are posed to students and faculty. Several targeted questions of faculty included understanding the relationships in linked data that are useful for future research planning using linked data search. In compiling results of the study we describe the linked data functionality and scenarios which the Share-VDE 2.0 discovery system addresses and the ways in which user feedback is supporting the evolution of linked data discovery. We will show how we have evolved the system to align with user needs based on evaluations across multiple stakeholder groups.
+
+</div>
 
 
+</div>
+
+
+</div>
+
+<div id="day3">
+
+## DAY 3 | Wednesday, 2022-11-30
+
+
+<div id="ws">
+
+14:00-16:45 h UTC
+
+### Tutorials and Workshops
+
+
+
+<div id="contrib105">
+
+#### An Introduction to SKOS and SkoHub Vocabs
+
+Adrian Pohl [<img src="images/orcid.png" title="ORCID: 0000-0001-9083-7442">](https://orcid.org/0000-0001-9083-7442)<sup>1</sup>, Steffen Rörtgen [<img src="images/orcid.png" title="ORCID: 0000-0001-6378-2618">](https://orcid.org/0000-0001-6378-2618)<sup>2</sup>
+
+1: hbz, Cologne, Germany; 2: GWDG, Göttingen, Germany
+
+With Simple Knowledge Organization Systems (SKOS), the World Wide Web Consotrium (W3C) more than 15 years ago published a clear and simple RDF-based data model for publishing controlled vocabularies on the web following Linked Data principles. Although a large part of controlled vocabularies – from simple value lists, to thesaurus and classifications – is created and maintained in libraries, SKOS has not been widely adopted yet in the library world.
+
+This workshop gives an introduction to SKOS with hands-on exercises. Participants will create and publish their own SKOS vocabulary using GitHub/GitLab and SkoHub Vocabs, a static site generator for SKOS concept schemes.
 
 </div>
 
@@ -313,40 +276,6 @@ Katherine Thornton [<img src="images/orcid.png" title="ORCID: 0000-0002-4499-045
 Would you like to learn how to write SPARQL queries for the Wikidata Query Service? In this workshop we will demonstrate a variety of SPARQL queries that highlight useful features of the Wikidata Query Service. We will also practice writing SPARQL queries in a hands-on session. After participating in this workshop you will have familiarity with designing and writing your own SPARQL queries to ask questions of the Wikidata Query Service.
 
 All are wellcome to participate. No experience with SPARQL or Wikidata necessary.
-
-</div>
-
-<div id="contrib100">
-
-#### Multilingual BERT for Library Classification in Romance Languages using Basisklassifikation
-
-[José Calvo Tello](speakers.html#X29bd70e9548e6e90437e224ea05de9282b8717e03499b5be2872b8274d60777b) [<img src="images/orcid.png" title="ORCID: 0000-0002-1129-5604">](https://orcid.org/0000-0002-1129-5604)<sup>1</sup>, Enrique Manjavacas [<img src="images/orcid.png" title="ORCID: 0000-0002-3942-7680">](https://orcid.org/0000-0002-3942-7680)<sup>2</sup>, Susanne Al-Eryani [<img src="images/orcid.png" title="ORCID: 0000-0002-1741-1645">](https://orcid.org/0000-0002-1741-1645)<sup>1</sup>
-
-1: Göttingen State and University Library, Germany; 2: Leiden University, The Netherlands
-
-We apply the multilingual version of the language model BERT (mBERT) to predict classes from the library classification system Basisklassifikation (BK). We frame the present task as a multi-label classification problem, where each input instance (a library record) must be assigned at least one class from the BK. As input, we only use data from the catalogue, we do not use the full text of the publications. Three feature sets are considered: title only, bibliographic data only, and extended bibliographic data. We apply two algorithms: mBERT, which we fine-tune using raw text from different metadata fields as input. We also train a multi-label Support Vector Machine classifier with a vector based on the tokenizer of mBERT.
-
-We decided to work with records from Romance Studies because it challenges the perspective of considering only one or only a few languages, such as in national libraries. The dataset contains 189,134 library records associated with Romance Studies from the catalogue K10plus.
-
-The general results for the different approaches yield micro F1-scores between 0.6 and 0.8 (macro F1-scores between 0.2 and 0.4), with better performance for mBERT as classifier. In this presentation we will explore how these results are influenced by factors such as the language, specific classes, or the number of records per class. This is a promising approach for the generation of suggestions which should be considered by subject specialists.
-
-</div>
-
-<div id="contrib106">
-
-#### Insight into the machine-based subject cataloguing at the German National Library
-
-[Christoph Poley](speakers.html#Xd96a2989a7cba284b23ee0d6fc55e33bf1e4eadc138a78771c12dbd753ad1078) [<img src="images/orcid.png" title="ORCID: 0000-0002-6803-5299">](https://orcid.org/0000-0002-6803-5299)
-
-Deutsche Nationalbibliothek, Germany
-
-The German National Library has the mandate to collect online publications published in Germany or in the German language, translated from German or relating to Germany. Our approach is to provide metadata including classification codes and subject headings to make them searchable and retrievable. To handle the amount of data, which increases by about 1–2 million records every year, we introduced machine-learning-based tools into productive operations in order to be able to assign GND index terms, DDC subject categories and DDC short numbers automatically.
-
-The first steps in that direction were taken more than ten years ago. In the last three years we have set up a project called "Erschließungsmaschine" ("indexing machine"; EMa) to replace the legacy system with a new modular and flexible architecture for automated subject cataloguing. The core component is the toolkit Annif developed by the National Library of Finland, which provides us with lexical, statistical and neural-network-based machine learning algorithms behind a unified interface.
-
-In this presentation we want to give practical insights into the architecture, main workflows, and quality measurements of EMa within our productive environment. We also talk about our experiences and challenges concerning both human and IT resources.
-
-Furthermore, we give a brief overview over the DNB AI project. The goal of the project is to look into state-of-the-art algorithms, text data, and vocabularies in order to improve the quality of subject cataloguing using AI methods.
 
 </div>
 
@@ -375,35 +304,211 @@ Please register at least 4 days before the Workshop as a Wikimeda User to have f
 
 </div>
 
-<div id="contrib123">
+<div id="contrib125">
 
-#### A Crosswalk in the Park? Converting from MARC 21 to Linked Art
+#### Introduction into the Solid Project and its implementations
 
-[Martin Lovell](speakers.html#X1a6fbcdffdfbcb3cd1a116a5e2d0e3f5c4b8f413499ad295ddb4eee519ef78bd), [Timothy A. Thompson](speakers.html#Xa5e687b58be6e9848803ac708b2502253bbcebdcb36c4309d5147f1efccb10b8) [<img src="images/orcid.png" title="ORCID: 0000-0001-6574-9010">](https://orcid.org/0000-0001-6574-9010)
+[Patrick Hochstenbach](speakers.html#Xb7192fa1782e788b65627b3c255cf94bd047851526b6f32993ac4553e6ff2f7c) [<img src="images/orcid.png" title="ORCID: 0000-0001-8390-6171">](https://orcid.org/0000-0001-8390-6171)
 
-Yale University, United States of America
+Ghent University, Belgium
 
-Yale University is currently undertaking a multiyear effort to create a cross-collections discovery environment called LUX, or “light,” from the university's Latin motto. LUX aggregates metadata from the catalogs of Yale’s four main collecting units, including the university library. The LUX platform has been designed using the [Linked Art](https://linked.art) (LA) profile of the CIDOC-CRM ontology as its common data model. Each collecting unit has developed a crosswalk from its local domain standard to the LA model. In the library, metadata librarians and software engineers have collaborated to develop and document a crosswalk from MARC 21 to LA JSON-LD.
+This workshop will introduce the [Solid project](https://solidproject.org), the protocols and one of its implementations: the IMEC/Inrupt Community Solid Server [CSS](https://github.com/CommunitySolidServer/CommunitySolidServer).
 
-Implementing the crosswalk has meant designing a system that is more complex than a typical transformation. A single MARC record may be expanded into multiple top-level LA entities. In total, Yale’s 12.5 million catalog records translate into 47.5 million entities in LA. To implement the semantics of the LA model and manage data dependencies within and across MARC records, a new system was developed using Java and Spring Boot with Postgres. The system was designed to serve up LA entities, exposed through an activity stream, and to provide a framework for a modular set of transformation components.
+The Solid project promises a solution to get control of your own data and provides a choice who and which applications can have access to this data. The project was started as a response to the mass centralization of personal data by Internet platforms and the effects security breaches of these platforms had on manufacturing of public opinion. Although, the incentive of the project was based on a dissatisfaction with the centralization of personal information, the provided solution doesn't require a reboot of the Web. In the tradition of open standards, decentralized services and permissionless innovation, Solid build protocols to improve the current Web and not replace it.
 
-Generating linked data at scale was a new challenge for the library. The initial design used a database schema based on triples, with resolvable identifiers for all objects; this approach provided an intuitive way to create and query relationships without using a native triple store or graph database, given the learning curve that an unfamiliar system would have entailed. However, the triples-based approach proved too resource-intensive at scale, and the system was modified to store some data in JSON and resolve only top-level entities, while still storing a subset of the relationship data for querying.
+The core Solid protocols follow Semantic Web principles and apply it to management of (personal) data and documents. In this workshop we will discuss the principles behind Solid, the protocols and provides hands-on experience on the current state of the implementations.
+
+
+
+</div>
+
+<div id="contrib102">
+
+#### Introduction to the Annif automated indexing tool
+
+[Osma Suominen](speakers.html#X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d) [<img src="images/orcid.png" title="ORCID: 0000-0003-0042-0745">](https://orcid.org/0000-0003-0042-0745)<sup>1</sup>, [Mona Lehtinen](speakers.html#X819cc62bd0b0371582dbd601114ec16f627df259b40c0fd1cca07938e8f00be1) [<img src="images/orcid.png" title="ORCID: 0000-0002-4735-0214">](https://orcid.org/0000-0002-4735-0214)<sup>1</sup>, [Juho Inkinen](speakers.html#X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782) [<img src="images/orcid.png" title="ORCID: 0000-0002-6497-6171">](https://orcid.org/0000-0002-6497-6171)<sup>1</sup>, [Moritz Fürneisen](speakers.html#X2420a0ddabfcc4f45d797c81d0506a87a30ffb4208f88ba0d63786c937c49d65)<sup>2</sup>, Anna Kasprzik [<img src="images/orcid.png" title="ORCID: 0000-0002-1019-3606">](https://orcid.org/0000-0002-1019-3606)<sup>2</sup>
+
+1: National Library of Finland, Finland; 2: ZBW – Leibniz Information Centre for Economics, Germany
+
+Many libraries and related institutions are looking at ways of automating their metadata production processes. In this hands-on tutorial, participants will be introduced to the multilingual automated subject indexing tool Annif ([https//annif.org annif.org]) as a potential component in a library’s metadata generation system. By completing exercises, participants will get practical experience on setting up Annif, training algorithms using example data, and using Annif to produce subject suggestions for new documents.
+
+The participants are provided with a set of instructional videos and written exercises, and are expected to attempt to complete them on their own before the tutorial event. Exercises and introductory videos can be found in the [Annif-tutorial GitHub repository](https://github.com/NatLibFi/Annif-tutorial/). The actual event will be dedicated to solving problems, asking questions and getting a feeling of the community around Annif.
+
+Participants are instructed to use a computer with at least 8GB of RAM and at least 20 GB free disk space to complete the exercises. The organizers will provide the software as a preconfigured VirtualBox virtual machine. Alternatively, Docker images and a native Linux install option are provided. No prior experience with the Annif tool is required, but participants are expected to be familiar with subject vocabularies (e.g. thesauri, subject headings or classification systems) and subject metadata that reference those vocabularies.
+
+
 
 </div>
 
-<div id="contrib109">
+<div id="contrib103">
 
-#### Library data on Wikidata: a case study of the National Library of Latvia
+#### Working with linked open data in the context of annotation and semantic enrichment of 3D media: A new FOSS toolchain
 
-Eduards Skvireckis [<img src="images/orcid.png" title="ORCID: 0000-0003-2223-9744">](https://orcid.org/0000-0003-2223-9744)
+Lozana Rossenova [<img src="images/orcid.png" title="ORCID: 0000-0002-5190-1867">](https://orcid.org/0000-0002-5190-1867), Zoe Schubert, Paul Duchesne, Lucia Sohmen, Lukas Günther, Ina Blümel [<img src="images/orcid.png" title="ORCID: 0000-0002-3075-7640">](https://orcid.org/0000-0002-3075-7640)
 
-National Library of Latvia
+TIB – Leibniz Information Centre for Science and Technology, Germany
 
-Libraries have changed but the core purpose of the library is very much the same – to give access to knowledge and learning. Knowledge organisation in libraries has moved from clay tablets to extensive catalogues, from the backs of playing cards to card indices. Then in the 1970s and early 1980s integrated library systems (ILS) appeared and changed the game. Now national libraries are increasingly stepping leaving locally used ILS behind and steering towards new technologies and possibilities that were not feasible before – bridging silos, multilingual support, alternatives to traditional authority control, etc. Although there is no right or prevailing answer, the direction is set.
-
-And that direction is toward the semantic web and linked data which are influencing how bibliographic and authority data are created, shared, and made available to potential users. In this presentation I will focus on modeling, mapping, and creating workflows for moving the bibliographic and authority data of the National Library of Latvia to Wikidata as a major hub of the semantic web. The main focus will be on modeling and integrating library authority files (persons, organizations, works, locations, etc.) to a full extent into Wikidata, reducing any possible data loss to a minimum. This way, Wikidata will not be used as just a hub for institutional identifiers but as a universal and collaborative knowledge base where libraries can truly share and disseminate their knowledge, connect it and use it to describe and query their resources.
+This workshop aims to help researchers, digital curators and data managers learn how to make datasets including 3D models and other media files available as linked open data within a collaborative annotation and presentation-ready environment. Participants will take part in practical demonstrations using an integrated toolchain that connects three existing open source software tools: 1) OpenRefine – for data reconciliation and batch upload; 2) Wikibase – for linked open data storage; and 3) Kompakkt – for rendering and annotating 3D models, and other 2D and AV media files. This toolchain and associated workflow was developed in the context of NFDI4Culture, a German consortium of research and cultural institutions working towards a shared infrastructure for research data that meets the needs of 21st-century data creators, maintainers and end users across the broad spectrum of the digital libraries and archives field, and the digital humanities. All components of the toolchain feature graphical user interfaces aiming to lower the barrier of participation in the semantic web for a wide range of practitioners and researchers. Furthermore, the toolchain development involves the specification of a common data model that aims to increase interoperability across datasets of digitised objects from different domains of culture. The workshop will be of interest to researchers, digital curators and information science professionals who work with datasets containing 3D media, and want to learn more about the possibilities of linked open data, open source software and collaborative annotation workflows.
 
 </div>
+
+
+</div>
+
+
+</div>
+
+<div id="day4">
+
+## DAY 4 | Thursday, 2022-12-01
+
+
+<div id="se-7">
+
+14:00-15:15 h UTC
+
+### Lightning Talks / RDF Insights
+
+
+
+<div id="contrib162">
+
+#### Lighning talks
+
+
+
+
+
+Use the opportunity to share your latest projects or ideas in a short lightning talk. Talks are registered after the start of the conference.
+
+</div>
+
+<div id="contrib108">
+
+#### Shapes, Forms and Footprints: web generation of RDF data without coding.
+
+[Patrick Hochstenbach](speakers.html#Xb7192fa1782e788b65627b3c255cf94bd047851526b6f32993ac4553e6ff2f7c) [<img src="images/orcid.png" title="ORCID: 0000-0001-8390-6171">](https://orcid.org/0000-0001-8390-6171)
+
+Ghent University, Belgium
+
+While browsing the Web a user is often confronted with a form requiring them to enter their personal data. We share book reviews on Goodreads; share our names, addresses and affiliations information with conference tools; submit our bibliography to institutional websites and centralized services such as ORCID. Filling out this information is a repetitive task for many users, using data that in principle should already be available in a knowledge graph somewhere.
+
+For the creation of (ad hoc) forms from scratch users do not have many options other than using platforms such as Google Forms which provide a limited set of input fields and a Google sheet as the end result, or asking their IT department to build a form which can require some time to implement and publish. During the COVID-19 pandemic many IT departments were asked to provide such ad hoc forms for all kinds of crowd sourcing where metadata was entered by library staff working from home. All these forms have hard-coded locations where the produced data needs to be stored, so a user has no choice in that matter.
+
+I will present an abstract way how RDF data can be read, updated, and stored in a decentralized way using RDF forms. The RDF data is defined by shapes, the forms are defined using a Form ontology, and the footprint (where to store the result) is also coded in RDF. All these inputs are web resources that declare to FormViewer apps how to read, update, and store data. An entire app can be written just by manipulating RDF resources, using the Solid protocol as persistence layer.
+
+</div>
+
+<div id="contrib101">
+
+#### Performance Comparison of select and construct queries of triplestores on the example of the JVMG project
+
+[Tobias Malmsheimer](speakers.html#X3ee641789bd620e47bd528f57d62683606d909c8a8d7ad7bc41a23b1d7c9d396)
+
+Hochschule der Medien, Germany
+
+In the Japanese Visual Media Graph (JVMG) project ([Project blog](https://jvmg.iuk.hdm-stuttgart.de/), [JVMG web frontend (Beta)](https://mediagraph.link/)) we use the Resource Description Framework (RDF) to create a knowledge graph for researchers working with contemporary popular Japanese media. The project is funded by the German Research Foundation and the main project partners are Stuttgart Media University and Leipzig University Library.
+
+In order to easily access our RDF data we use a triplestore and SPARQL. We initially chose the Apache Fuseki triple store because of its open licensing terms and ease of installation and management.
+
+Once the database was completed to a certain degree, we implemented and tested our knowledge graph using different triplestore software solutions (Apache Fuseki, Blazegraph, Virtuoso and GraphDB) and compared their performance on several tasks that we consider representative operations on our data. These tasks include simple queries such as aggregating all data for a given entity and more complex analyses such as finding co-occurrence. We found major performance discrepancies, both between the different software solutions and between SELECT and CONSTRUCT SPARQL queries. Query times differ by factors of up to 100 across the software solutions, and CONSTRUCT queries consistently perform much worse, even when using the exact same WHERE patterns.
+
+In summary, the Apache Fuseki triple store performed quite well across all tasks. While some other software solutions were faster for some tasks, the gains were not significant enough to consider migrating our infrastructure to a new solution.
+
+
+
+</div>
+
+
+</div>
+
+<div id="">
+
+15:15-15:30 h UTC
+
+### Coffee break
+
+
+
+
+</div>
+
+<div id="se-8">
+
+15:30-16:45 h UTC
+
+### Machine Learning
+
+
+
+<div id="contrib112">
+
+#### How are data collections and vocabularies teaching AI systems human stereotypes?
+
+[Artem Reshetnikov](speakers.html#X0afed01575d565090f2d629220b8aed576618e81407dae63754ce4ef3055899f)
+
+Barcelona Supercomputing Center, Spain
+
+Bias is a concept found in machine learning which means that the data which was used for training is in some way not representative of the real world and therefore the patterns or models that are generated are systematically skewed. While bias is a technical concept, fairness is a more social concept that can have direct implications for users. Hannes Hapke et al. define the concept of fairness as “the ability to identify when some groups of people get a different experience than others in a problematic way”. The authors illustrate the problem of fairness with an example of people who tend not to pay back their loans. If an AI model is trying to predict who should have their credit extended, this group of people should have a different experience than others, i.e. not have their credit extended. An example of a situation to avoid is when people whose application for a loan is unfairly turned down are predominantly of a certain race.
+
+Digitalization of CH objects for machine ingestion may have started for preservation reasons, but it allowed applying AI technology in order to extract knowledge that can improve user experience and be a valuable resource for GLAM. Generating digitalized data for AI use implies that it is annotated according to what is envisioned to be meaningful and relevant for future ML tasks; Iconclass is a great example. These annotations are the basis on which the AI models are built, thus whatever ideas and concepts were included in these structures can be recognized in the final AI model, which will reflect the possible original bias.
+
+Our presentation will show data collections of GLAM and vocabularies such as Iconclass containing prejudices against LGBT, gender inequality, or colonization stereotypes, and we will illustrate how these systems can embed these human stereotypes in AI generated data and why fairness is important for AI in GLAM.
+
+</div>
+
+<div id="contrib106">
+
+#### Insight into the machine-based subject cataloguing at the German National Library
+
+[Christoph Poley](speakers.html#Xd96a2989a7cba284b23ee0d6fc55e33bf1e4eadc138a78771c12dbd753ad1078) [<img src="images/orcid.png" title="ORCID: 0000-0002-6803-5299">](https://orcid.org/0000-0002-6803-5299)
+
+Deutsche Nationalbibliothek, Germany
+
+The German National Library has the mandate to collect online publications published in Germany or in the German language, translated from German or relating to Germany. Our approach is to provide metadata including classification codes and subject headings to make them searchable and retrievable. To handle the amount of data, which increases by about 1–2 million records every year, we introduced machine-learning-based tools into productive operations in order to be able to assign GND index terms, DDC subject categories and DDC short numbers automatically.
+
+The first steps in that direction were taken more than ten years ago. In the last three years we have set up a project called "Erschließungsmaschine" ("indexing machine"; EMa) to replace the legacy system with a new modular and flexible architecture for automated subject cataloguing. The core component is the toolkit Annif developed by the National Library of Finland, which provides us with lexical, statistical and neural-network-based machine learning algorithms behind a unified interface.
+
+In this presentation we want to give practical insights into the architecture, main workflows, and quality measurements of EMa within our productive environment. We also talk about our experiences and challenges concerning both human and IT resources.
+
+Furthermore, we give a brief overview over the DNB AI project. The goal of the project is to look into state-of-the-art algorithms, text data, and vocabularies in order to improve the quality of subject cataloguing using AI methods.
+
+</div>
+
+<div id="contrib100">
+
+#### Multilingual BERT for Library Classification in Romance Languages using Basisklassifikation
+
+[José Calvo Tello](speakers.html#X29bd70e9548e6e90437e224ea05de9282b8717e03499b5be2872b8274d60777b) [<img src="images/orcid.png" title="ORCID: 0000-0002-1129-5604">](https://orcid.org/0000-0002-1129-5604)<sup>1</sup>, Enrique Manjavacas [<img src="images/orcid.png" title="ORCID: 0000-0002-3942-7680">](https://orcid.org/0000-0002-3942-7680)<sup>2</sup>, Susanne Al-Eryani [<img src="images/orcid.png" title="ORCID: 0000-0002-1741-1645">](https://orcid.org/0000-0002-1741-1645)<sup>1</sup>
+
+1: Göttingen State and University Library, Germany; 2: Leiden University, The Netherlands
+
+We apply the multilingual version of the language model BERT (mBERT) to predict classes from the library classification system Basisklassifikation (BK). We frame the present task as a multi-label classification problem, where each input instance (a library record) must be assigned at least one class from the BK. As input, we only use data from the catalogue, we do not use the full text of the publications. Three feature sets are considered: title only, bibliographic data only, and extended bibliographic data. We apply two algorithms: mBERT, which we fine-tune using raw text from different metadata fields as input. We also train a multi-label Support Vector Machine classifier with a vector based on the tokenizer of mBERT.
+
+We decided to work with records from Romance Studies because it challenges the perspective of considering only one or only a few languages, such as in national libraries. The dataset contains 189,134 library records associated with Romance Studies from the catalogue K10plus.
+
+The general results for the different approaches yield micro F1-scores between 0.6 and 0.8 (macro F1-scores between 0.2 and 0.4), with better performance for mBERT as classifier. In this presentation we will explore how these results are influenced by factors such as the language, specific classes, or the number of records per class. This is a promising approach for the generation of suggestions which should be considered by subject specialists.
+
+</div>
+
+
+</div>
+
+
+</div>
+
+<div id="day5">
+
+## DAY 5 | Friday, 2022-12-02
+
+
+<div id="se-9">
+
+14:00-15:15 h UTC
+
+### LOD Applications
+
+
 
 <div id="contrib119">
 
@@ -414,6 +519,22 @@ And that direction is toward the semantic web and linked data which are influenc
 1: College of Communication and Information, Kent State University; 3: Penn Libraries; 2: Schoenberg Institute for Manuscript Studies, Penn Libraries
 
 Digital Scriptorium 2.0 (DS 2.0) is a project to redevelop the technical platform of a national union catalog of premodern manuscripts representing the full range of global manuscript cultures in US collections. This paper documents the development and implementation of a workflow for aggregating and transforming metadata records for premodern manuscripts in order to structure and publish them as linked open data (LOD). Strategies and practices for extracting, enhancing, and combining metadata from heterogeneous sources were explored. Data sources included library catalogs and other institutional data repositories, ranging from metadata in CSV files to XML-structured schemas. Automated scripts extracted and combined metadata by entity types for such entities as agents, places, materials, subjects, genres, languages, and date information recorded in catalog records as string values. Using OpenRefine, string values were reconciled to linked open databases and vocabularies such as Wikidata, FAST, and the Getty's AAT and TGN. This resulted in the creation of open-source metadata repositories to be used in the transformation of DS member metadata records into LOD for uploading into a shared knowledge base (Wikibase), thus semantically enriching existing cultural heritage metadata and enabling end user function like faceted search and SPARQL querying. This approach facilitated low institutional barriers to contribution as participating institutions did not have to alter their metadata records to contribute data and they retained control over their own catalog record formats and cataloging practices. The resulting database of heterogeneous, cross-institutional published LOD can be leveraged by the community of scholars, librarians, curators, and citizen scholars who participate in Digital Scriptorium to enhance and build upon existing knowledge about their collections.
+
+</div>
+
+<div id="contrib117">
+
+#### The Application of International Image Interoperability Framework (IIIF) and Linked Open Data (LOD) in Digital Humanities: a Case Study of the Dictionary of Wooden Slips
+
+[Shu-Jiun Chen](speakers.html#Xff8c224c71806e4d7223891dd5d2dbd095213ed934b2528c2c27f7d3425b7f68) [<img src="images/orcid.png" title="ORCID: 0000-0003-4251-7633">](https://orcid.org/0000-0003-4251-7633)<sup>1,2</sup>
+
+1: Institute of History and Philology, Academia Sinica, Taiwan; 2: Academia Sinica Center for Digital Cultures
+
+This study explores the use of the International Image Interoperability Framework (IIIF) and linked open data (LOD) in digital humanities with regard to different layers of interoperability. Focusing on imaged texts, it takes the text interpretation and slip restoration of the “Juyan Han Wooden Slips (202-220 CE)” as use case, integrates the demands of scholars in wooden slip research in the humanities, and establishes a digital research environment.
+
+By analysing and deconstructing historians’ work on character interpretation and manuscript restoration into discrete tasks and categories, the study proposes that the digital humanities research platform needs to be able to provide a complete, structured annotation function that allows input of annotated information from different knowledge fields. In addition, it needs to provide functionalities for reading, comparing, and referring to images, for example for the annotation of interpretations in wooden slip images, zooming in or out of image areas, or side-by-side image comparison for multiple wooden slip regions, which allow arguments about the context surrounding a character, to be displayed together in the image interface.
+
+The study has adopted the image, presentation and content search APIs of IIIF, and developed a LOD lifecycle framework in order to transform the legacy data into LOD, enable access and cross-referencing for these resources, and satisfy different needs in research. “The Wooden Slips Character Dictionary–Database of Juyan Han Wooden Slips from the Institute of History and Philology Collections" ([WCD](https://ndweb.iis.sinica.edu.tw/woodslip_public/System/Main.htm))” and the "[Multi-database Search System for Historical Chinese Characters](https://wcd-ihp.ascdc.sinica.edu.tw/union)" were taken as practical examples to explain how interoperability is utilised in systems for the digital humanities. 
 
 </div>
 
@@ -429,11 +550,22 @@ Digital Scriptorium 2.0 (DS 2.0) is a project to redevelop the technical platfor
 
 </div>
 
+<div id="contrib160">
+
+#### Closing
+
+
+
+
+
+
 
 </div>
 
 
 </div>
 
+
+</div>
 
 

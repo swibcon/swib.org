@@ -5,18 +5,20 @@ title: <tmpl_var swib> Programme
 # Programme
 
 <tmpl_loop days_loop>
-<div id="<tmpl_var day_id>">
+<div id="day<tmpl_var day_id>">
 
 ## <tmpl_var day>
 
 <tmpl_loop sessions_loop>
 <div id="<tmpl_var session_id>">
 
+<tmpl_var start_time>-<tmpl_var end_time> h UTC
+
 ### <tmpl_var session_title>
 
 
 <tmpl_loop abstracts_loop>
-<div id="<tmpl_var abstract_id>">
+<div id="contrib<tmpl_var abstract_id>">
 
 #### <tmpl_var abstract_title>
 
@@ -34,5 +36,4 @@ title: <tmpl_var swib> Programme
 
 </div>
 </tmpl_loop>
-
 
