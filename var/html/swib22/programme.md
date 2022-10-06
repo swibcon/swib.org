@@ -1,5 +1,5 @@
 ---
-title: SWIB22 Programme
+pagetitle: SWIB22 Programme
 ---
 
 # Programme
@@ -11,7 +11,7 @@ title: SWIB22 Programme
 
 <table>
 
-<tr id="coll"><td>12:00-13:00 h UTC</td><td>
+<tr id="coll"><td class="times-col">12:00-13:00 h UTC</td><td>
 
 ### Collocated Events
 
@@ -21,7 +21,7 @@ title: SWIB22 Programme
 
 
 
-<tr id="se-01"><td>14:00-15:15 h UTC</td><td>
+<tr id="se-01"><td class="times-col">14:00-15:15 h UTC</td><td>
 
 ### Start of Conference
 
@@ -42,20 +42,20 @@ Silke Schomburg<sup>1</sup>, Klaus Tochtermann<sup>2</sup>
 
 <tr id="contrib161"><td></td><td>
 
-#### (Keynote)
+#### Libraries, linked data, and decolonization (keynote)
 
-Stacy Allision-Cassin
-
-TBA
+Stacy Allison-Cassin
 
 TBA
+
+Discussions of Indigenous Knowledge, Traditional Knowledge, and Indigenous Data Sovereignty have been increasing in the past several years. At the same time, there has been a growing awareness of issues of ethics and justice in relation to metadata practice. Ethical linked data practice demands attention to the ways colonization is embedded in our data infrastructures, standards, practices, and our communities. This talk will cover a range of topics and questions relating to Indigenous issues in linked data, including the limitations of current standards, systems, the vital need for change in practice, the importance and implications of recognizing Indigenous rights, and opportunities on the horizon with emerging standards and principles such as CARE and projects related to respectful naming. The talk will also focus on concrete action and that the library linked data community can take to support decolonization and a more just and ethical future for linked data. 
 
 </td></tr>
 
 
 
 
-<tr id="cb-1"><td>15:15-15:30 h UTC</td><td>
+<tr id="cb-1"><td class="times-col">15:15-15:30 h UTC</td><td>
 
 ### Coffee break
 
@@ -65,7 +65,7 @@ TBA
 
 
 
-<tr id="se-02"><td>15:30-16:45 h UTC</td><td>
+<tr id="se-02"><td class="times-col">15:30-16:45 h UTC</td><td>
 
 ### Linked Library Data I
 
@@ -131,7 +131,7 @@ This contribution describes the approach, which is implemented as a 5-step workf
 
 <table>
 
-<tr id="se-3"><td>14:00-15:15 h UTC</td><td>
+<tr id="se-3"><td class="times-col">14:00-15:15 h UTC</td><td>
 
 ### Linked Library Data II
 
@@ -189,7 +189,7 @@ And that direction is toward the semantic web and linked data which are influenc
 
 
 
-<tr id="cb-2"><td>15:15-15:30 h UTC</td><td>
+<tr id="cb-2"><td class="times-col">15:15-15:30 h UTC</td><td>
 
 ### Coffee break
 
@@ -199,7 +199,7 @@ And that direction is toward the semantic web and linked data which are influenc
 
 
 
-<tr id="se-4"><td>15:30-16:45 h UTC</td><td>
+<tr id="se-4"><td class="times-col">15:30-16:45 h UTC</td><td>
 
 ### Continued Progress
 
@@ -259,7 +259,7 @@ Share-VDE (SVDE) is a library-driven initiative which brings together the biblio
 
 <table>
 
-<tr id="ws"><td>14:00-16:45 h UTC</td><td>
+<tr id="ws"><td class="times-col">14:00-16:45 h UTC</td><td>
 
 ### Tutorials and Workshops
 
@@ -345,7 +345,7 @@ The core Solid protocols follow Semantic Web principles and apply it to manageme
 
 1: National Library of Finland, Finland; 2: ZBW – Leibniz Information Centre for Economics, Germany
 
-Many libraries and related institutions are looking at ways of automating their metadata production processes. In this hands-on tutorial, participants will be introduced to the multilingual automated subject indexing tool [Annif](https//annif.org) as a potential component in a library’s metadata generation system. By completing exercises, participants will get practical experience on setting up Annif, training algorithms using example data, and using Annif to produce subject suggestions for new documents.
+Many libraries and related institutions are looking at ways of automating their metadata production processes. In this hands-on tutorial, participants will be introduced to the multilingual automated subject indexing tool [Annif](https://annif.org) as a potential component in a library’s metadata generation system. By completing exercises, participants will get practical experience on setting up Annif, training algorithms using example data, and using Annif to produce subject suggestions for new documents.
 
 The participants are provided with a set of instructional videos and written exercises, and are expected to attempt to complete them on their own before the tutorial event. Exercises and introductory videos can be found in the [Annif-tutorial GitHub repository](https://github.com/NatLibFi/Annif-tutorial/). The actual event will be dedicated to solving problems, asking questions and getting a feeling of the community around Annif.
 
@@ -378,7 +378,7 @@ This workshop aims to help researchers, digital curators and data managers learn
 
 <table>
 
-<tr id="se-7"><td>14:00-15:15 h UTC</td><td>
+<tr id="se-7"><td class="times-col">14:00-15:15 h UTC</td><td>
 
 ### Lightning Talks / RDF Insights
 
@@ -436,7 +436,7 @@ In summary, the Apache Fuseki triple store performed quite well across all tasks
 
 
 
-<tr id="cb-3"><td>15:15-15:30 h UTC</td><td>
+<tr id="cb-3"><td class="times-col">15:15-15:30 h UTC</td><td>
 
 ### Coffee break
 
@@ -446,7 +446,7 @@ In summary, the Apache Fuseki triple store performed quite well across all tasks
 
 
 
-<tr id="se-8"><td>15:30-16:45 h UTC</td><td>
+<tr id="se-8"><td class="times-col">15:30-16:45 h UTC</td><td>
 
 ### Machine Learning
 
@@ -514,7 +514,7 @@ The general results for the different approaches yield micro F1-scores between 0
 
 <table>
 
-<tr id="se-9"><td>14:00-15:20 h UTC</td><td>
+<tr id="se-9"><td class="times-col">14:00-15:20 h UTC</td><td>
 
 ### LOD Applications
 
@@ -578,4 +578,6 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 
 </div>
 
+
+</div>
 

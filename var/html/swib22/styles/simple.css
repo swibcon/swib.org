@@ -1,5 +1,19 @@
 html {
-  margin: 0 auto;
   max-width: 960px;
   min-width: 200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.4;  
+}
+
+body {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+td.times-col {
+  min-width: 140px;
+  font-size: 93.75%;
 }

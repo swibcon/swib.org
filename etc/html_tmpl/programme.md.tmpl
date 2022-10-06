@@ -1,5 +1,5 @@
 ---
-title: <tmpl_var swib> Programme
+pagetitle: <tmpl_var swib> Programme
 ---
 
 # Programme
@@ -11,7 +11,7 @@ title: <tmpl_var swib> Programme
 
 <table><tmpl_loop sessions_loop>
 
-<tr<tmpl_if session_id> id="<tmpl_var session_id>"</tmpl_if>><td><tmpl_var start_time>-<tmpl_var end_time> h UTC</td><td>
+<tr id="<tmpl_var session_id>"><td class="times-col"><tmpl_var start_time>-<tmpl_var end_time> h UTC</td><td>
 
 ### <tmpl_var session_title>
 
@@ -35,4 +35,6 @@ title: <tmpl_var swib> Programme
 
 </div>
 </tmpl_loop>
+
+</div>
 

@@ -34,20 +34,10 @@ $endfor$
 $for(include-before)$
 $include-before$
 $endfor$
-$if(title)$
-<header id="title-block-header">
-<h1 class="title">$title$</h1>
-$if(subtitle)$
-<p class="subtitle">$subtitle$</p>
-$endif$
-$for(author)$
-<p class="author">$author$</p>
-$endfor$
-$if(date)$
-<p class="date">$date$</p>
-$endif$
+<header>
+<img src="images/swib.png" style="max-width: 300px" />
+<img src="images/swib_banner.jpg" />
 </header>
-$endif$
 $if(toc)$
 <nav id="$idprefix$TOC" role="doc-toc">
 $if(toc-title)$
@@ -60,5 +50,11 @@ $body$
 $for(include-after)$
 $include-after$
 $endfor$
+<footer>
+<a href="data_protection.html">Data protection</a> &#160; <a href="imprint.html">Imprint</a>
+<hr>
+<a href="http://www.zbw.eu" target="_blank"><img src="images/logo_04_zbw_organizer.png" alt="Logo: ZBW - Leibniz-Informationszentrum Wirtschaft" border="0"></a>
+<a href="https://www.zbw.eu/en" target="_blank"><img src="images/logo_04_hbz.png" alt="Logo: hbz - Wissen. Information. Innovation.">
+</footer>
 </body>
 </html>
