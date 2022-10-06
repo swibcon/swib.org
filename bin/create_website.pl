@@ -73,7 +73,7 @@ get_abstract_data();
 # sesion structure
 get_session_data();
 
-#print Dumper %abstract;
+#print Dumper %session;
 
 #### output section for markdown/html
 
@@ -158,8 +158,12 @@ sub get_session_data {
   my @nodes = $dom->findnodes('/sessions/session');
   foreach my $node (@nodes) {
 
+    my $session_id = $node->findvalue('./session_short');
+    die "Session short title (used as ID) missing for session "
+      . $node->findvalue('./session_ID') . "\n"
+      unless $session_id;
+
     my %entry = (
-      short => $node->findvalue('./session_short'),
       start => $node->findvalue('./session_start'),
       end   => $node->findvalue('./session_end'),
       title => $node->findvalue('./session_title'),
@@ -250,7 +254,7 @@ sub output_programme_page {
       ## iterate through all session and skip those for different day
       next unless ( $session{$session_id}{start_date} eq $date );
 
-      print "$session{$session_id}{start_date} $session{$session_id}{short}\n";
+      ##print "$session{$session_id}{start_date} $session_id\n";
       my %entry = (
         session_id    => $session_id,
         session_title => $session{$session_id}{title},

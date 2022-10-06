@@ -9,9 +9,7 @@ title: <tmpl_var swib> Programme
 
 ## <tmpl_var day>
 
-<table>
-<tmpl_loop sessions_loop>
-
+<table><tmpl_loop sessions_loop>
 
 <tr<tmpl_if session_id> id="<tmpl_var session_id>"</tmpl_if>><td><tmpl_var start_time>-<tmpl_var end_time> h UTC</td><td>
 
@@ -24,7 +22,6 @@ title: <tmpl_var swib> Programme
 
 #### <tmpl_var abstract_title>
 
-
 <tmpl_loop authors_loop><tmpl_if author_id>[</tmpl_if><tmpl_var name><tmpl_if author_id>](speakers.html#<tmpl_var author_id>)</tmpl_if><tmpl_if orcid> [<img src="images/orcid.png" title="ORCID: <tmpl_var orcid>">](https://orcid.org/<tmpl_var orcid>)</tmpl_if><tmpl_if index><sup><tmpl_var index></sup></tmpl_if><tmpl_unless __last__>, </tmpl_unless></tmpl_loop>
 
 <tmpl_loop organisations_loop><tmpl_if index><tmpl_var index>: </tmpl_if><tmpl_var name><tmpl_unless __last__>; </tmpl_unless></tmpl_loop>
@@ -34,8 +31,7 @@ title: <tmpl_var swib> Programme
 </td></tr>
 </tmpl_loop>
 
-</tmpl_loop>
-</table>
+</tmpl_loop></table>
 
 </div>
 </tmpl_loop>
