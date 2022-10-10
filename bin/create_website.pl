@@ -295,6 +295,7 @@ sub output_programme_page {
   );
   $tmpl->param(
     swib      => $SWIB,
+    lc_swib   => lc($SWIB),
     days_loop => \@days_loop,
   );
   my $outfile = $HTML_ROOT->child( $PAGE{programme}{output} );

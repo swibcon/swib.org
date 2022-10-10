@@ -2,6 +2,8 @@
 pagetitle: <tmpl_var swib> Programme
 ---
 
+<div id="main">
+
 # Programme
 
 <tmpl_loop days_loop>
@@ -35,6 +37,30 @@ pagetitle: <tmpl_var swib> Programme
 
 </div>
 </tmpl_loop>
+
+</div>
+
+</div>
+
+<div id="sidebar">
+
+## News {.sidebox-title}
+
+:::{.sidebox-box}
+
+<tmpl_include newsbox.md.inc>
+
+:::
+
+## Twitter {.sidebox-title}
+
+:::{.sidebox-box}
+
+
+@swibcon\
+#<tmpl_var lc_swib>
+
+:::
 
 </div>
 

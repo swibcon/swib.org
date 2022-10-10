@@ -1,7 +1,4 @@
 html {
-  max-width: 960px;
-  min-width: 200px;
-  margin: 0 auto;
   font-family: Arial, sans-serif;
   color: #333333;
   font-size: 16px;
@@ -9,11 +6,59 @@ html {
 }
 
 body {
+  max-width: 960px;
+  margin: 0 auto;
   padding-left: 6px;
   padding-right: 6px;
+}
+
+#main {
+  float: left;
+  width: 75%;
+  margin 0 0 30px 0;
+  padding 0 50px 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  font-size: 93.75%;
+  float: right;
+  width: 24%;
+  margin: 0 0 30px 0;
+}
+
+.sidebox-title {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-style: none;
+  padding: 10px;
+}
+
+.sidebox-box {
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+#sidebar h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+footer {
+  clear: both;
 }
 
 td.times-col {
   min-width: 140px;
   font-size: 93.75%;
 }
+
+
