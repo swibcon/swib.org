@@ -36,7 +36,7 @@ one sidebar include file for static and dynamic pages. So all pages are
 generated via HTML::Template.
 
 **This means that the regular pages (linked in the menu) should not be changed
-in their html/\*.md version, but only in `./etc/html_tmpl/\*.md.tmpl`!!**
+in their html/\*.md version, but only in `./etc/html_tmpl/*.md.tmpl`!!**
 
 ## Connection between contributions and speakers
 
