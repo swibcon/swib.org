@@ -224,6 +224,7 @@ sub output_speaker_page {
     filename => $TEMPLATE_ROOT->child( $PAGE{speakers}{template} ) );
   $tmpl->param(
     swib          => $SWIB,
+    lc_swib       => lc($SWIB),
     speakers_loop => \@speakers_loop,
   );
   my $outfile = $HTML_ROOT->child( $PAGE{speakers}{output} );

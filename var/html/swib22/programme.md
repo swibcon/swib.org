@@ -36,7 +36,7 @@ pagetitle: SWIB22 Programme
 
 Silke Schomburg<sup>1</sup>, Klaus Tochtermann<sup>2</sup>
 
-1: North Rhine-Westphalian Library Service Centre (hbz), Germany; 2: ZBW Leibniz Information Centre for Economics, Germany
+1: Director of North Rhine-Westphalian Library Service Centre (hbz), Germany; 2: Director of ZBW Leibniz Information Centre for Economics, Germany
 
 
 
@@ -605,10 +605,10 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 
 :::
 
+
 ## Twitter {.sidebox-title}
 
 :::{.sidebox-box}
-
 
 @swibcon\
 #swib22
@@ -616,4 +616,6 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 :::
 
 </div>
+
+
 

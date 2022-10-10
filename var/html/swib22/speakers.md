@@ -1,6 +1,8 @@
 ---
-title: SWIB22 Speakers
+pagetitle: SWIB22 Speakers
 ---
+
+<div id="main">
 
 # Speakers
 
@@ -248,4 +250,41 @@ Tim Thompson works as the Librarian for Applied Metadata Research at Yale Univer
 Astrid Usong is a User Experience Designer with Stanford Libraries. She works in Digital Library Systems and Services to create simple and engaging interfaces for catalogers and library patrons. Recent projects include Sinopia, the student and faculty interface for depositing to our digital repository, and the overhaul of our external library website. Prior to Stanford, she worked in financial services for 20 years.
 
 </div>
+
+
+</div>
+
+<div id="sidebar">
+
+## News {.sidebox-title}
+
+:::{.sidebox-box}
+
+### 14th SWIB
+
+**CfP published**\
+09.05.2022
+
+### 13h SWIB
+
+**[SWIB21 slides and videos are now online](../swib21/programme.html)**\
+08.12.2021
+
+
+
+:::
+
+
+## Twitter {.sidebox-title}
+
+:::{.sidebox-box}
+
+@swibcon\
+#swib22
+
+:::
+
+</div>
+
+
 

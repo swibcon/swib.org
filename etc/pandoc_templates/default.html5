@@ -37,15 +37,50 @@ $endfor$
 <header>
 <img src="images/swib.png" style="max-width: 300px" />
 <img src="images/swib_banner.jpg" />
-</header>
-$if(toc)$
-<nav id="$idprefix$TOC" role="doc-toc">
-$if(toc-title)$
-<h2 id="$idprefix$toc-title">$toc-title$</h2>
+<nav>
+$if(is_index)$
+HOME
+$else$
+<a href="index.html">HOME</a>
 $endif$
-$table-of-contents$
+&#160; | &#160;
+$if(is_programme)$
+PROGRAMME
+$else$
+<a href="programme.html">PROGRAMME</a>
+$endif$
+&#160; | &#160;
+$if(is_speakers)$
+SPEAKERS
+$else$
+<a href="speakers.html">SPEAKERS</a>
+$endif$
+&#160; | &#160;
+$if(is_registration)$
+REGISTRATION
+$else$
+<a href="registration.html">REGISTRATION</a>
+$endif$
+&#160; | &#160;
+$if(is_general-information)$
+GENERAL INFORMATION
+$else$
+<a href="general-information.html">GENERAL INFORMATION</a>
+$endif$
+&#160; | &#160;
+$if(is_history)$
+HISTORY
+$else$
+<a href="history.html">HISTORY</a>
+$endif$
+&#160; | &#160;
+$if(is_coc)$
+CODE OF CONDUCT
+$else$
+<a href="coc.html">CODE OF CONDUCT</a>
+$endif$
 </nav>
-$endif$
+</header>
 $body$
 $for(include-after)$
 $include-after$

@@ -8,14 +8,19 @@ MD_FILES := $(shell find ../var/html/$(LC_SWIB) -name "*.md")
 HTML_FILES := $(MD_FILES:.md=.html)
 ##$(warning $(HTML_FILES))
 
+# current page name (used for menu display)
+pagename = $(shell echo $(notdir $(basename $<)) | tr '[:upper:]' '[:lower:]')
+
 # binaries
-PANDOC=/usr/local/bin/pandoc
-EXT_OPTS    := --standalone -f markdown+pipe_tables+fenced_divs+bracketed_spans -t html
-TMPL_OPTS   := --template ../etc/pandoc_templates/default.html5 --css styles/normalize.css --css styles/simple.css
+PANDOC      = /usr/local/bin/pandoc
+TEMPLATE_DIR= /opt/swib.org/etc/pandoc_templates
+EXT_OPTS    := --standalone -f markdown+pipe_tables+fenced_divs+bracketed_spans -t html --email-obfuscation=references
+TMPL_OPTS   := --template $(TEMPLATE_DIR)/default.html5 --css styles/normalize.css --css styles/simple.css
+VAR_OPTS    = --variable lang:en --variable is_$(pagename)
 
 all: $(HTML_FILES)
 
 %.html: %.md
 	@echo $@
-	@$(PANDOC) $(TMPL_OPTS) $(EXT_OPTS) -o $@ $<
+	@$(PANDOC) $(TMPL_OPTS) $(EXT_OPTS) $(VAR_OPTS) -o $@ $<
 
