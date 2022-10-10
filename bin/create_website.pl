@@ -80,6 +80,10 @@ get_session_data();
 output_speaker_page();
 output_programme_page();
 
+foreach my $page ( qw/ index registration general-information history coc / ) {
+  output_static_page($page);
+}
+
 ##print Dumper \%speaker;
 
 ### output secton for rdf
@@ -300,6 +304,21 @@ sub output_programme_page {
     days_loop => \@days_loop,
   );
   my $outfile = $HTML_ROOT->child( $PAGE{programme}{output} );
+  $outfile->spew_utf8( $tmpl->output );
+}
+
+sub output_static_page {
+  my $page = shift or croak('param missing');
+
+  my $tmpl = HTML::Template->new(
+    filename          => $TEMPLATE_ROOT->child( "${page}.md.tmpl" ),
+    utf8 => 1,
+  );
+  $tmpl->param(
+    swib      => $SWIB,
+    lc_swib   => lc($SWIB),
+  );
+  my $outfile = $HTML_ROOT->child( "${page}.md" );
   $outfile->spew_utf8( $tmpl->output );
 }
 
