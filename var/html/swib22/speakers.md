@@ -195,6 +195,14 @@ Enrique Manjavacsa is currently a post-doctoral researcher in Computational Ling
 
 </div>
 
+<div id="X9f5a82df79a32fc7f8a2da36413a9c477e9c009eccf2517912d2974b883c0061">
+
+## Joachim Neubert
+
+Joachim Neubert works as a scientific software developer at the ZBW – Leibniz Information Centre for Economics. He published the [STW Thesaurus for Economics](https://zbw.eu/stw) and the [20th Century Press Archives](https://pm20.zbw.eu) as websites based on Linked Open Data and developed linked data driven web services for economics. He is working on the integration of knowledge organization systems into applications and on mappings between such systems, and is exploring the potentials of Wikidata (e.g., in [WikiProject 20th Century Press Archives](https://www.wikidata.org/wiki/Wikidata:WikiProject_20th_Century_Press_Archives)) as a linking hub for resources on the web.
+
+</div>
+
 <div id="Xe1af218db11177fdcb7141bcdf5539362ee8584504fe095fcd1b63c747d59ddd">
 
 ## Zhuo Pan
@@ -208,6 +216,14 @@ Zhuo Pan is a student employee at the University of Washington Libraries assigne
 ## Telma Peura
 
 Telma Peura is a Digital Humanities master student from Helsinki University, working as a research assistant for the [BookSampo](https://seco.cs.aalto.fi/applications/kirjasampo/) project at the Semantic Computing Research Group [SeCo](https://seco.cs.aalto.fi/) at Aalto University. Previously, she has worked in digital literary studies as part of the [Fabula-NET](https://centre-for-humanities-computing.github.io/fabula-net/) project at Aarhus University.
+
+</div>
+
+<div id="X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c">
+
+## Adrian Pohl
+
+Adrian ([\@acka47@openbiblio.social](https://openbiblio.social/@acka47)) has been working at the North Rhine-Westphalian Library Service Centre (hbz) in Cologne, Germany since 2008. He is leading the Open Infrastructure team whose work focuses on open standards, tools and processes for the publication of structured data on the web. Often collaborating with others, the Open Infrastructure team works on a wide range of services and tools: [lobid](https://lobid.org/index-en), [OER Search Index (OERSI)](https://oersi.org), [SkoHub](https://skohub.io), [Metafacture](https://metafacture.org), [NWBib](https://nwbib.de).
 
 </div>
 
@@ -247,11 +263,7 @@ Lozana Rossenova (PhD, London South Bank University, UK) is a digital designer a
 
 ## Steffen Rörtgen
 
-Steffen Rörtgen ([\@steffenr42](https://twitter.com/steffenr42), [\@steffenr42@openbiblio.social](https://openbiblio.social/web/@steffenr42)) is working on open education projects at the university computing centre for the Georg-August-Universität Göttingen and especially interested in open web technologies. He tries to solves problems concerning heterogenous education metadata with the help of semantic web approaches.
-
-Steffen is also contributing to the open source project [SkoHub-Vocabs](https://github.com/skohub-io/skohub-vocabs), a lightweight tool for publishing SKOS vocabularies with a HTML view and at the same time in a machine-readable format. Together with Adrian Pohl he will conduct a workshop for it.
-
-He is also researching on machine-readable curricula and framework data, so if this is also of interest for you (or any other topic mentioned), feel free to reach out!
+Steffen Rörtgen ([\@steffenr42](https://twitter.com/steffenr42), [\@steffenr42@openbiblio.social](https://openbiblio.social/web/@steffenr42)) is working on open education projects at the university computing centre for the Georg-August-Universität Göttingen and especially interested in open web technologies. He tries to solves problems concerning heterogenous education metadata with the help of semantic web approaches. Steffen is also contributing to the open source project [SkoHub-Vocabs](https://github.com/skohub-io/skohub-vocabs), a lightweight tool for publishing SKOS vocabularies with a HTML view and at the same time in a machine-readable format. Together with Adrian Pohl he will conduct a workshop for it. He is also researching on machine-readable curricula and framework data, so if this is also of interest for you (or any other topic mentioned), feel free to reach out!
 
 </div>
 
@@ -284,6 +296,14 @@ Osma Suominen is working as an information systems specialist at the National Li
 ## Timothy A. Thompson
 
 Tim Thompson works as the Librarian for Applied Metadata Research at Yale University Library. As a metadata practitioner, his work focuses on the implementation of linked data standards and technologies in academic libraries. Over the past six years, he has been active in cooperative efforts such as the Linked Data for Production (LD4P) project.
+
+</div>
+
+<div id="X05ea6a817e3b28e47dabcfa1e33003bc020afdc955e45b83be7ac1cdbc39d0aa">
+
+## Katherine Thornton
+
+Kat Thornton works in the Digital Perservation Department at Yale University Library. Kat has been a volunteer editor of the [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) project for 10 years. Kat is a co-founder of [sciencestories.io](http://www.sciencestories.io/), a multimedia bibliography project celebrating the lives of scientists and people working in STEM.
 
 </div>
 
