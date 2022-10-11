@@ -80,3 +80,15 @@ a:link {
 .hint {
   font-size: 87.5%;
 }
+
+/* responsiveness
+--------------------------------------------------- */
+
+@media screen and (max-width: 800px) {
+  #main, #sidebar {
+    float: none;
+    width: auto;
+    padding: 0;
+  }
+}
+
