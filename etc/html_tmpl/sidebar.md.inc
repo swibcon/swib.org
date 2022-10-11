@@ -13,7 +13,8 @@
 
 :::{.sidebox-box}
 
-@swibcon\
+@swibcon
+
 #<tmpl_var lc_swib>
 
 :::

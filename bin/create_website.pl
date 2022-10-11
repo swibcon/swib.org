@@ -9,6 +9,7 @@ use utf8;
 
 use Carp;
 use Data::Dumper;
+use DateTime;
 use Digest::SHA qw(sha256_hex);
 use HTML::Template;
 use Path::Tiny;
@@ -80,7 +81,7 @@ get_session_data();
 output_speaker_page();
 output_programme_page();
 
-foreach my $page ( qw/ index registration general-information history coc / ) {
+foreach my $page (qw/ index registration general-information history coc /) {
   output_static_page($page);
 }
 
@@ -225,7 +226,9 @@ sub output_speaker_page {
     push( @speakers_loop, $entry );
   }
   my $tmpl = HTML::Template->new(
-    filename => $TEMPLATE_ROOT->child( $PAGE{speakers}{template} ) );
+    filename => $TEMPLATE_ROOT->child( $PAGE{speakers}{template} ),
+    utf8     => 1
+  );
   $tmpl->param(
     swib          => $SWIB,
     lc_swib       => lc($SWIB),
@@ -265,6 +268,7 @@ sub output_programme_page {
         session_title => $session{$session_id}{title},
         start_time    => $session{$session_id}{start_time},
         end_time      => $session{$session_id}{end_time},
+        epoch         => time2epoch( $date, $session{$session_id}{start_time} ),
       );
 
       my @presentations = @{ $session{$session_id}{presentations} };
@@ -296,6 +300,7 @@ sub output_programme_page {
 
   my $tmpl = HTML::Template->new(
     filename          => $TEMPLATE_ROOT->child( $PAGE{programme}{template} ),
+    utf8              => 1,
     loop_context_vars => 1
   );
   $tmpl->param(
@@ -311,14 +316,14 @@ sub output_static_page {
   my $page = shift or croak('param missing');
 
   my $tmpl = HTML::Template->new(
-    filename          => $TEMPLATE_ROOT->child( "${page}.md.tmpl" ),
-    utf8 => 1,
+    filename => $TEMPLATE_ROOT->child("${page}.md.tmpl"),
+    utf8     => 1,
   );
   $tmpl->param(
-    swib      => $SWIB,
-    lc_swib   => lc($SWIB),
+    swib    => $SWIB,
+    lc_swib => lc($SWIB),
   );
-  my $outfile = $HTML_ROOT->child( "${page}.md" );
+  my $outfile = $HTML_ROOT->child("${page}.md");
   $outfile->spew_utf8( $tmpl->output );
 }
 
@@ -472,4 +477,25 @@ sub mk_organisations_loop {
   }
 
   return \@organisations_loop;
+}
+
+sub time2epoch {
+  my $date = shift or croak('param missing');
+  my $time = shift or croak('param missing');
+
+  # convert UTIC date/time to epoch, which is used by
+  # the zonestamp service
+  my ( $year, $month, $day ) = split( /\-/, $date );
+  my ( $hour, $minute ) = split( /:/, $time );
+
+  my $dt = DateTime->new(
+    year      => $year,
+    month     => $month,
+    day       => $day,
+    hour      => $hour,
+    minute    => $minute,
+    time_zone => 'UTC',
+  );
+
+  return $dt->epoch;
 }

@@ -55,6 +55,22 @@ Crystal Clements is a Science Cataloger at the University of Washington Librarie
 
 </div>
 
+<div id="X723cae1aebb93ca51c233f825b145771530f16add3f8bf6cbbdfda352c6c1a87">
+
+## Paul Duchesne
+
+Paul Duchesne is a software engineer with the Open Science Lab at the Technische Informationsbibliothek in Hannover, specialising in Wikibase and Linked Open Data for cultural data. He is also an active member of the FIAF Linked Open Data Task Force, including contributing heavily to the forthcoming FIAFcore ontology for film archives.
+
+</div>
+
+<div id="X603f50edacccff0dcdf3afa02226b9defcd45002513c1a38200468cae71d3a43">
+
+## Christian Erlinger
+
+Christian Erlinger works as project manager at ZHB Luzern (Lucerne Central and University Library, Switzerland) for ZentralGut.ch, a repository for the digitized cultural heritage of Central Switzerland. He had studied urban planning and political science in Vienna and is engaged to foster GLAM contributions in all Wikimedia projects.
+
+</div>
+
 <div id="X233a86cd1508b481b813efcf1b99f463f69efc4145ecb5e230085146f4767290">
 
 ## Steven Folsom
@@ -219,6 +235,42 @@ Artem is a deep learning researcher at Barcelona Supercomputing Center. Being a 
 
 </div>
 
+<div id="X48ce94782e0634cfee15d9ec81a65013c0078fe7f0b00ca748971200d18bac1c">
+
+## Lozana Rossenova
+
+Lozana Rossenova (PhD, London South Bank University, UK) is a digital designer and researcher based in Berlin. In 2021, she completed a PhD degree at the Centre for the Study of the Networked Image in collaboration with Rhizome, a leading international born-digital art organization. Her research focused on questions related to data presentation and performativity in Linked Open Data environments. Rossenova is particularly interested in open source and community-driven approaches to digital infrastructure and archive design. She is an active member of the Wikidata and Wikibase open source development communities, and a Steering Committee member of OpenRefine, an open source data management tool with wide adoption in heritage, research and digital humanities communities. Currently she works as a Postdoc Researcher at the Open Science Lab in TIB Hannover, working on the NFDI4Culture project for a national research infrastructure of cultural heritage data.
+
+</div>
+
+<div id="X836c7ca3cc07133fe54a15df481d511dbd749fc84ad24c12b8c71ddd638d1b1c">
+
+## Steffen Rörtgen
+
+Steffen Rörtgen ([\@steffenr42](https://twitter.com/steffenr42), [\@steffenr42@openbiblio.social](https://openbiblio.social/web/@steffenr42)) is working on open education projects at the university computing centre for the Georg-August-Universität Göttingen and especially interested in open web technologies. He tries to solves problems concerning heterogenous education metadata with the help of semantic web approaches.
+
+Steffen is also contributing to the open source project [SkoHub-Vocabs](https://github.com/skohub-io/skohub-vocabs), a lightweight tool for publishing SKOS vocabularies with a HTML view and at the same time in a machine-readable format. Together with Adrian Pohl he will conduct a workshop for it.
+
+He is also researching on machine-readable curricula and framework data, so if this is also of interest for you (or any other topic mentioned), feel free to reach out!
+
+</div>
+
+<div id="Xcf105d10f2a9effaf9f54c995fac498d88d694570e4c4512f84d322dbaf3bb5d">
+
+## Eduards Skvireckis
+
+Eduards Skvireckis is a data management expert at the National Library of Latvia and a Ph.D. student at the University of Latvia specializing in Neo-Latin literature. He is a researcher in the [RIGA LITERATA: Humanist Neo-Latin Heritage of Riga within European Respublica Literaria](https://www.rigaliterata.lv/) and the [Latvian Memory Institution Data in the Digital Space: Connecting Cultural Heritage](https://www.lnb.lv/en/projekts-latvijas-atminas-instituciju-dati-digitalaja-telpa-vienojot-kulturas-mantojumu) projects. His main interest is a knowledge representation at the abstract and theoretical level, focusing on cultural heritage and language data modeling, and knowledge organization systems.
+
+</div>
+
+<div id="X3ccb13171f805dc5d01fb40cfb64f34b25bd17510f3b9849c8c3ec77ee9d3276">
+
+## Lucia Sohmen
+
+Lucia Sohmen finished her M.A. in library and information science at the Humboldt-Universität zu Berlin in 2017. Since then, she has worked in various projects at the German National Library of Science and Technology’s Open Science Lab, including the development of an open access image search engine. She currently works on the NFDI4Culture project as a researcher and project coordinator. Her current interests are data modelling, data transformation and the wikiverse.
+
+</div>
+
 <div id="X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d">
 
 ## Osma Suominen
@@ -265,7 +317,7 @@ Astrid Usong is a User Experience Designer with Stanford Libraries. She works in
 **CfP published**\
 09.05.2022
 
-### 13h SWIB
+### 13th SWIB
 
 **[SWIB21 slides and videos are now online](../swib21/programme.html)**\
 08.12.2021
@@ -279,7 +331,8 @@ Astrid Usong is a User Experience Designer with Stanford Libraries. She works in
 
 :::{.sidebox-box}
 
-@swibcon\
+@swibcon
+
 #swib22
 
 :::

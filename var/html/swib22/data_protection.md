@@ -12,7 +12,7 @@ The ZBW reserves the right to update this Data Protection Information if require
 
 ## Contact details
 
-The controller of the data processing in accordance with Article 4, section 7 of the EU General Data Protection Regulation (GDPR) is the ZBW ? Leibniz Information Centre for Economics.
+The controller of the data processing in accordance with Article 4, section 7 of the EU General Data Protection Regulation (GDPR) is the ZBW - Leibniz Information Centre for Economics.
 
 Please find further information in our legal notice, for example about your rights in accordance with the GDPR, the contact details of the ZBW and of our data protection officer and further informations about videoconferencing: https://www.zbw.eu/en/data-protection
 

@@ -21,7 +21,7 @@ Details to follow.
 **CfP published**\
 09.05.2022
 
-### 13h SWIB
+### 13th SWIB
 
 **[SWIB21 slides and videos are now online](../swib21/programme.html)**\
 08.12.2021
@@ -35,7 +35,8 @@ Details to follow.
 
 :::{.sidebox-box}
 
-@swibcon\
+@swibcon
+
 #swib22
 
 :::

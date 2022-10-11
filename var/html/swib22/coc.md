@@ -87,7 +87,7 @@ The Regional Anti-Discrimination Agency NRW: www.aric-nrw.de, Fon: +49 (0)203 28
 **CfP published**\
 09.05.2022
 
-### 13h SWIB
+### 13th SWIB
 
 **[SWIB21 slides and videos are now online](../swib21/programme.html)**\
 08.12.2021
@@ -101,7 +101,8 @@ The Regional Anti-Discrimination Agency NRW: www.aric-nrw.de, Fon: +49 (0)203 28
 
 :::{.sidebox-box}
 
-@swibcon\
+@swibcon
+
 #swib22
 
 :::

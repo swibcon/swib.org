@@ -13,7 +13,7 @@ pagetitle: SWIB22 Programme
 
 <table>
 
-<tr id="coll"><td class="times-col">12:00-13:00 h UTC</td><td>
+<tr id="coll"><td class="times-col">[12:00-13:00 h UTC](https://zonestamp.toolforge.org/1669636800)</td><td>
 
 ### Collocated Events
 
@@ -23,7 +23,7 @@ pagetitle: SWIB22 Programme
 
 
 
-<tr id="se-01"><td class="times-col">14:00-15:15 h UTC</td><td>
+<tr id="se-01"><td class="times-col">[14:00-15:15 h UTC](https://zonestamp.toolforge.org/1669644000)</td><td>
 
 ### Start of Conference
 
@@ -57,7 +57,7 @@ Discussions of Indigenous Knowledge, Traditional Knowledge, and Indigenous Data 
 
 
 
-<tr id="cb-1"><td class="times-col">15:15-15:30 h UTC</td><td>
+<tr id="cb-1"><td class="times-col">[15:15-15:30 h UTC](https://zonestamp.toolforge.org/1669648500)</td><td>
 
 ### Coffee break
 
@@ -67,7 +67,7 @@ Discussions of Indigenous Knowledge, Traditional Knowledge, and Indigenous Data 
 
 
 
-<tr id="se-02"><td class="times-col">15:30-16:45 h UTC</td><td>
+<tr id="se-02"><td class="times-col">[15:30-16:45 h UTC](https://zonestamp.toolforge.org/1669649400)</td><td>
 
 ### Linked Library Data I
 
@@ -133,7 +133,7 @@ This contribution describes the approach, which is implemented as a 5-step workf
 
 <table>
 
-<tr id="se-3"><td class="times-col">14:00-15:15 h UTC</td><td>
+<tr id="se-3"><td class="times-col">[14:00-15:15 h UTC](https://zonestamp.toolforge.org/1669730400)</td><td>
 
 ### Linked Library Data II
 
@@ -162,7 +162,7 @@ PSYNDEX has high indexing standards: scientific publications are described with 
 
 [Jennifer Erin Proctor](speakers.html#X9cba550ee8ec35b971c9101431c514b7789c3d6b7984d72ad19444fe343b161f) [<img src="images/orcid.png" title="ORCID: 0000-0001-9711-5485">](https://orcid.org/0000-0001-9711-5485)
 
-University of Maryland, College of Information Studies
+College of Information Studies, University of Maryland, United States of America
 
 This paper proposes, tests, and evaluates an Artificial-Intelligence-supported workflow to enhance the ability of librarians and archivists to convert standardized metadata to better-than-item-level archival linked data. The protocol combines elements of computer vision with natural language processing, entity extraction, and metadata linking techniques to provide new approaches for findability and usability of cultural resources in digital spaces.
 
@@ -178,9 +178,9 @@ Once the spreadsheet of triples is output, it can be imported into OpenRefine in
 
 #### Library data on Wikidata: a case study of the National Library of Latvia
 
-Eduards Skvireckis [<img src="images/orcid.png" title="ORCID: 0000-0003-2223-9744">](https://orcid.org/0000-0003-2223-9744)
+[Eduards Skvireckis](speakers.html#Xcf105d10f2a9effaf9f54c995fac498d88d694570e4c4512f84d322dbaf3bb5d) [<img src="images/orcid.png" title="ORCID: 0000-0003-2223-9744">](https://orcid.org/0000-0003-2223-9744)
 
-National Library of Latvia
+National Library of Latvia, Latvia
 
 Libraries have changed but the core purpose of the library is very much the same – to give access to knowledge and learning. Knowledge organisation in libraries has moved from clay tablets to extensive catalogues, from the backs of playing cards to card indices. Then in the 1970s and early 1980s integrated library systems (ILS) appeared and changed the game. Now national libraries are increasingly stepping leaving locally used ILS behind and steering towards new technologies and possibilities that were not feasible before – bridging silos, multilingual support, alternatives to traditional authority control, etc. Although there is no right or prevailing answer, the direction is set.
 
@@ -191,7 +191,7 @@ And that direction is toward the semantic web and linked data which are influenc
 
 
 
-<tr id="cb-2"><td class="times-col">15:15-15:30 h UTC</td><td>
+<tr id="cb-2"><td class="times-col">[15:15-15:30 h UTC](https://zonestamp.toolforge.org/1669734900)</td><td>
 
 ### Coffee break
 
@@ -201,7 +201,7 @@ And that direction is toward the semantic web and linked data which are influenc
 
 
 
-<tr id="se-4"><td class="times-col">15:30-16:45 h UTC</td><td>
+<tr id="se-4"><td class="times-col">[15:30-16:45 h UTC](https://zonestamp.toolforge.org/1669735800)</td><td>
 
 ### Continued Progress
 
@@ -232,7 +232,7 @@ This presentation will provide an overview of the production integration from th
 
 [Nuno Freire](speakers.html#X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1) [<img src="images/orcid.png" title="ORCID: 0000-0002-3632-8046">](https://orcid.org/0000-0002-3632-8046)<sup>1</sup>, Paolo Scalia<sup>1</sup>, Antoine Isaac [<img src="images/orcid.png" title="ORCID: 0000-0001-9767-6979">](https://orcid.org/0000-0001-9767-6979)<sup>1</sup>, Eirini Kaldeli<sup>2</sup>, Arne Stabenau<sup>2</sup>
 
-1: Europeana Foundation, The Netherlands; 2: National Technical University of Athens, Greece
+1: Europeana Foundation, Netherlands; 2: National Technical University of Athens, Greece
 
 Enhancing the multilingual accessibility of its rich cultural heritage material is a constant objective of Europeana and key to improving the user experience it offers. Technological advances are opening new ways for multilingual access but for their successful application the language of the existing data must be identified. In RDF data, language is indicated by the language tag in a dedicated attribute (xml:lang in RDF/XML). Previous studies conducted on Europeana datasets show that language tags are not used as often as they should, but we do not have precise statistics on this. Moreover, language tags found in Europeana have data quality issues – they do not always follow established standards even though Europeana already performs some (automatic) normalisation of tags. We conducted a study on the language tags included in the metadata of Europeana with two objectives in mind: First, to inform decision-making about possible improvements in the current language tag normalisation process, and second, to enhance the quality and quantity of training data for specialising automatic translation systems in the cultural heritage domain (a crucial objective for the Europeana Translate project, which aims to translate 25 million records of Europeana). Our study analysed the totality of the data in Europeana, which contains over 1,700 million RDF literals, and identified that only 15.9% of the literals are language-tagged. We also determined that 3.3% of the language tags are not valid according to the IETF BCP 47 standard. In our presentation, we recount the results of this study along with the improvements in the normalisation process we applied to collect training data for machine translation. 
 
@@ -244,7 +244,7 @@ Enhancing the multilingual accessibility of its rich cultural heritage material 
 
 [Jim Hahn](speakers.html#X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b) [<img src="images/orcid.png" title="ORCID: 0000-0001-7924-5294">](https://orcid.org/0000-0001-7924-5294)<sup>1</sup>, [Beth Camden](speakers.html#X5109b7ebb8c24bda24351a321a98966b36871019be429b0a3f5ce7b948e1d183) [<img src="images/orcid.png" title="ORCID: 0000-0003-4964-5312">](https://orcid.org/0000-0003-4964-5312)<sup>1</sup>, [Kayt Ahnberg](speakers.html#Xd1676589b67af938ff2e171ebc3bbe43522268ee701192cd35d420859ca24157)<sup>1</sup>, [Filip Jakobsen](speakers.html#X0c94abd1309a3f472879d915b0bb0ea645550c7e5c48d1592bde9f1833c38dd7)<sup>2</sup>
 
-1: University of Pennsylvania, U.S.A.; 2: Samhæng, Danmark
+1: University of Pennsylvania, United States of America; 2: Samhæng, Denmark
 
 Share-VDE (SVDE) is a library-driven initiative which brings together the bibliographic catalogs and authority files of a community of libraries in an innovative discovery environment based on linked data. The beta release of the SVDE 2.0 (https://www.svde.org) catalog was collaboratively shaped among multiple perspectives and stakeholder groups. A team at the University of Pennsylvania Libraries gathered feedback through structured interviews and observations from library catalogers working in linked data, university faculty, and new undergraduate students in order to understand how linked data supports user tasks promulgated in the IFLA Library Reference Model (IFLA-LRM). Specific user tasks evaluated over remote testing sessions include ascertaining how library catalogers make use of advanced search functionality provided in the linked data interface. Context finding tasks included evaluating how Penn catalogers might find a linked data search useful for providing context to their searching or for helping to understand a research area. Specific LRM mapping focused on the LRM Identify user task; particularly disambiguation of similar name results. For comparative results similar questions are posed to students and faculty. Several targeted questions of faculty included understanding the relationships in linked data that are useful for future research planning using linked data search. In compiling results of the study we describe the linked data functionality and scenarios which the Share-VDE 2.0 discovery system addresses and the ways in which user feedback is supporting the evolution of linked data discovery. We will show how we have evolved the system to align with user needs based on evaluations across multiple stakeholder groups.
 
@@ -261,7 +261,7 @@ Share-VDE (SVDE) is a library-driven initiative which brings together the biblio
 
 <table>
 
-<tr id="ws"><td class="times-col">14:00-16:45 h UTC</td><td>
+<tr id="ws"><td class="times-col">[14:00-16:45 h UTC](https://zonestamp.toolforge.org/1669816800)</td><td>
 
 ### Tutorials and Workshops
 
@@ -272,9 +272,9 @@ Share-VDE (SVDE) is a library-driven initiative which brings together the biblio
 
 #### An Introduction to SKOS and SkoHub Vocabs
 
-Adrian Pohl [<img src="images/orcid.png" title="ORCID: 0000-0001-9083-7442">](https://orcid.org/0000-0001-9083-7442)<sup>1</sup>, Steffen Rörtgen [<img src="images/orcid.png" title="ORCID: 0000-0001-6378-2618">](https://orcid.org/0000-0001-6378-2618)<sup>2</sup>
+Adrian Pohl [<img src="images/orcid.png" title="ORCID: 0000-0001-9083-7442">](https://orcid.org/0000-0001-9083-7442)<sup>1</sup>, [Steffen Rörtgen](speakers.html#X836c7ca3cc07133fe54a15df481d511dbd749fc84ad24c12b8c71ddd638d1b1c) [<img src="images/orcid.png" title="ORCID: 0000-0001-6378-2618">](https://orcid.org/0000-0001-6378-2618)<sup>2</sup>
 
-1: hbz, Cologne, Germany; 2: GWDG, Göttingen, Germany
+1: North Rhine-Westphalian Library Service Centre (hbz), Germany; 2: Gesellschaft für wissenschaftliche Datenverarbeitung Göttingen (GWDG), Germany
 
 With Simple Knowledge Organization Systems (SKOS), the World Wide Web Consotrium (W3C) more than 15 years ago published a clear and simple RDF-based data model for publishing controlled vocabularies on the web following Linked Data principles. Although a large part of controlled vocabularies – from simple value lists, to thesaurus and classifications – is created and maintained in libraries, SKOS has not been widely adopted yet in the library world.
 
@@ -288,7 +288,7 @@ This workshop gives an introduction to SKOS with hands-on exercises. Participant
 
 Katherine Thornton [<img src="images/orcid.png" title="ORCID: 0000-0002-4499-0451">](https://orcid.org/0000-0002-4499-0451)<sup>1</sup>, Joachim Neubert [<img src="images/orcid.png" title="ORCID: 0000-0002-8086-185X">](https://orcid.org/0000-0002-8086-185X)<sup>2</sup>
 
-1: Yale University Library, United States of America; 2: ZBW - Leibniz Information Centre for Economics
+1: Yale University Library, United States of America; 2: ZBW – Leibniz Information Centre for Economics, Germany
 
 Would you like to learn how to write SPARQL queries for the Wikidata Query Service? In this workshop we will demonstrate a variety of SPARQL queries that highlight useful features of the Wikidata Query Service. We will also practice writing SPARQL queries in a hands-on session. After participating in this workshop you will have familiarity with designing and writing your own SPARQL queries to ask questions of the Wikidata Query Service.
 
@@ -300,9 +300,9 @@ All are wellcome to participate. No experience with SPARQL or Wikidata necessary
 
 #### Structured Data in Wikimedia Commons
 
-Christian Erlinger [<img src="images/orcid.png" title="ORCID: 0000-0001-7872-9617">](https://orcid.org/0000-0001-7872-9617)
+[Christian Erlinger](speakers.html#X603f50edacccff0dcdf3afa02226b9defcd45002513c1a38200468cae71d3a43) [<img src="images/orcid.png" title="ORCID: 0000-0001-7872-9617">](https://orcid.org/0000-0001-7872-9617)
 
-Lucerne Central and University Library
+Lucerne Central and University Library, Switzerland
 
 Since 2020, Structured Data on Wikmedia Commons (SDC) is on the way to completely renew the way of describing media files on the open and central media repository Wikimedia Commons. Instead of plain (unstructured) Wikitext media files can be described and categorized with structured data, in detail with both with properties and items out of Wikidata, the free knowledge graph.
 
@@ -361,7 +361,7 @@ Participants are instructed to use a computer with at least 8GB of RAM and at le
 
 #### Working with linked open data in the context of annotation and semantic enrichment of 3D media: A new FOSS toolchain
 
-Lozana Rossenova [<img src="images/orcid.png" title="ORCID: 0000-0002-5190-1867">](https://orcid.org/0000-0002-5190-1867), Zoe Schubert, Paul Duchesne, Lucia Sohmen, Lukas Günther, Ina Blümel [<img src="images/orcid.png" title="ORCID: 0000-0002-3075-7640">](https://orcid.org/0000-0002-3075-7640)
+[Lozana Rossenova](speakers.html#X48ce94782e0634cfee15d9ec81a65013c0078fe7f0b00ca748971200d18bac1c) [<img src="images/orcid.png" title="ORCID: 0000-0002-5190-1867">](https://orcid.org/0000-0002-5190-1867), Zoe Schubert, [Paul Duchesne](speakers.html#X723cae1aebb93ca51c233f825b145771530f16add3f8bf6cbbdfda352c6c1a87), Lucia Sohmen, Lukas Günther, Ina Blümel [<img src="images/orcid.png" title="ORCID: 0000-0002-3075-7640">](https://orcid.org/0000-0002-3075-7640)
 
 TIB – Leibniz Information Centre for Science and Technology, Germany
 
@@ -380,7 +380,7 @@ This workshop aims to help researchers, digital curators and data managers learn
 
 <table>
 
-<tr id="se-7"><td class="times-col">14:00-15:15 h UTC</td><td>
+<tr id="se-7"><td class="times-col">[14:00-15:15 h UTC](https://zonestamp.toolforge.org/1669903200)</td><td>
 
 ### Lightning Talks / RDF Insights
 
@@ -438,7 +438,7 @@ In summary, the Apache Fuseki triple store performed quite well across all tasks
 
 
 
-<tr id="cb-3"><td class="times-col">15:15-15:30 h UTC</td><td>
+<tr id="cb-3"><td class="times-col">[15:15-15:30 h UTC](https://zonestamp.toolforge.org/1669907700)</td><td>
 
 ### Coffee break
 
@@ -448,7 +448,7 @@ In summary, the Apache Fuseki triple store performed quite well across all tasks
 
 
 
-<tr id="se-8"><td class="times-col">15:30-16:45 h UTC</td><td>
+<tr id="se-8"><td class="times-col">[15:30-16:45 h UTC](https://zonestamp.toolforge.org/1669908600)</td><td>
 
 ### Machine Learning
 
@@ -495,7 +495,7 @@ Furthermore, we give a brief overview over the DNB AI project. The goal of the p
 
 [José Calvo Tello](speakers.html#X29bd70e9548e6e90437e224ea05de9282b8717e03499b5be2872b8274d60777b) [<img src="images/orcid.png" title="ORCID: 0000-0002-1129-5604">](https://orcid.org/0000-0002-1129-5604)<sup>1</sup>, Enrique Manjavacas [<img src="images/orcid.png" title="ORCID: 0000-0002-3942-7680">](https://orcid.org/0000-0002-3942-7680)<sup>2</sup>, Susanne Al-Eryani [<img src="images/orcid.png" title="ORCID: 0000-0002-1741-1645">](https://orcid.org/0000-0002-1741-1645)<sup>1</sup>
 
-1: Göttingen State and University Library, Germany; 2: Leiden University, The Netherlands
+1: Göttingen State and University Library, Germany; 2: Leiden University, Netherlands
 
 We apply the multilingual version of the language model BERT (mBERT) to predict classes from the library classification system Basisklassifikation (BK). We frame the present task as a multi-label classification problem, where each input instance (a library record) must be assigned at least one class from the BK. As input, we only use data from the catalogue, we do not use the full text of the publications. Three feature sets are considered: title only, bibliographic data only, and extended bibliographic data. We apply two algorithms: mBERT, which we fine-tune using raw text from different metadata fields as input. We also train a multi-label Support Vector Machine classifier with a vector based on the tokenizer of mBERT.
 
@@ -516,7 +516,7 @@ The general results for the different approaches yield micro F1-scores between 0
 
 <table>
 
-<tr id="se-9"><td class="times-col">14:00-15:20 h UTC</td><td>
+<tr id="se-9"><td class="times-col">[14:00-15:20 h UTC](https://zonestamp.toolforge.org/1669989600)</td><td>
 
 ### LOD Applications
 
@@ -529,7 +529,7 @@ The general results for the different approaches yield micro F1-scores between 0
 
 [L.P. Coladangelo](speakers.html#Xfbe31afc10485a0f683b9a66955fd334b449b8c0e2f46be27f03bcec3f06528d) [<img src="images/orcid.png" title="ORCID: 0000-0003-1512-0649">](https://orcid.org/0000-0003-1512-0649)<sup>1</sup>, Lynn Ransom [<img src="images/orcid.png" title="ORCID: 0000-0002-5231-3602">](https://orcid.org/0000-0002-5231-3602)<sup>2</sup>, Doug Emery [<img src="images/orcid.png" title="ORCID: 0000-0002-5147-7736">](https://orcid.org/0000-0002-5147-7736)<sup>3</sup>
 
-1: College of Communication and Information, Kent State University; 3: Penn Libraries; 2: Schoenberg Institute for Manuscript Studies, Penn Libraries
+1: College of Communication and Information, Kent State University, United States of America; 3: Penn Libraries, United States of America; 2: Schoenberg Institute for Manuscript Studies, Penn Libraries, United States of America
 
 Digital Scriptorium 2.0 (DS 2.0) is a project to redevelop the technical platform of a national union catalog of premodern manuscripts representing the full range of global manuscript cultures in US collections. This paper documents the development and implementation of a workflow for aggregating and transforming metadata records for premodern manuscripts in order to structure and publish them as linked open data (LOD). Strategies and practices for extracting, enhancing, and combining metadata from heterogeneous sources were explored. Data sources included library catalogs and other institutional data repositories, ranging from metadata in CSV files to XML-structured schemas. Automated scripts extracted and combined metadata by entity types for such entities as agents, places, materials, subjects, genres, languages, and date information recorded in catalog records as string values. Using OpenRefine, string values were reconciled to linked open databases and vocabularies such as Wikidata, FAST, and the Getty's AAT and TGN. This resulted in the creation of open-source metadata repositories to be used in the transformation of DS member metadata records into LOD for uploading into a shared knowledge base (Wikibase), thus semantically enriching existing cultural heritage metadata and enabling end user function like faceted search and SPARQL querying. This approach facilitated low institutional barriers to contribution as participating institutions did not have to alter their metadata records to contribute data and they retained control over their own catalog record formats and cataloging practices. The resulting database of heterogeneous, cross-institutional published LOD can be leveraged by the community of scholars, librarians, curators, and citizen scholars who participate in Digital Scriptorium to enhance and build upon existing knowledge about their collections.
 
@@ -541,7 +541,7 @@ Digital Scriptorium 2.0 (DS 2.0) is a project to redevelop the technical platfor
 
 [Shu-Jiun Chen](speakers.html#Xff8c224c71806e4d7223891dd5d2dbd095213ed934b2528c2c27f7d3425b7f68) [<img src="images/orcid.png" title="ORCID: 0000-0003-4251-7633">](https://orcid.org/0000-0003-4251-7633)<sup>1,2</sup>
 
-1: Institute of History and Philology, Academia Sinica, Taiwan; 2: Academia Sinica Center for Digital Cultures
+1: Institute of History and Philology, Academia Sinica, Taiwan; 2: Academia Sinica Center for Digital Cultures, Academia Sinica, Taiwan
 
 This study explores the use of the International Image Interoperability Framework (IIIF) and linked open data (LOD) in digital humanities with regard to different layers of interoperability. Focusing on imaged texts, it takes the text interpretation and slip restoration of the “Juyan Han Wooden Slips (202-220 CE)” as use case, integrates the demands of scholars in wooden slip research in the humanities, and establishes a digital research environment.
 
@@ -596,7 +596,7 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 **CfP published**\
 09.05.2022
 
-### 13h SWIB
+### 13th SWIB
 
 **[SWIB21 slides and videos are now online](../swib21/programme.html)**\
 08.12.2021
@@ -610,7 +610,8 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 
 :::{.sidebox-box}
 
-@swibcon\
+@swibcon
+
 #swib22
 
 :::
