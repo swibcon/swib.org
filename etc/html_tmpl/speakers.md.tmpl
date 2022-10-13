@@ -9,7 +9,7 @@ pagetitle: <tmpl_var swib> Speakers
 <tmpl_loop speakers_loop>
 <div id="<tmpl_var author_id>">
 
-## <tmpl_var title>
+## <tmpl_var title><tmpl_if orcid> [<img src="images/orcid.png" title="ORCID: <tmpl_var orcid>">](https://orcid.org/<tmpl_var orcid>)</tmpl_if>
 
 <tmpl_var abstract>
 

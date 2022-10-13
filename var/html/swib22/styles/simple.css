@@ -13,7 +13,8 @@ body {
 }
 
 nav {
-  font-size: 93.75%;
+  font-size: 87.5%;
+  font-weight: bold;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   padding-top: 10px;
@@ -72,7 +73,12 @@ td.times-col {
 }
 
 a:link {
+  color: #2B5A9D;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .hint {

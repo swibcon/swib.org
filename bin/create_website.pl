@@ -50,6 +50,9 @@ Readonly my $MAX_PRESENTATIONS_PER_SESSION => 7;
 
 # variables used for markdown and rdf output
 
+# persons for RDF output
+my %person;
+
 # speaker values, keyed by encrypted email address
 my %speaker;
 
@@ -65,11 +68,11 @@ my $parser = XML::LibXML->new();
 # just in case, create output dir
 $HTML_ROOT->mkpath;
 
-# speaker data from "contributors biography"
-get_speaker_data();
-
 # presentation abstracts from "presentation"
 get_abstract_data();
+
+# speaker data from "contributors biography"
+get_speaker_data();
 
 # sesion structure
 get_session_data();
@@ -84,8 +87,6 @@ output_programme_page();
 foreach my $page (qw/ index registration general-information history coc /) {
   output_static_page($page);
 }
-
-##print Dumper \%speaker;
 
 ### output secton for rdf
 
@@ -112,6 +113,9 @@ sub get_speaker_data {
 
     $speaker{$author_id}{current_bio} = \%entry;
     $speaker{$author_id}{is_speaker}  = 1;
+
+    # collect values for RDF output
+    $person{$author_id}{bio} = $entry{abstract};
   }
 }
 
@@ -223,6 +227,12 @@ sub output_speaker_page {
       title     => $author{current_bio}{title},
       abstract  => $author{current_bio}{abstract},
     };
+
+    # add orcid from person info
+    if ($person{$author_id}{orcid}) {
+      $entry->{orcid} = $person{$author_id}{orcid};
+    }
+
     push( @speakers_loop, $entry );
   }
   my $tmpl = HTML::Template->new(
@@ -331,26 +341,40 @@ sub output_rdf {
 
   # concatenate text blocks with turtle statements
   my $rdf_txt = build_prefix_rdf();
-  $rdf_txt .= build_speaker_rdf();
+  $rdf_txt .= build_person_rdf();
   $RDF_FILE->spew_utf8($rdf_txt);
 }
 
-sub build_speaker_rdf {
+sub build_person_rdf {
   my $rdf_txt;
-  foreach my $id ( keys %speaker ) {
+
+  foreach my $id ( keys %person ) {
+
+    # skip empty name fields
+    next if ( $person{$id}{name} eq '. .' );
+
     my $pers_uri = $ROOT_URI . "person/$id";
 
     # here for identifying the speaker if more precise name values or IDs are
     # missing
     $rdf_txt .= "<$pers_uri> a schema:Person .\n";
-    $rdf_txt .=
-        "<$pers_uri> schema:name \""
-      . $speaker{$id}{current_bio}{title}
-      . "\" .\n";
-    $rdf_txt .=
-        "<$pers_uri> dct:description '''"
-      . $speaker{$id}{current_bio}{abstract}
-      . "''' .\n";
+    $rdf_txt .= "<$pers_uri> schema:name \"$person{$id}{name}\" .\n";
+    if ( $person{$id}{bio} ) {
+      $rdf_txt .=
+        "<$pers_uri> dct:description '''$person{$id}{bio}''' .\n";
+    }
+    if ( $person{$id}{orcid} ) {
+      my $orcid = $person{$id}{orcid};
+      $rdf_txt .= "<$pers_uri> frapo:hasORCID \"$orcid\" .\n";
+      $rdf_txt .=
+        "<$pers_uri> owl:sameAs <http://orcid.org/$orcid> .\n";
+    }
+    if ( $person{$id}{organisation} ) {
+      $rdf_txt .=
+          "<$pers_uri> schema:affiliation [ "
+        . "a schema:Organization; schema:name "
+        . "\"$person{$id}{organisation}\" ] " . " .\n";
+    }
     $rdf_txt .= "\n";
   }
   return $rdf_txt;
@@ -359,6 +383,8 @@ sub build_speaker_rdf {
 sub build_prefix_rdf {
   my $prefixes = <<'EOF';
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix frapo: <http://purl.org/cerif/frapo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <http://schema.org/> .
 
 EOF
@@ -394,14 +420,24 @@ sub get_authors {
     my $id = email2id( $node->findvalue("./${field_prefix}_email") );
 
     # remove speaker indicator from name string
-    my $name = $node->findvalue("./${field_prefix}_name");
+    my $name         = $node->findvalue("./${field_prefix}_name");
+    my $organisation = $node->findvalue("./${field_prefix}_organisation");
+    my $orcid        = $node->findvalue("./${field_prefix}_orcid");
 
     $name =~ s/(.*?)\*/$1/;
+
+    # save as person (for RDF)
+    $person{$id} = {
+      name         => $name,
+      organisation => $organisation,
+      orcid        => $orcid,
+    };
+
     my %entry = (
       author_id    => $id,
       name         => $name,
-      organisation => $node->findvalue("./${field_prefix}_organisation"),
-      orcid        => $node->findvalue("./${field_prefix}_orcid"),
+      organisation => $organisation,
+      orcid        => $orcid,
     );
 
     # add index and speaker status

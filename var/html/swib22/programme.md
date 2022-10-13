@@ -46,7 +46,7 @@ Silke Schomburg<sup>1</sup>, Klaus Tochtermann<sup>2</sup>
 
 #### Libraries, linked data, and decolonization (keynote)
 
-Stacy Allison-Cassin
+Stacy Allison-Cassin [<img src="images/orcid.png" title="ORCID: 0000-0002-7507-5838">](https://orcid.org/0000-0002-7507-5838)
 
 TBA
 
@@ -361,7 +361,7 @@ Participants are instructed to use a computer with at least 8GB of RAM and at le
 
 #### Working with linked open data in the context of annotation and semantic enrichment of 3D media: A new FOSS toolchain
 
-[Lozana Rossenova](speakers.html#X48ce94782e0634cfee15d9ec81a65013c0078fe7f0b00ca748971200d18bac1c) [<img src="images/orcid.png" title="ORCID: 0000-0002-5190-1867">](https://orcid.org/0000-0002-5190-1867), Zoe Schubert, [Paul Duchesne](speakers.html#X723cae1aebb93ca51c233f825b145771530f16add3f8bf6cbbdfda352c6c1a87), Lucia Sohmen, Lukas Günther, Ina Blümel [<img src="images/orcid.png" title="ORCID: 0000-0002-3075-7640">](https://orcid.org/0000-0002-3075-7640)
+[Lozana Rossenova](speakers.html#X48ce94782e0634cfee15d9ec81a65013c0078fe7f0b00ca748971200d18bac1c) [<img src="images/orcid.png" title="ORCID: 0000-0002-5190-1867">](https://orcid.org/0000-0002-5190-1867), Zoe Schubert, [Paul Duchesne](speakers.html#X723cae1aebb93ca51c233f825b145771530f16add3f8bf6cbbdfda352c6c1a87), [Lucia Sohmen](speakers.html#X3ccb13171f805dc5d01fb40cfb64f34b25bd17510f3b9849c8c3ec77ee9d3276), Lukas Günther, Ina Blümel [<img src="images/orcid.png" title="ORCID: 0000-0002-3075-7640">](https://orcid.org/0000-0002-3075-7640)
 
 TIB – Leibniz Information Centre for Science and Technology, Germany
 
@@ -493,7 +493,7 @@ Furthermore, we give a brief overview over the DNB AI project. The goal of the p
 
 #### Multilingual BERT for library classification in Romance languages using Basisklassifikation
 
-[José Calvo Tello](speakers.html#X29bd70e9548e6e90437e224ea05de9282b8717e03499b5be2872b8274d60777b) [<img src="images/orcid.png" title="ORCID: 0000-0002-1129-5604">](https://orcid.org/0000-0002-1129-5604)<sup>1</sup>, Enrique Manjavacas [<img src="images/orcid.png" title="ORCID: 0000-0002-3942-7680">](https://orcid.org/0000-0002-3942-7680)<sup>2</sup>, Susanne Al-Eryani [<img src="images/orcid.png" title="ORCID: 0000-0002-1741-1645">](https://orcid.org/0000-0002-1741-1645)<sup>1</sup>
+[José Calvo Tello](speakers.html#X29bd70e9548e6e90437e224ea05de9282b8717e03499b5be2872b8274d60777b) [<img src="images/orcid.png" title="ORCID: 0000-0002-1129-5604">](https://orcid.org/0000-0002-1129-5604)<sup>1</sup>, [Enrique Manjavacas](speakers.html#X9bd35555d35d17c543d622c37c2798f4452df71fc1d5b42476ca5341c90bd1e5) [<img src="images/orcid.png" title="ORCID: 0000-0002-3942-7680">](https://orcid.org/0000-0002-3942-7680)<sup>2</sup>, Susanne Al-Eryani [<img src="images/orcid.png" title="ORCID: 0000-0002-1741-1645">](https://orcid.org/0000-0002-1741-1645)<sup>1</sup>
 
 <sup>1 </sup>Göttingen State and University Library, Germany; <sup>2 </sup>Leiden University, Netherlands
 
