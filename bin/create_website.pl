@@ -361,7 +361,7 @@ sub build_person_rdf {
     $rdf_txt .= "<$pers_uri> a schema:Person .\n";
     $rdf_txt .= "<$pers_uri> schema:name \"$person{$id}{name}\" .\n";
     if ( $person{$id}{bio} ) {
-      $rdf_txt .= "<$pers_uri> dct:description '''$person{$id}{bio}''' .\n";
+      $rdf_txt .= "<$pers_uri> schema:description '''$person{$id}{bio}''' .\n";
     }
     if ( $person{$id}{orcid} ) {
       my $orcid = $person{$id}{orcid};
@@ -380,8 +380,47 @@ sub build_person_rdf {
 }
 
 sub build_event_rdf {
+  my $base     = $ROOT_URI . lc($SWIB);
+  my $conf_uri = "$base/conference";
 
-  #  print Dumper \%session;
+  my $rdf_txt = "\n<$conf_uri> a swc:ConferenceEvent, schema:Event .\n\n";
+
+  foreach my $sess_key ( keys %session ) {
+
+    # skip sessions w/o presentations
+    next if scalar( @{ $session{$sess_key}{presentations} } ) eq 0;
+
+    my $sess_uri = "$base/session/$sess_key";
+    $rdf_txt .= "\n<$sess_uri> a swc:SessionEvent, schema:Event .\n";
+    $rdf_txt .= "<$sess_uri> schema:superEvent <$conf_uri> .\n";
+    $rdf_txt .= "<$sess_uri> schema:name \"$session{$sess_key}{title}\" .\n";
+    $rdf_txt .=
+      "<$sess_uri> schema:startDate \"$session{$sess_key}{start_date}\" .\n";
+
+    foreach my $contrib_key ( @{ $session{$sess_key}{presentations} } ) {
+      my %contrib = %{ $abstract{$contrib_key} };
+
+      my $contrib_uri = "$base/contribution/$contrib_key";
+      $rdf_txt .= "\n<$contrib_uri> a schema:CreativeWork .\n";
+      $rdf_txt .= "<$contrib_uri> schema:featuredAt <$sess_uri> .\n";
+      $rdf_txt .= "<$contrib_uri> schema:name \"$contrib{title}\" .\n";
+      if ( $contrib{abstract} ) {
+        $rdf_txt .=
+          "<$contrib_uri> schema:abstract '''$contrib{abstract}''' .\n";
+      }
+
+      foreach my $author ( @{ $contrib{authors} } ) {
+
+        # skip authors w/o email (id)
+        my $author_id = $author->{author_id} || next;
+
+        my $author_uri = $ROOT_URI . "person/$author_id";
+        $rdf_txt .= "<$contrib_uri> schema:author <$author_uri> .\n";
+      }
+    }
+  }
+
+  return $rdf_txt;
 }
 
 sub build_prefix_rdf {
@@ -390,6 +429,7 @@ sub build_prefix_rdf {
 @prefix frapo: <http://purl.org/cerif/frapo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <http://schema.org/> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 
 EOF
 
