@@ -97,3 +97,10 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 500px) {
+  td.times-col {
+    min-width: 90px;
+    vertical-align: bottom;
+  }
+}
+
