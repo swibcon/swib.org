@@ -229,7 +229,7 @@ sub output_speaker_page {
     };
 
     # add orcid from person info
-    if ($person{$author_id}{orcid}) {
+    if ( $person{$author_id}{orcid} ) {
       $entry->{orcid} = $person{$author_id}{orcid};
     }
 
@@ -342,6 +342,7 @@ sub output_rdf {
   # concatenate text blocks with turtle statements
   my $rdf_txt = build_prefix_rdf();
   $rdf_txt .= build_person_rdf();
+  $rdf_txt .= build_event_rdf();
   $RDF_FILE->spew_utf8($rdf_txt);
 }
 
@@ -360,24 +361,27 @@ sub build_person_rdf {
     $rdf_txt .= "<$pers_uri> a schema:Person .\n";
     $rdf_txt .= "<$pers_uri> schema:name \"$person{$id}{name}\" .\n";
     if ( $person{$id}{bio} ) {
-      $rdf_txt .=
-        "<$pers_uri> dct:description '''$person{$id}{bio}''' .\n";
+      $rdf_txt .= "<$pers_uri> dct:description '''$person{$id}{bio}''' .\n";
     }
     if ( $person{$id}{orcid} ) {
       my $orcid = $person{$id}{orcid};
       $rdf_txt .= "<$pers_uri> frapo:hasORCID \"$orcid\" .\n";
-      $rdf_txt .=
-        "<$pers_uri> owl:sameAs <http://orcid.org/$orcid> .\n";
+      $rdf_txt .= "<$pers_uri> owl:sameAs <http://orcid.org/$orcid> .\n";
     }
-    if ( $person{$id}{organisation} ) {
+    foreach my $affiliation ( @{ $person{$id}{affiliations} } ) {
       $rdf_txt .=
           "<$pers_uri> schema:affiliation [ "
         . "a schema:Organization; schema:name "
-        . "\"$person{$id}{organisation}\" ] " . " .\n";
+        . "\"$affiliation\" ] " . " .\n";
     }
     $rdf_txt .= "\n";
   }
   return $rdf_txt;
+}
+
+sub build_event_rdf {
+
+  #  print Dumper \%session;
 }
 
 sub build_prefix_rdf {
@@ -419,24 +423,28 @@ sub get_authors {
     # use hashed email as id
     my $id = email2id( $node->findvalue("./${field_prefix}_email") );
 
-    # remove speaker indicator from name string
-    my $name         = $node->findvalue("./${field_prefix}_name");
-    my $organisation = $node->findvalue("./${field_prefix}_organisation");
-    my $orcid        = $node->findvalue("./${field_prefix}_orcid");
+    my $name       = $node->findvalue("./${field_prefix}_name");
+    my $org_string = $node->findvalue("./${field_prefix}_organisation");
+    my $orcid      = $node->findvalue("./${field_prefix}_orcid");
 
+    # remove speaker indicator from name string
     $name =~ s/(.*?)\*/$1/;
+
+    # one person may be affiliated to multiple organisations
+    $org_string =~ s/\n/ /ms;
+    my @affiliations = split( /; /, $org_string );
 
     # save as person (for RDF)
     $person{$id} = {
       name         => $name,
-      organisation => $organisation,
+      affiliations => \@affiliations,
       orcid        => $orcid,
     };
 
     my %entry = (
       author_id    => $id,
       name         => $name,
-      organisation => $organisation,
+      affiliations => \@affiliations,
       orcid        => $orcid,
     );
 
@@ -488,6 +496,7 @@ sub mk_authors_loop {
 
     # remove organisation (is given separately) and speaker flag
     delete( $author->{organisation} );
+    delete( $author->{affiliations} );
     delete( $author->{speaker} );
   }
 
