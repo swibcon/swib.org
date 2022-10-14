@@ -21,7 +21,7 @@ you agree with the following Code of Conduct.
 Our conference is dedicated to providing a harassment- and discrimination-free
 conference experience for everyone, regardless of gender, gender identity and
 expression, age, sexual orientation, disability, physical appearance, body
-size, ethnic background, religion or belief (or lack thereof), social
+size, ethnic background, religion or belief (or absence thereof), social
 background, or technology choices. We do not tolerate threatening behaviour,
 violence or any type of harassment of conference participants. Sexual language
 and imagery is not appropriate for any conference venue, including talks,
@@ -35,11 +35,12 @@ organisers.
 
 Harassment includes, but is not limited to, offensive verbal comments related
 to gender, gender identity and expression, age, sexual orientation, disability,
-physical appearance, body size, ethnic background, religion or belief, social
-background, technology choices, sexual images in public spaces, engagement in
-sexual activities like deliberate intimidation, stalking, following, harassing
-photography or recording, sustained disruption of talks or other events,
-inappropriate physical contact, and unwelcome sexual attention.
+physical appearance, body size, ethnic background, religion or belief (or
+absence thereof), social background, technology choices, sexual images in
+public spaces, engagement in sexual activities like deliberate intimidation,
+stalking, following, harassing photography or recording, sustained disruption
+of talks or other events, inappropriate physical contact, and unwelcome sexual
+attention.
 
 Participants asked to stop any violent or harassing behaviour are expected to
 comply immediately.
