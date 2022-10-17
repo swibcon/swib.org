@@ -9,31 +9,31 @@ pagetitle: SWIB22 History
 **Information on past conferences:**
 
 -   [SWIB 2021](http://swib.org/swib21/)\
-    29 November - 3 December 2021 on the web
+    29 November &#8211; 3 December 2021 on the web
 -   [SWIB 2020](http://swib.org/swib20/)\
-    23 - 27 November 2020 on the web
+    23 &#8211; 27 November 2020 on the web
 -   [SWIB 2019](http://swib.org/swib19/)\
-    25 - 27 November 2019 in Hamburg
+    25 &#8211; 27 November 2019 in Hamburg
 -   [SWIB 2018](http://swib.org/swib18/)\
-    26 - 28 November 2018 in Bonn
+    26 &#8211; 28 November 2018 in Bonn
 -   [SWIB 2017](http://swib.org/swib17/)\
-    4 - 6 December 2017 in Hamburg
+    4 &#8211; 6 December 2017 in Hamburg
 -   [SWIB 2016](http://swib.org/swib16/)\
-    28 - 30 November 2016 in Bonn
+    28 &#8211; 30 November 2016 in Bonn
 -   [SWIB 2015](http://swib.org/swib15/)\
-    23 - 25 November 2015 in Hamburg
+    23 &#8211; 25 November 2015 in Hamburg
 -   [SWIB 2014](http://swib.org/swib14/)\
-    1 - 3 December 2014 in Bonn
+    1 &#8211; 3 December 2014 in Bonn
 -   [SWIB 2013](http://swib.org/swib13/)\
-    25 - 27 November 2013 in Hamburg
+    25 &#8211; 27 November 2013 in Hamburg
 -   [SWIB 2012](http://swib.org/swib12/)\
-    26 - 28 November 2012 in Cologne
+    26 &#8211; 28 November 2012 in Cologne
 -   [SWIB 2011](http://swib.org/swib11/)\
-    28 - 30 November 2011 in Hamburg
+    28 &#8211; 30 November 2011 in Hamburg
 -   [SWIB 2010](http://swib.org/swib10/)\
-    29 - 30 November 2010 in Cologne
+    29 &#8211; 30 November 2010 in Cologne
 -   [SWIB 2009](http://www.swib09.de/)\
-    24 - 25 November 2009 in Cologne
+    24 &#8211; 25 November 2009 in Cologne
 
 </div>
 

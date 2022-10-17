@@ -4,7 +4,7 @@ pagetitle: SWIB22 data protection
 
 # Data Protection
 
-The protection of your privacy when using this websites is of great importance to us. In this document we will inform you about the collection of personal data in this context. Personal data shall be all data relatable to you personally, e. g. name, address, email addresses and user behaviour.
+The protection of your privacy when using this website is of great importance to us. In this document we will inform you about the collection of personal data in this context. Personal data shall be all data relatable to you personally, e. g. name, address, email addresses and user behaviour.
 
 We will process personal data in compliance with the GDPR, the data protection law of the German federal state of Schleswig-Holstein and any other data protection provisions (if applicable).
 
@@ -12,7 +12,7 @@ The ZBW reserves the right to update this Data Protection Information if require
 
 ## Contact details
 
-The controller of the data processing in accordance with Article 4, section 7 of the EU General Data Protection Regulation (GDPR) is the ZBW - Leibniz Information Centre for Economics.
+The controller of the data processing in accordance with Article 4, section 7 of the EU General Data Protection Regulation (GDPR) is the ZBW ZBW &#8211; Leibniz Information Centre for Economics.
 
 Please find further information in our legal notice, for example about your rights in accordance with the GDPR, the contact details of the ZBW and of our data protection officer and further informations about videoconferencing: https://www.zbw.eu/en/data-protection
 

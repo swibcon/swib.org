@@ -1,6 +1,6 @@
 # SWIB22 – 14th Semantic Web in Libraries Conference
 
-## 28 November – 02 December 2022, online
+## 28 November &#8211; 02 December 2022, online
 
 ## Call for Proposals
 
@@ -94,8 +94,8 @@ Proposals will be reviewed by the programme committee:
 * Huda Khan (Cornell University Library, USA)
 * Niklas Lindström (National Library of Sweden)
 * Devika Madalli (Indian Statistical Institute)
-* Joachim Neubert (ZBW, Germany - Chair)
-* Adrian Pohl (hbz, Germany - Chair)
+* Joachim Neubert (ZBW, Germany &#8211; Chair)
+* Adrian Pohl (hbz, Germany &#8211; Chair)
 * Dorothea Salo (UW-Madison, USA)
 * Jodi Schneider (University of Illinois at Urbana-Champaign, USA)
 * MJ Suhonos (Toronto Metropolitan University, Canada)
