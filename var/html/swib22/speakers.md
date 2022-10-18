@@ -11,7 +11,7 @@ pagetitle: SWIB22 Speakers
 
 ## Kayt Ahnberg
 
-Katherine Ahnberg, MLS (She/Her), serves as the User Experience Researcher/Designer at the University of Pennsylvania Libraries. Advocating for users across a diverse service population, her foci are data informed design and evidence-based practice. Contact: ahnberg@upenn.edu. 
+Katherine Ahnberg, MLS (she/her), serves as the User Experience Researcher/Designer at the University of Pennsylvania Libraries. Advocating for users across a diverse service population, her foci are data informed design and evidence-based practice. Contact: ahnberg@upenn.edu. 
 
 </div>
 
@@ -87,7 +87,7 @@ Nuno Freire holds a PhD in Informatics and Computer Engineering from the Univers
 
 </div>
 
-<div id="X2420a0ddabfcc4f45d797c81d0506a87a30ffb4208f88ba0d63786c937c49d65">
+<div id="X8f9dd486b881fa5841519ab3ad9a69d91259f5754aa0737a67c0255b6c91a061">
 
 ## Moritz Fürneisen
 
@@ -333,6 +333,9 @@ Astrid Usong is a User Experience Designer with Stanford Libraries. She works in
 :::{.sidebox-box}
 
 ### 14th SWIB
+
+**Registration opened**\
+18.10.2022
 
 **CfP published**\
 09.05.2022

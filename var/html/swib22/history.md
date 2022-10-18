@@ -45,6 +45,9 @@ pagetitle: SWIB22 History
 
 ### 14th SWIB
 
+**Registration opened**\
+18.10.2022
+
 **CfP published**\
 09.05.2022
 

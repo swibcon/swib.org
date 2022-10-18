@@ -8,7 +8,7 @@
 <https://swib.org/person/X576174991a341bcd27798134ff0dec3c013321941c139e2ed8576d6a584447f0> schema:name "Stacy Allison-Cassin" .
 <https://swib.org/person/X576174991a341bcd27798134ff0dec3c013321941c139e2ed8576d6a584447f0> frapo:hasORCID "0000-0002-7507-5838" .
 <https://swib.org/person/X576174991a341bcd27798134ff0dec3c013321941c139e2ed8576d6a584447f0> owl:sameAs <http://orcid.org/0000-0002-7507-5838> .
-<https://swib.org/person/X576174991a341bcd27798134ff0dec3c013321941c139e2ed8576d6a584447f0> schema:affiliation [ a schema:Organization; schema:name "TBA" ]  .
+<https://swib.org/person/X576174991a341bcd27798134ff0dec3c013321941c139e2ed8576d6a584447f0> schema:affiliation [ a schema:Organization; schema:name "Dalhousie University in Halifax, Canada" ]  .
 
 <https://swib.org/person/X603f50edacccff0dcdf3afa02226b9defcd45002513c1a38200468cae71d3a43> a schema:Person .
 <https://swib.org/person/X603f50edacccff0dcdf3afa02226b9defcd45002513c1a38200468cae71d3a43> schema:name "Christian Erlinger" .
@@ -64,7 +64,7 @@
 
 <https://swib.org/person/Xd1676589b67af938ff2e171ebc3bbe43522268ee701192cd35d420859ca24157> a schema:Person .
 <https://swib.org/person/Xd1676589b67af938ff2e171ebc3bbe43522268ee701192cd35d420859ca24157> schema:name "Kayt Ahnberg" .
-<https://swib.org/person/Xd1676589b67af938ff2e171ebc3bbe43522268ee701192cd35d420859ca24157> schema:description '''Katherine Ahnberg, MLS (She/Her), serves as the User Experience Researcher/Designer at the University of Pennsylvania Libraries. Advocating for users across a diverse service population, her foci are data informed design and evidence-based practice. Contact: ahnberg@upenn.edu. ''' .
+<https://swib.org/person/Xd1676589b67af938ff2e171ebc3bbe43522268ee701192cd35d420859ca24157> schema:description '''Katherine Ahnberg, MLS (she/her), serves as the User Experience Researcher/Designer at the University of Pennsylvania Libraries. Advocating for users across a diverse service population, her foci are data informed design and evidence-based practice. Contact: ahnberg@upenn.edu. ''' .
 <https://swib.org/person/Xd1676589b67af938ff2e171ebc3bbe43522268ee701192cd35d420859ca24157> schema:affiliation [ a schema:Organization; schema:name "University of Pennsylvania, United States of America" ]  .
 
 <https://swib.org/person/X0c94abd1309a3f472879d915b0bb0ea645550c7e5c48d1592bde9f1833c38dd7> a schema:Person .
@@ -91,6 +91,11 @@
 <https://swib.org/person/X9f3bdd6fdc18c0c82c8fe4e3361149591d3f95447ddbf962ef453fb0de7f7258> owl:sameAs <http://orcid.org/0000-0001-8896-8603> .
 <https://swib.org/person/X9f3bdd6fdc18c0c82c8fe4e3361149591d3f95447ddbf962ef453fb0de7f7258> schema:affiliation [ a schema:Organization; schema:name "Semantic Computing Research Group (SeCo), Aalto University, Finland" ]  .
 <https://swib.org/person/X9f3bdd6fdc18c0c82c8fe4e3361149591d3f95447ddbf962ef453fb0de7f7258> schema:affiliation [ a schema:Organization; schema:name "Helsinki Centre for Digital Humanities (HELDIG), University of Helsinki, Finland" ]  .
+
+<https://swib.org/person/X8f9dd486b881fa5841519ab3ad9a69d91259f5754aa0737a67c0255b6c91a061> a schema:Person .
+<https://swib.org/person/X8f9dd486b881fa5841519ab3ad9a69d91259f5754aa0737a67c0255b6c91a061> schema:name "Moritz Fürneisen" .
+<https://swib.org/person/X8f9dd486b881fa5841519ab3ad9a69d91259f5754aa0737a67c0255b6c91a061> schema:description '''Moritz Fürneisen is a research engineer at ZBW, where he develops and evaluates algorithms for automated subject indexing. Moritz has also been involved in the design of an architecture for integrating automated subject indexing into production.''' .
+<https://swib.org/person/X8f9dd486b881fa5841519ab3ad9a69d91259f5754aa0737a67c0255b6c91a061> schema:affiliation [ a schema:Organization; schema:name "ZBW – Leibniz Information Centre for Economics, Germany" ]  .
 
 <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> a schema:Person .
 <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:name "Crystal Clements" .
@@ -246,11 +251,6 @@
 <https://swib.org/person/X5e5415b576ceb41ae7c5d4c855a27760a06dd86b71bb1fa2599463b1781ec899> frapo:hasORCID "0000-0003-1885-4840" .
 <https://swib.org/person/X5e5415b576ceb41ae7c5d4c855a27760a06dd86b71bb1fa2599463b1781ec899> owl:sameAs <http://orcid.org/0000-0003-1885-4840> .
 <https://swib.org/person/X5e5415b576ceb41ae7c5d4c855a27760a06dd86b71bb1fa2599463b1781ec899> schema:affiliation [ a schema:Organization; schema:name "University of Washington Libraries, United States of America" ]  .
-
-<https://swib.org/person/X2420a0ddabfcc4f45d797c81d0506a87a30ffb4208f88ba0d63786c937c49d65> a schema:Person .
-<https://swib.org/person/X2420a0ddabfcc4f45d797c81d0506a87a30ffb4208f88ba0d63786c937c49d65> schema:name "Moritz Fürneisen" .
-<https://swib.org/person/X2420a0ddabfcc4f45d797c81d0506a87a30ffb4208f88ba0d63786c937c49d65> schema:description '''Moritz Fürneisen is a research engineer at ZBW, where he develops and evaluates algorithms for automated subject indexing. Moritz has also been involved in the design of an architecture for integrating automated subject indexing into production.''' .
-<https://swib.org/person/X2420a0ddabfcc4f45d797c81d0506a87a30ffb4208f88ba0d63786c937c49d65> schema:affiliation [ a schema:Organization; schema:name "ZBW – Leibniz Information Centre for Economics, Germany" ]  .
 
 <https://swib.org/person/X3ee641789bd620e47bd528f57d62683606d909c8a8d7ad7bc41a23b1d7c9d396> a schema:Person .
 <https://swib.org/person/X3ee641789bd620e47bd528f57d62683606d909c8a8d7ad7bc41a23b1d7c9d396> schema:name "Tobias Malmsheimer" .
@@ -474,7 +474,7 @@ This contribution describes the approach, which is implemented as a 5-step workf
 <https://swib.org/swib22/contribution/161> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/161> schema:featuredAt <https://swib.org/swib22/session/se-01> .
 <https://swib.org/swib22/contribution/161> schema:name "Libraries, linked data, and decolonization (keynote)" .
-<https://swib.org/swib22/contribution/161> schema:abstract '''Discussions of Indigenous Knowledge, Traditional Knowledge, and Indigenous Data Sovereignty have been increasing in the past several years. At the same time, there has been a growing awareness of issues of ethics and justice in relation to metadata practice. Ethical linked data practice demands attention to the ways colonization is embedded in our data infrastructures, standards, practices, and our communities. This talk will cover a range of topics and questions relating to Indigenous issues in linked data, including the limitations of current standards, systems, the vital need for change in practice, the importance and implications of recognizing Indigenous rights, and opportunities on the horizon with emerging standards and principles such as CARE and projects related to respectful naming. The talk will also focus on concrete action and that the library linked data community can take to support decolonization and a more just and ethical future for linked data. ''' .
+<https://swib.org/swib22/contribution/161> schema:abstract '''TBA''' .
 
 <https://swib.org/swib22/session/se-7> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib22/session/se-7> schema:superEvent <https://swib.org/swib22/conference> .
@@ -577,7 +577,7 @@ Participants are instructed to use a computer with at least 8GB of RAM and at le
 <https://swib.org/swib22/contribution/102> schema:author <https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> .
 <https://swib.org/swib22/contribution/102> schema:author <https://swib.org/person/X819cc62bd0b0371582dbd601114ec16f627df259b40c0fd1cca07938e8f00be1> .
 <https://swib.org/swib22/contribution/102> schema:author <https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> .
-<https://swib.org/swib22/contribution/102> schema:author <https://swib.org/person/X2420a0ddabfcc4f45d797c81d0506a87a30ffb4208f88ba0d63786c937c49d65> .
+<https://swib.org/swib22/contribution/102> schema:author <https://swib.org/person/X8f9dd486b881fa5841519ab3ad9a69d91259f5754aa0737a67c0255b6c91a061> .
 
 <https://swib.org/swib22/contribution/103> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/103> schema:featuredAt <https://swib.org/swib22/session/ws> .
@@ -611,7 +611,7 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 <https://swib.org/swib22/contribution/115> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/115> schema:featuredAt <https://swib.org/swib22/session/se-9> .
 <https://swib.org/swib22/contribution/115> schema:name "What linked data can tell about geographical trends in Finnish fiction literature – using the BookSampo knowledge graph in digital humanities" .
-<https://swib.org/swib22/contribution/115> schema:abstract '''[BookSampo](https://kirjasampo.fi) – a linked data (LD) service and portal for Finnish fiction literature – was launched in 2011 by the public libraries of Finland. Since then, the original knowledge graph (KG) [1] has grown from 400,000 subjects to over 8,740,000, including literary works, authors, book covers, reviews, literary awards, along with other detailed semantic metadata. The portal, maintained by a team of Finnish librarians, has nearly 2 million annual users and its KG resides in a SPARQL endpoint. However, the potential of the KG has not been explored from a Digital Humanities (DH) research perspective where digital tools could help with knowledge discovery, as suggested in [2]. This study presents novel data analyses on the BookSampo KG to demonstrate how LD can be used in DH studies, building on the concepts of distant reading and literary geography [3,4], i.e., the application of computational methods to study literature and its geographical dimension. Our work reveals and illustrates trends and biases in the development of Finnish literature based on semantic metadata. Focusing on novels and their geographical settings, the analyses show interesting annotation patterns related to genres and themes. Although the geographical diversity in fictional settings has increased over time, our results suggest that Finnish fiction literature still focuses on national settings and historical topics. Moreover, our digital perspective shows that the Finnish literary geography is biased by gender. Finally, we discuss to which extent the findings depend on the KG annotation practices, and how this potential meta-level bias should be addressed in the future.''' .
+<https://swib.org/swib22/contribution/115> schema:abstract '''[BookSampo](https://kirjasampo.fi) – a linked data (LD) service and portal for Finnish fiction literature – was launched in 2011 by the public libraries of Finland. Since then, the original knowledge graph (KG) has grown from 400,000 subjects to over 8,740,000, including literary works, authors, book covers, reviews, literary awards, along with other detailed semantic metadata. The portal, maintained by a team of Finnish librarians, has nearly 2 million annual users and its KG resides in a SPARQL endpoint. However, the potential of the KG has not been explored from a Digital Humanities (DH) research perspective where digital tools could help with knowledge discovery. This study presents novel data analyses on the BookSampo KG to demonstrate how LD can be used in DH studies, building on the concepts of distant reading and literary geography, i.e., the application of computational methods to study literature and its geographical dimension. Our work reveals and illustrates trends and biases in the development of Finnish literature based on semantic metadata. Focusing on novels and their geographical settings, the analyses show interesting annotation patterns related to genres and themes. Although the geographical diversity in fictional settings has increased over time, our results suggest that Finnish fiction literature still focuses on national settings and historical topics. Moreover, our digital perspective shows that the Finnish literary geography is biased by gender. Finally, we discuss to which extent the findings depend on the KG annotation practices, and how this potential meta-level bias should be addressed in the future.''' .
 <https://swib.org/swib22/contribution/115> schema:author <https://swib.org/person/X9f3bdd6fdc18c0c82c8fe4e3361149591d3f95447ddbf962ef453fb0de7f7258> .
 <https://swib.org/swib22/contribution/115> schema:author <https://swib.org/person/Xa4f82f49338a5fa53b6e45e739b2895982e5f658fed374aebc0c3f8ebe881af0> .
 

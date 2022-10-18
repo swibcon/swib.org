@@ -85,6 +85,9 @@ The Regional Anti-Discrimination Agency NRW: www.aric-nrw.de, Fon: +49 (0)203 28
 
 ### 14th SWIB
 
+**Registration opened**\
+18.10.2022
+
 **CfP published**\
 09.05.2022
 

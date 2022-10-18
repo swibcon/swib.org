@@ -150,6 +150,9 @@ E-mail: j.neubert(at)zbw.eu
 
 ### 14th SWIB
 
+**Registration opened**\
+18.10.2022
+
 **CfP published**\
 09.05.2022
 

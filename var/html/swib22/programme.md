@@ -48,9 +48,9 @@ Silke Schomburg<sup>1</sup>, Klaus Tochtermann<sup>2</sup>
 
 Stacy Allison-Cassin [<img src="images/orcid.png" title="ORCID: 0000-0002-7507-5838">](https://orcid.org/0000-0002-7507-5838)
 
-TBA
+Dalhousie University in Halifax, Canada
 
-Discussions of Indigenous Knowledge, Traditional Knowledge, and Indigenous Data Sovereignty have been increasing in the past several years. At the same time, there has been a growing awareness of issues of ethics and justice in relation to metadata practice. Ethical linked data practice demands attention to the ways colonization is embedded in our data infrastructures, standards, practices, and our communities. This talk will cover a range of topics and questions relating to Indigenous issues in linked data, including the limitations of current standards, systems, the vital need for change in practice, the importance and implications of recognizing Indigenous rights, and opportunities on the horizon with emerging standards and principles such as CARE and projects related to respectful naming. The talk will also focus on concrete action and that the library linked data community can take to support decolonization and a more just and ethical future for linked data. 
+TBA
 
 </td></tr>
 
@@ -343,7 +343,7 @@ The core Solid protocols follow Semantic Web principles and apply it to manageme
 
 #### Introduction to the Annif automated indexing tool
 
-[Osma Suominen](speakers.html#X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d) [<img src="images/orcid.png" title="ORCID: 0000-0003-0042-0745">](https://orcid.org/0000-0003-0042-0745)<sup>1</sup>, [Mona Lehtinen](speakers.html#X819cc62bd0b0371582dbd601114ec16f627df259b40c0fd1cca07938e8f00be1) [<img src="images/orcid.png" title="ORCID: 0000-0002-4735-0214">](https://orcid.org/0000-0002-4735-0214)<sup>1</sup>, [Juho Inkinen](speakers.html#X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782) [<img src="images/orcid.png" title="ORCID: 0000-0002-6497-6171">](https://orcid.org/0000-0002-6497-6171)<sup>1</sup>, [Moritz Fürneisen](speakers.html#X2420a0ddabfcc4f45d797c81d0506a87a30ffb4208f88ba0d63786c937c49d65)<sup>2</sup>, Anna Kasprzik [<img src="images/orcid.png" title="ORCID: 0000-0002-1019-3606">](https://orcid.org/0000-0002-1019-3606)<sup>2</sup>
+[Osma Suominen](speakers.html#X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d) [<img src="images/orcid.png" title="ORCID: 0000-0003-0042-0745">](https://orcid.org/0000-0003-0042-0745)<sup>1</sup>, [Mona Lehtinen](speakers.html#X819cc62bd0b0371582dbd601114ec16f627df259b40c0fd1cca07938e8f00be1) [<img src="images/orcid.png" title="ORCID: 0000-0002-4735-0214">](https://orcid.org/0000-0002-4735-0214)<sup>1</sup>, [Juho Inkinen](speakers.html#X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782) [<img src="images/orcid.png" title="ORCID: 0000-0002-6497-6171">](https://orcid.org/0000-0002-6497-6171)<sup>1</sup>, [Moritz Fürneisen](speakers.html#X8f9dd486b881fa5841519ab3ad9a69d91259f5754aa0737a67c0255b6c91a061)<sup>2</sup>, Anna Kasprzik [<img src="images/orcid.png" title="ORCID: 0000-0002-1019-3606">](https://orcid.org/0000-0002-1019-3606)<sup>2</sup>
 
 <sup>1 </sup>National Library of Finland, Finland; <sup>2 </sup>ZBW – Leibniz Information Centre for Economics, Germany
 
@@ -559,7 +559,7 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 
 <sup>1 </sup>Semantic Computing Research Group (SeCo), Aalto University, Finland; <sup>2 </sup>Helsinki Centre for Digital Humanities (HELDIG), University of Helsinki, Finland
 
-[BookSampo](https://kirjasampo.fi) – a linked data (LD) service and portal for Finnish fiction literature – was launched in 2011 by the public libraries of Finland. Since then, the original knowledge graph (KG) [1] has grown from 400,000 subjects to over 8,740,000, including literary works, authors, book covers, reviews, literary awards, along with other detailed semantic metadata. The portal, maintained by a team of Finnish librarians, has nearly 2 million annual users and its KG resides in a SPARQL endpoint. However, the potential of the KG has not been explored from a Digital Humanities (DH) research perspective where digital tools could help with knowledge discovery, as suggested in [2]. This study presents novel data analyses on the BookSampo KG to demonstrate how LD can be used in DH studies, building on the concepts of distant reading and literary geography [3,4], i.e., the application of computational methods to study literature and its geographical dimension. Our work reveals and illustrates trends and biases in the development of Finnish literature based on semantic metadata. Focusing on novels and their geographical settings, the analyses show interesting annotation patterns related to genres and themes. Although the geographical diversity in fictional settings has increased over time, our results suggest that Finnish fiction literature still focuses on national settings and historical topics. Moreover, our digital perspective shows that the Finnish literary geography is biased by gender. Finally, we discuss to which extent the findings depend on the KG annotation practices, and how this potential meta-level bias should be addressed in the future.
+[BookSampo](https://kirjasampo.fi) – a linked data (LD) service and portal for Finnish fiction literature – was launched in 2011 by the public libraries of Finland. Since then, the original knowledge graph (KG) has grown from 400,000 subjects to over 8,740,000, including literary works, authors, book covers, reviews, literary awards, along with other detailed semantic metadata. The portal, maintained by a team of Finnish librarians, has nearly 2 million annual users and its KG resides in a SPARQL endpoint. However, the potential of the KG has not been explored from a Digital Humanities (DH) research perspective where digital tools could help with knowledge discovery. This study presents novel data analyses on the BookSampo KG to demonstrate how LD can be used in DH studies, building on the concepts of distant reading and literary geography, i.e., the application of computational methods to study literature and its geographical dimension. Our work reveals and illustrates trends and biases in the development of Finnish literature based on semantic metadata. Focusing on novels and their geographical settings, the analyses show interesting annotation patterns related to genres and themes. Although the geographical diversity in fictional settings has increased over time, our results suggest that Finnish fiction literature still focuses on national settings and historical topics. Moreover, our digital perspective shows that the Finnish literary geography is biased by gender. Finally, we discuss to which extent the findings depend on the KG annotation practices, and how this potential meta-level bias should be addressed in the future.
 
 </td></tr>
 
@@ -590,6 +590,9 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 :::{.sidebox-box}
 
 ### 14th SWIB
+
+**Registration opened**\
+18.10.2022
 
 **CfP published**\
 09.05.2022
