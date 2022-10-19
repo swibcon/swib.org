@@ -85,6 +85,10 @@ The Regional Anti-Discrimination Agency NRW: www.aric-nrw.de, Fon: +49 (0)203 28
 
 ### 14th SWIB
 
+**300 registrations from 35 countries within 24 hours.**\
+The first workshops are fully booked already.\
+19.10.2022
+
 **Registration opened**\
 18.10.2022
 
