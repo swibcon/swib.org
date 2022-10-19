@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>SWIB22 registrations by country</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="http://code.highcharts.com/mapdata/custom/world-highres.js"></script>
+</head>
+<body>
+
+<div id="container" style="height: 100%; width:100%; position: absolute;"></div>
+
+<script>
+    $(function () {
+
+        var data = [{"value":119,"hc-key":"us"},{"value":50,"hc-key":"de"},{"value":22,"hc-key":"ca"},{"value":12,"hc-key":"nl"},{"value":12,"hc-key":"cz"},{"value":11,"hc-key":"gb"},{"value":9,"hc-key":"be"},{"value":8,"hc-key":"at"},{"value":8,"hc-key":"it"},{"value":7,"hc-key":"ch"},{"value":6,"hc-key":"fr"},{"value":5,"hc-key":"pt"},{"value":4,"hc-key":"se"},{"value":4,"hc-key":"lv"},{"value":4,"hc-key":"il"},{"value":4,"hc-key":"hu"},{"value":3,"hc-key":"sg"},{"value":2,"hc-key":"qa"},{"value":2,"hc-key":"jp"},{"value":2,"hc-key":"bg"},{"value":2,"hc-key":"es"},{"value":2,"hc-key":"ir"},{"value":2,"hc-key":"nz"},{"value":1,"hc-key":"ph"},{"value":1,"hc-key":"hk"},{"value":1,"hc-key":"ng"},{"value":1,"hc-key":"eg"},{"value":1,"hc-key":"za"},{"value":1,"hc-key":"fi"},{"value":1,"hc-key":"si"},{"value":1,"hc-key":"ro"},{"value":1,"hc-key":"in"},{"value":1,"hc-key":"pl"},{"value":1,"hc-key":"br"},{"value":1,"hc-key":"ug"}] ;
+
+        // Initiate the chart
+        $('#container').highcharts('Map', {
+
+            title : {
+                text : "SWIB22 - 312 registrations from 35 countries (as of 2022-10-19 16:21)"
+            },
+
+            mapNavigation: {
+                enabled: true,
+                buttonOptions: {
+                    verticalAlign: 'bottom'
+                }
+            },
+
+            colorAxis: {
+                dataClasses: [{
+                    color: 'rgba(19,64,117,0.4)',
+                    from: 1,
+                    to: 2
+                }, {
+                    color: 'rgba(19,64,117,0.6)',
+                    from: 3,
+                    to: 9
+                }, {
+                    color: 'rgba(19,64,117,0.8)',
+                    from: 10,
+                    to: 49
+                }, {
+                    color: 'rgba(19,64,117,1)',
+                    from: 50
+                }]
+            },
+
+            legend : {
+                valueDecimals : 0
+            },
+
+            series : [{
+                data : data,
+                mapData: Highcharts.maps['custom/world-highres'],
+                joinBy: 'hc-key',
+                name: 'SWIB registrations',
+                states: {
+                    hover: {
+                        color: '#BADA55'
+                    }
+                },
+                dataLabels: {
+                    enabled: false,
+                    format: '{point.name}'
+                }
+            }]
+        });
+    });
+
+</script>
+</body>
+</html>

@@ -13,9 +13,11 @@ use POSIX;
 use Readonly;
 use XML::XPath;
 use XML::XPath::XMLParser;
+use YAML::Tiny;
 
-Readonly my $SWIB       => 'SWIB21';
-Readonly my $INPUT_FILE => '../var/src/participants.xml';
+Readonly my $YAML_CONFIG => YAML::Tiny->read('config.yaml')->[0];
+Readonly my $SWIB        => $YAML_CONFIG->{swib};
+Readonly my $INPUT_FILE  => '../var/src/' . lc($SWIB) . '/participants.xml';
 Readonly my $COUNTRY_TEMPLATE =>
   '../etc/html_tmpl/participants_by_country.html.tmpl';
 Readonly my $HTML_ROOT      => '../var/html/' . lc($SWIB) . '/';
@@ -42,7 +44,6 @@ my %country;
 foreach my $node ( $nodeset->get_nodelist ) {
   $country{ $node->string_value }++;
 }
-print Dumper \%country;
 
 # create a string with the required JSON data structure
 my ( @data, $participant_count, $country_count );
@@ -78,7 +79,6 @@ my %gender;
 foreach my $node ( $nodeset->get_nodelist ) {
   $gender{ $node->string_value }++;
 }
-print Dumper \%gender;
 
 @data = ();
 foreach my $gender ( sort keys %gender ) {
@@ -105,7 +105,10 @@ my %region;
 foreach my $node ( $nodeset->get_nodelist ) {
   $region{ $node->string_value }++;
 }
-print Dumper \%region;
+
+# output statistics
+print "$participant_count participants from $country_count countries\n";
+print Dumper \%region, \%country, \%gender;
 
 print "Output $HTML_ROOT\*.html\n\n";
 
