@@ -6,11 +6,7 @@ pagetitle: SWIB22 Home
 
 # SWIB22 – 14th Semantic Web in Libraries Conference
 
-## 28 November &#8211; 02 December 2022, online
-
-## Call for Proposals
-
-**Submission Deadline (extended): 11 July 2022**
+## 28 November – 02 December 2022, online
 
 SWIB conference (Semantic Web in Libraries) is an annual conference, being held
 for the 14th time.
@@ -37,56 +33,6 @@ Economics](https://www.zbw.eu/en)** and the **[North Rhine-Westphalian Library
 Service Centre (hbz)](https://www.hbz-nrw.de/)**. The conference language is
 English.
 
-For this SWIB rendition we adjusted the formats to the online environment:
-
-* Presentations (20 minutes plus 5 q&a)
-* Practical workshops or tutorials (maximum 150 min, including breaks), introductory tutorials are very welcome
-
-We appreciate proposals on the following or related topics:
-
-### Projects & Applications
-
-* integration of LOD into productive library applications
-* re-use of LOD (from libraries, Wikidata and other sources)
-* presenting & visualizing LOD
-* end-user environments for interaction with LOD (e.g. editing or annotation)
-* crowdsourcing/gamification approaches involving LOD sources
-* applications for open science
-
-### Technology (focus on Open Source software)
-
-* data transformation/integration/cleansing/enhancement/mapping/interlinking
-* data flow management
-* RDF validation
-* read/write linked data
-* providing updates & syncing data sources
-* machine learning for automatic indexing & named entity recognition
-* integration of symbolic and subsymbolic approaches
-
-### Standards & Best Practices
-
-* implementation of FAIR data principles
-* open web standards relevant for libraries
-* application profiles & provenance information
-* working with authorities & knowledge organization systems
-* usable APIs
-* preservation, maintenance & sustainability
-
-### Culture
-
-* collaboration, community building and empowerment
-* consolidating open source projects
-* awareness of Western bias, decolonialization
-
-We are looking forward to receiving your proposals for presentations or
-workshops by **11 July 2022**. Please submit an abstract of 1000–1500
-characters using our conference system
-[https://www.conftool.org/swib22](https://www.conftool.org/swib22). If you
-intend to present a specific software solution please include links to the
-source code repository and make sure it is [openly
-licensed](https://opensource.org/licenses).
-
-
 ### SWIB programme committee
 
 Proposals will be reviewed by the programme committee:
@@ -100,8 +46,8 @@ Proposals will be reviewed by the programme committee:
 * Huda Khan (Cornell University Library, USA)
 * Niklas Lindström (National Library of Sweden)
 * Devika Madalli (Indian Statistical Institute)
-* Joachim Neubert (ZBW, Germany &#8211; Chair)
-* Adrian Pohl (hbz, Germany &#8211; Chair)
+* Joachim Neubert (ZBW, Germany - Chair)
+* Adrian Pohl (hbz, Germany - Chair)
 * Dorothea Salo (UW-Madison, USA)
 * Jodi Schneider (University of Illinois at Urbana-Champaign, USA)
 * MJ Suhonos (Toronto Metropolitan University, Canada)
