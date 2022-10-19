@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title><tmpl_var name='swib'> <tmpl_var name='type'> by country</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="http://code.highcharts.com/mapdata/custom/world-highres.js"></script>
+</head>
+<body>
+
+<div id="container" style="height: 100%; width:100%; position: absolute;"></div>
+
+<script>
+    $(function () {
+
+        var data = <tmpl_var name='data'> ;
+
+        // Initiate the chart
+        $('#container').highcharts('Map', {
+
+            title : {
+                text : "<tmpl_var name='swib'> - <tmpl_var name='participant_count'> <tmpl_var name='type'> from <tmpl_var name='country_count'> countries <tmpl_if name='date'>(as of <tmpl_var name='date'>)</tmpl_if>"
+            },
+
+            mapNavigation: {
+                enabled: true,
+                buttonOptions: {
+                    verticalAlign: 'bottom'
+                }
+            },
+
+            colorAxis: {
+                dataClasses: [{
+                    color: 'rgba(19,64,117,0.4)',
+                    from: 1,
+                    to: 2
+                }, {
+                    color: 'rgba(19,64,117,0.6)',
+                    from: 3,
+                    to: 9
+                }, {
+                    color: 'rgba(19,64,117,0.8)',
+                    from: 10,
+                    to: 49
+                }, {
+                    color: 'rgba(19,64,117,1)',
+                    from: 50
+                }]
+            },
+
+            legend : {
+                valueDecimals : 0
+            },
+
+            series : [{
+                data : data,
+                mapData: Highcharts.maps['custom/world-highres'],
+                joinBy: 'hc-key',
+                name: 'SWIB <tmpl_var name='type'>',
+                states: {
+                    hover: {
+                        color: '#BADA55'
+                    }
+                },
+                dataLabels: {
+                    enabled: false,
+                    format: '{point.name}'
+                }
+            }]
+        });
+    });
+
+</script>
+</body>
+</html>
