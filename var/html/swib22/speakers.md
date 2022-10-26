@@ -15,6 +15,14 @@ Katherine Ahnberg, MLS (she/her), serves as the User Experience Researcher/Desig
 
 </div>
 
+<div id="X7ffaab5716fd717a46892c2dc7f84ac6a1d18ec767a3c3bb160813c1160dda0a">
+
+## Stacy Allison-Cassin [<img src="images/orcid.png" title="ORCID: 0000-0002-7507-5838">](https://orcid.org/0000-0002-7507-5838)
+
+Stacy Allison-Cassin is a Citizen of the Métis Nation of Ontario with kinship connections to the Georgian Bay Métis community, and Indigenous community in Canada. An Assistant Professor at the School of Information Management at Dalhousie University, Stacy engages in work and research related to metadata, knowledge organization, and Indigenous matters in libraries and the wider cultural heritage sector. She is also an active member of the Wikidata and open data community. Stacy is a passionate advocate for change in information structures and metadata systems within the library profession. She is the Chair of the International Association of Library Associations Indigenous Matters Standing Committee and the community chair for the Language Preservation and Instruction community and a member of Council of the National Indigenous Knowledge and Language Association, and Indigenous-led association centred in Canada. Stacy also has extensive professional experience as a librarian, serving in a variety roles in the libraries at York University. 
+
+</div>
+
 <div id="X29bd70e9548e6e90437e224ea05de9282b8717e03499b5be2872b8274d60777b">
 
 ## José Calvo Tello [<img src="images/orcid.png" title="ORCID: 0000-0002-1129-5604">](https://orcid.org/0000-0002-1129-5604)

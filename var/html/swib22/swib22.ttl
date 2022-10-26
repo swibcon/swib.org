@@ -4,12 +4,6 @@
 @prefix schema: <http://schema.org/> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 
-<https://swib.org/person/X576174991a341bcd27798134ff0dec3c013321941c139e2ed8576d6a584447f0> a schema:Person .
-<https://swib.org/person/X576174991a341bcd27798134ff0dec3c013321941c139e2ed8576d6a584447f0> schema:name "Stacy Allison-Cassin" .
-<https://swib.org/person/X576174991a341bcd27798134ff0dec3c013321941c139e2ed8576d6a584447f0> frapo:hasORCID "0000-0002-7507-5838" .
-<https://swib.org/person/X576174991a341bcd27798134ff0dec3c013321941c139e2ed8576d6a584447f0> owl:sameAs <http://orcid.org/0000-0002-7507-5838> .
-<https://swib.org/person/X576174991a341bcd27798134ff0dec3c013321941c139e2ed8576d6a584447f0> schema:affiliation [ a schema:Organization; schema:name "Dalhousie University in Halifax, Canada" ]  .
-
 <https://swib.org/person/X603f50edacccff0dcdf3afa02226b9defcd45002513c1a38200468cae71d3a43> a schema:Person .
 <https://swib.org/person/X603f50edacccff0dcdf3afa02226b9defcd45002513c1a38200468cae71d3a43> schema:name "Christian Erlinger" .
 <https://swib.org/person/X603f50edacccff0dcdf3afa02226b9defcd45002513c1a38200468cae71d3a43> schema:description '''Christian Erlinger works as project manager at ZHB Luzern (Lucerne Central and University Library, Switzerland) for ZentralGut.ch, a repository for the digitized cultural heritage of Central Switzerland. He had studied urban planning and political science in Vienna and is engaged to foster GLAM contributions in all Wikimedia projects.''' .
@@ -153,6 +147,13 @@
 <https://swib.org/person/Xb7192fa1782e788b65627b3c255cf94bd047851526b6f32993ac4553e6ff2f7c> frapo:hasORCID "0000-0001-8390-6171" .
 <https://swib.org/person/Xb7192fa1782e788b65627b3c255cf94bd047851526b6f32993ac4553e6ff2f7c> owl:sameAs <http://orcid.org/0000-0001-8390-6171> .
 <https://swib.org/person/Xb7192fa1782e788b65627b3c255cf94bd047851526b6f32993ac4553e6ff2f7c> schema:affiliation [ a schema:Organization; schema:name "Ghent University, Belgium" ]  .
+
+<https://swib.org/person/X7ffaab5716fd717a46892c2dc7f84ac6a1d18ec767a3c3bb160813c1160dda0a> a schema:Person .
+<https://swib.org/person/X7ffaab5716fd717a46892c2dc7f84ac6a1d18ec767a3c3bb160813c1160dda0a> schema:name "Stacy Allison-Cassin" .
+<https://swib.org/person/X7ffaab5716fd717a46892c2dc7f84ac6a1d18ec767a3c3bb160813c1160dda0a> schema:description '''Stacy Allison-Cassin is a Citizen of the Métis Nation of Ontario with kinship connections to the Georgian Bay Métis community, and Indigenous community in Canada. An Assistant Professor at the School of Information Management at Dalhousie University, Stacy engages in work and research related to metadata, knowledge organization, and Indigenous matters in libraries and the wider cultural heritage sector. She is also an active member of the Wikidata and open data community. Stacy is a passionate advocate for change in information structures and metadata systems within the library profession. She is the Chair of the International Association of Library Associations Indigenous Matters Standing Committee and the community chair for the Language Preservation and Instruction community and a member of Council of the National Indigenous Knowledge and Language Association, and Indigenous-led association centred in Canada. Stacy also has extensive professional experience as a librarian, serving in a variety roles in the libraries at York University. ''' .
+<https://swib.org/person/X7ffaab5716fd717a46892c2dc7f84ac6a1d18ec767a3c3bb160813c1160dda0a> frapo:hasORCID "0000-0002-7507-5838" .
+<https://swib.org/person/X7ffaab5716fd717a46892c2dc7f84ac6a1d18ec767a3c3bb160813c1160dda0a> owl:sameAs <http://orcid.org/0000-0002-7507-5838> .
+<https://swib.org/person/X7ffaab5716fd717a46892c2dc7f84ac6a1d18ec767a3c3bb160813c1160dda0a> schema:affiliation [ a schema:Organization; schema:name "Dalhousie University in Halifax, Canada" ]  .
 
 <https://swib.org/person/X29bd70e9548e6e90437e224ea05de9282b8717e03499b5be2872b8274d60777b> a schema:Person .
 <https://swib.org/person/X29bd70e9548e6e90437e224ea05de9282b8717e03499b5be2872b8274d60777b> schema:name "José Calvo Tello" .
@@ -474,7 +475,12 @@ This contribution describes the approach, which is implemented as a 5-step workf
 <https://swib.org/swib22/contribution/161> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/161> schema:featuredAt <https://swib.org/swib22/session/se-01> .
 <https://swib.org/swib22/contribution/161> schema:name "Libraries, linked data, and decolonization (keynote)" .
-<https://swib.org/swib22/contribution/161> schema:abstract '''TBA''' .
+<https://swib.org/swib22/contribution/161> schema:abstract '''Global decolonization movements have focused attention on the colonial nature of cultural heritage. Events such as the toppling and removal of statues of colonial figures, the fight for the return of stolen artefacts and ancestors, and questions regarding the ownership and usage of historical photographs in cultural heritage collections are not new; such activities have gained momentum and greater prominence in public discourse in recent years. While less visible than tangible objects, tendrils and structures of colonialism run through data practices and standards. Such practices continue to harm peoples and lands that have been and continue to be, subject to colonialism. It is vital that linked data practice address this continued legacy and work toward anticolonial within contemporary library and cultural data work.
+
+What does decolonial (data) practice mean for linked data in the library and broader cultural data environment? Why does this matter for all individuals involved in linked data work? This talk will delve into issues facing the linked data community, including the limitations of current standards and systems, the vital need for change in practice, the importance and implications of recognizing Indigenous rights and rights of nations and states, and opportunities on the horizon with emerging standards and principles such as [CARE](https://www.gida-global.org/care) and projects related to respectful naming. The talk will also focus on concrete actions the library linked data community can take to support decolonization and a more just and ethical future for linked data.
+
+''' .
+<https://swib.org/swib22/contribution/161> schema:author <https://swib.org/person/X7ffaab5716fd717a46892c2dc7f84ac6a1d18ec767a3c3bb160813c1160dda0a> .
 
 <https://swib.org/swib22/session/se-7> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib22/session/se-7> schema:superEvent <https://swib.org/swib22/conference> .
