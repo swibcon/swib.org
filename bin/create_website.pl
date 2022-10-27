@@ -130,7 +130,8 @@ sub get_abstract_data {
     my $contribution_type = $node->findvalue('./contribution_type');
     next
       unless $contribution_type eq 'Presentation'
-      or $contribution_type eq 'Workshop';
+      or $contribution_type eq 'Workshop'
+      or $contribution_type eq 'Collocated Event';
     my $acceptance_status = $node->findvalue('./acceptance_status');
     next unless $acceptance_status gt 0;
 

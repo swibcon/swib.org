@@ -20,6 +20,18 @@ pagetitle: SWIB22 Programme
 </td></tr>
 
 
+<tr id="contrib173"><td></td><td>
+
+#### DINI-AG KIM meeting
+
+Letitia Mölk<sup>1</sup>, Alex Jahnke<sup>2</sup>
+
+<sup>1 </sup>German National Library; <sup>2 </sup>Göttingen State and University Library, Germany
+
+DINI-AG Kompetenzzentrum Interoperable Metadaten (KIM) virtual public meeting of the DINI-AG KIM. KIM is a forum for German-speaking metadata experts from LAM institutions. The Meeting will be held in German. Everybody is invited to come. [Agenda](https://wiki.dnb.de/x/UKR5Dw )
+
+</td></tr>
+
 
 
 
