@@ -24,7 +24,7 @@ pagetitle: SWIB22 Programme
 
 #### DINI-AG KIM meeting
 
-Letitia Mölk<sup>1</sup>, Alex Jahnke<sup>2</sup>
+Letitia Mölck<sup>1</sup>, Alex Jahnke<sup>2</sup>
 
 <sup>1 </sup>German National Library; <sup>2 </sup>Göttingen State and University Library, Germany
 
