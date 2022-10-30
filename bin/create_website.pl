@@ -83,6 +83,7 @@ get_session_data();
 
 output_speaker_page();
 output_programme_page();
+output_session_slides();
 
 foreach my $page (qw/ index registration general-information history coc /) {
   output_static_page($page);
@@ -347,6 +348,51 @@ sub output_rdf {
   $RDF_FILE->spew_utf8($rdf_txt);
 }
 
+sub output_session_slides {
+
+  foreach my $session_id ( sort keys %session ) {
+
+    # skip sessions without presentations (such as coffee breaks)
+    next unless scalar @{ $session{$session_id}{presentations} } gt 0;
+
+    print "$session{$session_id}{start_date} $session_id\n";
+    my %entry = (
+      swib          => $SWIB,
+      session_title => $session{$session_id}{title},
+      start_time    => $session{$session_id}{start_time},
+      start_date    => $session{$session_id}{start_date},
+      epoch         => time2epoch(
+        $session{$session_id}{start_date},
+        $session{$session_id}{start_time}
+      ),
+    );
+
+    my @presentations = @{ $session{$session_id}{presentations} };
+    my @abstracts_loop;
+    foreach my $abstract_id (@presentations) {
+      my $entry = {
+        abstract_title     => $abstract{$abstract_id}{title},
+        authors_loop       => mk_authors_loop($abstract_id),
+        organisations_loop => mk_organisations_loop($abstract_id),
+      };
+      push( @abstracts_loop, $entry );
+    }
+    $entry{abstracts_loop} = \@abstracts_loop;
+
+    my $tmpl = HTML::Template->new(
+      filename => $TEMPLATE_ROOT->child("session.md.tmpl"),
+      utf8     => 1,
+    );
+    $tmpl->param( \%entry );
+
+    #print Dumper $tmpl->param('abstracts_loop'); exit;
+
+    my $outfile = $HTML_ROOT->child("sessions")->child("${session_id}.md");
+    $outfile->spew_utf8( $tmpl->output );
+
+  }
+}
+
 sub build_person_rdf {
   my $rdf_txt;
 
@@ -525,22 +571,24 @@ sub get_organisations {
 sub mk_authors_loop {
   my $abstract_id = shift or croak('param missing');
 
-  my @authors_loop = @{ $abstract{$abstract_id}{authors} };
+  my @authors_loop;
+  foreach my $author ( @{ $abstract{$abstract_id}{authors} } ) {
+    my %entry = ( name => $author->{name}, );
 
-  # remove fields not used in template
-  foreach my $author (@authors_loop) {
-
-    # remove speaker links if author is not a speaker or has no bio
-    if ( not $speaker{ $author->{author_id} } ) {
-      delete( $author->{author_id} );
+    # author_id/speaker links if author is a speaker and has a bio
+    if (  $speaker{ $author->{author_id} }
+      and $speaker{ $author->{author_id} }{is_speaker} )
+    {
+      $entry{author_id} = $author->{author_id};
     }
-
-    # remove organisation (is given separately) and speaker flag
-    delete( $author->{organisation} );
-    delete( $author->{affiliations} );
-    delete( $author->{speaker} );
+    if ( $author->{orcid} ) {
+      $entry{orcid} = $author->{orcid};
+    }
+    if ( $author->{index} ) {
+      $entry{index} = $author->{index};
+    }
+    push( @authors_loop, \%entry );
   }
-
   return \@authors_loop;
 }
 

@@ -92,7 +92,7 @@
 <https://swib.org/person/X8f9dd486b881fa5841519ab3ad9a69d91259f5754aa0737a67c0255b6c91a061> schema:affiliation [ a schema:Organization; schema:name "ZBW – Leibniz Information Centre for Economics, Germany" ]  .
 
 <https://swib.org/person/X3a42a9a89e8088c15348125f5a0818cc5bb905a8d1067386d2edaecf5c1c2fc8> a schema:Person .
-<https://swib.org/person/X3a42a9a89e8088c15348125f5a0818cc5bb905a8d1067386d2edaecf5c1c2fc8> schema:name "Letitia Mölk" .
+<https://swib.org/person/X3a42a9a89e8088c15348125f5a0818cc5bb905a8d1067386d2edaecf5c1c2fc8> schema:name "Letitia Mölck" .
 <https://swib.org/person/X3a42a9a89e8088c15348125f5a0818cc5bb905a8d1067386d2edaecf5c1c2fc8> schema:affiliation [ a schema:Organization; schema:name "German National Library" ]  .
 
 <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> a schema:Person .
@@ -397,6 +397,7 @@ We decided to work with records from Romance Studies because it challenges the p
 The general results for the different approaches yield micro F1-scores between 0.6 and 0.8 (macro F1-scores between 0.2 and 0.4), with better performance for mBERT as classifier. In this presentation we will explore how these results are influenced by factors such as the language, specific classes, or the number of records per class. This is a promising approach for the generation of suggestions which should be considered by subject specialists.''' .
 <https://swib.org/swib22/contribution/100> schema:author <https://swib.org/person/X29bd70e9548e6e90437e224ea05de9282b8717e03499b5be2872b8274d60777b> .
 <https://swib.org/swib22/contribution/100> schema:author <https://swib.org/person/X9bd35555d35d17c543d622c37c2798f4452df71fc1d5b42476ca5341c90bd1e5> .
+<https://swib.org/swib22/contribution/100> schema:author <https://swib.org/person/X56dca89c081f56e1d1ad94f9c92009e5c03354d47cbbe9ebeb6cc5a3b91e344b> .
 
 <https://swib.org/swib22/session/se-3> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib22/session/se-3> schema:superEvent <https://swib.org/swib22/conference> .
@@ -470,6 +471,8 @@ Within the [BELTRANS project](https://github.com/kbrbe/beltrans-data-integration
 
 This contribution describes the approach, which is implemented as a 5-step workflow using linked data and Python. We discuss how we use the workflow to improve the correctness of the data used in the BELTRANS project and the wider applicability of the workflow within the National Library to improve the completeness of our catalog with respect to legal deposit. Since the expertise of librarians is needed to interpret identified data contradictions, the next step is to improve the usability of our prototypical solution.''' .
 <https://swib.org/swib22/contribution/114> schema:author <https://swib.org/person/Xf9bdbdfd09c9a3ccc868ea7872a9b2be201cd7f4a0b9ea3c79820f6e35fea180> .
+<https://swib.org/swib22/contribution/114> schema:author <https://swib.org/person/X20bd83abedd4a6865f01928e0ab9b68d0eac29871776969e9fdd3d74e5333cf3> .
+<https://swib.org/swib22/contribution/114> schema:author <https://swib.org/person/X0198e3683afce3ab4a6d62b8ee0a35319850c43560d0a5dddebebb5707c3bdf5> .
 
 <https://swib.org/swib22/session/se-01> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib22/session/se-01> schema:superEvent <https://swib.org/swib22/conference> .
@@ -479,6 +482,8 @@ This contribution describes the approach, which is implemented as a 5-step workf
 <https://swib.org/swib22/contribution/159> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/159> schema:featuredAt <https://swib.org/swib22/session/se-01> .
 <https://swib.org/swib22/contribution/159> schema:name "Opening" .
+<https://swib.org/swib22/contribution/159> schema:author <https://swib.org/person/X90628417117267c814453b123cbea59c17d3d02d8611e0f5a1bac026e217cb89> .
+<https://swib.org/swib22/contribution/159> schema:author <https://swib.org/person/Xd871fbcfdf32518261d7d0dd353b59a62b4a09a86973fd5414eac7e338844a72> .
 
 <https://swib.org/swib22/contribution/161> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/161> schema:featuredAt <https://swib.org/swib22/session/se-01> .
@@ -592,14 +597,18 @@ Participants are instructed to use a computer with at least 8GB of RAM and at le
 <https://swib.org/swib22/contribution/102> schema:author <https://swib.org/person/X819cc62bd0b0371582dbd601114ec16f627df259b40c0fd1cca07938e8f00be1> .
 <https://swib.org/swib22/contribution/102> schema:author <https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> .
 <https://swib.org/swib22/contribution/102> schema:author <https://swib.org/person/X8f9dd486b881fa5841519ab3ad9a69d91259f5754aa0737a67c0255b6c91a061> .
+<https://swib.org/swib22/contribution/102> schema:author <https://swib.org/person/X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8> .
 
 <https://swib.org/swib22/contribution/103> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/103> schema:featuredAt <https://swib.org/swib22/session/ws> .
 <https://swib.org/swib22/contribution/103> schema:name "Working with linked open data in the context of annotation and semantic enrichment of 3D media: A new FOSS toolchain" .
 <https://swib.org/swib22/contribution/103> schema:abstract '''This workshop aims to help researchers, digital curators and data managers learn how to make datasets including 3D models and other media files available as linked open data within a collaborative annotation and presentation-ready environment. Participants will take part in practical demonstrations using an integrated toolchain that connects three existing open source software tools: 1) OpenRefine – for data reconciliation and batch upload; 2) Wikibase – for linked open data storage; and 3) Kompakkt – for rendering and annotating 3D models, and other 2D and AV media files. This toolchain and associated workflow was developed in the context of NFDI4Culture, a German consortium of research and cultural institutions working towards a shared infrastructure for research data that meets the needs of 21st-century data creators, maintainers and end users across the broad spectrum of the digital libraries and archives field, and the digital humanities. All components of the toolchain feature graphical user interfaces aiming to lower the barrier of participation in the semantic web for a wide range of practitioners and researchers. Furthermore, the toolchain development involves the specification of a common data model that aims to increase interoperability across datasets of digitised objects from different domains of culture. The workshop will be of interest to researchers, digital curators and information science professionals who work with datasets containing 3D media, and want to learn more about the possibilities of linked open data, open source software and collaborative annotation workflows.''' .
 <https://swib.org/swib22/contribution/103> schema:author <https://swib.org/person/X48ce94782e0634cfee15d9ec81a65013c0078fe7f0b00ca748971200d18bac1c> .
+<https://swib.org/swib22/contribution/103> schema:author <https://swib.org/person/Xf51c1d90fd6f3af38f2a68155b61cdb35c01b327102327a3f646518273b96b84> .
 <https://swib.org/swib22/contribution/103> schema:author <https://swib.org/person/X723cae1aebb93ca51c233f825b145771530f16add3f8bf6cbbdfda352c6c1a87> .
 <https://swib.org/swib22/contribution/103> schema:author <https://swib.org/person/X3ccb13171f805dc5d01fb40cfb64f34b25bd17510f3b9849c8c3ec77ee9d3276> .
+<https://swib.org/swib22/contribution/103> schema:author <https://swib.org/person/X1819e85830b81c344620641499f6cb7a78875e418773c7580183038f3678e66f> .
+<https://swib.org/swib22/contribution/103> schema:author <https://swib.org/person/Xfde896a9e1877265897c572b46e4a6684b49dc5c953ceaa07c28076e6b35b9fe> .
 
 <https://swib.org/swib22/session/se-9> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib22/session/se-9> schema:superEvent <https://swib.org/swib22/conference> .
@@ -611,6 +620,8 @@ Participants are instructed to use a computer with at least 8GB of RAM and at le
 <https://swib.org/swib22/contribution/119> schema:name "Digital Scriptorium 2.0: toward a community-driven LOD knowledge base and national union catalog for premodern manuscripts" .
 <https://swib.org/swib22/contribution/119> schema:abstract '''Digital Scriptorium 2.0 (DS 2.0) is a project to redevelop the technical platform of a national union catalog of premodern manuscripts representing the full range of global manuscript cultures in US collections. This paper documents the development and implementation of a workflow for aggregating and transforming metadata records for premodern manuscripts in order to structure and publish them as linked open data (LOD). Strategies and practices for extracting, enhancing, and combining metadata from heterogeneous sources were explored. Data sources included library catalogs and other institutional data repositories, ranging from metadata in CSV files to XML-structured schemas. Automated scripts extracted and combined metadata by entity types for such entities as agents, places, materials, subjects, genres, languages, and date information recorded in catalog records as string values. Using OpenRefine, string values were reconciled to linked open databases and vocabularies such as Wikidata, FAST, and the Getty's AAT and TGN. This resulted in the creation of open-source metadata repositories to be used in the transformation of DS member metadata records into LOD for uploading into a shared knowledge base (Wikibase), thus semantically enriching existing cultural heritage metadata and enabling end user function like faceted search and SPARQL querying. This approach facilitated low institutional barriers to contribution as participating institutions did not have to alter their metadata records to contribute data and they retained control over their own catalog record formats and cataloging practices. The resulting database of heterogeneous, cross-institutional published LOD can be leveraged by the community of scholars, librarians, curators, and citizen scholars who participate in Digital Scriptorium to enhance and build upon existing knowledge about their collections.''' .
 <https://swib.org/swib22/contribution/119> schema:author <https://swib.org/person/Xfbe31afc10485a0f683b9a66955fd334b449b8c0e2f46be27f03bcec3f06528d> .
+<https://swib.org/swib22/contribution/119> schema:author <https://swib.org/person/Xe7162f1605aba5c8f3cc5e6f1c6993d12923f3ea0c31f10f990012ff2171cc3b> .
+<https://swib.org/swib22/contribution/119> schema:author <https://swib.org/person/X6b1db2dcd8a27b90cbf6595e0a04165a89bf2d76648e485173e67d1b9c662db3> .
 
 <https://swib.org/swib22/contribution/117> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/117> schema:featuredAt <https://swib.org/swib22/session/se-9> .
@@ -627,6 +638,7 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 <https://swib.org/swib22/contribution/115> schema:name "What linked data can tell about geographical trends in Finnish fiction literature – using the BookSampo knowledge graph in digital humanities" .
 <https://swib.org/swib22/contribution/115> schema:abstract '''[BookSampo](https://kirjasampo.fi) – a linked data (LD) service and portal for Finnish fiction literature – was launched in 2011 by the public libraries of Finland. Since then, the original knowledge graph (KG) has grown from 400,000 subjects to over 8,740,000, including literary works, authors, book covers, reviews, literary awards, along with other detailed semantic metadata. The portal, maintained by a team of Finnish librarians, has nearly 2 million annual users and its KG resides in a SPARQL endpoint. However, the potential of the KG has not been explored from a Digital Humanities (DH) research perspective where digital tools could help with knowledge discovery. This study presents novel data analyses on the BookSampo KG to demonstrate how LD can be used in DH studies, building on the concepts of distant reading and literary geography, i.e., the application of computational methods to study literature and its geographical dimension. Our work reveals and illustrates trends and biases in the development of Finnish literature based on semantic metadata. Focusing on novels and their geographical settings, the analyses show interesting annotation patterns related to genres and themes. Although the geographical diversity in fictional settings has increased over time, our results suggest that Finnish fiction literature still focuses on national settings and historical topics. Moreover, our digital perspective shows that the Finnish literary geography is biased by gender. Finally, we discuss to which extent the findings depend on the KG annotation practices, and how this potential meta-level bias should be addressed in the future.''' .
 <https://swib.org/swib22/contribution/115> schema:author <https://swib.org/person/X9f3bdd6fdc18c0c82c8fe4e3361149591d3f95447ddbf962ef453fb0de7f7258> .
+<https://swib.org/swib22/contribution/115> schema:author <https://swib.org/person/X7cb0ea6d73edb76f00ace97963fa16c456a24ef86b4dcb7de84edd33e73d300a> .
 <https://swib.org/swib22/contribution/115> schema:author <https://swib.org/person/Xa4f82f49338a5fa53b6e45e739b2895982e5f658fed374aebc0c3f8ebe881af0> .
 
 <https://swib.org/swib22/contribution/160> a schema:CreativeWork .
@@ -657,6 +669,10 @@ This presentation will provide an overview of the production integration from th
 <https://swib.org/swib22/contribution/116> schema:name "Improving language tags in cultural heritage data: a study of the metadata in Europeana" .
 <https://swib.org/swib22/contribution/116> schema:abstract '''Enhancing the multilingual accessibility of its rich cultural heritage material is a constant objective of Europeana and key to improving the user experience it offers. Technological advances are opening new ways for multilingual access but for their successful application the language of the existing data must be identified. In RDF data, language is indicated by the language tag in a dedicated attribute (xml:lang in RDF/XML). Previous studies conducted on Europeana datasets show that language tags are not used as often as they should, but we do not have precise statistics on this. Moreover, language tags found in Europeana have data quality issues – they do not always follow established standards even though Europeana already performs some (automatic) normalisation of tags. We conducted a study on the language tags included in the metadata of Europeana with two objectives in mind: First, to inform decision-making about possible improvements in the current language tag normalisation process, and second, to enhance the quality and quantity of training data for specialising automatic translation systems in the cultural heritage domain (a crucial objective for the Europeana Translate project, which aims to translate 25 million records of Europeana). Our study analysed the totality of the data in Europeana, which contains over 1,700 million RDF literals, and identified that only 15.9% of the literals are language-tagged. We also determined that 3.3% of the language tags are not valid according to the IETF BCP 47 standard. In our presentation, we recount the results of this study along with the improvements in the normalisation process we applied to collect training data for machine translation. ''' .
 <https://swib.org/swib22/contribution/116> schema:author <https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> .
+<https://swib.org/swib22/contribution/116> schema:author <https://swib.org/person/X3b54eaacf869c6afe4a20402e949f2ccaf5a5db83c5e5e194f2f948264a46c2a> .
+<https://swib.org/swib22/contribution/116> schema:author <https://swib.org/person/X8f957d7f7d5690d75cb4a4117e960aa20e007b415eff5524bdb963062f1f627e> .
+<https://swib.org/swib22/contribution/116> schema:author <https://swib.org/person/X62aa9131638cb2a01af5409cc0508356cc8e2c288abedb2fdd7c6b4e801b73f9> .
+<https://swib.org/swib22/contribution/116> schema:author <https://swib.org/person/X98a3041b0d493b0f6e7ba611aea4d21dd026da0753045c8dd9e655eacb7aa78e> .
 
 <https://swib.org/swib22/contribution/111> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/111> schema:featuredAt <https://swib.org/swib22/session/se-4> .
@@ -676,3 +692,5 @@ This presentation will provide an overview of the production integration from th
 <https://swib.org/swib22/contribution/173> schema:featuredAt <https://swib.org/swib22/session/coll> .
 <https://swib.org/swib22/contribution/173> schema:name "DINI-AG KIM meeting" .
 <https://swib.org/swib22/contribution/173> schema:abstract '''DINI-AG Kompetenzzentrum Interoperable Metadaten (KIM) virtual public meeting of the DINI-AG KIM. KIM is a forum for German-speaking metadata experts from LAM institutions. The Meeting will be held in German. Everybody is invited to come. [Agenda](https://wiki.dnb.de/x/UKR5Dw )''' .
+<https://swib.org/swib22/contribution/173> schema:author <https://swib.org/person/X3a42a9a89e8088c15348125f5a0818cc5bb905a8d1067386d2edaecf5c1c2fc8> .
+<https://swib.org/swib22/contribution/173> schema:author <https://swib.org/person/Xb5271f184d61c9449deb0f76a7f8a75056cb8df90d734e8bc81773e61a6be6f3> .

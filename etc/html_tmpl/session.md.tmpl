@@ -1,0 +1,22 @@
+---
+pagetitle: "<tmpl_var swib>: <tmpl_var session_title>"
+---
+
+<div id="main">
+
+![swib logo](../images/swib.png) 
+<tmpl_if ann_flg>
+next: <tmpl_var start_date> <tmpl_var start_time> h UTC   [ti](https://zonestamp.toolforge.org/<tmpl_var epoch>)
+</tmpl_if>
+
+# <tmpl_var session_title>
+
+<tmpl_loop abstracts_loop>
+
+## <tmpl_var abstract_title>
+
+<tmpl_loop authors_loop><tmpl_if author_id><u></tmpl_if><tmpl_var name><tmpl_if author_id></u></tmpl_if><tmpl_if index><sup><tmpl_var index></sup></tmpl_if><tmpl_unless __last__>, </tmpl_unless><tmpl_if orcid></tmpl_if></tmpl_loop><br />
+<tmpl_loop organisations_loop><tmpl_if index><sup><tmpl_var index> </sup></tmpl_if><tmpl_var name><tmpl_unless __last__>; </tmpl_unless></tmpl_loop>
+
+</tmpl_loop>
+
