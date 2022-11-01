@@ -4,7 +4,7 @@ pagetitle: "SWIB22: Machine Learning"
 
 <div id="main">
 
-![swib logo](../images/swib.png) 
+![](../images/swib.png) 
 
 
 # Machine Learning

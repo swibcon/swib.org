@@ -4,7 +4,7 @@ pagetitle: "SWIB22: Lightning Talks / RDF Insights"
 
 <div id="main">
 
-![swib logo](../images/swib.png) 
+![](../images/swib.png) 
 
 
 # Lightning Talks / RDF Insights

@@ -4,7 +4,7 @@ pagetitle: "SWIB22: Tutorials and Workshops"
 
 <div id="main">
 
-![swib logo](../images/swib.png) 
+![](../images/swib.png) 
 
 
 # Tutorials and Workshops

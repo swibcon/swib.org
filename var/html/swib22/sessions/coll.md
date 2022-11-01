@@ -4,7 +4,7 @@ pagetitle: "SWIB22: Collocated Events"
 
 <div id="main">
 
-![swib logo](../images/swib.png) 
+![](../images/swib.png) 
 
 
 # Collocated Events

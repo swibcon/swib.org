@@ -4,7 +4,7 @@ pagetitle: "SWIB22: Continued Progress"
 
 <div id="main">
 
-![swib logo](../images/swib.png) 
+![](../images/swib.png) 
 
 
 # Continued Progress

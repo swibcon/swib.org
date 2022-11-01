@@ -4,7 +4,7 @@ pagetitle: "SWIB22: Linked Library Data II"
 
 <div id="main">
 
-![swib logo](../images/swib.png) 
+![](../images/swib.png) 
 
 
 # Linked Library Data II
