@@ -434,67 +434,6 @@ Once the spreadsheet of triples is output, it can be imported into OpenRefine in
 And that direction is toward the semantic web and linked data which are influencing how bibliographic and authority data are created, shared, and made available to potential users. In this presentation I will focus on modeling, mapping, and creating workflows for moving the bibliographic and authority data of the National Library of Latvia to Wikidata as a major hub of the semantic web. The main focus will be on modeling and integrating library authority files (persons, organizations, works, locations, etc.) to a full extent into Wikidata, reducing any possible data loss to a minimum. This way, Wikidata will not be used as just a hub for institutional identifiers but as a universal and collaborative knowledge base where libraries can truly share and disseminate their knowledge, connect it and use it to describe and query their resources.''' .
 <https://swib.org/swib22/contribution/109> schema:author <https://swib.org/person/Xcf105d10f2a9effaf9f54c995fac498d88d694570e4c4512f84d322dbaf3bb5d> .
 
-<https://swib.org/swib22/session/se-02> a swc:SessionEvent, schema:Event .
-<https://swib.org/swib22/session/se-02> schema:superEvent <https://swib.org/swib22/conference> .
-<https://swib.org/swib22/session/se-02> schema:name "Linked Library Data I" .
-<https://swib.org/swib22/session/se-02> schema:startDate "2022-11-28" .
-
-<https://swib.org/swib22/contribution/104> a schema:CreativeWork .
-<https://swib.org/swib22/contribution/104> schema:featuredAt <https://swib.org/swib22/session/se-02> .
-<https://swib.org/swib22/contribution/104> schema:name "Mapping and transforming MARC21 bibliographic metadata to LRM/RDA/RDF" .
-<https://swib.org/swib22/contribution/104> schema:abstract '''The MARC21-to-RDA/LRM/RDF Mapping Project is an international, cross-organizational project that aims to broaden the adoption of the RDA/LRM/RDF ontology (that is, the Resource Description and Access implementation of the Library Reference Model using the Resource Description Framework). One premise of the project is that RDA-based values situated in the rich RDA/LRM/RDF context using RDA entities and relationships are more consistent and potentially more useful than when situated in less-granular formats such as BIBFRAME or non-graph-based metadata formats such as MARC21.
-
-The starting point of the project is MARC21 data accumulated over decades, and the potential to create a lossless conversion while at the same time creating high quality RDA/LRM/RDF has been a central concern. Once the mapping is complete, there is the expectation that abundant RDA/LRM/RDF datasets will be created and used to test the efficacy of RDA entities and relationships for specific uses. To that end, the project is producing an open-source, XSLT-based conversion tool that can process most MARC bibliographic data to output a close approximation of the intent of the mapping.
-
-Presenters describe the theoretical foundation of the project, review the mapping structure and format in detail, demonstrate the conversion tool with a focus on its RDA/LRM/RDF output, and share a vision for the future of RDA/LRM/RDF metadata in the greater library linked data ecosystem. Mappings, code, and project information can be found at [the project GitHub repository](https://github.com/uwlib-cams/MARC2RDA).''' .
-<https://swib.org/swib22/contribution/104> schema:author <https://swib.org/person/X5e5415b576ceb41ae7c5d4c855a27760a06dd86b71bb1fa2599463b1781ec899> .
-<https://swib.org/swib22/contribution/104> schema:author <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> .
-<https://swib.org/swib22/contribution/104> schema:author <https://swib.org/person/Xe1af218db11177fdcb7141bcdf5539362ee8584504fe095fcd1b63c747d59ddd> .
-
-<https://swib.org/swib22/contribution/123> a schema:CreativeWork .
-<https://swib.org/swib22/contribution/123> schema:featuredAt <https://swib.org/swib22/session/se-02> .
-<https://swib.org/swib22/contribution/123> schema:name "A crosswalk in the park? Converting from MARC 21 to Linked Art" .
-<https://swib.org/swib22/contribution/123> schema:abstract '''Yale University is currently undertaking a multiyear effort to create a cross-collections discovery environment called LUX, or “light,” from the university's Latin motto. LUX aggregates metadata from the catalogs of Yale’s four main collecting units, including the university library. The LUX platform has been designed using the [Linked Art](https://linked.art) (LA) profile of the CIDOC-CRM ontology as its common data model. Each collecting unit has developed a crosswalk from its local domain standard to the LA model. In the library, metadata librarians and software engineers have collaborated to develop and document a crosswalk from MARC 21 to LA JSON-LD.
-
-Implementing the crosswalk has meant designing a system that is more complex than a typical transformation. A single MARC record may be expanded into multiple top-level LA entities. In total, Yale’s 12.5 million catalog records translate into 47.5 million entities in LA. To implement the semantics of the LA model and manage data dependencies within and across MARC records, a new system was developed using Java and Spring Boot with Postgres. The system was designed to serve up LA entities, exposed through an activity stream, and to provide a framework for a modular set of transformation components.
-
-Generating linked data at scale was a new challenge for the library. The initial design used a database schema based on triples, with resolvable identifiers for all objects; this approach provided an intuitive way to create and query relationships without using a native triple store or graph database, given the learning curve that an unfamiliar system would have entailed. However, the triples-based approach proved too resource-intensive at scale, and the system was modified to store some data in JSON and resolve only top-level entities, while still storing a subset of the relationship data for querying.''' .
-<https://swib.org/swib22/contribution/123> schema:author <https://swib.org/person/X1a6fbcdffdfbcb3cd1a116a5e2d0e3f5c4b8f413499ad295ddb4eee519ef78bd> .
-<https://swib.org/swib22/contribution/123> schema:author <https://swib.org/person/Xa5e687b58be6e9848803ac708b2502253bbcebdcb36c4309d5147f1efccb10b8> .
-
-<https://swib.org/swib22/contribution/114> a schema:CreativeWork .
-<https://swib.org/swib22/contribution/114> schema:featuredAt <https://swib.org/swib22/session/se-02> .
-<https://swib.org/swib22/contribution/114> schema:name "A LITL more quality: improving the correctness and completeness of library catalogs with a librarian-in-the-loop linked data workflow" .
-<https://swib.org/swib22/contribution/114> schema:abstract '''Traditionally, a library maintains both bibliographic data about publications and authority data about publication contributors such as authors or publishers. At the Royal Library of Belgium (KBR), we currently maintain more than 900,000 authority records about persons and metadata records of over 3.5 million publications. As an authoritative data source we are expected to have correct and complete data. In contrast to syntactical data quality issues – which can be detected automatically – issues regarding the correctness of data or completeness of the catalogue often require semantic checks, e.g., if the correct ISBN is used and if the nationality of the contributor is correct. However, the amount of Belgian cultural heritage data makes manual quality checks very time-consuming.
-
-Within the [BELTRANS project](https://github.com/kbrbe/beltrans-data-integration ) which studies Intra-Belgian book translation flows of publications based on metadata (who?, when?, where?), we developed an approach to support librarians in the detection and correction of semantic data issues. This approach consists in the integration of data from different heterogeneous sources via RDF and identifying contradicting data automatically with SPARQL. Librarians can inspect the contradicting data fields, choose the correct data, and thus semi-automatically correct the contradiction.
-
-This contribution describes the approach, which is implemented as a 5-step workflow using linked data and Python. We discuss how we use the workflow to improve the correctness of the data used in the BELTRANS project and the wider applicability of the workflow within the National Library to improve the completeness of our catalog with respect to legal deposit. Since the expertise of librarians is needed to interpret identified data contradictions, the next step is to improve the usability of our prototypical solution.''' .
-<https://swib.org/swib22/contribution/114> schema:author <https://swib.org/person/Xf9bdbdfd09c9a3ccc868ea7872a9b2be201cd7f4a0b9ea3c79820f6e35fea180> .
-<https://swib.org/swib22/contribution/114> schema:author <https://swib.org/person/X20bd83abedd4a6865f01928e0ab9b68d0eac29871776969e9fdd3d74e5333cf3> .
-<https://swib.org/swib22/contribution/114> schema:author <https://swib.org/person/X0198e3683afce3ab4a6d62b8ee0a35319850c43560d0a5dddebebb5707c3bdf5> .
-
-<https://swib.org/swib22/session/se-01> a swc:SessionEvent, schema:Event .
-<https://swib.org/swib22/session/se-01> schema:superEvent <https://swib.org/swib22/conference> .
-<https://swib.org/swib22/session/se-01> schema:name "Start of Conference" .
-<https://swib.org/swib22/session/se-01> schema:startDate "2022-11-28" .
-
-<https://swib.org/swib22/contribution/159> a schema:CreativeWork .
-<https://swib.org/swib22/contribution/159> schema:featuredAt <https://swib.org/swib22/session/se-01> .
-<https://swib.org/swib22/contribution/159> schema:name "Opening" .
-<https://swib.org/swib22/contribution/159> schema:author <https://swib.org/person/X90628417117267c814453b123cbea59c17d3d02d8611e0f5a1bac026e217cb89> .
-<https://swib.org/swib22/contribution/159> schema:author <https://swib.org/person/Xd871fbcfdf32518261d7d0dd353b59a62b4a09a86973fd5414eac7e338844a72> .
-
-<https://swib.org/swib22/contribution/161> a schema:CreativeWork .
-<https://swib.org/swib22/contribution/161> schema:featuredAt <https://swib.org/swib22/session/se-01> .
-<https://swib.org/swib22/contribution/161> schema:name "Libraries, linked data, and decolonization (keynote)" .
-<https://swib.org/swib22/contribution/161> schema:abstract '''Global decolonization movements have focused attention on the colonial nature of cultural heritage. Events such as the toppling and removal of statues of colonial figures, the fight for the return of stolen artefacts and ancestors, and questions regarding the ownership and usage of historical photographs in cultural heritage collections are not new; such activities have gained momentum and greater prominence in public discourse in recent years. While less visible than tangible objects, tendrils and structures of colonialism run through data practices and standards. Such practices continue to harm peoples and lands that have been and continue to be, subject to colonialism. It is vital that linked data practice address this continued legacy and work toward anticolonial within contemporary library and cultural data work.
-
-What does decolonial (data) practice mean for linked data in the library and broader cultural data environment? Why does this matter for all individuals involved in linked data work? This talk will delve into issues facing the linked data community, including the limitations of current standards and systems, the vital need for change in practice, the importance and implications of recognizing Indigenous rights and rights of nations and states, and opportunities on the horizon with emerging standards and principles such as [CARE](https://www.gida-global.org/care) and projects related to respectful naming. The talk will also focus on concrete actions the library linked data community can take to support decolonization and a more just and ethical future for linked data.
-
-''' .
-<https://swib.org/swib22/contribution/161> schema:author <https://swib.org/person/X7ffaab5716fd717a46892c2dc7f84ac6a1d18ec767a3c3bb160813c1160dda0a> .
-
 <https://swib.org/swib22/session/se-7> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib22/session/se-7> schema:superEvent <https://swib.org/swib22/conference> .
 <https://swib.org/swib22/session/se-7> schema:name "Lightning Talks / RDF Insights" .
@@ -528,6 +467,46 @@ In summary, the Apache Fuseki triple store performed quite well across all tasks
 
 ''' .
 <https://swib.org/swib22/contribution/101> schema:author <https://swib.org/person/X3ee641789bd620e47bd528f57d62683606d909c8a8d7ad7bc41a23b1d7c9d396> .
+
+<https://swib.org/swib22/session/se-2> a swc:SessionEvent, schema:Event .
+<https://swib.org/swib22/session/se-2> schema:superEvent <https://swib.org/swib22/conference> .
+<https://swib.org/swib22/session/se-2> schema:name "Linked Library Data I" .
+<https://swib.org/swib22/session/se-2> schema:startDate "2022-11-28" .
+
+<https://swib.org/swib22/contribution/104> a schema:CreativeWork .
+<https://swib.org/swib22/contribution/104> schema:featuredAt <https://swib.org/swib22/session/se-2> .
+<https://swib.org/swib22/contribution/104> schema:name "Mapping and transforming MARC21 bibliographic metadata to LRM/RDA/RDF" .
+<https://swib.org/swib22/contribution/104> schema:abstract '''The MARC21-to-RDA/LRM/RDF Mapping Project is an international, cross-organizational project that aims to broaden the adoption of the RDA/LRM/RDF ontology (that is, the Resource Description and Access implementation of the Library Reference Model using the Resource Description Framework). One premise of the project is that RDA-based values situated in the rich RDA/LRM/RDF context using RDA entities and relationships are more consistent and potentially more useful than when situated in less-granular formats such as BIBFRAME or non-graph-based metadata formats such as MARC21.
+
+The starting point of the project is MARC21 data accumulated over decades, and the potential to create a lossless conversion while at the same time creating high quality RDA/LRM/RDF has been a central concern. Once the mapping is complete, there is the expectation that abundant RDA/LRM/RDF datasets will be created and used to test the efficacy of RDA entities and relationships for specific uses. To that end, the project is producing an open-source, XSLT-based conversion tool that can process most MARC bibliographic data to output a close approximation of the intent of the mapping.
+
+Presenters describe the theoretical foundation of the project, review the mapping structure and format in detail, demonstrate the conversion tool with a focus on its RDA/LRM/RDF output, and share a vision for the future of RDA/LRM/RDF metadata in the greater library linked data ecosystem. Mappings, code, and project information can be found at [the project GitHub repository](https://github.com/uwlib-cams/MARC2RDA).''' .
+<https://swib.org/swib22/contribution/104> schema:author <https://swib.org/person/X5e5415b576ceb41ae7c5d4c855a27760a06dd86b71bb1fa2599463b1781ec899> .
+<https://swib.org/swib22/contribution/104> schema:author <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> .
+<https://swib.org/swib22/contribution/104> schema:author <https://swib.org/person/Xe1af218db11177fdcb7141bcdf5539362ee8584504fe095fcd1b63c747d59ddd> .
+
+<https://swib.org/swib22/contribution/123> a schema:CreativeWork .
+<https://swib.org/swib22/contribution/123> schema:featuredAt <https://swib.org/swib22/session/se-2> .
+<https://swib.org/swib22/contribution/123> schema:name "A crosswalk in the park? Converting from MARC 21 to Linked Art" .
+<https://swib.org/swib22/contribution/123> schema:abstract '''Yale University is currently undertaking a multiyear effort to create a cross-collections discovery environment called LUX, or “light,” from the university's Latin motto. LUX aggregates metadata from the catalogs of Yale’s four main collecting units, including the university library. The LUX platform has been designed using the [Linked Art](https://linked.art) (LA) profile of the CIDOC-CRM ontology as its common data model. Each collecting unit has developed a crosswalk from its local domain standard to the LA model. In the library, metadata librarians and software engineers have collaborated to develop and document a crosswalk from MARC 21 to LA JSON-LD.
+
+Implementing the crosswalk has meant designing a system that is more complex than a typical transformation. A single MARC record may be expanded into multiple top-level LA entities. In total, Yale’s 12.5 million catalog records translate into 47.5 million entities in LA. To implement the semantics of the LA model and manage data dependencies within and across MARC records, a new system was developed using Java and Spring Boot with Postgres. The system was designed to serve up LA entities, exposed through an activity stream, and to provide a framework for a modular set of transformation components.
+
+Generating linked data at scale was a new challenge for the library. The initial design used a database schema based on triples, with resolvable identifiers for all objects; this approach provided an intuitive way to create and query relationships without using a native triple store or graph database, given the learning curve that an unfamiliar system would have entailed. However, the triples-based approach proved too resource-intensive at scale, and the system was modified to store some data in JSON and resolve only top-level entities, while still storing a subset of the relationship data for querying.''' .
+<https://swib.org/swib22/contribution/123> schema:author <https://swib.org/person/X1a6fbcdffdfbcb3cd1a116a5e2d0e3f5c4b8f413499ad295ddb4eee519ef78bd> .
+<https://swib.org/swib22/contribution/123> schema:author <https://swib.org/person/Xa5e687b58be6e9848803ac708b2502253bbcebdcb36c4309d5147f1efccb10b8> .
+
+<https://swib.org/swib22/contribution/114> a schema:CreativeWork .
+<https://swib.org/swib22/contribution/114> schema:featuredAt <https://swib.org/swib22/session/se-2> .
+<https://swib.org/swib22/contribution/114> schema:name "A LITL more quality: improving the correctness and completeness of library catalogs with a librarian-in-the-loop linked data workflow" .
+<https://swib.org/swib22/contribution/114> schema:abstract '''Traditionally, a library maintains both bibliographic data about publications and authority data about publication contributors such as authors or publishers. At the Royal Library of Belgium (KBR), we currently maintain more than 900,000 authority records about persons and metadata records of over 3.5 million publications. As an authoritative data source we are expected to have correct and complete data. In contrast to syntactical data quality issues – which can be detected automatically – issues regarding the correctness of data or completeness of the catalogue often require semantic checks, e.g., if the correct ISBN is used and if the nationality of the contributor is correct. However, the amount of Belgian cultural heritage data makes manual quality checks very time-consuming.
+
+Within the [BELTRANS project](https://github.com/kbrbe/beltrans-data-integration ) which studies Intra-Belgian book translation flows of publications based on metadata (who?, when?, where?), we developed an approach to support librarians in the detection and correction of semantic data issues. This approach consists in the integration of data from different heterogeneous sources via RDF and identifying contradicting data automatically with SPARQL. Librarians can inspect the contradicting data fields, choose the correct data, and thus semi-automatically correct the contradiction.
+
+This contribution describes the approach, which is implemented as a 5-step workflow using linked data and Python. We discuss how we use the workflow to improve the correctness of the data used in the BELTRANS project and the wider applicability of the workflow within the National Library to improve the completeness of our catalog with respect to legal deposit. Since the expertise of librarians is needed to interpret identified data contradictions, the next step is to improve the usability of our prototypical solution.''' .
+<https://swib.org/swib22/contribution/114> schema:author <https://swib.org/person/Xf9bdbdfd09c9a3ccc868ea7872a9b2be201cd7f4a0b9ea3c79820f6e35fea180> .
+<https://swib.org/swib22/contribution/114> schema:author <https://swib.org/person/X20bd83abedd4a6865f01928e0ab9b68d0eac29871776969e9fdd3d74e5333cf3> .
+<https://swib.org/swib22/contribution/114> schema:author <https://swib.org/person/X0198e3683afce3ab4a6d62b8ee0a35319850c43560d0a5dddebebb5707c3bdf5> .
 
 <https://swib.org/swib22/session/ws> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib22/session/ws> schema:superEvent <https://swib.org/swib22/conference> .
@@ -644,6 +623,27 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 <https://swib.org/swib22/contribution/160> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/160> schema:featuredAt <https://swib.org/swib22/session/se-9> .
 <https://swib.org/swib22/contribution/160> schema:name "Closing" .
+
+<https://swib.org/swib22/session/se-1> a swc:SessionEvent, schema:Event .
+<https://swib.org/swib22/session/se-1> schema:superEvent <https://swib.org/swib22/conference> .
+<https://swib.org/swib22/session/se-1> schema:name "Conference Start" .
+<https://swib.org/swib22/session/se-1> schema:startDate "2022-11-28" .
+
+<https://swib.org/swib22/contribution/159> a schema:CreativeWork .
+<https://swib.org/swib22/contribution/159> schema:featuredAt <https://swib.org/swib22/session/se-1> .
+<https://swib.org/swib22/contribution/159> schema:name "Opening" .
+<https://swib.org/swib22/contribution/159> schema:author <https://swib.org/person/X90628417117267c814453b123cbea59c17d3d02d8611e0f5a1bac026e217cb89> .
+<https://swib.org/swib22/contribution/159> schema:author <https://swib.org/person/Xd871fbcfdf32518261d7d0dd353b59a62b4a09a86973fd5414eac7e338844a72> .
+
+<https://swib.org/swib22/contribution/161> a schema:CreativeWork .
+<https://swib.org/swib22/contribution/161> schema:featuredAt <https://swib.org/swib22/session/se-1> .
+<https://swib.org/swib22/contribution/161> schema:name "Libraries, linked data, and decolonization (keynote)" .
+<https://swib.org/swib22/contribution/161> schema:abstract '''Global decolonization movements have focused attention on the colonial nature of cultural heritage. Events such as the toppling and removal of statues of colonial figures, the fight for the return of stolen artefacts and ancestors, and questions regarding the ownership and usage of historical photographs in cultural heritage collections are not new; such activities have gained momentum and greater prominence in public discourse in recent years. While less visible than tangible objects, tendrils and structures of colonialism run through data practices and standards. Such practices continue to harm peoples and lands that have been and continue to be, subject to colonialism. It is vital that linked data practice address this continued legacy and work toward anticolonial within contemporary library and cultural data work.
+
+What does decolonial (data) practice mean for linked data in the library and broader cultural data environment? Why does this matter for all individuals involved in linked data work? This talk will delve into issues facing the linked data community, including the limitations of current standards and systems, the vital need for change in practice, the importance and implications of recognizing Indigenous rights and rights of nations and states, and opportunities on the horizon with emerging standards and principles such as [CARE](https://www.gida-global.org/care) and projects related to respectful naming. The talk will also focus on concrete actions the library linked data community can take to support decolonization and a more just and ethical future for linked data.
+
+''' .
+<https://swib.org/swib22/contribution/161> schema:author <https://swib.org/person/X7ffaab5716fd717a46892c2dc7f84ac6a1d18ec767a3c3bb160813c1160dda0a> .
 
 <https://swib.org/swib22/session/se-4> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib22/session/se-4> schema:superEvent <https://swib.org/swib22/conference> .

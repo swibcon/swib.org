@@ -35,9 +35,9 @@ DINI-AG Kompetenzzentrum Interoperable Metadaten (KIM) virtual public meeting of
 
 
 
-<tr id="se-01"><td class="times-col">[14:00-15:15 h UTC](https://zonestamp.toolforge.org/1669644000)</td><td>
+<tr id="se-1"><td class="times-col">[14:00-15:15 h UTC](https://zonestamp.toolforge.org/1669644000)</td><td>
 
-### Start of Conference
+### Conference Start
 
 </td></tr>
 
@@ -83,7 +83,7 @@ What does decolonial (data) practice mean for linked data in the library and bro
 
 
 
-<tr id="se-02"><td class="times-col">[15:30-16:45 h UTC](https://zonestamp.toolforge.org/1669649400)</td><td>
+<tr id="se-2"><td class="times-col">[15:30-16:45 h UTC](https://zonestamp.toolforge.org/1669649400)</td><td>
 
 ### Linked Library Data I
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: "SWIB22: Start of Conference"
+pagetitle: "SWIB22: Conference Start"
 ---
 
 <div id="main">
@@ -7,7 +7,7 @@ pagetitle: "SWIB22: Start of Conference"
 ![](../images/swib.png) 
 
 
-# Start of Conference
+# Conference Start
 
 
 
