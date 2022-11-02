@@ -2,12 +2,10 @@
 pagetitle: "<tmpl_var swib>: <tmpl_var session_title>"
 ---
 
-<div id="main">
 
-![](../images/swib.png) 
-<tmpl_if ann_flg>
-next: <tmpl_var start_date> <tmpl_var start_time> h UTC   [ti](https://zonestamp.toolforge.org/<tmpl_var epoch>)
-</tmpl_if>
+<div id="top">![](../images/swib.png)<tmpl_if ann_flg><span class="timer">next: <tmpl_var start_date> <tmpl_var start_time> h UTC   [ti](https://zonestamp.toolforge.org/<tmpl_var epoch>)</span></tmpl_if></div>
+
+<div id="prog">
 
 # <tmpl_var session_title>
 
@@ -20,3 +18,4 @@ next: <tmpl_var start_date> <tmpl_var start_time> h UTC   [ti](https://zonestamp
 
 </tmpl_loop>
 
+</div>

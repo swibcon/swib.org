@@ -19,5 +19,13 @@
 
 :::
 
+## Mastodon {.sidebox-title}
+
+:::{.sidebox-box}
+
+[\@swib@openbiblio.social](https://openbiblio.social/@swib)
+
+:::
+
 </div>
 

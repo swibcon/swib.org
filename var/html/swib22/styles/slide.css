@@ -1,3 +1,23 @@
+html {
+  font-family: Arial, sans-serif;
+  color: #2B5A9D;
+  font-size: 16px;
+  line-height: 1.4;  
+}
+
 img {
-  max-width: 30%;
+  margin-left: 10px;
+  margin-right: 30px;
+  max-width: 20%;
+}
+
+#prog {
+  text-align: center;
+}
+
+#top {
+  display: flex;
+  align-items: center;
+  font-size: 200%;
+  font-weight: bold;
 }

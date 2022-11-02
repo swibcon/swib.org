@@ -3,7 +3,7 @@ pagetitle: "SWIB22: Conference Start"
 ---
 
 
-<div id="top">![](../images/swib.png)</div>
+<div id="top">![](../images/swib.png)<span class="timer">next: 2022-11-28 14:00 h UTC   [ti](https://zonestamp.toolforge.org/1669644000)</span></div>
 
 <div id="prog">
 

@@ -3,7 +3,7 @@ pagetitle: "SWIB22: LOD Applications"
 ---
 
 
-<div id="top">![](../images/swib.png)</div>
+<div id="top">![](../images/swib.png)<span class="timer">next: 2022-12-02 14:00 h UTC   [ti](https://zonestamp.toolforge.org/1669989600)</span></div>
 
 <div id="prog">
 

@@ -115,6 +115,14 @@ The first workshops are fully booked already.\
 
 :::
 
+## Mastodon {.sidebox-title}
+
+:::{.sidebox-box}
+
+[\@swib@openbiblio.social](https://openbiblio.social/@swib)
+
+:::
+
 </div>
 
 

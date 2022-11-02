@@ -350,7 +350,12 @@ sub output_rdf {
 
 sub output_session_slides {
 
-  foreach my $session_id ( sort keys %session ) {
+  my @slides_loop;
+  foreach my $session_id (
+    sort { $session{$a}{start} cmp $session{$b}{start} }
+    keys %session
+    )
+  {
 
     # skip sessions without presentations (such as coffee breaks)
     next unless scalar @{ $session{$session_id}{presentations} } gt 0;
@@ -380,8 +385,9 @@ sub output_session_slides {
     $entry{abstracts_loop} = \@abstracts_loop;
 
     my $tmpl = HTML::Template->new(
-      filename => $TEMPLATE_ROOT->child("session.md.tmpl"),
-      utf8     => 1,
+      filename          => $TEMPLATE_ROOT->child("session.md.tmpl"),
+      utf8              => 1,
+      loop_context_vars => 1
     );
     $tmpl->param( \%entry );
 
@@ -390,7 +396,34 @@ sub output_session_slides {
     my $outfile = $HTML_ROOT->child("sessions")->child("${session_id}.md");
     $outfile->spew_utf8( $tmpl->output );
 
+    $tmpl->param( ann_flg => 1, );
+
+    $outfile =
+      $HTML_ROOT->child("sessions")->child("${session_id}_announce.md");
+    $outfile->spew_utf8( $tmpl->output );
+
+    # entry for the slide index
+    my %index_entry = (
+      session_id    => $session_id,
+      session_title => $session{$session_id}{title},
+      start_time    => $session{$session_id}{start_time},
+      start_date    => $session{$session_id}{start_date},
+    );
+    push( @slides_loop, \%index_entry );
   }
+
+  # session slide index
+  my $tmpl = HTML::Template->new(
+    filename => $TEMPLATE_ROOT->child("session_index.md.tmpl"),
+    utf8     => 1,
+  );
+  $tmpl->param(
+    swib        => $SWIB,
+    slides_loop => \@slides_loop,
+  );
+  my $outfile = $HTML_ROOT->child("sessions")->child("index.md");
+  $outfile->spew_utf8( $tmpl->output );
+
 }
 
 sub build_person_rdf {

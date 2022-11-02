@@ -3,7 +3,7 @@ pagetitle: "SWIB22: Linked Library Data I"
 ---
 
 
-<div id="top">![](../images/swib.png)</div>
+<div id="top">![](../images/swib.png)<span class="timer">next: 2022-11-28 15:30 h UTC   [ti](https://zonestamp.toolforge.org/1669649400)</span></div>
 
 <div id="prog">
 

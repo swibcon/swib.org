@@ -3,7 +3,7 @@ pagetitle: "SWIB22: Continued Progress"
 ---
 
 
-<div id="top">![](../images/swib.png)</div>
+<div id="top">![](../images/swib.png)<span class="timer">next: 2022-11-29 15:30 h UTC   [ti](https://zonestamp.toolforge.org/1669735800)</span></div>
 
 <div id="prog">
 

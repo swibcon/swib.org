@@ -3,7 +3,7 @@ pagetitle: "SWIB22: Machine Learning"
 ---
 
 
-<div id="top">![](../images/swib.png)</div>
+<div id="top">![](../images/swib.png)<span class="timer">next: 2022-12-01 15:30 h UTC   [ti](https://zonestamp.toolforge.org/1669908600)</span></div>
 
 <div id="prog">
 

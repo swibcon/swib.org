@@ -405,7 +405,7 @@ This workshop aims to help researchers, digital curators and data managers learn
 
 <tr id="contrib162"><td></td><td>
 
-#### Lighning talks
+#### Lightning talks
 
 
 
@@ -417,7 +417,7 @@ Use the opportunity to share your latest projects or ideas in a short lightning 
 
 <tr id="contrib108"><td></td><td>
 
-#### Shapes, forms and footprints: web generation of RDF data without coding.
+#### Shapes, forms and footprints: web generation of RDF data without coding
 
 [Patrick Hochstenbach](speakers.html#Xb7192fa1782e788b65627b3c255cf94bd047851526b6f32993ac4553e6ff2f7c) [<img src="images/orcid.png" title="ORCID: 0000-0001-8390-6171">](https://orcid.org/0000-0001-8390-6171)
 
@@ -634,6 +634,14 @@ The first workshops are fully booked already.\
 @swibcon
 
 #swib22
+
+:::
+
+## Mastodon {.sidebox-title}
+
+:::{.sidebox-box}
+
+[\@swib@openbiblio.social](https://openbiblio.social/@swib)
 
 :::
 

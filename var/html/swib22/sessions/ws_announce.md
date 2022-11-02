@@ -3,7 +3,7 @@ pagetitle: "SWIB22: Tutorials and Workshops"
 ---
 
 
-<div id="top">![](../images/swib.png)</div>
+<div id="top">![](../images/swib.png)<span class="timer">next: 2022-11-30 14:00 h UTC   [ti](https://zonestamp.toolforge.org/1669816800)</span></div>
 
 <div id="prog">
 

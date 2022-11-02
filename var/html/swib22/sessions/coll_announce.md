@@ -3,7 +3,7 @@ pagetitle: "SWIB22: Collocated Events"
 ---
 
 
-<div id="top">![](../images/swib.png)</div>
+<div id="top">![](../images/swib.png)<span class="timer">next: 2022-11-28 12:00 h UTC   [ti](https://zonestamp.toolforge.org/1669636800)</span></div>
 
 <div id="prog">
 
