@@ -5,7 +5,7 @@ pagetitle: "SWIB22: Linked Library Data II"
 
 <div id="top">
 <div class="column left">![](../images/swib.png "swib logo")</div>
-<div class="column middle">next: &#160; 2022-11-29 14:00-15:15 h <span style="font-size:81%">(UTC)</span></div>
+<div class="column middle">next: &#160; 2022-11-29 14:00-15:15 h <span class="timezone">(UTC)</span></div>
 <div class="column right simply-countdown"></div>
 </div>
 

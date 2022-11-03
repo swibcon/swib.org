@@ -5,7 +5,7 @@ pagetitle: "SWIB22: Machine Learning"
 
 <div id="top">
 <div class="column left">![](../images/swib.png "swib logo")</div>
-<div class="column middle">next: &#160; 2022-12-01 15:30-16:45 h <span style="font-size:81%">(UTC)</span></div>
+<div class="column middle">next: &#160; 2022-12-01 15:30-16:45 h <span class="timezone">(UTC)</span></div>
 <div class="column right simply-countdown"></div>
 </div>
 

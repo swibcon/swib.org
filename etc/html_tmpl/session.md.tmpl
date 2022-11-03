@@ -5,7 +5,7 @@ pagetitle: "<tmpl_var swib>: <tmpl_var session_title>"
 
 <div id="top">
 <div class="column left">![](../images/swib.png "swib logo")</div>
-<div class="column middle"><tmpl_if announce>next: &#160; <tmpl_var start_date> <tmpl_var start_time>-<tmpl_var end_time> h <span style="font-size:81%">(UTC)</span></tmpl_if></div>
+<div class="column middle"><tmpl_if announce>next: &#160; <tmpl_var start_date> <tmpl_var start_time>-<tmpl_var end_time> h <span class="timezone">(UTC)</span></tmpl_if></div>
 <div class="column right<tmpl_if announce> simply-countdown</tmpl_if>"></div>
 </div>
 
