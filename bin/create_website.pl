@@ -361,15 +361,22 @@ sub output_session_slides {
     next unless scalar @{ $session{$session_id}{presentations} } gt 0;
 
     print "$session{$session_id}{start_date} $session_id\n";
+
+    my $start_date = $session{$session_id}{start_date};
+    my $start_time = $session{$session_id}{start_time};
+    my ( $year, $month, $day ) = split( /\-/, $start_date );
+    my ( $hour, $minute ) = split( /:/, $start_time );
     my %entry = (
       swib          => $SWIB,
       session_title => $session{$session_id}{title},
-      start_time    => $session{$session_id}{start_time},
-      start_date    => $session{$session_id}{start_date},
-      epoch         => time2epoch(
-        $session{$session_id}{start_date},
-        $session{$session_id}{start_time}
-      ),
+      start_date    => $start_date,
+      start_time    => $start_time,
+      end_time      => $session{$session_id}{end_time},
+      year          => $year,
+      month         => $month,
+      day           => $day,
+      hours         => $hour,
+      minutes       => $minute,
     );
 
     my @presentations = @{ $session{$session_id}{presentations} };
@@ -391,12 +398,12 @@ sub output_session_slides {
     );
     $tmpl->param( \%entry );
 
-    #print Dumper $tmpl->param('abstracts_loop'); exit;
-
+    # output session background slides
     my $outfile = $HTML_ROOT->child("sessions")->child("${session_id}.md");
     $outfile->spew_utf8( $tmpl->output );
 
-    $tmpl->param( ann_flg => 1, );
+    # now repeat for announcement slides
+    $tmpl->param( announce => 1, );
 
     $outfile =
       $HTML_ROOT->child("sessions")->child("${session_id}_announce.md");

@@ -3,7 +3,11 @@ pagetitle: "SWIB22: Conference Start"
 ---
 
 
-<div id="top">![](../images/swib.png)</div>
+<div id="top">
+<div class="column left">![](../images/swib.png "swib logo")</div>
+<div class="column middle"></div>
+<div class="column right"></div>
+</div>
 
 <div id="prog">
 
@@ -26,3 +30,5 @@ Dalhousie University in Halifax, Canada
 
 
 </div>
+
+

@@ -25,7 +25,7 @@ VAR_OPTS        = --variable lc_swib:$(LC_SWIB) --variable lang:en --variable is
 
 # set different template options
 $(WEB_HTML_FILES): TMPL_OPTS=--template $(WEB_TEMPLATE) --css styles/normalize.css --css styles/simple.css
-$(SLIDE_HTML_FILES): TMPL_OPTS=--template $(SLIDE_TEMPLATE) --css ../styles/normalize.css --css ../styles/slide.css
+$(SLIDE_HTML_FILES): TMPL_OPTS=--template $(SLIDE_TEMPLATE) --css ../styles/normalize.css --css ../styles/slide.css --css ../styles/simplyCountdown.theme.default.css
 
 
 all: web slide
