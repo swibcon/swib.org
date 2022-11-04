@@ -15,6 +15,8 @@ pagetitle: "SWIB22: Continued Progress"
 
 
 
+
+
 ## New, newer, newest: incrementally integrating linked data into library catalog discovery
 
 <u>Huda Khan</u><sup>1</sup>, <u>Steven Folsom</u><sup>1</sup>, <u>Astrid Usong</u><sup>2</sup><br />

@@ -13,6 +13,8 @@ pagetitle: "SWIB22: Linked Library Data I"
 
 # Linked Library Data I
 
+Moderators: Jakob Voß (Verbundzentrale des GBV); Huda Khan (Cornell University)
+
 
 
 ## Mapping and transforming MARC21 bibliographic metadata to LRM/RDA/RDF

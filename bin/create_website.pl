@@ -175,9 +175,13 @@ sub get_session_data {
       unless $session_id;
 
     my %entry = (
-      start => $node->findvalue('./session_start'),
-      end   => $node->findvalue('./session_end'),
-      title => $node->findvalue('./session_title'),
+      start               => $node->findvalue('./session_start'),
+      end                 => $node->findvalue('./session_end'),
+      title               => $node->findvalue('./session_title'),
+      chair1_name         => $node->findvalue('./chair1_name'),
+      chair2_name         => $node->findvalue('./chair2_name'),
+      chair1_organisation => $node->findvalue('./chair1_organisation'),
+      chair2_organisation => $node->findvalue('./chair2_organisation'),
     );
 
     if ( $entry{start} =~ m/^(\S+) (\S+)$/ ) {
@@ -367,16 +371,20 @@ sub output_session_slides {
     my ( $year, $month, $day ) = split( /\-/, $start_date );
     my ( $hour, $minute ) = split( /:/, $start_time );
     my %entry = (
-      swib          => $SWIB,
-      session_title => $session{$session_id}{title},
-      start_date    => $start_date,
-      start_time    => $start_time,
-      end_time      => $session{$session_id}{end_time},
-      year          => $year,
-      month         => $month,
-      day           => $day,
-      hours         => $hour,
-      minutes       => $minute,
+      swib                => $SWIB,
+      session_title       => $session{$session_id}{title},
+      start_date          => $start_date,
+      start_time          => $start_time,
+      end_time            => $session{$session_id}{end_time},
+      year                => $year,
+      month               => $month,
+      day                 => $day,
+      hours               => $hour,
+      minutes             => $minute,
+      chair1_name         => $session{$session_id}{chair1_name},
+      chair2_name         => $session{$session_id}{chair2_name},
+      chair1_organisation => $session{$session_id}{chair1_organisation},
+      chair2_organisation => $session{$session_id}{chair2_organisation},
     );
 
     my @presentations = @{ $session{$session_id}{presentations} };

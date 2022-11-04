@@ -13,6 +13,8 @@ pagetitle: "SWIB22: Machine Learning"
 
 # Machine Learning
 
+Moderators: Nuno Freire (Europeana Foundation); Huda Khan (Cornell University)
+
 
 
 ## How are data collections and vocabularies teaching AI systems human stereotypes?

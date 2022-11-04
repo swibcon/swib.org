@@ -13,6 +13,8 @@ pagetitle: "SWIB22: LOD Applications"
 
 # LOD Applications
 
+Moderators: Joachim Neubert (ZBW Leibniz Information Centre for Economics); Julia Beck (Frankfurt University Library)
+
 
 
 ## Digital Scriptorium 2.0: toward a community-driven LOD knowledge base and national union catalog for premodern manuscripts

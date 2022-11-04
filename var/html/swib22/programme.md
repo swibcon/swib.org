@@ -398,7 +398,7 @@ This workshop aims to help researchers, digital curators and data managers learn
 
 <tr id="se-7"><td class="times-col">[14:00-15:15 h UTC](https://zonestamp.toolforge.org/1669903200)</td><td>
 
-### Lightning Talks / RDF Insights
+### RDF Insights / Lightning Talks
 
 </td></tr>
 

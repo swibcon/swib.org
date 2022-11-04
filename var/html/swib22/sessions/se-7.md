@@ -1,5 +1,5 @@
 ---
-pagetitle: "SWIB22: Lightning Talks / RDF Insights"
+pagetitle: "SWIB22: RDF Insights / Lightning Talks"
 ---
 
 
@@ -11,7 +11,9 @@ pagetitle: "SWIB22: Lightning Talks / RDF Insights"
 
 <div id="prog">
 
-# Lightning Talks / RDF Insights
+# RDF Insights / Lightning Talks
+
+Moderators: Adrian Pohl (hbz); Jakob Voß (Verbundzentrale des GBV)
 
 
 

@@ -13,6 +13,8 @@ pagetitle: "SWIB22: Conference Start"
 
 # Conference Start
 
+Moderators: Joachim Neubert (ZBW Leibniz Information Centre for Economics); Katherine Thornton (Yale University Library)
+
 
 
 ## Opening

@@ -15,6 +15,8 @@ pagetitle: "SWIB22: Tutorials and Workshops"
 
 
 
+
+
 ## An Introduction to SKOS and SkoHub Vocabs
 
 <u>Adrian Pohl</u><sup>1</sup>, <u>Steffen Rörtgen</u><sup>2</sup><br />

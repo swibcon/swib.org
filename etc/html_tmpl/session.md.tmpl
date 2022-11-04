@@ -13,6 +13,8 @@ pagetitle: "<tmpl_var swib>: <tmpl_var session_title>"
 
 # <tmpl_var session_title>
 
+<tmpl_if chair1_name>Moderators: <tmpl_var chair1_name> (<tmpl_var chair1_organisation>); <tmpl_var chair2_name> (<tmpl_var chair2_organisation>)</tmpl_if>
+
 <tmpl_loop abstracts_loop>
 
 ## <tmpl_var abstract_title>

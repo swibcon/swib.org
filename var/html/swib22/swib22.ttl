@@ -436,7 +436,7 @@ And that direction is toward the semantic web and linked data which are influenc
 
 <https://swib.org/swib22/session/se-7> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib22/session/se-7> schema:superEvent <https://swib.org/swib22/conference> .
-<https://swib.org/swib22/session/se-7> schema:name "Lightning Talks / RDF Insights" .
+<https://swib.org/swib22/session/se-7> schema:name "RDF Insights / Lightning Talks" .
 <https://swib.org/swib22/session/se-7> schema:startDate "2022-12-01" .
 
 <https://swib.org/swib22/contribution/162> a schema:CreativeWork .

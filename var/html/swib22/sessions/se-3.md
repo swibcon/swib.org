@@ -13,6 +13,8 @@ pagetitle: "SWIB22: Linked Library Data II"
 
 # Linked Library Data II
 
+Moderators: Julia Beck (Frankfurt University Library); Joachim Neubert (ZBW Leibniz Information Centre for Economics)
+
 
 
 ## BIBFRAME for academic publishing in psychology
