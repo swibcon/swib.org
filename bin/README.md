@@ -1,5 +1,7 @@
 # Overview
 
+Tools for the web site https://swib.org
+
 ## Process
 
 * `get_conftool_data.sh` fetches the source data from the SWIB Conftool website.
@@ -7,6 +9,10 @@
 * `create_website.pl` creates markdown files for each dynamic page and one turtle file
 
 * `make` invokes Pandoc for converting .md to .html files
+
+* `sync_to_live.sh` transfers the pages to the live website
+
+* `recreate_charts.sh` creates participant statistics and charts for internal use
 
 ## Configuration
 
@@ -27,7 +33,8 @@ sidebar.md.inc, which in turn includes newsbox.md.inc.
 Another level of template is applied for all (dynamic and static) pages, namely
 the `etc/pandoc_tmpl/default.html5` template for the html output in the Pandoc
 convertsion. This template is used (in combination with a Pandoc variable set
-in the `Makefile` to create the menu, with an indication of the current page.
+in the `Makefile` to create the navigation menu, with an indication of the
+current page.
 
 Include files in Pandoc (partials), as they would be useful for the sidebar,
 work from v2.9 on. Unfortunately, CentOS 7 has only v2.7.3, and Ubuntu 20-04
