@@ -96,4 +96,17 @@ ctdata+="&export_select=participants"
 ctdata+="&form_export_participants_options%5B%5D=extended"
 
 curl --silent --request POST $SERVER --data "$ctdata" --output $OUTPUTDIR/participants.xml
+sleep 1
+
+# parameters for participants per session export
+
+# nonce generation same as above
+TIMESTAMP=`date +%s`
+PASSHASH=`echo -n "$TIMESTAMP$PASSWORD" | sha256sum | awk '{print $1;}'`
+ctdata="$common_param&nonce=$TIMESTAMP&passhash=$PASSHASH"
+ctdata+="&export_select=event_participants"
+ctdata+="&form_export_events_options%5B%5D=extended"
+
+curl --silent --request POST $SERVER --data "$ctdata" --output $OUTPUTDIR/event_participants.xml
+
 
