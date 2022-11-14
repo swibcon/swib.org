@@ -266,6 +266,13 @@
 <https://swib.org/person/X3ee641789bd620e47bd528f57d62683606d909c8a8d7ad7bc41a23b1d7c9d396> schema:description '''Tobias has a M.Sc. in computer science and is currently responsible for the IT infrastructure in the [Japanese Visual Media Graph project](https://jvmg.iuk.hdm-stuttgart.de/).''' .
 <https://swib.org/person/X3ee641789bd620e47bd528f57d62683606d909c8a8d7ad7bc41a23b1d7c9d396> schema:affiliation [ a schema:Organization; schema:name "Hochschule der Medien, Germany" ]  .
 
+<https://swib.org/person/X480f5676fd41e5be1f91e4a4af25a6d61e902e1635a34823bb4ecbdbce03961c> a schema:Person .
+<https://swib.org/person/X480f5676fd41e5be1f91e4a4af25a6d61e902e1635a34823bb4ecbdbce03961c> schema:name "Daniel Scott" .
+<https://swib.org/person/X480f5676fd41e5be1f91e4a4af25a6d61e902e1635a34823bb4ecbdbce03961c> schema:description '''Daniel is an associate librarian at Laurentian University in Canada. His research focuses on the intersection of linked data and libraries. He helped develop the Bibliographic Extensions for schema.org and implemented schema.org in the default Evergreen, Koha, and VuFind web UIs. With Stacy Allison-Cassin, Daniel was an early advocate for the adoption of Wikidata by libraries as a read-write linked data store, and he customized Evergreen to dynamically incorporate musician data from Wikidata into its detailed record display. Most recently, he helped assess the readiness for and understanding of BIBFRAME by Canadian librarians (short answer: not ready, very little understanding).''' .
+<https://swib.org/person/X480f5676fd41e5be1f91e4a4af25a6d61e902e1635a34823bb4ecbdbce03961c> frapo:hasORCID "0000-0001-8438-4926" .
+<https://swib.org/person/X480f5676fd41e5be1f91e4a4af25a6d61e902e1635a34823bb4ecbdbce03961c> owl:sameAs <http://orcid.org/0000-0001-8438-4926> .
+<https://swib.org/person/X480f5676fd41e5be1f91e4a4af25a6d61e902e1635a34823bb4ecbdbce03961c> schema:affiliation [ a schema:Organization; schema:name "Laurentian University Library and Archives, Canada" ]  .
+
 <https://swib.org/person/X05ea6a817e3b28e47dabcfa1e33003bc020afdc955e45b83be7ac1cdbc39d0aa> a schema:Person .
 <https://swib.org/person/X05ea6a817e3b28e47dabcfa1e33003bc020afdc955e45b83be7ac1cdbc39d0aa> schema:name "Katherine Thornton" .
 <https://swib.org/person/X05ea6a817e3b28e47dabcfa1e33003bc020afdc955e45b83be7ac1cdbc39d0aa> schema:description '''Kat Thornton works in the Digital Perservation Department at Yale University Library. Kat has been a volunteer editor of the [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) project for 10 years. Kat is a co-founder of [sciencestories.io](http://www.sciencestories.io/), a multimedia bibliography project celebrating the lives of scientists and people working in STEM.''' .
@@ -530,6 +537,18 @@ This workshop gives an introduction to SKOS with hands-on exercises. Participant
 All are wellcome to participate. No experience with SPARQL or Wikidata necessary.''' .
 <https://swib.org/swib22/contribution/124> schema:author <https://swib.org/person/X05ea6a817e3b28e47dabcfa1e33003bc020afdc955e45b83be7ac1cdbc39d0aa> .
 <https://swib.org/swib22/contribution/124> schema:author <https://swib.org/person/X9f5a82df79a32fc7f8a2da36413a9c477e9c009eccf2517912d2974b883c0061> .
+
+<https://swib.org/swib22/contribution/174> a schema:CreativeWork .
+<https://swib.org/swib22/contribution/174> schema:featuredAt <https://swib.org/swib22/session/ws> .
+<https://swib.org/swib22/contribution/174> schema:name "Getting started with Wikidata and SPARQL: build a dynamic web page" .
+<https://swib.org/swib22/contribution/174> schema:abstract '''In this workshop, you will learn how to explore and retrieve data from linked data stores such as Wikidata using the SPARQL Protocol and RDF Query Language (SPARQL). Starting from a simple selection of random data, you will create progressively complex SPARQL queries. As you practice each element of SPARQL, you will also learn the structure of Wikidata and the SPARQL extensions offered by the Wikidata Query Service. Finally, you will create a simple web page that, using your new knowledge of SPARQL, dynamically queries Wikidata to display data.
+
+After completing this workshop, you will know how to: 1) Write SPARQL queries to retrieve data from linked data stores such as Wikidata 2) Use the Wikidata Query Service to extract data from Wikidata, including SPARQL extensions specific to Wikidata, and 3) Dynamically incorporate data from any of Wikidata's 100 million items data into a web page
+
+No previous experience with SPARQL, linked data, or Wikidata, is required. To complete the web page portion of the workshop, some familiarity with HTML and JavaScript would be beneficial, but is not necessary. You must have some means of running a local web server to test your web pages, such as a standard install of the PHP or Python programming languages, or the Node.js runtime environment.
+
+''' .
+<https://swib.org/swib22/contribution/174> schema:author <https://swib.org/person/X480f5676fd41e5be1f91e4a4af25a6d61e902e1635a34823bb4ecbdbce03961c> .
 
 <https://swib.org/swib22/contribution/126> a schema:CreativeWork .
 <https://swib.org/swib22/contribution/126> schema:featuredAt <https://swib.org/swib22/session/ws> .

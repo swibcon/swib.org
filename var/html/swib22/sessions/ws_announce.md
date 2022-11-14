@@ -31,6 +31,13 @@ pagetitle: "SWIB22: Tutorials and Workshops"
 
 
 
+## Getting started with Wikidata and SPARQL: build a dynamic web page
+
+<u>Daniel Scott</u><br />
+Laurentian University Library and Archives, Canada
+
+
+
 ## Structured Data in Wikimedia Commons
 
 <u>Christian Erlinger</u><br />

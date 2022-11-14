@@ -275,6 +275,14 @@ Steffen Rörtgen ([\@steffenr42](https://twitter.com/steffenr42), [\@steffenr42@
 
 </div>
 
+<div id="X480f5676fd41e5be1f91e4a4af25a6d61e902e1635a34823bb4ecbdbce03961c">
+
+## Daniel Scott [<img src="images/orcid.png" title="ORCID: 0000-0001-8438-4926">](https://orcid.org/0000-0001-8438-4926)
+
+Daniel is an associate librarian at Laurentian University in Canada. His research focuses on the intersection of linked data and libraries. He helped develop the Bibliographic Extensions for schema.org and implemented schema.org in the default Evergreen, Koha, and VuFind web UIs. With Stacy Allison-Cassin, Daniel was an early advocate for the adoption of Wikidata by libraries as a read-write linked data store, and he customized Evergreen to dynamically incorporate musician data from Wikidata into its detailed record display. Most recently, he helped assess the readiness for and understanding of BIBFRAME by Canadian librarians (short answer: not ready, very little understanding).
+
+</div>
+
 <div id="Xcf105d10f2a9effaf9f54c995fac498d88d694570e4c4512f84d322dbaf3bb5d">
 
 ## Eduards Skvireckis [<img src="images/orcid.png" title="ORCID: 0000-0003-2223-9744">](https://orcid.org/0000-0003-2223-9744)

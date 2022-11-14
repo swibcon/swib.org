@@ -13,7 +13,7 @@ pagetitle: "SWIB22: Continued Progress"
 
 # Continued Progress
 
-
+Moderators: Osma Suominen (National Library of Finland); Uldis Bojars (National Library of Latvia)
 
 
 
