@@ -37,7 +37,7 @@ $include-before$
 $endfor$
 <header>
 <img src="images/swib.png" style="max-width: 35%" alt="$lc_swib$ Semantic Web in Libraries conference" />
-<img src="images/swib_banner.jpg" style="max-width: 100%" alt="$lc_swib$ banner" />
+<img src="images/swib_banner.png" style="max-width: 100%" alt="$lc_swib$ banner" />
 <nav>
 $if(is_index)$
 HOME
