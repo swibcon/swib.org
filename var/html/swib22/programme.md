@@ -14,8 +14,9 @@ pagetitle: SWIB22 Programme
 <table>
 
 <tr id="coll"><td class="times-col">[12:00-13:00 h UTC](https://zonestamp.toolforge.org/1669636800)</td><td>
-
 ### Collocated Events
+
+
 
 </td></tr>
 
@@ -36,8 +37,9 @@ DINI-AG Kompetenzzentrum Interoperable Metadaten (KIM) virtual public meeting of
 
 
 <tr id="se-1"><td class="times-col">[14:00-15:15 h UTC](https://zonestamp.toolforge.org/1669644000)</td><td>
-
 ### Conference Start
+
+Moderators: Joachim Neubert, Katherine Thornton
 
 </td></tr>
 
@@ -74,8 +76,9 @@ What does decolonial (data) practice mean for linked data in the library and bro
 
 
 <tr id="cb-1"><td class="times-col">[15:15-15:30 h UTC](https://zonestamp.toolforge.org/1669648500)</td><td>
-
 ### Coffee break
+
+
 
 </td></tr>
 
@@ -84,8 +87,9 @@ What does decolonial (data) practice mean for linked data in the library and bro
 
 
 <tr id="se-2"><td class="times-col">[15:30-16:45 h UTC](https://zonestamp.toolforge.org/1669649400)</td><td>
-
 ### Linked Library Data I
+
+Moderators: Jakob Voß, Huda Khan
 
 </td></tr>
 
@@ -150,8 +154,9 @@ This contribution describes the approach, which is implemented as a 5-step workf
 <table>
 
 <tr id="se-3"><td class="times-col">[14:00-15:15 h UTC](https://zonestamp.toolforge.org/1669730400)</td><td>
-
 ### Linked Library Data II
+
+Moderators: Julia Beck, Joachim Neubert
 
 </td></tr>
 
@@ -208,8 +213,9 @@ And that direction is toward the semantic web and linked data which are influenc
 
 
 <tr id="cb-2"><td class="times-col">[15:15-15:30 h UTC](https://zonestamp.toolforge.org/1669734900)</td><td>
-
 ### Coffee break
+
+
 
 </td></tr>
 
@@ -218,8 +224,9 @@ And that direction is toward the semantic web and linked data which are influenc
 
 
 <tr id="se-4"><td class="times-col">[15:30-16:45 h UTC](https://zonestamp.toolforge.org/1669735800)</td><td>
-
 ### Continued Progress
+
+Moderators: Osma Suominen, Uldis Bojars
 
 </td></tr>
 
@@ -278,8 +285,9 @@ Share-VDE (SVDE) is a library-driven initiative which brings together the biblio
 <table>
 
 <tr id="ws"><td class="times-col">[14:00-16:45 h UTC](https://zonestamp.toolforge.org/1669816800)</td><td>
-
 ### Tutorials and Workshops
+
+
 
 </td></tr>
 
@@ -415,8 +423,9 @@ This workshop aims to help researchers, digital curators and data managers learn
 <table>
 
 <tr id="se-7"><td class="times-col">[14:00-15:15 h UTC](https://zonestamp.toolforge.org/1669903200)</td><td>
-
 ### RDF Insights / Lightning Talks
+
+Moderators: Adrian Pohl, Jakob Voß
 
 </td></tr>
 
@@ -473,8 +482,9 @@ In summary, the Apache Fuseki triple store performed quite well across all tasks
 
 
 <tr id="cb-3"><td class="times-col">[15:15-15:30 h UTC](https://zonestamp.toolforge.org/1669907700)</td><td>
-
 ### Coffee break
+
+
 
 </td></tr>
 
@@ -483,8 +493,9 @@ In summary, the Apache Fuseki triple store performed quite well across all tasks
 
 
 <tr id="se-8"><td class="times-col">[15:30-16:45 h UTC](https://zonestamp.toolforge.org/1669908600)</td><td>
-
 ### Machine Learning
+
+Moderators: Nuno Freire, Huda Khan
 
 </td></tr>
 
@@ -551,8 +562,9 @@ The general results for the different approaches yield micro F1-scores between 0
 <table>
 
 <tr id="se-9"><td class="times-col">[14:00-15:20 h UTC](https://zonestamp.toolforge.org/1669989600)</td><td>
-
 ### LOD Applications
+
+Moderators: Joachim Neubert, Julia Beck
 
 </td></tr>
 

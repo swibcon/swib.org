@@ -282,6 +282,8 @@ sub output_programme_page {
       my %entry = (
         session_id    => $session_id,
         session_title => $session{$session_id}{title},
+        chair1_name   => $session{$session_id}{chair1_name},
+        chair2_name   => $session{$session_id}{chair2_name},
         start_time    => $session{$session_id}{start_time},
         end_time      => $session{$session_id}{end_time},
         epoch         => time2epoch( $date, $session{$session_id}{start_time} ),
