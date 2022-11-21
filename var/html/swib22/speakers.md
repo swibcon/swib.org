@@ -267,11 +267,11 @@ Lozana Rossenova (PhD, London South Bank University, UK) is a digital designer a
 
 </div>
 
-<div id="X836c7ca3cc07133fe54a15df481d511dbd749fc84ad24c12b8c71ddd638d1b1c">
+<div id="Xc6b3c7a2c5dd842be22346b259115ab085c78c3303dc89df2c1dfa78070a0e5f">
 
 ## Steffen Rörtgen [<img src="images/orcid.png" title="ORCID: 0000-0001-6378-2618">](https://orcid.org/0000-0001-6378-2618)
 
-Steffen Rörtgen ([\@steffenr42](https://twitter.com/steffenr42), [\@steffenr42@openbiblio.social](https://openbiblio.social/web/@steffenr42)) is working on open education projects at the university computing centre for the Georg-August-Universität Göttingen and especially interested in open web technologies. He tries to solves problems concerning heterogenous education metadata with the help of semantic web approaches. Steffen is also contributing to the open source project [SkoHub-Vocabs](https://github.com/skohub-io/skohub-vocabs), a lightweight tool for publishing SKOS vocabularies with a HTML view and at the same time in a machine-readable format. Together with Adrian Pohl he will conduct a workshop for it. He is also researching on machine-readable curricula and framework data, so if this is also of interest for you (or any other topic mentioned), feel free to reach out!
+Steffen Rörtgen ([\@steffenr42](https://twitter.com/steffenr42), [\@steffenr42@openbiblio.social](https://openbiblio.social/web/@steffenr42)) is working as a web developer on open education projects in the open infrastructure group of the North Rhine-Westphalian Library Service Centre. Steffen is especially interested in open web technologies. He tries to solves problems concerning heterogenous education metadata with the help of semantic web approaches. Steffen is also contributing to the open source project [SkoHub-Vocabs](https://github.com/skohub-io/skohub-vocabs), a lightweight tool for publishing SKOS vocabularies with a HTML view and at the same time in a machine-readable format. Together with Adrian Pohl he will conduct a workshop for it. He is also researching on machine-readable curricula and framework data, so if this is also of interest for you (or any other topic mentioned), feel free to reach out!
 
 </div>
 

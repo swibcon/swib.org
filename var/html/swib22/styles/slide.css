@@ -37,7 +37,9 @@ h1 {
 
 .column {
   float: left;
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .left {
@@ -45,13 +47,14 @@ h1 {
 }
 
 .middle {
-  width: 55%;
+  width: 70%;
   text-align: center;
-  font-size: 200%;
+  font-size: 240%;
+  font-weight: bold;
 }
 
 .right {
-  width: 30%;
+  width: 15%;
 }
 
 #top>.simply-countdown>.simply-section {

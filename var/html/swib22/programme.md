@@ -296,9 +296,9 @@ Share-VDE (SVDE) is a library-driven initiative which brings together the biblio
 
 #### An Introduction to SKOS and SkoHub Vocabs
 
-[Adrian Pohl](speakers.html#X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c) [<img src="images/orcid.png" title="ORCID: 0000-0001-9083-7442">](https://orcid.org/0000-0001-9083-7442)<sup>1</sup>, [Steffen Rörtgen](speakers.html#X836c7ca3cc07133fe54a15df481d511dbd749fc84ad24c12b8c71ddd638d1b1c) [<img src="images/orcid.png" title="ORCID: 0000-0001-6378-2618">](https://orcid.org/0000-0001-6378-2618)<sup>2</sup>
+[Adrian Pohl](speakers.html#X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c) [<img src="images/orcid.png" title="ORCID: 0000-0001-9083-7442">](https://orcid.org/0000-0001-9083-7442)<sup>1</sup>, [Steffen Rörtgen](speakers.html#Xc6b3c7a2c5dd842be22346b259115ab085c78c3303dc89df2c1dfa78070a0e5f) [<img src="images/orcid.png" title="ORCID: 0000-0001-6378-2618">](https://orcid.org/0000-0001-6378-2618)<sup>2</sup>
 
-<sup>1 </sup>North Rhine-Westphalian Library Service Centre (hbz), Germany; <sup>2 </sup>Gesellschaft für wissenschaftliche Datenverarbeitung Göttingen (GWDG), Germany
+<sup>1 </sup>North Rhine-Westphalian Library Service Centre (hbz), Germany; <sup>2 </sup>North Rhine-Westphalian Library Service Centre (hbz), Germany
 
 With Simple Knowledge Organization Systems (SKOS), the World Wide Web Consotrium (W3C) more than 15 years ago published a clear and simple RDF-based data model for publishing controlled vocabularies on the web following Linked Data principles. Although a large part of controlled vocabularies – from simple value lists, to thesaurus and classifications – is created and maintained in libraries, SKOS has not been widely adopted yet in the library world.
 
@@ -585,7 +585,7 @@ Digital Scriptorium 2.0 (DS 2.0) is a project to redevelop the technical platfor
 
 #### The application of IIIF and LOD in digital humanities: a case study of the dictionary of wooden slips
 
-[Shu-Jiun Chen](speakers.html#Xff8c224c71806e4d7223891dd5d2dbd095213ed934b2528c2c27f7d3425b7f68) [<img src="images/orcid.png" title="ORCID: 0000-0003-4251-7633">](https://orcid.org/0000-0003-4251-7633)<sup>1,2</sup>
+[Shu-Jiun Chen](speakers.html#Xff8c224c71806e4d7223891dd5d2dbd095213ed934b2528c2c27f7d3425b7f68) [<img src="images/orcid.png" title="ORCID: 0000-0003-4251-7633">](https://orcid.org/0000-0003-4251-7633)<sup>1,2</sup>, Lu-Yen Lu<sup>1,2</sup>
 
 <sup>1 </sup>Institute of History and Philology, Academia Sinica, Taiwan; <sup>2 </sup>Academia Sinica Center for Digital Cultures, Academia Sinica, Taiwan
 

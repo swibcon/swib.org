@@ -5,21 +5,19 @@ pagetitle: "<tmpl_var swib>: <tmpl_var session_title>"
 
 <div id="top">
 <div class="column left">![](../images/swib.png "swib logo")</div>
-<div class="column middle"><tmpl_if announce>next: &#160; <tmpl_var start_date> <tmpl_var start_time>-<tmpl_var end_time> h <span class="timezone">(UTC)</span></tmpl_if></div>
-<div class="column right<tmpl_if announce> simply-countdown</tmpl_if>"></div>
+<div class="column middle"><tmpl_var session_title></div>
+<div class="column right"><tmpl_if announce> simply-countdown</tmpl_if></div>
 </div>
 
 <div id="prog">
-
-# <tmpl_var session_title>
-
-<tmpl_if chair1_name>Moderators: <tmpl_var chair1_name> (<tmpl_var chair1_organisation>); <tmpl_var chair2_name> (<tmpl_var chair2_organisation>)</tmpl_if>
+<div><tmpl_if chair1_name>Moderators: <tmpl_var chair1_name> (<tmpl_var chair1_organisation>); <tmpl_var chair2_name> (<tmpl_var chair2_organisation>)</tmpl_if></div>
+<!-- <tmpl_var start_date> <tmpl_var start_time> <tmpl_var end_time></-->
 
 <tmpl_loop abstracts_loop>
 
 ## <tmpl_var abstract_title>
 
-<tmpl_loop authors_loop><tmpl_if author_id><u></tmpl_if><tmpl_var name><tmpl_if author_id></u></tmpl_if><tmpl_if index><sup><tmpl_var index></sup></tmpl_if><tmpl_unless __last__>, </tmpl_unless><tmpl_if orcid></tmpl_if></tmpl_loop><br />
+<b><tmpl_loop authors_loop><tmpl_if author_id><u></tmpl_if><tmpl_var name><tmpl_if author_id></u></tmpl_if><tmpl_if index><sup><tmpl_var index></sup></tmpl_if><tmpl_unless __last__>, </tmpl_unless><tmpl_if orcid></tmpl_if></tmpl_loop></b><br />
 <tmpl_loop organisations_loop><tmpl_if index><sup><tmpl_var index> </sup></tmpl_if><tmpl_var name><tmpl_unless __last__>; </tmpl_unless></tmpl_loop>
 
 </tmpl_loop>
