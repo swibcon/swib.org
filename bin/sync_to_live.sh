@@ -15,5 +15,5 @@ LC_SWIB=`echo $SWIB | tr '[:upper:]' '[:lower:]'`
 # (authentication by ssh key)
 UPLOAD_SRV=`cat .swib_upload`
 
-rsync -ravuz --exclude '*~' --exclude 'swib??_participants_*.html' ../var/html/$LC_SWIB/ $UPLOAD_SRV/$LC_SWIB
+rsync --delete -ravuz --exclude '*~' --exclude 'swib??_participants_*.html' ../var/html/$LC_SWIB/ $UPLOAD_SRV/$LC_SWIB
 
