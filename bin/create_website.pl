@@ -401,6 +401,18 @@ sub output_session_slides {
     }
     $entry{abstracts_loop} = \@abstracts_loop;
 
+    # overide slide for workshops
+    if ( $session_id eq 'ws' ) {
+      %entry = (
+        swib           => $SWIB,
+        session_title  => $session{$session_id}{title},
+        abstracts_loop => [
+          { abstract_title => 'all booked out' },
+          { abstract_title => 'Next conference session at Thursday 14 h UTC' },
+        ],
+      );
+    }
+
     my $tmpl = HTML::Template->new(
       filename          => $TEMPLATE_ROOT->child("session.md.tmpl"),
       utf8              => 1,

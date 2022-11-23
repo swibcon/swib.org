@@ -57,9 +57,9 @@ L.P. Coladangelo (he/him) is a doctoral student in the College of Communication 
 
 <div id="X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136">
 
-## Crystal Clements [<img src="images/orcid.png" title="ORCID: 0000-0001-5000-282X">](https://orcid.org/0000-0001-5000-282X)
+## Crystal Yragui [<img src="images/orcid.png" title="ORCID: 0000-0001-5000-282X">](https://orcid.org/0000-0001-5000-282X)
 
-Crystal Clements is a Science Cataloger at the University of Washington Libraries, and is the project manager for the MARC21-to-RDA/LRM/RDF Mapping Project.
+Crystal Yragui is a Science Cataloger at the University of Washington Libraries, and is the project manager for the MARC21-to-RDA/LRM/RDF Mapping Project.
 
 </div>
 

@@ -98,7 +98,7 @@ Moderators: Jakob Voß, Huda Khan
 
 #### Mapping and transforming MARC21 bibliographic metadata to LRM/RDA/RDF
 
-[Theodore Gerontakos](speakers.html#X5e5415b576ceb41ae7c5d4c855a27760a06dd86b71bb1fa2599463b1781ec899) [<img src="images/orcid.png" title="ORCID: 0000-0003-1885-4840">](https://orcid.org/0000-0003-1885-4840), [Crystal Clements](speakers.html#X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136) [<img src="images/orcid.png" title="ORCID: 0000-0001-5000-282X">](https://orcid.org/0000-0001-5000-282X), [Zhuo Pan](speakers.html#Xe1af218db11177fdcb7141bcdf5539362ee8584504fe095fcd1b63c747d59ddd) [<img src="images/orcid.png" title="ORCID: 0000-0002-1934-6808">](https://orcid.org/0000-0002-1934-6808)
+[Theodore Gerontakos](speakers.html#X5e5415b576ceb41ae7c5d4c855a27760a06dd86b71bb1fa2599463b1781ec899) [<img src="images/orcid.png" title="ORCID: 0000-0003-1885-4840">](https://orcid.org/0000-0003-1885-4840), [Crystal Yragui](speakers.html#X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136) [<img src="images/orcid.png" title="ORCID: 0000-0001-5000-282X">](https://orcid.org/0000-0001-5000-282X), [Zhuo Pan](speakers.html#Xe1af218db11177fdcb7141bcdf5539362ee8584504fe095fcd1b63c747d59ddd) [<img src="images/orcid.png" title="ORCID: 0000-0002-1934-6808">](https://orcid.org/0000-0002-1934-6808)
 
 University of Washington Libraries, United States of America
 

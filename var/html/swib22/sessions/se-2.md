@@ -17,7 +17,7 @@ pagetitle: "SWIB22: Linked Library Data I"
 
 ## Mapping and transforming MARC21 bibliographic metadata to LRM/RDA/RDF
 
-<b><u>Theodore Gerontakos</u>, <u>Crystal Clements</u>, <u>Zhuo Pan</u></b><br />
+<b><u>Theodore Gerontakos</u>, <u>Crystal Yragui</u>, <u>Zhuo Pan</u></b><br />
 University of Washington Libraries, United States of America
 
 

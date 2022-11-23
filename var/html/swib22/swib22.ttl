@@ -94,8 +94,8 @@
 <https://swib.org/person/X3a42a9a89e8088c15348125f5a0818cc5bb905a8d1067386d2edaecf5c1c2fc8> schema:affiliation [ a schema:Organization; schema:name "German National Library" ]  .
 
 <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> a schema:Person .
-<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:name "Crystal Clements" .
-<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:description '''Crystal Clements is a Science Cataloger at the University of Washington Libraries, and is the project manager for the MARC21-to-RDA/LRM/RDF Mapping Project.''' .
+<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:name "Crystal Yragui" .
+<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:description '''Crystal Yragui is a Science Cataloger at the University of Washington Libraries, and is the project manager for the MARC21-to-RDA/LRM/RDF Mapping Project.''' .
 <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> frapo:hasORCID "0000-0001-5000-282X" .
 <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> owl:sameAs <http://orcid.org/0000-0001-5000-282X> .
 <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:affiliation [ a schema:Organization; schema:name "University of Washington Libraries, United States of America" ]  .
