@@ -106,9 +106,32 @@ foreach my $node ( $nodeset->get_nodelist ) {
   $region{ $node->string_value }++;
 }
 
+# additional statistcs
+my %selected_region = (
+  dach          => $country{DE} + $country{CH} + $country{AT},
+  north_america => $country{US} + $country{CA},
+);
+$selected_region{western_europe_outside_dach} =
+  $region{Western_Europe} - $selected_region{dach};
+$selected_region{europe_outside_dach} =
+  $region{Western_Europe} + $region{Eastern_Europe} - $selected_region{dach};
+$selected_region{rest_without_dach_and_na} =
+  $participant_count - $selected_region{dach} - $selected_region{north_america};
+$selected_region{rest_without_europe_and_na} =
+  $participant_count -
+  $selected_region{dach} -
+  $selected_region{europe_outside_dach} -
+  $selected_region{north_america};
+
+$selected_region{rest_without_western_europe_and_na} =
+  $participant_count -
+  $selected_region{dach} -
+  $selected_region{western_europe_outside_dach} -
+  $selected_region{north_america};
+
 # output statistics
 print "$participant_count participants from $country_count countries\n";
-print Dumper \%region, \%country, \%gender;
+print Dumper \%region, \%country, \%selected_region, \%gender;
 
 print "Output $HTML_ROOT\*.html\n\n";
 
