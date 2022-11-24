@@ -10,22 +10,21 @@ pagetitle: "SWIB22: Conference Start"
 </div>
 
 <div id="prog">
-<div>Moderators: Adrian Pohl (hbz); Katherine Thornton (Yale University Library)</div>
-<!-- 2022-11-28 14:00 15:15 
+<div>Moderators: Adrian Pohl, Katherine Thornton</div>
+
+<!--     -->
 
 
 
 ## Opening
 
-<b>Silke Schomburg<sup>1</sup>, Klaus Tochtermann<sup>2</sup></b><br />
-<sup>1 </sup>Director of North Rhine-Westphalian Library Service Centre (hbz), Germany; <sup>2 </sup>Director of ZBW - Leibniz Information Centre for Economics, Germany
+<b>Silke Schomburg, Klaus Tochtermann</b>
 
 
 
 ## Libraries, linked data, and decolonization (keynote)
 
-<b><u>Stacy Allison-Cassin</u></b><br />
-Dalhousie University in Halifax, Canada
+<b><u>Stacy Allison-Cassin</u></b>
 
 
 

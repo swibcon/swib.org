@@ -387,8 +387,8 @@ sub output_session_slides {
       minutes             => $minute,
       chair1_name         => $session{$session_id}{chair1_name},
       chair2_name         => $session{$session_id}{chair2_name},
-      chair1_organisation => $session{$session_id}{chair1_organisation},
-      chair2_organisation => $session{$session_id}{chair2_organisation},
+  ##    chair1_organisation => $session{$session_id}{chair1_organisation},
+  ##    chair2_organisation => $session{$session_id}{chair2_organisation},
     );
 
     my @presentations = @{ $session{$session_id}{presentations} };
@@ -397,7 +397,7 @@ sub output_session_slides {
       my $entry = {
         abstract_title     => $abstract{$abstract_id}{title},
         authors_loop       => mk_authors_loop($abstract_id),
-        organisations_loop => mk_organisations_loop($abstract_id),
+##        organisations_loop => mk_organisations_loop($abstract_id),
       };
       push( @abstracts_loop, $entry );
     }

@@ -10,29 +10,27 @@ pagetitle: "SWIB22: RDF Insights / Lightning Talks"
 </div>
 
 <div id="prog">
-<div>Moderators: Adrian Pohl (hbz); Jakob Voß (Verbundzentrale des GBV)</div>
-<!-- 2022-12-01 14:00 15:15 
+<div>Moderators: Adrian Pohl, Jakob Voß</div>
+
+<!--     -->
 
 
 
 ## Lightning talks
 
-<b></b><br />
-
+<b></b>
 
 
 
 ## Shapes, forms and footprints: web generation of RDF data without coding
 
-<b><u>Patrick Hochstenbach</u></b><br />
-Ghent University, Belgium
+<b><u>Patrick Hochstenbach</u></b>
 
 
 
 ## Performance comparison of select and construct queries of triplestores on the example of the JVMG project
 
-<b><u>Tobias Malmsheimer</u></b><br />
-Hochschule der Medien, Germany
+<b><u>Tobias Malmsheimer</u></b>
 
 
 

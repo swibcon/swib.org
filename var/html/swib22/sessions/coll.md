@@ -11,14 +11,14 @@ pagetitle: "SWIB22: Collocated Events"
 
 <div id="prog">
 <div></div>
-<!-- 2022-11-28 12:00 13:00 
+
+<!--     -->
 
 
 
 ## DINI-AG KIM meeting
 
-<b>Letitia Mölck<sup>1</sup>, Alex Jahnke<sup>2</sup></b><br />
-<sup>1 </sup>German National Library; <sup>2 </sup>Göttingen State and University Library, Germany
+<b>Letitia Mölck, Alex Jahnke</b>
 
 
 

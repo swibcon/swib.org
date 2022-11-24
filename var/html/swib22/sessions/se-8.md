@@ -10,29 +10,27 @@ pagetitle: "SWIB22: Machine Learning"
 </div>
 
 <div id="prog">
-<div>Moderators: Nuno Freire (Europeana Foundation); Huda Khan (Cornell University)</div>
-<!-- 2022-12-01 15:30 16:45 
+<div>Moderators: Nuno Freire, Huda Khan</div>
+
+<!--     -->
 
 
 
 ## How are data collections and vocabularies teaching AI systems human stereotypes?
 
-<b><u>Artem Reshetnikov</u></b><br />
-Barcelona Supercomputing Center, Spain
+<b><u>Artem Reshetnikov</u></b>
 
 
 
 ## Insight into the machine-based subject cataloguing at the German National Library
 
-<b><u>Christoph Poley</u></b><br />
-Deutsche Nationalbibliothek, Germany
+<b><u>Christoph Poley</u></b>
 
 
 
 ## Multilingual BERT for library classification in Romance languages using Basisklassifikation
 
-<b><u>José Calvo Tello</u><sup>1</sup>, <u>Enrique Manjavacas</u><sup>2</sup>, Susanne Al-Eryani<sup>1</sup></b><br />
-<sup>1 </sup>Göttingen State and University Library, Germany; <sup>2 </sup>Leiden University, Netherlands
+<b><u>José Calvo Tello</u>, <u>Enrique Manjavacas</u>, Susanne Al-Eryani</b>
 
 
 

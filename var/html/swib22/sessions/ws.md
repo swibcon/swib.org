@@ -11,21 +11,20 @@ pagetitle: "SWIB22: Tutorials and Workshops"
 
 <div id="prog">
 <div></div>
-<!--    
+
+<!--     -->
 
 
 
 ## all booked out
 
-<b></b><br />
-
+<b></b>
 
 
 
 ## Next conference session at Thursday 14 h UTC
 
-<b></b><br />
-
+<b></b>
 
 
 
