@@ -258,16 +258,18 @@ sub output_speaker_page {
 sub output_programme_page {
 
   my @days_loop;
+  my @days_index_loop;
 
   foreach my $day (@DAYS) {
-    my ( $day_id, $day_of_week, $date );
+    my ( $day_no, $day_of_week, $date );
     if ( $day =~ m/^DAY (\d) \| (\w+), (\S+)$/ ) {
-      $day_id      = $1;
+      $day_no      = $1;
       $day_of_week = $2;
       $date        = $3;
     } else {
       die "Wrong day format $day\n";
     }
+    push( @days_index_loop, { id => "day$day_no", label => "Day $day_no" } );
 
     # sequence by start session start
     my @sessions_loop;
@@ -311,7 +313,7 @@ sub output_programme_page {
     }
 
     my $entry = {
-      day_id        => $day_id,
+      day_no        => $day_no,
       day           => $day,
       sessions_loop => \@sessions_loop,
     };
@@ -324,9 +326,10 @@ sub output_programme_page {
     loop_context_vars => 1
   );
   $tmpl->param(
-    swib      => $SWIB,
-    lc_swib   => lc($SWIB),
-    days_loop => \@days_loop,
+    swib            => $SWIB,
+    lc_swib         => lc($SWIB),
+    days_loop       => \@days_loop,
+    days_index_loop => \@days_index_loop,
   );
   my $outfile = $HTML_ROOT->child( $PAGE{programme}{output} );
   $outfile->spew_utf8( $tmpl->output );
@@ -375,28 +378,28 @@ sub output_session_slides {
     my ( $year, $month, $day ) = split( /\-/, $start_date );
     my ( $hour, $minute ) = split( /:/, $start_time );
     my %entry = (
-      swib                => $SWIB,
-      session_title       => $session{$session_id}{title},
-      start_date          => $start_date,
-      start_time          => $start_time,
-      end_time            => $session{$session_id}{end_time},
-      year                => $year,
-      month               => $month,
-      day                 => $day,
-      hours               => $hour,
-      minutes             => $minute,
-      chair1_name         => $session{$session_id}{chair1_name},
-      chair2_name         => $session{$session_id}{chair2_name},
-  ##    chair1_organisation => $session{$session_id}{chair1_organisation},
-  ##    chair2_organisation => $session{$session_id}{chair2_organisation},
+      swib          => $SWIB,
+      session_title => $session{$session_id}{title},
+      start_date    => $start_date,
+      start_time    => $start_time,
+      end_time      => $session{$session_id}{end_time},
+      year          => $year,
+      month         => $month,
+      day           => $day,
+      hours         => $hour,
+      minutes       => $minute,
+      chair1_name   => $session{$session_id}{chair1_name},
+      chair2_name   => $session{$session_id}{chair2_name},
+      ##    chair1_organisation => $session{$session_id}{chair1_organisation},
+      ##    chair2_organisation => $session{$session_id}{chair2_organisation},
     );
 
     my @presentations = @{ $session{$session_id}{presentations} };
     my @abstracts_loop;
     foreach my $abstract_id (@presentations) {
       my $entry = {
-        abstract_title     => $abstract{$abstract_id}{title},
-        authors_loop       => mk_authors_loop($abstract_id),
+        abstract_title => $abstract{$abstract_id}{title},
+        authors_loop   => mk_authors_loop($abstract_id),
 ##        organisations_loop => mk_organisations_loop($abstract_id),
       };
       push( @abstracts_loop, $entry );

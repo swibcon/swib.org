@@ -6,8 +6,10 @@ pagetitle: <tmpl_var swib> Programme
 
 # Programme
 
+<tmpl_loop days_index_loop>[<tmpl_var label>](#<tmpl_var id>) &#160; </tmpl_loop>
+
 <tmpl_loop days_loop>
-<div id="day<tmpl_var day_id>">
+<div id="day<tmpl_var day_no>">
 
 ## <tmpl_var day>
 
