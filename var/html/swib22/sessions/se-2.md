@@ -11,7 +11,7 @@ pagetitle: "SWIB22: Linked Library Data I"
 
 <div id="prog">
 <div>Moderators: Jakob Voß (Verbundzentrale des GBV); Huda Khan (Cornell University)</div>
-<!-- 2022-11-28 15:30 16:45</-->
+<!-- 2022-11-28 15:30 16:45 
 
 
 

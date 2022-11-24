@@ -10,8 +10,8 @@ pagetitle: "SWIB22: Conference Start"
 </div>
 
 <div id="prog">
-<div>Moderators: Joachim Neubert (ZBW Leibniz Information Centre for Economics); Katherine Thornton (Yale University Library)</div>
-<!-- 2022-11-28 14:00 15:15</-->
+<div>Moderators: Adrian Pohl (hbz); Katherine Thornton (Yale University Library)</div>
+<!-- 2022-11-28 14:00 15:15 
 
 
 

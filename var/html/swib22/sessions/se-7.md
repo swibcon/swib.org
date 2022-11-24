@@ -11,7 +11,7 @@ pagetitle: "SWIB22: RDF Insights / Lightning Talks"
 
 <div id="prog">
 <div>Moderators: Adrian Pohl (hbz); Jakob Voß (Verbundzentrale des GBV)</div>
-<!-- 2022-12-01 14:00 15:15</-->
+<!-- 2022-12-01 14:00 15:15 
 
 
 

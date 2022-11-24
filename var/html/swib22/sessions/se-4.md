@@ -11,7 +11,7 @@ pagetitle: "SWIB22: Continued Progress"
 
 <div id="prog">
 <div>Moderators: Osma Suominen (National Library of Finland); Uldis Bojars (National Library of Latvia)</div>
-<!-- 2022-11-29 15:30 16:45</-->
+<!-- 2022-11-29 15:30 16:45 
 
 
 

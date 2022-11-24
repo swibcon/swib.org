@@ -18,6 +18,7 @@ pagetitle: SWIB22 Programme
 
 
 
+
 </td></tr>
 
 
@@ -39,7 +40,8 @@ DINI-AG Kompetenzzentrum Interoperable Metadaten (KIM) virtual public meeting of
 <tr id="se-1"><td class="times-col">[14:00-15:15 h UTC](https://zonestamp.toolforge.org/1669644000)</td><td>
 ### Conference Start
 
-Moderators: Joachim Neubert, Katherine Thornton
+Moderators: Adrian Pohl, Katherine Thornton
+
 
 </td></tr>
 
@@ -80,6 +82,7 @@ What does decolonial (data) practice mean for linked data in the library and bro
 
 
 
+
 </td></tr>
 
 
@@ -90,6 +93,7 @@ What does decolonial (data) practice mean for linked data in the library and bro
 ### Linked Library Data I
 
 Moderators: Jakob Voß, Huda Khan
+
 
 </td></tr>
 
@@ -143,6 +147,21 @@ This contribution describes the approach, which is implemented as a 5-step workf
 </td></tr>
 
 
+
+
+<tr id="wt"><td class="times-col">[16:50-17:10 h UTC](https://zonestamp.toolforge.org/1669654200)</td><td>
+### Walkthrough Mattermost / BigBlueButton Integration
+
+
+Gentle introduction to the Conference Communication Tools and how they interact with the SWIB22 livestream. Take your chance to ask any question! 
+
+This is not in the live stream. For the connection link, please log into SWIB Mattermost.
+
+
+</td></tr>
+
+
+
 </table>
 
 </div>
@@ -157,6 +176,7 @@ This contribution describes the approach, which is implemented as a 5-step workf
 ### Linked Library Data II
 
 Moderators: Julia Beck, Joachim Neubert
+
 
 </td></tr>
 
@@ -217,6 +237,7 @@ And that direction is toward the semantic web and linked data which are influenc
 
 
 
+
 </td></tr>
 
 
@@ -227,6 +248,7 @@ And that direction is toward the semantic web and linked data which are influenc
 ### Continued Progress
 
 Moderators: Osma Suominen, Uldis Bojars
+
 
 </td></tr>
 
@@ -286,6 +308,7 @@ Share-VDE (SVDE) is a library-driven initiative which brings together the biblio
 
 <tr id="ws"><td class="times-col">[14:00-16:45 h UTC](https://zonestamp.toolforge.org/1669816800)</td><td>
 ### Tutorials and Workshops
+
 
 
 
@@ -427,6 +450,7 @@ This workshop aims to help researchers, digital curators and data managers learn
 
 Moderators: Adrian Pohl, Jakob Voß
 
+
 </td></tr>
 
 
@@ -486,6 +510,7 @@ In summary, the Apache Fuseki triple store performed quite well across all tasks
 
 
 
+
 </td></tr>
 
 
@@ -496,6 +521,7 @@ In summary, the Apache Fuseki triple store performed quite well across all tasks
 ### Machine Learning
 
 Moderators: Nuno Freire, Huda Khan
+
 
 </td></tr>
 
@@ -565,6 +591,7 @@ The general results for the different approaches yield micro F1-scores between 0
 ### LOD Applications
 
 Moderators: Joachim Neubert, Julia Beck
+
 
 </td></tr>
 

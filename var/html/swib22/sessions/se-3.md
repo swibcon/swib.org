@@ -11,7 +11,7 @@ pagetitle: "SWIB22: Linked Library Data II"
 
 <div id="prog">
 <div>Moderators: Julia Beck (Frankfurt University Library); Joachim Neubert (ZBW Leibniz Information Centre for Economics)</div>
-<!-- 2022-11-29 14:00 15:15</-->
+<!-- 2022-11-29 14:00 15:15 
 
 
 

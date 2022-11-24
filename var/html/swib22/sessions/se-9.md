@@ -11,7 +11,7 @@ pagetitle: "SWIB22: LOD Applications"
 
 <div id="prog">
 <div>Moderators: Joachim Neubert (ZBW Leibniz Information Centre for Economics); Julia Beck (Frankfurt University Library)</div>
-<!-- 2022-12-02 14:00 15:20</-->
+<!-- 2022-12-02 14:00 15:20 
 
 
 

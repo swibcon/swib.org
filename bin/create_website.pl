@@ -182,6 +182,7 @@ sub get_session_data {
       chair2_name         => $node->findvalue('./chair2_name'),
       chair1_organisation => $node->findvalue('./chair1_organisation'),
       chair2_organisation => $node->findvalue('./chair2_organisation'),
+      session_info        => $node->findvalue('./session_info'),
     );
 
     if ( $entry{start} =~ m/^(\S+) (\S+)$/ ) {
@@ -287,6 +288,7 @@ sub output_programme_page {
         start_time    => $session{$session_id}{start_time},
         end_time      => $session{$session_id}{end_time},
         epoch         => time2epoch( $date, $session{$session_id}{start_time} ),
+        session_info  => $session{$session_id}{session_info},
       );
 
       my @presentations = @{ $session{$session_id}{presentations} };
