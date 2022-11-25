@@ -5,36 +5,32 @@ pagetitle: "SWIB22: Continued Progress"
 
 <div id="top">
 <div class="column left">![](../images/swib.png "swib logo")</div>
-<div class="column middle">next: &#160; 2022-11-29 15:30-16:45 h <span class="timezone">(UTC)</span></div>
-<div class="column right simply-countdown"></div>
+<div class="column middle">Continued Progress</div>
+<div class="column right  simply-countdown"></div>
 </div>
 
 <div id="prog">
+<div>Moderators: Osma Suominen, Uldis Bojars</div>
 
-# Continued Progress
-
-Moderators: Osma Suominen (National Library of Finland); Uldis Bojars (National Library of Latvia)
+    
 
 
 
 ## New, newer, newest: incrementally integrating linked data into library catalog discovery
 
-<u>Huda Khan</u><sup>1</sup>, <u>Steven Folsom</u><sup>1</sup>, <u>Astrid Usong</u><sup>2</sup><br />
-<sup>1 </sup>Cornell University, United States of America; <sup>2 </sup>Stanford University, United States of America
+<b><u>Huda Khan</u>, <u>Steven Folsom</u>, <u>Astrid Usong</u></b>
 
 
 
 ## Improving language tags in cultural heritage data: a study of the metadata in Europeana
 
-<u>Nuno Freire</u><sup>1</sup>, Paolo Scalia<sup>1</sup>, Antoine Isaac<sup>1</sup>, Eirini Kaldeli<sup>2</sup>, Arne Stabenau<sup>2</sup><br />
-<sup>1 </sup>Europeana Foundation, Netherlands; <sup>2 </sup>National Technical University of Athens, Greece
+<b><u>Nuno Freire</u>, Paolo Scalia, Antoine Isaac, Eirini Kaldeli, Arne Stabenau</b>
 
 
 
 ## Evaluation and evolution of the Share-VDE 2.0 linked data catalog
 
-<u>Jim Hahn</u><sup>1</sup>, <u>Beth Camden</u><sup>1</sup>, <u>Kayt Ahnberg</u><sup>1</sup>, <u>Filip Jakobsen</u><sup>2</sup><br />
-<sup>1 </sup>University of Pennsylvania, United States of America; <sup>2 </sup>Samhæng, Denmark
+<b><u>Jim Hahn</u>, <u>Beth Camden</u>, <u>Kayt Ahnberg</u>, <u>Filip Jakobsen</u></b>
 
 
 

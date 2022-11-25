@@ -6,13 +6,13 @@ pagetitle: "<tmpl_var swib>: <tmpl_var session_title>"
 <div id="top">
 <div class="column left">![](../images/swib.png "swib logo")</div>
 <div class="column middle"><tmpl_var session_title></div>
-<div class="column right"><tmpl_if announce> simply-countdown</tmpl_if></div>
+<div class="column right <tmpl_if announce> simply-countdown</tmpl_if>"></div>
 </div>
 
 <div id="prog">
 <div><tmpl_if chair1_name>Moderators: <tmpl_var chair1_name><tmpl_if chair1_organisation> (<tmpl_var chair1_organisation>)</tmpl_if>, <tmpl_var chair2_name><tmpl_if chair2_organisation> (<tmpl_var chair2_organisation>)</tmpl_if></tmpl_if></div>
 
-<!-- <tmpl_if start_date></tmpl_if> <tmpl_if start_time></tmpl_if> <tmpl_if end_time></tmpl_if> <tmpl_if session_info></tmpl_if> -->
+<tmpl_if start_date></tmpl_if> <tmpl_if start_time></tmpl_if> <tmpl_if end_time></tmpl_if> <tmpl_if session_info></tmpl_if> 
 
 <tmpl_loop abstracts_loop>
 

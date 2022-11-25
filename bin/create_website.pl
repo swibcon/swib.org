@@ -430,8 +430,11 @@ sub output_session_slides {
     $outfile->spew_utf8( $tmpl->output );
 
     # now repeat for announcement slides
-    # NO - not necessary any more, since counter is added as overlay
-    # to png by ColloCall
+    $tmpl->param( announce => 1, );
+
+    $outfile =
+      $HTML_ROOT->child("sessions")->child("${session_id}_announce.md");
+    $outfile->spew_utf8( $tmpl->output );
 
     # entry for the slide index
     my %index_entry = (
