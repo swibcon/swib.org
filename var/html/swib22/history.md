@@ -45,7 +45,11 @@ pagetitle: SWIB22 History
 
 ### 14th SWIB
 
-**300 registrations from 35 countries within 24 hours.**\
+**More than 750 registrations from over 50 countries**\
+[Registration is still open](https://swib.org/swib22/registration.html).\
+25.11.2022
+
+**300 registrations from 35 countries within 24 hours**\
 The first workshops are fully booked already.\
 19.10.2022
 
@@ -65,6 +69,16 @@ The first workshops are fully booked already.\
 :::
 
 
+## Mastodon {.sidebox-title}
+
+:::{.sidebox-box}
+
+[\@swib@openbiblio.social](https://openbiblio.social/@swib)
+
+#swib22
+
+:::
+
 ## Twitter {.sidebox-title}
 
 :::{.sidebox-box}
@@ -72,14 +86,6 @@ The first workshops are fully booked already.\
 @swibcon
 
 #swib22
-
-:::
-
-## Mastodon {.sidebox-title}
-
-:::{.sidebox-box}
-
-[\@swib@openbiblio.social](https://openbiblio.social/@swib)
 
 :::
 

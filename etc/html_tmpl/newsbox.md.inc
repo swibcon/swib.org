@@ -1,6 +1,10 @@
 ### 14th SWIB
 
-**300 registrations from 35 countries within 24 hours.**\
+**More than 750 registrations from over 50 countries**\
+[Registration is still open](https://swib.org/swib22/registration.html).\
+25.11.2022
+
+**300 registrations from 35 countries within 24 hours**\
 The first workshops are fully booked already.\
 19.10.2022
 
