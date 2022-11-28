@@ -4,9 +4,13 @@ pagetitle: SWIB22 Home
 
 <div id="main">
 
+
 # SWIB22 – 14th Semantic Web in Libraries Conference
 
 ## 28 November – 02 December 2022, online
+
+
+
 
 SWIB conference (Semantic Web in Libraries) is an annual conference, being held
 for the 14th time.
