@@ -6,7 +6,7 @@ pagetitle: "SWIB22: Linked Library Data II"
 <div id="top">
 <div class="column left">![](../images/swib.png "swib logo")</div>
 <div class="column middle">Linked Library Data II</div>
-<div class="column right"></div>
+<div id="countdown" class="column right"></div>
 </div>
 
 <div id="prog">

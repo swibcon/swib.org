@@ -6,7 +6,7 @@ pagetitle: "SWIB22: Linked Library Data I"
 <div id="top">
 <div class="column left">![](../images/swib.png "swib logo")</div>
 <div class="column middle">Linked Library Data I</div>
-<div class="column right"> Start: 15:30 h (UTC)</div>
+<div id="countdown" class="column right"></div>
 </div>
 
 <div id="prog">
@@ -37,33 +37,27 @@ pagetitle: "SWIB22: Linked Library Data I"
 </div>
 
 
-<script src="../scripts/simplyCountdown.min.js"></script>
+
+<script src="../scripts/moment.min.js"></script>
 <script>
-    simplyCountdown('.simply-countdown', {
-            year: 2022, // required
-            month: 11, // required
-            day: 28, // required
-            hours: 15, // Default is 0 [0-23] integer
-            minutes: 30, // Default is 0 [0-59] integer
-            seconds: 0, // Default is 0 [0-59] integer
-            words: { //words displayed into the countdown
-                days: { singular: 'day', plural: 'days' },
-                hours: { singular: 'hour', plural: 'hours' },
-                minutes: { singular: 'minute', plural: 'minutes' },
-                seconds: { singular: 'second', plural: 'seconds' }
-            },
-            plural: true, //use plurals
-            inline: true, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
-            inlineClass: 'simply-countdown-inline', //inline css span class in case of inline = true
-            // in case of inline set to false
-            enableUtc: false, //Use UTC or not - default : false
-            onEnd: function() { return; }, //Callback on countdown end, put your own function here
-            refresh: 1000, // default refresh every 1s
-            sectionClass: 'simply-section', //section css class
-            amountClass: 'simply-amount', // amount css class
-            wordClass: 'simply-word', // word css class
-            zeroPad: false,
-            countUp: false
-    });
+  var startDate = moment.utc("2022-11-28T15:30:00");
+
+  var x = setInterval(function() {
+    var now = moment();
+    var t = startDate - now;
+
+    var days = Math.floor( t / ( 1000 * 60 * 60 * 24 ));
+    var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((t % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML = days + "d "
+        + hours + "h " + minutes + "m " + seconds + "s ";
+    if (t < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").innerHTML = "STARTING ...";
+    }
+  }, 1000);
 </script>
+
 

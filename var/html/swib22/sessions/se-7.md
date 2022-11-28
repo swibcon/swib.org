@@ -6,7 +6,7 @@ pagetitle: "SWIB22: RDF Insights / Lightning Talks"
 <div id="top">
 <div class="column left">![](../images/swib.png "swib logo")</div>
 <div class="column middle">RDF Insights / Lightning Talks</div>
-<div class="column right"></div>
+<div id="countdown" class="column right"></div>
 </div>
 
 <div id="prog">
