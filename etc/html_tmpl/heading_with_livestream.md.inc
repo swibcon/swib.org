@@ -3,10 +3,10 @@
   var streamWindow = null;
   var mmWindow = null;
   function openStreamWindow() {
-    streamWindow = window.open("https://swib22-stream.collocall.de", "SWIB22 Livestream", "top=0,left=0,width=800,height=600,status=no,toolbar=no,location=no,menubar=no,titlebar=no");
+    streamWindow = window.open("https://swib22-stream.collocall.de", "SWIB22 Livestream", "top=0,left=0,width=700,height=500,status=no,toolbar=no,location=no,menubar=no,titlebar=no");
   }
   function openMMWindow() {
-    mmWindow = window.open("https://swib22.collochat.de/swib/channels/town-square", "SWIB22 Mattermost", "top=40,left=40,width=400,height=600,status=no,toolbar=no,location=no,menubar=no,titlebar=no");
+    mmWindow = window.open("https://swib22.collochat.de/swib/channels/town-square", "SWIB22 Mattermost", "top=40,left=40,width=700,height=900,status=no,toolbar=no,location=no,menubar=no,titlebar=no");
   }
 </script>
 
