@@ -328,7 +328,8 @@ sub output_programme_page {
 
         # media links
         my @media_loop;
-        foreach my $media_type ( keys %MEDIA_TYPE ) {
+        ## q&d sequence
+        foreach my $media_type ( sort keys %MEDIA_TYPE ) {
           next unless $media{$media_type}{$abstract_id};
           my $url = mk_url(
             $media_type,
@@ -781,5 +782,8 @@ sub mk_url {
     $url = $ROOT_URI . lc($SWIB) . "/$media_type/$stub";
   }
 
+  if ( $url_type eq 'full_url' ) {
+    $url = $stub;
+  }
   return $url;
 }

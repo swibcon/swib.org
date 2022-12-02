@@ -4,7 +4,9 @@ pagetitle: <tmpl_var swib> Programme
 
 <div id="main">
 
+::: hint
 <tmpl_loop days_index_loop>[<tmpl_var label>](#<tmpl_var id>) &#160; </tmpl_loop>
+:::
 
 # Programme
 
@@ -34,7 +36,7 @@ pagetitle: <tmpl_var swib> Programme
 
 <tmpl_var abstract>
 
-<tmpl_loop media_loop><a href="<tmpl_var url>"><tmpl_var label></a> </tmpl_loop>
+<tmpl_loop media_loop><a href="<tmpl_var url>"><tmpl_var label></a> &#160; </tmpl_loop>
 
 </td></tr>
 </tmpl_loop>

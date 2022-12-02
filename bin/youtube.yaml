@@ -1,6 +1,4 @@
 # Format for media types
- - slides: filename,
- - youtube: full URL
 
 
 # coll: Collocated Events
@@ -15,7 +13,7 @@
 159: 
 
 # Libraries, linked data, and decolonization (keynote)
-161: 
+161: https://youtu.be/cJxfZSv4xEI
 
 
 # se-2: Linked Library Data I

@@ -5,8 +5,11 @@ days:
   - DAY 3 | Wednesday, 2022-11-30
   - DAY 4 | Thursday, 2022-12-01
   - DAY 5 | Friday, 2022-12-02
-media_types: 
+media_types:
   slides:
     label: Slides
     url_type: local_file
- 
+  youtube:
+    label: Video
+    url_type: full_url
+
