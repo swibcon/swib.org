@@ -7,7 +7,7 @@ pagetitle: SWIB22 Home
 
 # SWIB22 – 14th Semantic Web in Libraries Conference
 
-## ... took place from 28.11. November to 02.12.2022 (online)
+## ... took place from 28.11. to 02.12.2022 (online)
 
 
 
@@ -97,6 +97,12 @@ E-mail: j.neubert(at)zbw.eu
 ## News {.sidebox-title}
 
 :::{.sidebox-box}
+
+### 15th SWIB
+
+**Save the date**\
+SWIB23: 11.-13.9.2023 in Berlin (Germany)\
+2.12.2022
 
 ### 14th SWIB
 

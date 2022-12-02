@@ -83,6 +83,12 @@ The Regional Anti-Discrimination Agency NRW: www.aric-nrw.de, Fon: +49 (0)203 28
 
 :::{.sidebox-box}
 
+### 15th SWIB
+
+**Save the date**\
+SWIB23: 11.-13.9.2023 in Berlin (Germany)\
+2.12.2022
+
 ### 14th SWIB
 
 **SWIB22 finished**\

@@ -724,6 +724,12 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 
 :::{.sidebox-box}
 
+### 15th SWIB
+
+**Save the date**\
+SWIB23: 11.-13.9.2023 in Berlin (Germany)\
+2.12.2022
+
 ### 14th SWIB
 
 **SWIB22 finished**\
