@@ -1,0 +1,113 @@
+
+# coll: Collocated Events
+
+# DINI-AG KIM meeting
+173: 
+
+
+# se-1: Conference Start
+
+# Opening
+159: 
+
+# Libraries, linked data, and decolonization (keynote)
+161: 
+
+
+# se-2: Linked Library Data I
+
+# Mapping and transforming MARC21 bibliographic metadata to LRM/RDA/RDF
+104: SWIB22_mapping_marc21.pdf
+
+# A crosswalk in the park? Converting from MARC 21 to Linked Art
+123: A Crosswalk in the Park Converting from MARC 21 to Linked Art-TimThompson_MartinLovell_v2.pdf
+
+# A LITL more quality: improving the correctness and completeness of library catalogs with a librarian-in-the-loop linked data workflow
+114: 2022-11-28_SWIB_Sven-Lieber.pdf
+
+
+# se-3: Linked Library Data II
+
+# BIBFRAME for academic publishing in psychology
+122: Bibframe for academic publishing in psychology_no_animation_pages.pdf
+
+# On leveraging artifical intelligence and natural language processing to create an open source workflow for the rapid creation of archival linked data for digital collections
+107: Proctor_swib22.pdf
+
+# Library data on Wikidata: a case study of the National Library of Latvia
+109: skvireckis_swib2022_Library-data-on-Wikidata_draft.pdf
+
+
+# se-4: Continued Progress
+
+# New, newer, newest: incrementally integrating linked data into library catalog discovery
+121: Folsom_Khan_Usong_NewNewerNewest.pdf
+
+# Improving language tags in cultural heritage data: a study of the metadata in Europeana
+116: SWIB 2022 - Langs tags EuropeanaTranslate.pdf
+
+# Evaluation and evolution of the Share-VDE 2.0 linked data catalog
+111: Evaluation and evolution of the Share-VDE 2.0 linked data catalog.pdf
+
+
+# ws: Tutorials and Workshops
+
+# An Introduction to SKOS and SkoHub Vocabs
+105: 
+
+# Getting Started with SPARQL and Wikidata
+124: 
+
+# Getting started with Wikidata and SPARQL: build a dynamic web page
+174: 
+
+# Structured Data in Wikimedia Commons
+126: 
+
+# Introduction into the Solid Project and its implementations
+125: 
+
+# Introduction to the Annif automated indexing tool
+102: 
+
+# Working with linked open data in the context of annotation and semantic enrichment of 3D media: A new FOSS toolchain
+103: 
+
+
+# se-7: RDF Insights / Lightning Talks
+
+# Lightning talks
+162: 
+
+# Shapes, forms and footprints: web generation of RDF data without coding
+108: 20221201_swib_shapes_forms_footprints.pdf
+
+# Performance comparison of select and construct queries of triplestores on the example of the JVMG project
+101: SWIB_malmsheimer.pdf
+
+
+# se-8: Machine Learning
+
+# How are data collections and vocabularies teaching AI systems human stereotypes?
+112: How are data collections and vocabularies teaching AI systems human stereotypes - Artem Reshetnikov.pdf
+
+# Insight into the machine-based subject cataloguing at the German National Library
+106: 20221201_poley_dnb_final.pdf
+
+# Multilingual BERT for library classification in Romance languages using Basisklassifikation
+100: 20221202_1236_ct_mBERT-Basisklassifikation.pdf
+
+
+# se-9: LOD Applications
+
+# Digital Scriptorium 2.0: toward a community-driven LOD knowledge base and national union catalog for premodern manuscripts
+119: 
+
+# The application of IIIF and LOD in digital humanities: a case study of the dictionary of wooden slips
+117: 
+
+# What linked data can tell about geographical trends in Finnish fiction literature – using the BookSampo knowledge graph in digital humanities
+115: 
+
+# Closing
+160: 

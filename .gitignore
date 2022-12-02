@@ -8,3 +8,5 @@ bin/.conftool_secret
 bin/.swib_upload
 # don't check in sources, which contain personal data, e.g. email addresses
 var/src
+# for now, do not add media
+var/html/swib??/slides

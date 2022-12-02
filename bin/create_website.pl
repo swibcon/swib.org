@@ -27,6 +27,7 @@ Readonly my $HTML_ROOT     => path( '../var/html/' . lc($SWIB) );
 Readonly my $SRC_ROOT      => path( '../var/src/' . lc($SWIB) );
 Readonly my $TEMPLATE_ROOT => path('../etc/html_tmpl');
 Readonly my $RDF_FILE      => $HTML_ROOT->child( lc($SWIB) . '.ttl' );
+Readonly my %MEDIA_TYPE    => %{ $YAML_CONFIG->{media_types} };
 Readonly my %INPUT_FILE    => (
   abstracts => 'abstracts.xml',
   speakers  => 'speakers.xml',
@@ -62,6 +63,9 @@ my %abstract;
 # sessions with linked abstracts, keyed by shortname
 my %session;
 
+# media about the talks
+my %media;
+
 # parser for source data files
 my $parser = XML::LibXML->new();
 
@@ -77,7 +81,14 @@ get_speaker_data();
 # sesion structure
 get_session_data();
 
-#print Dumper %session;
+# templates are generated/updated every time, but has to be copied and filled
+# in after the session once
+generate_templates();
+
+# get and verfiy media information
+get_media_data();
+
+##print Dumper \%abstract; exit;
 
 #### output section for markdown/html
 
@@ -212,6 +223,14 @@ sub get_session_data {
   return \%session;
 }
 
+sub get_media_data {
+
+  # for each media type, a .yaml file should exist
+  foreach my $media_type ( keys %MEDIA_TYPE ) {
+    $media{$media_type} = YAML::Tiny->read("$media_type.yaml")->[0];
+  }
+}
+
 sub output_speaker_page {
 
   # sort alphabetically by last name
@@ -306,6 +325,26 @@ sub output_programme_page {
         if ( $abstract{$abstract_id}{abstract} ) {
           $entry->{abstract} = $abstract{$abstract_id}{abstract};
         }
+
+        # media links
+        my @media_loop;
+        foreach my $media_type ( keys %MEDIA_TYPE ) {
+          next unless $media{$media_type}{$abstract_id};
+          my $url = mk_url(
+            $media_type,
+            $MEDIA_TYPE{$media_type}{url_type},
+            $media{$media_type}{$abstract_id}
+          );
+          push(
+            @media_loop,
+            {
+              url   => $url,
+              label => $MEDIA_TYPE{$media_type}{label},
+            }
+          );
+        }
+        $entry->{media_loop} = \@media_loop;
+
         push( @abstracts_loop, $entry );
       }
       $entry{abstracts_loop} = \@abstracts_loop;
@@ -400,7 +439,7 @@ sub output_session_slides {
       my $entry = {
         abstract_title => $abstract{$abstract_id}{title},
         authors_loop   => mk_authors_loop($abstract_id),
-##        organisations_loop => mk_organisations_loop($abstract_id),
+        ##   organisations_loop => mk_organisations_loop($abstract_id),
       };
       push( @abstracts_loop, $entry );
     }
@@ -458,6 +497,34 @@ sub output_session_slides {
   my $outfile = $HTML_ROOT->child("sessions")->child("index.md");
   $outfile->spew_utf8( $tmpl->output );
 
+}
+
+sub generate_templates {
+
+  # collect lines for all templates
+  my @lines;
+  foreach my $session_id (
+    sort { $session{$a}{start} cmp $session{$b}{start} }
+    keys %session
+    )
+  {
+
+    my @presentations = @{ $session{$session_id}{presentations} };
+    next unless scalar(@presentations) gt 0;
+
+    push( @lines, "\n# $session_id: $session{$session_id}{title}\n" );
+
+    foreach my $abstract_id (@presentations) {
+      push( @lines, "# $abstract{$abstract_id}{title}" );
+      push( @lines, "$abstract_id: \n" );
+    }
+  }
+
+  # output as template, for multiple media types
+  my $head =
+    "# Format for media types\n - slides: filename,\n - youtube: full URL\n\n";
+  my $file = path("media.template.yaml");
+  $file->spew_utf8( $head, join( "\n", @lines ) );
 }
 
 sub build_person_rdf {
@@ -699,4 +766,20 @@ sub time2epoch {
   );
 
   return $dt->epoch;
+}
+
+sub mk_url {
+  my $media_type = shift or croak('param missing');
+  my $url_type   = shift or croak('param missing');
+  my $stub       = shift or croak('param missing');
+
+  my $url;
+
+  # local files are stored in /{media_type} subdir
+  if ( $url_type eq 'local_file' ) {
+    $stub =~ s/ /%20/;
+    $url = $ROOT_URI . lc($SWIB) . "/$media_type/$stub";
+  }
+
+  return $url;
 }

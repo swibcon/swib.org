@@ -34,6 +34,8 @@ Letitia Mölck<sup>1</sup>, Alex Jahnke<sup>2</sup>
 
 DINI-AG Kompetenzzentrum Interoperable Metadaten (KIM) virtual public meeting of the DINI-AG KIM. KIM is a forum for German-speaking metadata experts from LAM institutions. The Meeting will be held in German. Everybody is invited to come. [Agenda](https://wiki.dnb.de/x/UKR5Dw )
 
+
+
 </td></tr>
 
 
@@ -58,6 +60,8 @@ Silke Schomburg<sup>1</sup>, Klaus Tochtermann<sup>2</sup>
 
 
 
+
+
 </td></tr>
 
 <tr id="contrib161"><td></td><td>
@@ -71,6 +75,8 @@ Dalhousie University in Halifax, Canada
 Global decolonization movements have focused attention on the colonial nature of cultural heritage. Events such as the toppling and removal of statues of colonial figures, the fight for the return of stolen artefacts and ancestors, and questions regarding the ownership and usage of historical photographs in cultural heritage collections are not new; such activities have gained momentum and greater prominence in public discourse in recent years. While less visible than tangible objects, tendrils and structures of colonialism run through data practices and standards. Such practices continue to harm peoples and lands that have been and continue to be, subject to colonialism. It is vital that linked data practice address this continued legacy and work toward anticolonial within contemporary library and cultural data work.
 
 What does decolonial (data) practice mean for linked data in the library and broader cultural data environment? Why does this matter for all individuals involved in linked data work? This talk will delve into issues facing the linked data community, including the limitations of current standards and systems, the vital need for change in practice, the importance and implications of recognizing Indigenous rights and rights of nations and states, and opportunities on the horizon with emerging standards and principles such as [CARE](https://www.gida-global.org/care) and projects related to respectful naming. The talk will also focus on concrete actions the library linked data community can take to support decolonization and a more just and ethical future for linked data.
+
+
 
 
 
@@ -114,6 +120,8 @@ The starting point of the project is MARC21 data accumulated over decades, and t
 
 Presenters describe the theoretical foundation of the project, review the mapping structure and format in detail, demonstrate the conversion tool with a focus on its RDA/LRM/RDF output, and share a vision for the future of RDA/LRM/RDF metadata in the greater library linked data ecosystem. Mappings, code, and project information can be found at [the project GitHub repository](https://github.com/uwlib-cams/MARC2RDA).
 
+<a href="https://swib.org/swib22/slides/SWIB22_mapping_marc21.pdf">Slides</a> 
+
 </td></tr>
 
 <tr id="contrib123"><td></td><td>
@@ -130,6 +138,8 @@ Implementing the crosswalk has meant designing a system that is more complex tha
 
 Generating linked data at scale was a new challenge for the library. The initial design used a database schema based on triples, with resolvable identifiers for all objects; this approach provided an intuitive way to create and query relationships without using a native triple store or graph database, given the learning curve that an unfamiliar system would have entailed. However, the triples-based approach proved too resource-intensive at scale, and the system was modified to store some data in JSON and resolve only top-level entities, while still storing a subset of the relationship data for querying.
 
+<a href="https://swib.org/swib22/slides/A%20Crosswalk in the Park Converting from MARC 21 to Linked Art-TimThompson_MartinLovell_v2.pdf">Slides</a> 
+
 </td></tr>
 
 <tr id="contrib114"><td></td><td>
@@ -145,6 +155,8 @@ Traditionally, a library maintains both bibliographic data about publications an
 Within the [BELTRANS project](https://github.com/kbrbe/beltrans-data-integration ) which studies Intra-Belgian book translation flows of publications based on metadata (who?, when?, where?), we developed an approach to support librarians in the detection and correction of semantic data issues. This approach consists in the integration of data from different heterogeneous sources via RDF and identifying contradicting data automatically with SPARQL. Librarians can inspect the contradicting data fields, choose the correct data, and thus semi-automatically correct the contradiction.
 
 This contribution describes the approach, which is implemented as a 5-step workflow using linked data and Python. We discuss how we use the workflow to improve the correctness of the data used in the BELTRANS project and the wider applicability of the workflow within the National Library to improve the completeness of our catalog with respect to legal deposit. Since the expertise of librarians is needed to interpret identified data contradictions, the next step is to improve the usability of our prototypical solution.
+
+<a href="https://swib.org/swib22/slides/2022-11-28_SWIB_Sven-Lieber.pdf">Slides</a> 
 
 </td></tr>
 
@@ -197,6 +209,8 @@ Our cataloging software had accumulated many errors and problems over the years;
 
 PSYNDEX has high indexing standards: scientific publications are described with many details about the actual studies they document, using various keyword thesauri, classification systems, controlled vocabularies for research methods and study samples, metadata about preregistration, funding etc. BIBFRAME has little to offer for such details. To represent all this data and make it usable by humans and machines, other ontologies must be integrated, and new properties and classes have to be created. A new requirement was grouping "versions" of the same content in different publication forms – thus the adoption of BIBFRAME Works and Instances. Our experiences may be useful to other domains with indexing needs not covered by BIBFRAME, and also offer guidance on where BIBFRAME seems vague or unfinished. Our approach to handling e.g. dependent parts of things (journal articles, chapters) or aggregates and serials may be reused, thus improving interoperability.
 
+<a href="https://swib.org/swib22/slides/Bibframe%20for academic publishing in psychology_no_animation_pages.pdf">Slides</a> 
+
 </td></tr>
 
 <tr id="contrib107"><td></td><td>
@@ -215,6 +229,8 @@ For images, each image is processed to identify people who are pictured in it. C
 
 Once the spreadsheet of triples is output, it can be imported into OpenRefine in order to convert it into the Wikidata format which is useful for linked digital collections, crowdsourcing, and cooperative collections-as-data programs.
 
+<a href="https://swib.org/swib22/slides/Proctor_swib22.pdf">Slides</a> 
+
 </td></tr>
 
 <tr id="contrib109"><td></td><td>
@@ -228,6 +244,8 @@ National Library of Latvia, Latvia
 Libraries have changed but the core purpose of the library is very much the same – to give access to knowledge and learning. Knowledge organisation in libraries has moved from clay tablets to extensive catalogues, from the backs of playing cards to card indices. Then in the 1970s and early 1980s integrated library systems (ILS) appeared and changed the game. Now national libraries are increasingly stepping leaving locally used ILS behind and steering towards new technologies and possibilities that were not feasible before – bridging silos, multilingual support, alternatives to traditional authority control, etc. Although there is no right or prevailing answer, the direction is set.
 
 And that direction is toward the semantic web and linked data which are influencing how bibliographic and authority data are created, shared, and made available to potential users. In this presentation I will focus on modeling, mapping, and creating workflows for moving the bibliographic and authority data of the National Library of Latvia to Wikidata as a major hub of the semantic web. The main focus will be on modeling and integrating library authority files (persons, organizations, works, locations, etc.) to a full extent into Wikidata, reducing any possible data loss to a minimum. This way, Wikidata will not be used as just a hub for institutional identifiers but as a universal and collaborative knowledge base where libraries can truly share and disseminate their knowledge, connect it and use it to describe and query their resources.
+
+<a href="https://swib.org/swib22/slides/skvireckis_swib2022_Library-data-on-Wikidata_draft.pdf">Slides</a> 
 
 </td></tr>
 
@@ -271,6 +289,8 @@ In a separate phase, we focused on how the linked data representation of creativ
 
 This presentation will provide an overview of the production integration from the first phase and the data analysis and experimental prototype from the second phase. This work is further described [here](https://wiki.lyrasis.org/display/LD4P3/WP3%3A+Discovery). Related work is also captured in [this article](https://kula.uvic.ca/index.php/kula/article/view/229) .
 
+<a href="https://swib.org/swib22/slides/Folsom_Khan_Usong_NewNewerNewest.pdf">Slides</a> 
+
 </td></tr>
 
 <tr id="contrib116"><td></td><td>
@@ -283,6 +303,8 @@ This presentation will provide an overview of the production integration from th
 
 Enhancing the multilingual accessibility of its rich cultural heritage material is a constant objective of Europeana and key to improving the user experience it offers. Technological advances are opening new ways for multilingual access but for their successful application the language of the existing data must be identified. In RDF data, language is indicated by the language tag in a dedicated attribute (xml:lang in RDF/XML). Previous studies conducted on Europeana datasets show that language tags are not used as often as they should, but we do not have precise statistics on this. Moreover, language tags found in Europeana have data quality issues – they do not always follow established standards even though Europeana already performs some (automatic) normalisation of tags. We conducted a study on the language tags included in the metadata of Europeana with two objectives in mind: First, to inform decision-making about possible improvements in the current language tag normalisation process, and second, to enhance the quality and quantity of training data for specialising automatic translation systems in the cultural heritage domain (a crucial objective for the Europeana Translate project, which aims to translate 25 million records of Europeana). Our study analysed the totality of the data in Europeana, which contains over 1,700 million RDF literals, and identified that only 15.9% of the literals are language-tagged. We also determined that 3.3% of the language tags are not valid according to the IETF BCP 47 standard. In our presentation, we recount the results of this study along with the improvements in the normalisation process we applied to collect training data for machine translation. 
 
+<a href="https://swib.org/swib22/slides/SWIB%202022 - Langs tags EuropeanaTranslate.pdf">Slides</a> 
+
 </td></tr>
 
 <tr id="contrib111"><td></td><td>
@@ -294,6 +316,8 @@ Enhancing the multilingual accessibility of its rich cultural heritage material 
 <sup>1 </sup>University of Pennsylvania, United States of America; <sup>2 </sup>Samhæng, Denmark
 
 Share-VDE (SVDE) is a library-driven initiative which brings together the bibliographic catalogs and authority files of a community of libraries in an innovative discovery environment based on linked data. The beta release of the SVDE 2.0 (https://www.svde.org) catalog was collaboratively shaped among multiple perspectives and stakeholder groups. A team at the University of Pennsylvania Libraries gathered feedback through structured interviews and observations from library catalogers working in linked data, university faculty, and new undergraduate students in order to understand how linked data supports user tasks promulgated in the IFLA Library Reference Model (IFLA-LRM). Specific user tasks evaluated over remote testing sessions include ascertaining how library catalogers make use of advanced search functionality provided in the linked data interface. Context finding tasks included evaluating how Penn catalogers might find a linked data search useful for providing context to their searching or for helping to understand a research area. Specific LRM mapping focused on the LRM Identify user task; particularly disambiguation of similar name results. For comparative results similar questions are posed to students and faculty. Several targeted questions of faculty included understanding the relationships in linked data that are useful for future research planning using linked data search. In compiling results of the study we describe the linked data functionality and scenarios which the Share-VDE 2.0 discovery system addresses and the ways in which user feedback is supporting the evolution of linked data discovery. We will show how we have evolved the system to align with user needs based on evaluations across multiple stakeholder groups.
+
+<a href="https://swib.org/swib22/slides/Evaluation%20and evolution of the Share-VDE 2.0 linked data catalog.pdf">Slides</a> 
 
 </td></tr>
 
@@ -329,6 +353,8 @@ With Simple Knowledge Organization Systems (SKOS), the World Wide Web Consotrium
 
 This workshop gives an introduction to SKOS with hands-on exercises. Participants will create and publish their own SKOS vocabulary using GitHub/GitLab and SkoHub Vocabs, a static site generator for SKOS concept schemes.
 
+
+
 </td></tr>
 
 <tr id="contrib124"><td></td><td>
@@ -342,6 +368,8 @@ This workshop gives an introduction to SKOS with hands-on exercises. Participant
 Would you like to learn how to write SPARQL queries for the Wikidata Query Service? In this workshop we will demonstrate a variety of SPARQL queries that highlight useful features of the Wikidata Query Service. We will also practice writing SPARQL queries in a hands-on session. After participating in this workshop you will have familiarity with designing and writing your own SPARQL queries to ask questions of the Wikidata Query Service.
 
 All are wellcome to participate. No experience with SPARQL or Wikidata necessary.
+
+
 
 </td></tr>
 
@@ -358,6 +386,8 @@ In this workshop, you will learn how to explore and retrieve data from linked da
 After completing this workshop, you will know how to: 1) Write SPARQL queries to retrieve data from linked data stores such as Wikidata 2) Use the Wikidata Query Service to extract data from Wikidata, including SPARQL extensions specific to Wikidata, and 3) Dynamically incorporate data from any of Wikidata's 100 million items data into a web page
 
 No previous experience with SPARQL, linked data, or Wikidata, is required. To complete the web page portion of the workshop, some familiarity with HTML and JavaScript would be beneficial, but is not necessary. You must have some means of running a local web server to test your web pages, such as a standard install of the PHP or Python programming languages, or the Node.js runtime environment.
+
+
 
 
 
@@ -386,6 +416,8 @@ Prerequisites
 
 Please register at least 4 days before the Workshop as a Wikimeda User ([here](https://commons.wikimedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page)) to have full access to all tools and editing capabilities.
 
+
+
 </td></tr>
 
 <tr id="contrib125"><td></td><td>
@@ -401,6 +433,8 @@ This workshop will introduce the [Solid project](https://solidproject.org), the 
 The Solid project promises a solution to get control of your own data and provides a choice who and which applications can have access to this data. The project was started as a response to the mass centralization of personal data by Internet platforms and the effects security breaches of these platforms had on manufacturing of public opinion. Although, the incentive of the project was based on a dissatisfaction with the centralization of personal information, the provided solution doesn't require a reboot of the Web. In the tradition of open standards, decentralized services and permissionless innovation, Solid build protocols to improve the current Web and not replace it.
 
 The core Solid protocols follow Semantic Web principles and apply it to management of (personal) data and documents. In this workshop we will discuss the principles behind Solid, the protocols and provides hands-on experience on the current state of the implementations.
+
+
 
 
 
@@ -422,6 +456,8 @@ Participants are instructed to use a computer with at least 8GB of RAM and at le
 
 
 
+
+
 </td></tr>
 
 <tr id="contrib103"><td></td><td>
@@ -433,6 +469,8 @@ Participants are instructed to use a computer with at least 8GB of RAM and at le
 TIB – Leibniz Information Centre for Science and Technology, Germany
 
 This workshop aims to help researchers, digital curators and data managers learn how to make datasets including 3D models and other media files available as linked open data within a collaborative annotation and presentation-ready environment. Participants will take part in practical demonstrations using an integrated toolchain that connects three existing open source software tools: 1) OpenRefine – for data reconciliation and batch upload; 2) Wikibase – for linked open data storage; and 3) Kompakkt – for rendering and annotating 3D models, and other 2D and AV media files. This toolchain and associated workflow was developed in the context of NFDI4Culture, a German consortium of research and cultural institutions working towards a shared infrastructure for research data that meets the needs of 21st-century data creators, maintainers and end users across the broad spectrum of the digital libraries and archives field, and the digital humanities. All components of the toolchain feature graphical user interfaces aiming to lower the barrier of participation in the semantic web for a wide range of practitioners and researchers. Furthermore, the toolchain development involves the specification of a common data model that aims to increase interoperability across datasets of digitised objects from different domains of culture. The workshop will be of interest to researchers, digital curators and information science professionals who work with datasets containing 3D media, and want to learn more about the possibilities of linked open data, open source software and collaborative annotation workflows.
+
+
 
 </td></tr>
 
@@ -466,6 +504,8 @@ Moderators: Adrian Pohl, Jakob Voß
 
 Use the opportunity to share your latest projects or ideas in a short lightning talk. Talks are registered after the start of the conference.
 
+
+
 </td></tr>
 
 <tr id="contrib108"><td></td><td>
@@ -481,6 +521,8 @@ While browsing the Web a user is often confronted with a form requiring them to 
 For the creation of (ad hoc) forms from scratch users do not have many options other than using platforms such as Google Forms which provide a limited set of input fields and a Google sheet as the end result, or asking their IT department to build a form which can require some time to implement and publish. During the COVID-19 pandemic many IT departments were asked to provide such ad hoc forms for all kinds of crowd sourcing where metadata was entered by library staff working from home. All these forms have hard-coded locations where the produced data needs to be stored, so a user has no choice in that matter.
 
 I will present an abstract way how RDF data can be read, updated, and stored in a decentralized way using RDF forms. The RDF data is defined by shapes, the forms are defined using a Form ontology, and the footprint (where to store the result) is also coded in RDF. All these inputs are web resources that declare to FormViewer apps how to read, update, and store data. An entire app can be written just by manipulating RDF resources, using the Solid protocol as persistence layer.
+
+<a href="https://swib.org/swib22/slides/20221201_swib_shapes_forms_footprints.pdf">Slides</a> 
 
 </td></tr>
 
@@ -501,6 +543,8 @@ Once the database was completed to a certain degree, we implemented and tested o
 In summary, the Apache Fuseki triple store performed quite well across all tasks. While some other software solutions were faster for some tasks, the gains were not significant enough to consider migrating our infrastructure to a new solution.
 
 
+
+<a href="https://swib.org/swib22/slides/SWIB_malmsheimer.pdf">Slides</a> 
 
 </td></tr>
 
@@ -542,6 +586,8 @@ Digitalization of CH objects for machine ingestion may have started for preserva
 
 Our presentation will show data collections of GLAM and vocabularies such as Iconclass containing prejudices against LGBT, gender inequality, or colonization stereotypes, and we will illustrate how these systems can embed these human stereotypes in AI generated data and why fairness is important for AI in GLAM.
 
+<a href="https://swib.org/swib22/slides/How%20are data collections and vocabularies teaching AI systems human stereotypes - Artem Reshetnikov.pdf">Slides</a> 
+
 </td></tr>
 
 <tr id="contrib106"><td></td><td>
@@ -560,6 +606,8 @@ In this presentation we want to give practical insights into the architecture, m
 
 Furthermore, we give a brief overview over the DNB AI project. The goal of the project is to look into state-of-the-art algorithms, text data, and vocabularies in order to improve the quality of subject cataloguing using AI methods.
 
+<a href="https://swib.org/swib22/slides/20221201_poley_dnb_final.pdf">Slides</a> 
+
 </td></tr>
 
 <tr id="contrib100"><td></td><td>
@@ -575,6 +623,8 @@ We apply the multilingual version of the language model BERT (mBERT) to predict 
 We decided to work with records from Romance Studies because it challenges the perspective of considering only one or only a few languages, such as in national libraries. The dataset contains 189,134 library records associated with Romance Studies from the catalogue K10plus.
 
 The general results for the different approaches yield micro F1-scores between 0.6 and 0.8 (macro F1-scores between 0.2 and 0.4), with better performance for mBERT as classifier. In this presentation we will explore how these results are influenced by factors such as the language, specific classes, or the number of records per class. This is a promising approach for the generation of suggestions which should be considered by subject specialists.
+
+<a href="https://swib.org/swib22/slides/20221202_1236_ct_mBERT-Basisklassifikation.pdf">Slides</a> 
 
 </td></tr>
 
@@ -608,6 +658,8 @@ Moderators: Joachim Neubert, Julia Beck
 
 Digital Scriptorium 2.0 (DS 2.0) is a project to redevelop the technical platform of a national union catalog of premodern manuscripts representing the full range of global manuscript cultures in US collections. This paper documents the development and implementation of a workflow for aggregating and transforming metadata records for premodern manuscripts in order to structure and publish them as linked open data (LOD). Strategies and practices for extracting, enhancing, and combining metadata from heterogeneous sources were explored. Data sources included library catalogs and other institutional data repositories, ranging from metadata in CSV files to XML-structured schemas. Automated scripts extracted and combined metadata by entity types for such entities as agents, places, materials, subjects, genres, languages, and date information recorded in catalog records as string values. Using OpenRefine, string values were reconciled to linked open databases and vocabularies such as Wikidata, FAST, and the Getty's AAT and TGN. This resulted in the creation of open-source metadata repositories to be used in the transformation of DS member metadata records into LOD for uploading into a shared knowledge base (Wikibase), thus semantically enriching existing cultural heritage metadata and enabling end user function like faceted search and SPARQL querying. This approach facilitated low institutional barriers to contribution as participating institutions did not have to alter their metadata records to contribute data and they retained control over their own catalog record formats and cataloging practices. The resulting database of heterogeneous, cross-institutional published LOD can be leveraged by the community of scholars, librarians, curators, and citizen scholars who participate in Digital Scriptorium to enhance and build upon existing knowledge about their collections.
 
+
+
 </td></tr>
 
 <tr id="contrib117"><td></td><td>
@@ -624,6 +676,8 @@ By analysing and deconstructing historians’ work on character interpretation a
 
 The study has adopted the image, presentation and content search APIs of IIIF, and developed a LOD lifecycle framework in order to transform the legacy data into LOD, enable access and cross-referencing for these resources, and satisfy different needs in research. “The Wooden Slips Character Dictionary–Database of Juyan Han Wooden Slips from the Institute of History and Philology Collections" ([WCD](https://ndweb.iis.sinica.edu.tw/woodslip_public/System/Main.htm))” and the "[Multi-database Search System for Historical Chinese Characters](https://wcd-ihp.ascdc.sinica.edu.tw/union)" were taken as practical examples to explain how interoperability is utilised in systems for the digital humanities. 
 
+
+
 </td></tr>
 
 <tr id="contrib115"><td></td><td>
@@ -636,11 +690,15 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 
 [BookSampo](https://kirjasampo.fi) – a linked data (LD) service and portal for Finnish fiction literature – was launched in 2011 by the public libraries of Finland. Since then, the original knowledge graph (KG) has grown from 400,000 subjects to over 8,740,000, including literary works, authors, book covers, reviews, literary awards, along with other detailed semantic metadata. The portal, maintained by a team of Finnish librarians, has nearly 2 million annual users and its KG resides in a SPARQL endpoint. However, the potential of the KG has not been explored from a Digital Humanities (DH) research perspective where digital tools could help with knowledge discovery. This study presents novel data analyses on the BookSampo KG to demonstrate how LD can be used in DH studies, building on the concepts of distant reading and literary geography, i.e., the application of computational methods to study literature and its geographical dimension. Our work reveals and illustrates trends and biases in the development of Finnish literature based on semantic metadata. Focusing on novels and their geographical settings, the analyses show interesting annotation patterns related to genres and themes. Although the geographical diversity in fictional settings has increased over time, our results suggest that Finnish fiction literature still focuses on national settings and historical topics. Moreover, our digital perspective shows that the Finnish literary geography is biased by gender. Finally, we discuss to which extent the findings depend on the KG annotation practices, and how this potential meta-level bias should be addressed in the future.
 
+
+
 </td></tr>
 
 <tr id="contrib160"><td></td><td>
 
 #### Closing
+
+
 
 
 

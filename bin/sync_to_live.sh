@@ -15,5 +15,8 @@ LC_SWIB=`echo $SWIB | tr '[:upper:]' '[:lower:]'`
 # (authentication by ssh key)
 UPLOAD_SRV=`cat .swib_upload`
 
+# set perms for media files
+chmod 664 ../var/html/$LC_SWIB/slides/*
+
 rsync --delete -ravuz --exclude '*~' --exclude 'swib??_participants_*.html' ../var/html/$LC_SWIB/ $UPLOAD_SRV/$LC_SWIB
 
