@@ -122,7 +122,7 @@ The starting point of the project is MARC21 data accumulated over decades, and t
 
 Presenters describe the theoretical foundation of the project, review the mapping structure and format in detail, demonstrate the conversion tool with a focus on its RDA/LRM/RDF output, and share a vision for the future of RDA/LRM/RDF metadata in the greater library linked data ecosystem. Mappings, code, and project information can be found at [the project GitHub repository](https://github.com/uwlib-cams/MARC2RDA).
 
-<a href="https://swib.org/swib22/slides/SWIB22_mapping_marc21.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/SWIB22_mapping_marc21.pdf">Slides</a> &#160; <a href="https://youtu.be/2NJPgMqEsnI">Video</a> &#160; 
 
 </td></tr>
 
@@ -140,7 +140,7 @@ Implementing the crosswalk has meant designing a system that is more complex tha
 
 Generating linked data at scale was a new challenge for the library. The initial design used a database schema based on triples, with resolvable identifiers for all objects; this approach provided an intuitive way to create and query relationships without using a native triple store or graph database, given the learning curve that an unfamiliar system would have entailed. However, the triples-based approach proved too resource-intensive at scale, and the system was modified to store some data in JSON and resolve only top-level entities, while still storing a subset of the relationship data for querying.
 
-<a href="https://swib.org/swib22/slides/A%20Crosswalk in the Park Converting from MARC 21 to Linked Art-TimThompson_MartinLovell_v2.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/A%20Crosswalk in the Park Converting from MARC 21 to Linked Art-TimThompson_MartinLovell_v2.pdf">Slides</a> &#160; <a href="https://youtu.be/ZxkZnPerMgc">Video</a> &#160; 
 
 </td></tr>
 
@@ -158,7 +158,7 @@ Within the [BELTRANS project](https://github.com/kbrbe/beltrans-data-integration
 
 This contribution describes the approach, which is implemented as a 5-step workflow using linked data and Python. We discuss how we use the workflow to improve the correctness of the data used in the BELTRANS project and the wider applicability of the workflow within the National Library to improve the completeness of our catalog with respect to legal deposit. Since the expertise of librarians is needed to interpret identified data contradictions, the next step is to improve the usability of our prototypical solution.
 
-<a href="https://swib.org/swib22/slides/2022-11-28_SWIB_Sven-Lieber.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/2022-11-28_SWIB_Sven-Lieber.pdf">Slides</a> &#160; <a href="https://youtu.be/r29W73vle2I">Video</a> &#160; 
 
 </td></tr>
 
@@ -211,7 +211,7 @@ Our cataloging software had accumulated many errors and problems over the years;
 
 PSYNDEX has high indexing standards: scientific publications are described with many details about the actual studies they document, using various keyword thesauri, classification systems, controlled vocabularies for research methods and study samples, metadata about preregistration, funding etc. BIBFRAME has little to offer for such details. To represent all this data and make it usable by humans and machines, other ontologies must be integrated, and new properties and classes have to be created. A new requirement was grouping "versions" of the same content in different publication forms – thus the adoption of BIBFRAME Works and Instances. Our experiences may be useful to other domains with indexing needs not covered by BIBFRAME, and also offer guidance on where BIBFRAME seems vague or unfinished. Our approach to handling e.g. dependent parts of things (journal articles, chapters) or aggregates and serials may be reused, thus improving interoperability.
 
-<a href="https://swib.org/swib22/slides/Bibframe%20for academic publishing in psychology_no_animation_pages.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/Bibframe%20for academic publishing in psychology_no_animation_pages.pdf">Slides</a> &#160; <a href="https://youtu.be/7nl3SMVOWa8">Video</a> &#160; 
 
 </td></tr>
 
@@ -231,7 +231,7 @@ For images, each image is processed to identify people who are pictured in it. C
 
 Once the spreadsheet of triples is output, it can be imported into OpenRefine in order to convert it into the Wikidata format which is useful for linked digital collections, crowdsourcing, and cooperative collections-as-data programs.
 
-<a href="https://swib.org/swib22/slides/Proctor_swib22.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/Proctor_swib22.pdf">Slides</a> &#160; <a href="https://youtu.be/sI_oumTT-ew">Video</a> &#160; 
 
 </td></tr>
 
@@ -247,7 +247,7 @@ Libraries have changed but the core purpose of the library is very much the same
 
 And that direction is toward the semantic web and linked data which are influencing how bibliographic and authority data are created, shared, and made available to potential users. In this presentation I will focus on modeling, mapping, and creating workflows for moving the bibliographic and authority data of the National Library of Latvia to Wikidata as a major hub of the semantic web. The main focus will be on modeling and integrating library authority files (persons, organizations, works, locations, etc.) to a full extent into Wikidata, reducing any possible data loss to a minimum. This way, Wikidata will not be used as just a hub for institutional identifiers but as a universal and collaborative knowledge base where libraries can truly share and disseminate their knowledge, connect it and use it to describe and query their resources.
 
-<a href="https://swib.org/swib22/slides/skvireckis_swib2022_Library-data-on-Wikidata_draft.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/skvireckis_swib2022_Library-data-on-Wikidata_draft.pdf">Slides</a> &#160; <a href="https://youtu.be/iB2ZmmyfakU">Video</a> &#160; 
 
 </td></tr>
 
@@ -291,7 +291,7 @@ In a separate phase, we focused on how the linked data representation of creativ
 
 This presentation will provide an overview of the production integration from the first phase and the data analysis and experimental prototype from the second phase. This work is further described [here](https://wiki.lyrasis.org/display/LD4P3/WP3%3A+Discovery). Related work is also captured in [this article](https://kula.uvic.ca/index.php/kula/article/view/229) .
 
-<a href="https://swib.org/swib22/slides/Folsom_Khan_Usong_NewNewerNewest.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/Folsom_Khan_Usong_NewNewerNewest.pdf">Slides</a> &#160; <a href="https://youtu.be/AVKo0_T9xFo">Video</a> &#160; 
 
 </td></tr>
 
@@ -305,7 +305,7 @@ This presentation will provide an overview of the production integration from th
 
 Enhancing the multilingual accessibility of its rich cultural heritage material is a constant objective of Europeana and key to improving the user experience it offers. Technological advances are opening new ways for multilingual access but for their successful application the language of the existing data must be identified. In RDF data, language is indicated by the language tag in a dedicated attribute (xml:lang in RDF/XML). Previous studies conducted on Europeana datasets show that language tags are not used as often as they should, but we do not have precise statistics on this. Moreover, language tags found in Europeana have data quality issues – they do not always follow established standards even though Europeana already performs some (automatic) normalisation of tags. We conducted a study on the language tags included in the metadata of Europeana with two objectives in mind: First, to inform decision-making about possible improvements in the current language tag normalisation process, and second, to enhance the quality and quantity of training data for specialising automatic translation systems in the cultural heritage domain (a crucial objective for the Europeana Translate project, which aims to translate 25 million records of Europeana). Our study analysed the totality of the data in Europeana, which contains over 1,700 million RDF literals, and identified that only 15.9% of the literals are language-tagged. We also determined that 3.3% of the language tags are not valid according to the IETF BCP 47 standard. In our presentation, we recount the results of this study along with the improvements in the normalisation process we applied to collect training data for machine translation. 
 
-<a href="https://swib.org/swib22/slides/SWIB%202022 - Langs tags EuropeanaTranslate.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/SWIB%202022 - Langs tags EuropeanaTranslate.pdf">Slides</a> &#160; <a href="https://youtu.be/_Jjnt10r_Eo">Video</a> &#160; 
 
 </td></tr>
 
@@ -319,7 +319,7 @@ Enhancing the multilingual accessibility of its rich cultural heritage material 
 
 Share-VDE (SVDE) is a library-driven initiative which brings together the bibliographic catalogs and authority files of a community of libraries in an innovative discovery environment based on linked data. The beta release of the SVDE 2.0 (https://www.svde.org) catalog was collaboratively shaped among multiple perspectives and stakeholder groups. A team at the University of Pennsylvania Libraries gathered feedback through structured interviews and observations from library catalogers working in linked data, university faculty, and new undergraduate students in order to understand how linked data supports user tasks promulgated in the IFLA Library Reference Model (IFLA-LRM). Specific user tasks evaluated over remote testing sessions include ascertaining how library catalogers make use of advanced search functionality provided in the linked data interface. Context finding tasks included evaluating how Penn catalogers might find a linked data search useful for providing context to their searching or for helping to understand a research area. Specific LRM mapping focused on the LRM Identify user task; particularly disambiguation of similar name results. For comparative results similar questions are posed to students and faculty. Several targeted questions of faculty included understanding the relationships in linked data that are useful for future research planning using linked data search. In compiling results of the study we describe the linked data functionality and scenarios which the Share-VDE 2.0 discovery system addresses and the ways in which user feedback is supporting the evolution of linked data discovery. We will show how we have evolved the system to align with user needs based on evaluations across multiple stakeholder groups.
 
-<a href="https://swib.org/swib22/slides/Evaluation%20and evolution of the Share-VDE 2.0 linked data catalog.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/Evaluation%20and evolution of the Share-VDE 2.0 linked data catalog.pdf">Slides</a> &#160; <a href="https://youtu.be/VE4i7GItKEA">Video</a> &#160; 
 
 </td></tr>
 
@@ -524,7 +524,7 @@ For the creation of (ad hoc) forms from scratch users do not have many options o
 
 I will present an abstract way how RDF data can be read, updated, and stored in a decentralized way using RDF forms. The RDF data is defined by shapes, the forms are defined using a Form ontology, and the footprint (where to store the result) is also coded in RDF. All these inputs are web resources that declare to FormViewer apps how to read, update, and store data. An entire app can be written just by manipulating RDF resources, using the Solid protocol as persistence layer.
 
-<a href="https://swib.org/swib22/slides/20221201_swib_shapes_forms_footprints.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/20221201_swib_shapes_forms_footprints.pdf">Slides</a> &#160; <a href="https://youtu.be/Wj1_X9hrk4c">Video</a> &#160; 
 
 </td></tr>
 
@@ -588,7 +588,7 @@ Digitalization of CH objects for machine ingestion may have started for preserva
 
 Our presentation will show data collections of GLAM and vocabularies such as Iconclass containing prejudices against LGBT, gender inequality, or colonization stereotypes, and we will illustrate how these systems can embed these human stereotypes in AI generated data and why fairness is important for AI in GLAM.
 
-<a href="https://swib.org/swib22/slides/How%20are data collections and vocabularies teaching AI systems human stereotypes - Artem Reshetnikov.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/How%20are data collections and vocabularies teaching AI systems human stereotypes - Artem Reshetnikov.pdf">Slides</a> &#160; <a href="https://youtu.be/xCLnnKSEMMY">Video</a> &#160; 
 
 </td></tr>
 
@@ -608,7 +608,7 @@ In this presentation we want to give practical insights into the architecture, m
 
 Furthermore, we give a brief overview over the DNB AI project. The goal of the project is to look into state-of-the-art algorithms, text data, and vocabularies in order to improve the quality of subject cataloguing using AI methods.
 
-<a href="https://swib.org/swib22/slides/20221201_poley_dnb_final.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/20221201_poley_dnb_final.pdf">Slides</a> &#160; <a href="https://youtu.be/CM2eneIf-HU">Video</a> &#160; 
 
 </td></tr>
 
@@ -626,7 +626,7 @@ We decided to work with records from Romance Studies because it challenges the p
 
 The general results for the different approaches yield micro F1-scores between 0.6 and 0.8 (macro F1-scores between 0.2 and 0.4), with better performance for mBERT as classifier. In this presentation we will explore how these results are influenced by factors such as the language, specific classes, or the number of records per class. This is a promising approach for the generation of suggestions which should be considered by subject specialists.
 
-<a href="https://swib.org/swib22/slides/20221202_1236_ct_mBERT-Basisklassifikation.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib22/slides/20221202_1236_ct_mBERT-Basisklassifikation.pdf">Slides</a> &#160; <a href="https://youtu.be/7fmvYzlf9oM">Video</a> &#160; 
 
 </td></tr>
 
@@ -660,7 +660,7 @@ Moderators: Joachim Neubert, Julia Beck
 
 Digital Scriptorium 2.0 (DS 2.0) is a project to redevelop the technical platform of a national union catalog of premodern manuscripts representing the full range of global manuscript cultures in US collections. This paper documents the development and implementation of a workflow for aggregating and transforming metadata records for premodern manuscripts in order to structure and publish them as linked open data (LOD). Strategies and practices for extracting, enhancing, and combining metadata from heterogeneous sources were explored. Data sources included library catalogs and other institutional data repositories, ranging from metadata in CSV files to XML-structured schemas. Automated scripts extracted and combined metadata by entity types for such entities as agents, places, materials, subjects, genres, languages, and date information recorded in catalog records as string values. Using OpenRefine, string values were reconciled to linked open databases and vocabularies such as Wikidata, FAST, and the Getty's AAT and TGN. This resulted in the creation of open-source metadata repositories to be used in the transformation of DS member metadata records into LOD for uploading into a shared knowledge base (Wikibase), thus semantically enriching existing cultural heritage metadata and enabling end user function like faceted search and SPARQL querying. This approach facilitated low institutional barriers to contribution as participating institutions did not have to alter their metadata records to contribute data and they retained control over their own catalog record formats and cataloging practices. The resulting database of heterogeneous, cross-institutional published LOD can be leveraged by the community of scholars, librarians, curators, and citizen scholars who participate in Digital Scriptorium to enhance and build upon existing knowledge about their collections.
 
-
+<a href="https://swib.org/swib22/slides/swib22_coladangelo.pdf">Slides</a> &#160; <a href="https://youtu.be/8ERzIvm3Dko">Video</a> &#160; 
 
 </td></tr>
 
@@ -678,7 +678,7 @@ By analysing and deconstructing historians’ work on character interpretation a
 
 The study has adopted the image, presentation and content search APIs of IIIF, and developed a LOD lifecycle framework in order to transform the legacy data into LOD, enable access and cross-referencing for these resources, and satisfy different needs in research. “The Wooden Slips Character Dictionary–Database of Juyan Han Wooden Slips from the Institute of History and Philology Collections" ([WCD](https://ndweb.iis.sinica.edu.tw/woodslip_public/System/Main.htm))” and the "[Multi-database Search System for Historical Chinese Characters](https://wcd-ihp.ascdc.sinica.edu.tw/union)" were taken as practical examples to explain how interoperability is utilised in systems for the digital humanities. 
 
-
+<a href="https://swib.org/swib22/slides/SWIB_2022_The_Application_of_IIIF_and_LOD_in_Digital_Humanities.pdf">Slides</a> &#160; <a href="https://youtu.be/Zxfm13AXuuc">Video</a> &#160; 
 
 </td></tr>
 
@@ -692,7 +692,7 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 
 [BookSampo](https://kirjasampo.fi) – a linked data (LD) service and portal for Finnish fiction literature – was launched in 2011 by the public libraries of Finland. Since then, the original knowledge graph (KG) has grown from 400,000 subjects to over 8,740,000, including literary works, authors, book covers, reviews, literary awards, along with other detailed semantic metadata. The portal, maintained by a team of Finnish librarians, has nearly 2 million annual users and its KG resides in a SPARQL endpoint. However, the potential of the KG has not been explored from a Digital Humanities (DH) research perspective where digital tools could help with knowledge discovery. This study presents novel data analyses on the BookSampo KG to demonstrate how LD can be used in DH studies, building on the concepts of distant reading and literary geography, i.e., the application of computational methods to study literature and its geographical dimension. Our work reveals and illustrates trends and biases in the development of Finnish literature based on semantic metadata. Focusing on novels and their geographical settings, the analyses show interesting annotation patterns related to genres and themes. Although the geographical diversity in fictional settings has increased over time, our results suggest that Finnish fiction literature still focuses on national settings and historical topics. Moreover, our digital perspective shows that the Finnish literary geography is biased by gender. Finally, we discuss to which extent the findings depend on the KG annotation practices, and how this potential meta-level bias should be addressed in the future.
 
-
+<a href="https://swib.org/swib22/slides/swib22_peura.pdf">Slides</a> &#160; <a href="https://youtu.be/xNe72_TVEFY">Video</a> &#160; 
 
 </td></tr>
 
@@ -726,9 +726,10 @@ The study has adopted the image, presentation and content search APIs of IIIF, a
 
 ### 14th SWIB
 
-**More than 750 registrations from over 50 countries**\
-[Registration is still open](https://swib.org/swib22/registration.html).\
-25.11.2022
+**SWIB22 finished**\
+900 registrations from 58 countries\
+[Slides and videos are online](../swib22/programme.html)\
+2.12.2022
 
 **300 registrations from 35 countries within 24 hours**\
 The first workshops are fully booked already.\
