@@ -45,15 +45,15 @@ pagetitle: SWIB22 History
 
 ### 15th SWIB
 
-**Save the date**\
-SWIB23: 11.-13.9.2023 in Berlin (Germany)\
+**SWIB23 - Save the date**\
+11.-13. September 2023 in Berlin (Germany)\
 2.12.2022
 
 ### 14th SWIB
 
 **SWIB22 finished**\
 900 registrations from 58 countries\
-[Slides and videos are online](../swib22/programme.html)\
+[Slides and videos are online](../swib22/programme.html) ([Youtube playlist](https://www.youtube.com/playlist?list=PL7fMsenbLiQ2xcclhSnk1nv752E4N_Nqx))\
 2.12.2022
 
 **300 registrations from 35 countries within 24 hours**\
