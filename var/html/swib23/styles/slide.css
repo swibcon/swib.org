@@ -1,0 +1,88 @@
+html {
+  font-family: Arial, sans-serif;
+  color: #2B5A9D;
+  font-size: 16px;
+  line-height: 1.4;  
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.timezone {
+  font-size: 80%;
+}
+
+#prog {
+  text-align: center;
+}
+
+#prog>h2 {
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+
+#top {
+  display: flex;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+#top:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.left {
+  width: 20%;
+}
+
+.middle {
+  width: 60%;
+  text-align: center;
+  font-size: 220%;
+  font-weight: bold;
+}
+
+.right {
+  width: 20%;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+#top>.simply-countdown>.simply-section {
+  width: 24px;
+  height: 24px;
+  padding: 24px;
+  margin: 8px;
+}
+
+#top>.simply-countdown>.simply-section>div>.simply-amount {
+  font-size: 160%;
+}
+
+@media screen and (max-width: 500px) {
+  .middle {
+    font-size: 150%;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 130%;
+  }
+}
+
+

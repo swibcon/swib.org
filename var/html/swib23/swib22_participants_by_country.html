@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>SWIB22 registrations by country</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="http://code.highcharts.com/mapdata/custom/world-highres.js"></script>
+</head>
+<body>
+
+<div id="container" style="height: 100%; width:100%; position: absolute;"></div>
+
+<script>
+    $(function () {
+
+        var data = [{"value":290,"hc-key":"us"},{"value":144,"hc-key":"de"},{"value":83,"hc-key":"ca"},{"value":45,"hc-key":"ch"},{"value":35,"hc-key":"nl"},{"value":29,"hc-key":"fi"},{"value":25,"hc-key":"gb"},{"value":22,"hc-key":"be"},{"value":21,"hc-key":"at"},{"value":19,"hc-key":"se"},{"value":19,"hc-key":"it"},{"value":18,"hc-key":"fr"},{"value":14,"hc-key":"cz"},{"value":11,"hc-key":"il"},{"value":8,"hc-key":"pl"},{"value":8,"hc-key":"hu"},{"value":7,"hc-key":"es"},{"value":7,"hc-key":"lv"},{"value":7,"hc-key":"pt"},{"value":7,"hc-key":"sg"},{"value":6,"hc-key":"nz"},{"value":5,"hc-key":"tw"},{"value":5,"hc-key":"no"},{"value":4,"hc-key":"qa"},{"value":4,"hc-key":"si"},{"value":3,"hc-key":"jp"},{"value":3,"hc-key":"bg"},{"value":3,"hc-key":"au"},{"value":3,"hc-key":"ie"},{"value":3,"hc-key":"ir"},{"value":3,"hc-key":"co"},{"value":2,"hc-key":"dk"},{"value":2,"hc-key":"pr"},{"value":2,"hc-key":"cn"},{"value":2,"hc-key":"eg"},{"value":2,"hc-key":"ru"},{"value":2,"hc-key":"sa"},{"value":2,"hc-key":"kr"},{"value":2,"hc-key":"za"},{"value":2,"hc-key":"am"},{"value":2,"hc-key":"in"},{"value":2,"hc-key":"mx"},{"value":2,"hc-key":"br"},{"value":1,"hc-key":"ph"},{"value":1,"hc-key":"hk"},{"value":1,"hc-key":"ng"},{"value":1,"hc-key":"ke"},{"value":1,"hc-key":"hr"},{"value":1,"hc-key":"dz"},{"value":1,"hc-key":"ee"},{"value":1,"hc-key":"lb"},{"value":1,"hc-key":"gr"},{"value":1,"hc-key":"lu"},{"value":1,"hc-key":"lt"},{"value":1,"hc-key":"ro"},{"value":1,"hc-key":"ar"},{"value":1,"hc-key":"cl"},{"value":1,"hc-key":"ug"}] ;
+
+        // Initiate the chart
+        $('#container').highcharts('Map', {
+
+            title : {
+                text : "SWIB22 - 900 registrations from 58 countries (as of 2022-12-02 12:48)"
+            },
+
+            mapNavigation: {
+                enabled: true,
+                buttonOptions: {
+                    verticalAlign: 'bottom'
+                }
+            },
+
+            colorAxis: {
+                dataClasses: [{
+                    color: 'rgba(19,64,117,0.4)',
+                    from: 1,
+                    to: 2
+                }, {
+                    color: 'rgba(19,64,117,0.6)',
+                    from: 3,
+                    to: 9
+                }, {
+                    color: 'rgba(19,64,117,0.8)',
+                    from: 10,
+                    to: 49
+                }, {
+                    color: 'rgba(19,64,117,1)',
+                    from: 50
+                }]
+            },
+
+            legend : {
+                valueDecimals : 0
+            },
+
+            series : [{
+                data : data,
+                mapData: Highcharts.maps['custom/world-highres'],
+                joinBy: 'hc-key',
+                name: 'SWIB registrations',
+                states: {
+                    hover: {
+                        color: '#BADA55'
+                    }
+                },
+                dataLabels: {
+                    enabled: false,
+                    format: '{point.name}'
+                }
+            }]
+        });
+    });
+
+</script>
+</body>
+</html>
