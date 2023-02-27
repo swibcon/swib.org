@@ -1,5 +1,5 @@
 ---
-pagetitle: SWIB22 General Information
+pagetitle: SWIB23 General Information
 ---
 
 <div id="main">
@@ -16,11 +16,12 @@ Details to follow.
 
 :::{.sidebox-box}
 
-### 15th SWIB
+**CfP published**
+27.02.2023
 
 **SWIB23 - Save the date**\
 11.-13. September 2023 in Berlin (Germany)\
-2.12.2022
+02.12.2022
 
 ### 14th SWIB
 
@@ -39,11 +40,6 @@ The first workshops are fully booked already.\
 **CfP published**\
 09.05.2022
 
-### 13th SWIB
-
-**[SWIB21 slides and videos are now online](../swib21/programme.html)**\
-08.12.2021
-
 
 
 :::
@@ -55,7 +51,7 @@ The first workshops are fully booked already.\
 
 [\@swib@openbiblio.social](https://openbiblio.social/@swib)
 
-#swib22
+#swib23
 
 :::
 
@@ -65,7 +61,7 @@ The first workshops are fully booked already.\
 
 @swibcon
 
-#swib22
+#swib23
 
 :::
 

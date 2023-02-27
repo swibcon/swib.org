@@ -1,5 +1,5 @@
 ---
-pagetitle: SWIB22 Code of Conduct
+pagetitle: SWIB23 Code of Conduct
 ---
 
 <div id="main">
@@ -83,11 +83,12 @@ The Regional Anti-Discrimination Agency NRW: www.aric-nrw.de, Fon: +49 (0)203 28
 
 :::{.sidebox-box}
 
-### 15th SWIB
+**CfP published**
+27.02.2023
 
 **SWIB23 - Save the date**\
 11.-13. September 2023 in Berlin (Germany)\
-2.12.2022
+02.12.2022
 
 ### 14th SWIB
 
@@ -106,11 +107,6 @@ The first workshops are fully booked already.\
 **CfP published**\
 09.05.2022
 
-### 13th SWIB
-
-**[SWIB21 slides and videos are now online](../swib21/programme.html)**\
-08.12.2021
-
 
 
 :::
@@ -122,7 +118,7 @@ The first workshops are fully booked already.\
 
 [\@swib@openbiblio.social](https://openbiblio.social/@swib)
 
-#swib22
+#swib23
 
 :::
 
@@ -132,7 +128,7 @@ The first workshops are fully booked already.\
 
 @swibcon
 
-#swib22
+#swib23
 
 :::
 

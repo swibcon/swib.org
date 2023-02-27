@@ -1,27 +1,10 @@
 ---
-pagetitle: SWIB22 Registration
+pagetitle: SWIB23 TBD
 ---
 
 <div id="main">
 
-# Registration
-
-This year's SWIB will be held on the web, without a participation fee.  Plenary
-and face-to-face discussions as well as group meetings will take place in the
-open source messaging platform Mattermost. Presentations will be streamed live,
-workshops will be held with BigBlueButton (BBB).
-
-SWIB22 Mattermost is open from now on until the end of December. Within
-Mattermost, you will be able to chat or start BBB video calls with other
-participants, or to come together in topic-specific groups and organize
-breakout sessions.
-
-Participation is free of charge. Please use our ConfTool system to register now
-for this year's conference, and optionally for a workshop. Your Mattermost
-account will be created automatically, and you will receive an email with the
-login details.
-
-[**Register now**](https://www.conftool.org/swib22/register.php)
+TBD
 
 </div>
 
@@ -31,11 +14,12 @@ login details.
 
 :::{.sidebox-box}
 
-### 15th SWIB
+**CfP published**
+27.02.2023
 
 **SWIB23 - Save the date**\
 11.-13. September 2023 in Berlin (Germany)\
-2.12.2022
+02.12.2022
 
 ### 14th SWIB
 
@@ -54,11 +38,6 @@ The first workshops are fully booked already.\
 **CfP published**\
 09.05.2022
 
-### 13th SWIB
-
-**[SWIB21 slides and videos are now online](../swib21/programme.html)**\
-08.12.2021
-
 
 
 :::
@@ -70,7 +49,7 @@ The first workshops are fully booked already.\
 
 [\@swib@openbiblio.social](https://openbiblio.social/@swib)
 
-#swib22
+#swib23
 
 :::
 
@@ -80,7 +59,7 @@ The first workshops are fully booked already.\
 
 @swibcon
 
-#swib22
+#swib23
 
 :::
 
