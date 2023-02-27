@@ -1,22 +1,15 @@
-# SWIB22 – 14th Semantic Web in Libraries Conference
+# SWIB23 – 15th Semantic Web in Libraries Conference
 
-## 28 November &#8211; 02 December 2022, online
+## 11 – 13 September 2023, Berlin
 
 ## Call for Proposals
 
-**Submission Deadline (extended): 11 July 2022**
+**Submission Deadline: 10 April 2023**
 
 SWIB conference (Semantic Web in Libraries) is an annual conference, being held
-for the 14th time.
-
-Due to the Covid-19 pandemic, we cannot be sure that by November travelling and
-meeting face-to-face will be possible for everybody in the community.
-Therefore, we have decided to hold SWIB22 online for the third time.  This will
-offer everybody an opportunity to easily participate from all over the world.
-
-Taking into account the different time zones of the participants, we plan to
-carry out the conference during the week of 28 November – 02 December, daily
-from UTC 14:00 to 16:30.
+for the 15th time. After three years of convening online due to the Covid-19 
+pandemic, we are happy to gather in-person once again – and for the first time 
+in Berlin.
 
 SWIB focuses on Linked Open Data (LOD) in libraries and related organizations.
 It is well established as an event where IT staff, developers, librarians, and
@@ -26,15 +19,17 @@ data and creating tools and software for LOD production scenarios. These areas
 of focus are supplemented by presentations of research projects in applied
 sciences, industry applications, and LOD activities in other areas.
 
-As usual, SWIB22 will be organized by **[ZBW – Leibniz Information Centre for
+As usual, SWIB23 will be organized by **[ZBW – Leibniz Information Centre for
 Economics](https://www.zbw.eu/en)** and the **[North Rhine-Westphalian Library
 Service Centre (hbz)](https://www.hbz-nrw.de/)**. The conference language is
 English.
 
-For this SWIB rendition we adjusted the formats to the online environment:
+For this SWIB rendition we will have more interactive formats in order to get
+the most out of participants coming together physically in one place.
+As usual, we will also have presentations and workshops:
 
-* Presentations (20 minutes plus 5 q&a)
-* Practical workshops or tutorials (maximum 150 min, including breaks), introductory tutorials are very welcome
+* presentations (20 minutes plus 5 minutes Q&A)
+* practical workshops or tutorials (around 2–4 hours including breaks)
 
 We appreciate proposals on the following or related topics:
 
@@ -43,40 +38,36 @@ We appreciate proposals on the following or related topics:
 * integration of LOD into productive library applications
 * re-use of LOD (from libraries, Wikidata and other sources)
 * presenting & visualizing LOD
-* end-user environments for interaction with LOD (e.g. editing or annotation)
-* crowdsourcing/gamification approaches involving LOD sources
-* applications for open science
+* graphical user interfaces for interaction with LOD (e.g. editing or annotation)
+* (other) applications in the context of open science
 
-### Technology (focus on Open Source software)
+### Technology & Tools (focus on Open Source software)
 
-* data transformation/integration/cleansing/enhancement/mapping/interlinking
-* data flow management
-* RDF validation
-* read/write linked data
-* providing updates & syncing data sources
-* machine learning for automatic indexing & named entity recognition
+* data transformation/integration/cleansing/enhancement/mapping/interlinking/validation
+* data flow management, read/write linked data, providing updates & syncing data sources
+* machine learning applications in/for libraries
 * integration of symbolic and subsymbolic approaches
 
 ### Standards & Best Practices
 
-* implementation of FAIR data principles
-* open web standards relevant for libraries
+* implementation of FAIR data principles, interoperability
+* open web standards relevant for libraries, data models, usable APIs
 * application profiles & provenance information
-* working with authorities & knowledge organization systems
-* usable APIs
+* working with controlled vocabularies & knowledge organization systems
 * preservation, maintenance & sustainability
 
 ### Culture
 
-* collaboration, community building and empowerment
+* decentralization, federated structures
 * consolidating open source projects
-* awareness of Western bias, decolonialization
+* collaboration, crowdsourcing, community building and empowerment
+* diversity sensitivity, equity, inclusion, and accessibility
 
 We are looking forward to receiving your proposals for presentations or
-workshops by **11 July 2022**. Please submit an abstract of 1000–1500
+workshops by **10 April 2023**. Please submit an abstract of 1000–1500
 characters using our conference system
-[https://www.conftool.org/swib22](https://www.conftool.org/swib22). If you
-intend to present a specific software solution please include links to the
+[https://www.conftool.org/swib23](https://www.conftool.org/swib23). If you
+intend to present a specific software solution, please include links to the
 source code repository and make sure it is [openly
 licensed](https://opensource.org/licenses).
 
@@ -90,12 +81,12 @@ Proposals will be reviewed by the programme committee:
 * Julia Beck (Frankfurt University Library)
 * Uldis Bojars (National Library of Latvia)
 * Nuno Freire (Europeana Foundation, Netherlands)
-* Anna Kasprzik (ZBW, Germany)
-* Huda Khan (Cornell University Library, USA)
+* Anna Kasprzik (ZBW, Germany – Chair)
+* Huda Khan (Stanford University, USA)
 * Niklas Lindström (National Library of Sweden)
 * Devika Madalli (Indian Statistical Institute)
-* Joachim Neubert (ZBW, Germany &#8211; Chair)
-* Adrian Pohl (hbz, Germany &#8211; Chair)
+* Joachim Neubert (ZBW, Germany)
+* Adrian Pohl (hbz, Germany – Chair)
 * Dorothea Salo (UW-Madison, USA)
 * Jodi Schneider (University of Illinois at Urbana-Champaign, USA)
 * MJ Suhonos (Toronto Metropolitan University, Canada)
@@ -107,28 +98,27 @@ Proposals will be reviewed by the programme committee:
 
 ### Call for satellite events
 
-If you are interested in using the online conference infrastructure for a
+If you are interested in using the conference venue for a
 satellite event before or after the conference slot, let us know.
 
-**Website**: http://swib.org/swib22<br>
-**Hashtag**: #swib22<br>
-**Twitter**: @swibcon
+**Website**: https://swib.org/swib23 \
+**Hashtag**: #swib23\
+**Mastodon**: [@swib@openbiblio.social](https://openbiblio.social/@swib)
 
 Take a look at previous SWIB conferences at
-[https://swib.org/swib22/history](https://swib.org/swib22/history).
+[https://swib.org/swib23/history](https://swib.org/swib23/history).
 
 Please do not hesitate to ask if you have any questions:
 
 
-Adrian Pohl<br>
-hbz<br>
-Tel. +49-(0)221-40075235<br>
-E-mail: swib(at)hbz-nrw.de
+Anna Kasprzik\
+ZBW\
+Tel. +49-(0)40-42834425\
+E-mail: a.kasprzik(at)zbw.eu
 
 or
 
-Joachim Neubert<br>
-ZBW<br>
-Tel. +49-(0)40-42834462<br>
-E-mail: j.neubert(at)zbw.eu
-
+Adrian Pohl\
+hbz\
+Tel. +49-(0)221-40075235\
+E-mail: swib(at)hbz-nrw.de

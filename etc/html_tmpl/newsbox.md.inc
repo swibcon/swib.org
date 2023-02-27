@@ -1,8 +1,9 @@
-### 15th SWIB
+**CfP published**
+27.02.2023
 
 **SWIB23 - Save the date**\
 11.-13. September 2023 in Berlin (Germany)\
-2.12.2022
+02.12.2022
 
 ### 14th SWIB
 
@@ -20,9 +21,4 @@ The first workshops are fully booked already.\
 
 **CfP published**\
 09.05.2022
-
-### 13th SWIB
-
-**[SWIB21 slides and videos are now online](../swib21/programme.html)**\
-08.12.2021
 
