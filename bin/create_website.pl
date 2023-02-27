@@ -70,39 +70,53 @@ my %media;
 my $parser = XML::LibXML->new();
 
 # just in case, create output dir
+$SRC_ROOT->mkpath;
 $HTML_ROOT->mkpath;
 
-# presentation abstracts from "presentation"
-get_abstract_data();
-
-# speaker data from "contributors biography"
-get_speaker_data();
-
-# sesion structure
-get_session_data();
-
-# templates are generated/updated every time, but has to be copied and filled
-# in after the session once
-generate_templates();
-
-# get and verfiy media information
-get_media_data();
-
-##print Dumper \%abstract; exit;
-
-#### output section for markdown/html
-
-output_speaker_page();
-output_programme_page();
-output_session_slides();
+# generate static pages
 
 foreach my $page (qw/ index registration general-information history coc /) {
   output_static_page($page);
 }
 
-### output secton for rdf
+# after creation of the programme, the real content can be inserted
+if ($ARGV[0] eq 'plain') {
 
-output_rdf();
+  foreach my $page (qw/ programme speakers registration /) {
+    output_static_substitute($page);
+  }
+
+} else {
+
+  # presentation abstracts from "presentation"
+  get_abstract_data();
+
+  # speaker data from "contributors biography"
+  get_speaker_data();
+
+  # sesion structure
+  get_session_data();
+
+  # templates are generated/updated every time, but has to be copied and filled
+  # in after the session once
+  generate_templates();
+
+  # get and verfiy media information
+  get_media_data();
+
+  ##print Dumper \%abstract; exit;
+
+  #### output section for markdown/html
+
+  output_speaker_page();
+  output_programme_page();
+  output_session_slides();
+
+  ### output secton for rdf
+
+  output_rdf();
+
+}
 
 #################################
 
@@ -380,6 +394,21 @@ sub output_static_page {
 
   my $tmpl = HTML::Template->new(
     filename => $TEMPLATE_ROOT->child("${page}.md.tmpl"),
+    utf8     => 1,
+  );
+  $tmpl->param(
+    swib    => $SWIB,
+    lc_swib => lc($SWIB),
+  );
+  my $outfile = $HTML_ROOT->child("${page}.md");
+  $outfile->spew_utf8( $tmpl->output );
+}
+
+sub output_static_substitute {
+  my $page = shift or croak('param missing');
+
+  my $tmpl = HTML::Template->new(
+    filename => $TEMPLATE_ROOT->child("tbd.md.tmpl"),
     utf8     => 1,
   );
   $tmpl->param(
