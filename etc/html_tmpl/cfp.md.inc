@@ -26,10 +26,7 @@ English.
 
 For this SWIB rendition we will have more interactive formats in order to get
 the most out of participants coming together physically in one place.
-As usual, we will also have presentations and workshops:
-
-* presentations (20 minutes plus 5 minutes Q&A)
-* practical workshops or tutorials (around 2–4 hours including breaks)
+As usual, we will also have presentations and workshops/tutorials.
 
 We appreciate proposals on the following or related topics:
 
@@ -66,7 +63,7 @@ We appreciate proposals on the following or related topics:
 We are looking forward to receiving your proposals for presentations or
 workshops by **10 April 2023**. Please submit an abstract of 1000–1500
 characters using our conference system
-[https://www.conftool.org/swib23](https://www.conftool.org/swib23). If you
+[https://www.conftool.org/swib23](https://www.conftool.org/swib23) (available soon). If you
 intend to present a specific software solution, please include links to the
 source code repository and make sure it is [openly
 licensed](https://opensource.org/licenses).
