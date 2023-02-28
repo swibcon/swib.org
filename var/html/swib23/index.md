@@ -32,7 +32,7 @@ English.
 
 For this SWIB rendition we will have more interactive formats in order to get
 the most out of participants coming together physically in one place.
-As usual, we will also have presentations and workshops.
+As usual, we will also have presentations and workshops/tutorials.
 
 We appreciate proposals on the following or related topics:
 
@@ -135,7 +135,7 @@ E-mail: swib(at)hbz-nrw.de
 
 :::{.sidebox-box}
 
-**CfP published**
+**CfP published**\
 27.02.2023
 
 **SWIB23 - Save the date**\

@@ -1,4 +1,4 @@
-**CfP published**
+**CfP published**\
 27.02.2023
 
 **SWIB23 - Save the date**\
