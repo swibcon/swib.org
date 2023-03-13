@@ -18,9 +18,9 @@ E-mail: swib(at)hbz-nrw.de
 
 or
 
-Joachim Neubert\
+Anna Kasprzik\
 ZBW\
-Tel. +49-(0)40-42834462\
-E-mail: j.neubert(at)zbw.eu
+Tel. +49-(0)40-42834-425\
+E-mail: a.kasprzik(at)zbw.eu
 
 

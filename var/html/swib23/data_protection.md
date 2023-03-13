@@ -38,10 +38,6 @@ When you register for this event, the following data will be stored for the logi
 
 This data will be used for no other purpose and will not be passed on to third parties.
 
-## Conduct of the event
-
-The companies datenkollektiv.net and uni:code IT Solutions operate and supervise the technical aspects of the event on behalf of the ZBW. The ZBW has entered into an agreement on commissioned data processing (in compliance with Article 28 of the GDPR) with that companies. The personal data will be processed in a German data processing centre. The companies provide the services of BigBlueButton (videoconferencing) and Mattermost (instant messaging). Some of your contact details will be passed to the provider to offer their services. Please contact the platform provider directly in order to obtain information from the provider or to exercise your rights in relation to the provider. Please find the data protection information and contact details of the provider on https://collocall.de/datenschutz
-
 ## Emails
 
 If you provide us with your email address it will be used only to correspond with you. It will not be used for other purposes or be passed on to third parties. Please be advised that emails transmitted without encryption can be noticed and even falsified by unauthorised persons.
