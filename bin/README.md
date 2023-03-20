@@ -2,6 +2,24 @@
 
 Tools for the web site https://swib.org
 
+
+## Prerequisites on Ubuntu 22.04
+To be able to process some packages have to be installed and the `MAKEFILE` has to be adjusted:
+
+Perl:
+```
+# apt install libtypes-datetime-perl; apt install libhtml-template-perl; apt install libpath-tiny-perl; apt install libxml-libxml-perl; apt install libyaml-tiny-perl
+```
+Pandoc:
+```
+# apt install pandoc
+```
+Adjust pathes for `Makefile`:
+```
+# ln -s /usr/bin/pandoc  /usr/local/bin/pandoc
+```
+Adjust `TEMPLATE_DIR` to ` ~/git/swib.org/etc/pandoc_templates/`
+
 ## Process
 
 * `get_conftool_data.sh` fetches the source data from the SWIB Conftool website.
