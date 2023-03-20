@@ -80,7 +80,7 @@ foreach my $page (qw/ index registration general-information history coc /) {
 }
 
 # after creation of the programme, the real content can be inserted
-if ($ARGV[0] eq 'plain') {
+if (@ARGV and $ARGV[0] eq 'plain') {
 
   foreach my $page (qw/ programme speakers registration /) {
     output_static_substitute($page);
@@ -558,7 +558,7 @@ sub generate_templates {
 }
 
 sub build_person_rdf {
-  my $rdf_txt;
+  my $rdf_txt = '';
 
   foreach my $id ( keys %person ) {
 
