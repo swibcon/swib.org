@@ -1,49 +1,42 @@
 ---
-pagetitle: SWIB22 Imprint
+pagetitle: SWIB23 Imprint
 ---
 
 # Imprint
 
 ## Name and Address
 
-ZBW &#8211; Leibniz Information Centre for Economics\
-Düsternbrooker Weg 120\
-24105 Kiel\
-T: +49-431-8814-555 (Team Information Kiel)
+North Rhine-Westphalian Library Service Center (hbz)
 
-Location Hamburg:\
-Neuer Jungfernstieg 21\
-20354 Hamburg\
-T: +49-40-42834-219 (Team Information Hamburg)\
-E-mail
+Jülicher Str. 6
+50674 Köln
+Deutschland
+
+Tel.: +49 221 400 75-0
+
+Fax.: +49 221 4 00 75-180
+
+E-Mail: info-hbz@hbz-nrw.de
+
+Homepage: http://www.hbz-nrw.de
 
 ## Authorised Representative
 
-Prof. Dr. Klaus Tochtermann (Director)\
-T: +49-431-8814-444 and +49-40-42834-350\
-E-mail
-
-Director's office:\
-T: +49-431-8814-333 and +49-40-42834-351\
-E-mail
-
-The Leibniz Institution ZBW &#8211; Leibniz Information Centre for Economics is a foundation under public law.
+Dr. Silke Schomburg (Director)\
 
 ### Supervising Authority
 
-Ministry of Education, Science and Cultural Affairs of the Land Schleswig-Holstein
+Ministry of Culture and Science of the State of North Rhine-Westphalia
 
 ### Value Added Tax Identification Number
 
-DE 811268087
+DE 123486775
 
 ## Responsible Editor
 
-Dr. Doreen Siegfried\
-T: +49-431-8814-455\
-E-mail
+Adrian Pohl
+T: +49-221-40075-235\
 
 ## Technical Support and Implementation
 
-Joachim Neubert\
-E-mail 
+Pascal Christoph
