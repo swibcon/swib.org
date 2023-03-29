@@ -22,7 +22,7 @@ Homepage: http://www.hbz-nrw.de
 
 ## Authorised Representative
 
-Dr. Silke Schomburg (Director)\
+Dr. Silke Schomburg (Director)
 
 ### Supervising Authority
 
@@ -35,7 +35,7 @@ DE 123486775
 ## Responsible Editor
 
 Adrian Pohl
-T: +49-221-40075-235\
+T: +49-221-40075-235
 
 ## Technical Support and Implementation
 
