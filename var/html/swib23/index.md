@@ -10,7 +10,7 @@ pagetitle: SWIB23 Home
 
 ## Call for Proposals
 
-**Submission Deadline: 10 April 2023**
+**Submission Deadline (extended): ~~10~~24 April 2023**
 
 SWIB conference (Semantic Web in Libraries) is an annual conference, being held
 for the 15th time. After three years of convening online due to the Covid-19 
@@ -67,7 +67,7 @@ We appreciate proposals on the following or related topics:
 * diversity sensitivity, equity, inclusion, and accessibility
 
 We are looking forward to receiving your proposals for presentations or
-workshops by **10 April 2023**. Please submit an abstract of 1000–1500
+workshops by **24 April 2023**. Please submit an abstract of 1000–1500
 characters using our conference system
 [https://www.conftool.org/swib23](https://www.conftool.org/swib23) (available now). If you
 intend to present a specific software solution, please include links to the
