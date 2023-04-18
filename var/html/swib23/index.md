@@ -117,7 +117,7 @@ Please do not hesitate to ask if you have any questions:
 Anna Kasprzik\
 ZBW\
 Tel. +49-(0)40-42834425\
-E-mail: a.kasprzik(at)zbw.eu
+E-mail: swib.anna.kasprzik(at)mailbox.org
 
 or
 
