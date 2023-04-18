@@ -17,7 +17,8 @@ pagename = $(shell echo $(notdir $(basename $<)) | tr '[:upper:]' '[:lower:]')
 
 # binaries
 PANDOC          = /usr/local/bin/pandoc
-TEMPLATE_DIR    = /opt/swib.org/etc/pandoc_templates
+#TEMPLATE_DIR    = /opt/swib.org/etc/pandoc_templates
+TEMPLATE_DIR    = ~/git/swib.org/etc/pandoc_templates
 WEB_TEMPLATE    := $(TEMPLATE_DIR)/swibweb.html5
 SLIDE_TEMPLATE  := $(TEMPLATE_DIR)/sessionslide.html5
 EXT_OPTS        := --standalone -f markdown+pipe_tables+fenced_divs+bracketed_spans -t html --email-obfuscation=references
