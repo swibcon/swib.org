@@ -34,6 +34,7 @@ In order to be exempted, please fill out the form and give it to the receptionis
 
 
 </div>
+</div>
 
 <div id="sidebar">
 
