@@ -6,7 +6,32 @@ pagetitle: SWIB23 General Information
 
 # General Information
 
-Details to follow.
+## Venue
+
+Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Haus Potsdamer Straße
+Potsdamer Str. 33
+10785 Berlin
+Germany
+Web: [https://staatsbibliothek-berlin.de](https://staatsbibliothek-berlin.de)
+
+[View on map](https://umap.openstreetmap.fr/de/map/staatsbibliothek-zu-berlin-haus-potsdamer-strae_569786#17/52.50777/13.36934)
+
+<div id="accomodation">
+
+## Accomodation
+
+You'll find several hotels located near the venue via the usual online booking portals.
+Our recommendation: [Motel One Berlin Potsdamer Platz](https://www.motel-one.com/en/hotels/berlin/hotel-berlin-potsdamer-platz/) is situated within walking distance of the conference venue.
+The following hotels are also located within walking distance of the venue:
+    • [ibis Potsdamer Platz](https://all.accor.com/hotel/3752/index.en.shtml)
+    • [Quentin XL Potsdamer Platz](http://quentinxl.com/)
+    • [Grimm’s Hotel Potsdamer Platz](https://www.grimms-hotel.de/en/hotel-potsdamer-platz-eng/)
+
+**Hotels in Berlin must charge a local tax for private overnight stays on behalf of the city.**
+In order to be exempted, please fill out the form and give it to the receptionist when you check in at your hotel:
+* Employer's Confirmation \[[PDF](https://www.berlin.de/sen/finanzen/steuern/downloads/city-tax_employer-s_attestation_.pdf?ts=1649931232)\]
+* Declaration for self-employed persons \[[PDF](https://www.berlin.de/sen/finanzen/steuern/downloads/city-tax_self-attestation_.pdf?ts=1649931232)\]
+
 
 </div>
 
