@@ -1,0 +1,538 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	color: #000000;
+	margin-right: 0px;
+margin-left: 5px;
+	padding: 0px;
+	line-height: 140%;
+}
+
+
+
+
+
+#frame {
+	width: 92%;
+	max-width: 960px;
+	min-width: 200px;
+	margin: auto;
+}
+
+
+
+
+
+#header {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+
+#col_left {
+	position: relative;
+	clear: both;
+	width: 70%;
+	min-width: 200px;
+	min-height: 350px;
+	float: left;
+	margin-bottom: 30px;
+	padding-right: 56px;
+	
+}
+
+#col_right {
+	width: 24%;
+	min-width: 200px;
+	padding-top: 15px;
+	padding-right: 0px;
+	float: left;
+
+}
+
+
+#imprint {
+	position: relative;
+	clear: both;
+	width: 70%;
+	min-width: 200px;
+	float: left;
+	margin-bottom: 30px;
+	padding-right: 56px;
+	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.logo {
+	padding-left: 5px;
+	padding-right: 1px;
+	padding-bottom: 70px;
+}
+
+
+
+.grafik_rechts {
+	padding-left: 0px;
+	margin-right: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+
+}
+.news_title {
+	font-size: 100%;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 20px;
+	line-height: 110%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #a3a3a3;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #a3a3a3;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #a3a3a3;
+}
+
+.news_box {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #a3a3a3;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #a3a3a3;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #a3a3a3;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #a3a3a3;
+}
+
+
+.news_box p {
+	font-size: 80%;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	line-height: 120%;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+}
+
+.news_box p.category {
+	font-weight: bold;
+	font-size: 80%;
+	color: #FF8208;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.news_box p.date {
+	font-weight: normal;
+		padding-top: 5px;
+			padding-bottom: 10px;
+}
+
+.news_box a {
+	font-size: 100%;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	line-height: 100%;
+	padding-bottom: 10px;
+}
+
+.news_box a:hover {
+	color: #FF8208;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+h1 {
+	font-size: 180%;
+	font-weight: bold;
+	line-height: 120%;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+
+
+h2 {
+	font-size: 130%;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 120%;
+}
+
+
+h3 {
+	font-size: 120%;
+	color: #A9A9A9;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 120%;
+}
+
+
+
+
+
+.title{
+	float: left;
+	font-size: 200%;
+	color: #005d95;
+	line-height: 110%;
+	margin-bottom: 10px;
+	margin-right: 52px;
+
+}
+
+
+
+
+
+
+.announcement {
+	font-size: 100%;
+	color: #e87d00;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	border-top-style: dotted;
+	border-top-width: 1px;
+	border-top-color: #e87d00;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	border-bottom-color: #e87d00;
+}
+
+
+
+a {
+	color: #005d95;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF8208;
+	text-decoration: underline;
+}
+
+
+
+
+
+.navi {
+	float: left;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #a3a3a3;
+}
+
+
+.navi a {
+	font-size: 90%;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	padding-right: 1px;
+}
+
+.navi a:hover {
+	color: #FF8208;
+	text-decoration: underline;
+}
+
+.standort {
+	color: #FF8208;
+	font-weight: bold;
+	font-size: 90%;
+	padding-right: 1px;
+}
+
+
+
+.pdf {
+}
+
+
+
+p {
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+
+
+
+ul {
+	list-style-type: square;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	margin-left: 15px;
+	margin-bottom: 8px;
+	padding-left: 10px;
+
+}
+
+
+
+.committee
+ul {
+	list-style-type: circle;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1em;
+}
+
+li {
+	margin-left: 15px;
+	margin-bottom: 2px;
+	padding-left: 10px;
+}
+
+
+.abstract
+p {
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+ul {
+	list-style-type: square;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	margin-left: 15px;
+	margin-bottom: 8px;
+	padding-left: 10px;
+
+}
+ol {
+	list-style-type: decimal;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	margin-left: 15px;
+	margin-bottom: 8px;
+	padding-left: 10px;
+
+}
+
+.abstract_header {
+	font-size: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.pdf a {
+	font-size: 80%;
+	text-decoration: none;
+	color: #314F81;
+	padding-right: 1px;
+}
+
+.slides a {
+	font-size: 80%;
+	font-weight: bold;
+}
+
+
+
+.smallprint
+p {
+	font-size: 80%;
+} 
+
+
+
+
+
+
+
+table {
+	margin-bottom: 10px;
+	margin-right: 5px;
+		margin-left: 0px;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+}
+
+table caption {
+	display: none;
+}
+
+tr {
+
+	border: 0px;	
+	margin: 0px;
+}
+
+
+td {
+	vertical-align: top;
+	border: 0px;	
+	margin: 0px;
+	padding-right: 8px;
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #FFFFFF;
+}
+
+
+.theme {
+	color: #000000;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.day {
+	font-size: 120%;
+}
+
+.file {
+	font-size: 80%;
+}
+
+.speakerFoto {
+
+		width: 18%;
+
+		vertical-align: top;
+	}
+.impressions {
+
+		vertical-align: top;
+	}
+	
+	.impressions img {
+		max-width: 100%;
+		height: auto;
+}	
+
+.footer {
+	width: 100%;
+	clear: both;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	text-align: left;
+	padding-top: 5px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #a3a3a3;
+}
+
+.footer a {
+	color: #314F81;
+	text-decoration: none;
+}
+
+
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	
+	
+	.mytable table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: none; }
+
+
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		padding-left: 0px; 
+		padding-right: 0px; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 1px;
+		left: 6px;
+	
+		padding-right: 6px; 
+		white-space: nowrap;
+	}
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
