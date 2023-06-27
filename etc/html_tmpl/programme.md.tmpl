@@ -4,7 +4,47 @@ pagetitle: <tmpl_var swib> Programme
 
 <div id="main">
 
-TBD
+::: hint
+<tmpl_loop days_index_loop>[<tmpl_var label>](#<tmpl_var id>) &#160; </tmpl_loop>
+:::
+
+# Programme
+
+<tmpl_loop days_loop>
+<div id="day<tmpl_var day_no>">
+
+## <tmpl_var day>
+
+<table><tmpl_loop sessions_loop>
+
+<tr id="<tmpl_var session_id>"><td class="times-col">[<tmpl_var start_time>-<tmpl_var end_time> h UTC](https://zonestamp.toolforge.org/<tmpl_var epoch>)</td><td>
+### <tmpl_var session_title>
+
+<tmpl_if chair1_name>Moderators: <tmpl_var chair1_name><tmpl_if chair2_name>, <tmpl_var chair2_name></tmpl_if></tmpl_if>
+<tmpl_if session_info><tmpl_var session_info></tmpl_if>
+
+</td></tr>
+
+<tmpl_loop abstracts_loop>
+<tr id="contrib<tmpl_var abstract_id>"><td></td><td>
+
+#### <tmpl_var abstract_title>
+
+<tmpl_loop authors_loop><tmpl_if author_id>[</tmpl_if><tmpl_var name><tmpl_if author_id>](speakers.html#<tmpl_var author_id>)</tmpl_if><tmpl_if orcid> [<img src="images/orcid.png" title="ORCID: <tmpl_var orcid>">](https://orcid.org/<tmpl_var orcid>)</tmpl_if><tmpl_if index><sup><tmpl_var index></sup></tmpl_if><tmpl_unless __last__>, </tmpl_unless></tmpl_loop>
+
+<tmpl_loop organisations_loop><tmpl_if index><sup><tmpl_var index> </sup></tmpl_if><tmpl_var name><tmpl_unless __last__>; </tmpl_unless></tmpl_loop>
+
+<tmpl_var abstract>
+
+<tmpl_loop media_loop><a href="<tmpl_var url>"><tmpl_var label></a> &#160; </tmpl_loop>
+
+</td></tr>
+</tmpl_loop>
+
+</tmpl_loop></table>
+
+</div>
+</tmpl_loop>
 
 </div>
 
