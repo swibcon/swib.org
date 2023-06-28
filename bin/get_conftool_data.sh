@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # nbt, 15.8.2012
 
 # export SWIB data from Conftool via REST interface

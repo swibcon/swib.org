@@ -4,7 +4,7 @@
 # read current swib from config
 LC_SWIB := $(shell grep ^swib: config.yaml | cut -d: -f2 | column -t | tr '[:upper:]' '[:lower:]' )
 
-WEB_MD_FILES := $(shell find ../var/html/$(LC_SWIB) -name "*.md" | grep -v "../var/html/swib22/sessions/" )
+WEB_MD_FILES := $(shell find ../var/html/$(LC_SWIB) -name "*.md" | grep -v "../var/html/$(LC_SWIB)/sessions/" )
 WEB_HTML_FILES := $(WEB_MD_FILES:.md=.html)
 ##$(warning $(WEB_HTML_FILES))
 
@@ -16,9 +16,10 @@ SLIDE_HTML_FILES := $(SLIDE_MD_FILES:.md=.html)
 pagename = $(shell echo $(notdir $(basename $<)) | tr '[:upper:]' '[:lower:]')
 
 # binaries
-PANDOC          = /usr/local/bin/pandoc
-#TEMPLATE_DIR    = /opt/swib.org/etc/pandoc_templates
-TEMPLATE_DIR    = ~/git/swib.org/etc/pandoc_templates
+PANDOC          = /usr/bin/pandoc
+#PANDOC          = /usr/local/bin/pandoc
+TEMPLATE_DIR    = /opt/swib.org/etc/pandoc_templates
+#TEMPLATE_DIR    = ~/git/swib.org/etc/pandoc_templates
 WEB_TEMPLATE    := $(TEMPLATE_DIR)/swibweb.html5
 SLIDE_TEMPLATE  := $(TEMPLATE_DIR)/sessionslide.html5
 EXT_OPTS        := --standalone -f markdown+pipe_tables+fenced_divs+bracketed_spans -t html --email-obfuscation=references
