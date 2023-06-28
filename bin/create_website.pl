@@ -495,6 +495,7 @@ sub output_session_slides {
     $tmpl->param( \%entry );
 
     # output session background slides
+    $HTML_ROOT->child("sessions")->mkdir;
     my $outfile = $HTML_ROOT->child("sessions")->child("${session_id}.md");
     $outfile->spew_utf8( $tmpl->output );
 
@@ -563,6 +564,9 @@ sub build_person_rdf {
   foreach my $id ( keys %person ) {
 
     # skip empty name fields
+    warn 'empty name - maybe differing email ' .
+       'addresses for speaker and presentation: ',
+       Dumper $person{$id} unless $person{$id}{name};
     next if ( $person{$id}{name} eq '. .' );
 
     my $pers_uri = $ROOT_URI . "person/$id";
