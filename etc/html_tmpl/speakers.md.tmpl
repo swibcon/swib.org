@@ -4,7 +4,7 @@ pagetitle: <tmpl_var swib> Speakers
 
 <div id="main">
 
-TBD
+<tmpl_if speakers_loop>
 
 <tmpl_loop speakers_loop>
 <div id="<tmpl_var author_id>">
@@ -15,6 +15,10 @@ TBD
 
 </div>
 </tmpl_loop>
+
+<tmpl_else>
+TBD
+</tmpl_if>
 
 </div>
 
