@@ -499,7 +499,6 @@ sub output_session_slides {
     $tmpl->param( \%entry );
 
     # output session background slides
-    $HTML_ROOT->child("sessions")->mkdir;
     my $outfile = $HTML_ROOT->child("sessions")->child("${session_id}.md");
     $outfile->spew_utf8( $tmpl->output );
 
