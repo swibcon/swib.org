@@ -25,6 +25,7 @@ Readonly my $SWIB          => $YAML_CONFIG->{swib};
 Readonly my @DAYS          => @{ $YAML_CONFIG->{days} };
 Readonly my $HTML_ROOT     => path( '../var/html/' . lc($SWIB) );
 Readonly my $SRC_ROOT      => path( '../var/src/' . lc($SWIB) );
+Readonly my $MEDIA_ROOT    => path( '../var/media_info/' . lc($SWIB) );
 Readonly my $TEMPLATE_ROOT => path('../etc/html_tmpl');
 Readonly my $RDF_FILE      => $HTML_ROOT->child( lc($SWIB) . '.ttl' );
 Readonly my %MEDIA_TYPE    => %{ $YAML_CONFIG->{media_types} };
@@ -43,8 +44,8 @@ Readonly my %PAGE => (
     output   => 'programme.md',
   },
 );
-## maximum used in conftool 2022
-Readonly my $MAX_AUTHORS_PER_PRESENTATION  => 6;
+## maximum used in conftool 2022 was 6 authors, 2023 11
+Readonly my $MAX_AUTHORS_PER_PRESENTATION  => 12;
 Readonly my $MAX_PRESENTATIONS_PER_SESSION => 7;
 
 ## TODO param for html|rdf|all output
@@ -241,7 +242,10 @@ sub get_media_data {
 
   # for each media type, a .yaml file should exist
   foreach my $media_type ( keys %MEDIA_TYPE ) {
-    $media{$media_type} = YAML::Tiny->read("$media_type.yaml")->[0];
+    my $media_info = $MEDIA_ROOT->child("$media_type.yaml");
+    if ( $media_info->is_file ) {
+      $media{$media_type} = YAML::Tiny->read($media_info)->[0];
+    }
   }
 }
 
@@ -495,7 +499,6 @@ sub output_session_slides {
     $tmpl->param( \%entry );
 
     # output session background slides
-    $HTML_ROOT->child("sessions")->mkdir;
     my $outfile = $HTML_ROOT->child("sessions")->child("${session_id}.md");
     $outfile->spew_utf8( $tmpl->output );
 
@@ -554,7 +557,7 @@ sub generate_templates {
   # output as template, for multiple media types
   my $head =
     "# Format for media types\n - slides: filename,\n - youtube: full URL\n\n";
-  my $file = path("media.template.yaml");
+  my $file = $MEDIA_ROOT->child("media.template.yaml");
   $file->spew_utf8( $head, join( "\n", @lines ) );
 }
 
@@ -767,7 +770,7 @@ sub mk_organisations_loop {
 
   my %organisations = %{ $abstract{$abstract_id}{organisations} };
   if ( scalar( keys %organisations ) gt 1 ) {
-    foreach my $index ( keys %organisations ) {
+    foreach my $index ( sort keys %organisations ) {
       my %entry = (
         index => $index,
         name  => $organisations{$index},
