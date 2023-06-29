@@ -1,0 +1,4 @@
+# Format for media types
+ - slides: filename,
+ - youtube: full URL
+
