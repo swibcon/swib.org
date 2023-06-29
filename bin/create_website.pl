@@ -44,8 +44,8 @@ Readonly my %PAGE => (
     output   => 'programme.md',
   },
 );
-## maximum used in conftool 2022
-Readonly my $MAX_AUTHORS_PER_PRESENTATION  => 6;
+## maximum used in conftool 2022 was 6 authors, 2023 11
+Readonly my $MAX_AUTHORS_PER_PRESENTATION  => 12;
 Readonly my $MAX_PRESENTATIONS_PER_SESSION => 7;
 
 ## TODO param for html|rdf|all output
