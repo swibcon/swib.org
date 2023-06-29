@@ -15,4 +15,5 @@ LC_SWIB=`echo $SWIB | tr '[:upper:]' '[:lower:]'`
 # create directories
 mkdir -p ../var/src/$LC_SWIB
 mkdir -p ../var/html/$LC_SWIB/sessions
+mkdir -p ../var/media_info/$LC_SWIB
 
