@@ -770,7 +770,7 @@ sub mk_organisations_loop {
 
   my %organisations = %{ $abstract{$abstract_id}{organisations} };
   if ( scalar( keys %organisations ) gt 1 ) {
-    foreach my $index ( keys %organisations ) {
+    foreach my $index ( sort keys %organisations ) {
       my %entry = (
         index => $index,
         name  => $organisations{$index},
