@@ -12,6 +12,10 @@ body {
   padding-right: 6px;
 }
 
+h3 {
+  font-size: 1.25em;
+}
+
 nav {
   font-size: 87.5%;
   font-weight: bold;
