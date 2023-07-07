@@ -100,7 +100,7 @@ satellite event before or after the conference slot, let us know.
 
 **Website**: https://swib.org/swib23 \
 **Hashtag**: #swib23\
-**Mastodon**: [@swib@openbiblio.social](https://openbiblio.social/@swib)
+**Mastodon**: [\@swib@openbiblio.social](https://openbiblio.social/@swib)
 
 Take a look at previous SWIB conferences at
 [https://swib.org/swib23/history](https://swib.org/swib23/history).
