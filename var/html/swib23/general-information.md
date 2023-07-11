@@ -9,7 +9,6 @@ pagetitle: SWIB23 General Information
 Details to follow.
 
 </div>
-</div>
 
 <div id="sidebar">
 
