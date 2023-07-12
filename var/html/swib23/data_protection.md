@@ -48,6 +48,6 @@ This website uses SSL encryption to protect your data. However, please be advise
 
 ## Contact
 
-datenschutz@zbw.eu
+datenschutz@zbw-online.eu
 
 
