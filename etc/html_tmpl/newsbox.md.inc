@@ -1,3 +1,6 @@
+**SWIB23 programm published**\
+13.07.2023
+
 **CfP published**\
 27.02.2023
 
