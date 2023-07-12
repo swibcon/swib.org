@@ -61,7 +61,7 @@ assisting those experiencing harassment to feel safe for the duration of the
 conference. We value your attendance.
 
 
-**Contact: swib-coc-enforcement(at)hbz-nrw.de**
+**Contact: u.ellendt(at)zbw-online.eu**
 
 :::{.hint}
 
@@ -82,6 +82,9 @@ The Regional Anti-Discrimination Agency NRW: www.aric-nrw.de, Fon: +49 (0)203 28
 ## News {.sidebox-title}
 
 :::{.sidebox-box}
+
+**SWIB23 programme published**\
+13.07.2023
 
 **CfP published**\
 27.02.2023

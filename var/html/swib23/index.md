@@ -8,14 +8,12 @@ pagetitle: SWIB23 Home
 
 ## 11 – 13 September 2023, Berlin
 
-## Call for Proposals
-
-**Submission Deadline (extended): ~~10~~24 April 2023**
-
 SWIB conference (Semantic Web in Libraries) is an annual conference, being held
 for the 15th time. After three years of convening online due to the Covid-19 
 pandemic, we are happy to gather in-person once again – and for the first time 
 in Berlin.
+
+Our local partner in Berlin is the Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. We are very pleased about this cooperation.
 
 SWIB focuses on Linked Open Data (LOD) in libraries and related organizations.
 It is well established as an event where IT staff, developers, librarians, and
@@ -34,50 +32,9 @@ For this SWIB rendition we will have more interactive formats in order to get
 the most out of participants coming together physically in one place.
 As usual, we will also have presentations and workshops/tutorials.
 
-We appreciate proposals on the following or related topics:
-
-### Projects & Applications
-
-* integration of LOD into productive library applications
-* re-use of LOD (from libraries, Wikidata and other sources)
-* presenting & visualizing LOD
-* graphical user interfaces for interaction with LOD (e.g. editing or annotation)
-* (other) applications in the context of open science
-
-### Technology & Tools (focus on Open Source software)
-
-* data transformation/integration/cleansing/enhancement/mapping/interlinking/validation
-* data flow management, read/write linked data, providing updates & syncing data sources
-* machine learning applications in/for libraries
-* integration of symbolic and subsymbolic approaches
-
-### Standards & Best Practices
-
-* implementation of FAIR data principles, interoperability
-* open web standards relevant for libraries, data models, usable APIs
-* application profiles & provenance information
-* working with controlled vocabularies & knowledge organization systems
-* preservation, maintenance & sustainability
-
-### Culture
-
-* decentralization, federated structures
-* consolidating open source projects
-* collaboration, crowdsourcing, community building and empowerment
-* diversity sensitivity, equity, inclusion, and accessibility
-
-We are looking forward to receiving your proposals for presentations or
-workshops by **24 April 2023**. Please submit an abstract of 1000–1500
-characters using our conference system
-[https://www.conftool.org/swib23](https://www.conftool.org/swib23) (available now). If you
-intend to present a specific software solution, please include links to the
-source code repository and make sure it is [openly
-licensed](https://opensource.org/licenses).
-
+**The call for proposals is closed, and the programme is published now.**
 
 ### SWIB programme committee
-
-Proposals will be reviewed by the programme committee:
 
 ::: committee
 
@@ -99,14 +56,9 @@ Proposals will be reviewed by the programme committee:
 
 :::
 
-### Call for satellite events
-
-If you are interested in using the conference venue for a
-satellite event before or after the conference slot, let us know.
-
 **Website**: https://swib.org/swib23 \
 **Hashtag**: #swib23\
-**Mastodon**: [@swib@openbiblio.social](https://openbiblio.social/@swib)
+**Mastodon**: [\@swib@openbiblio.social](https://openbiblio.social/@swib)
 
 Take a look at previous SWIB conferences at
 [https://swib.org/swib23/history](https://swib.org/swib23/history).
@@ -126,7 +78,6 @@ hbz\
 Tel. +49-(0)221-40075235\
 E-mail: swib(at)hbz-nrw.de
 
-
 </div>
 
 <div id="sidebar">
@@ -134,6 +85,9 @@ E-mail: swib(at)hbz-nrw.de
 ## News {.sidebox-title}
 
 :::{.sidebox-box}
+
+**SWIB23 programme published**\
+13.07.2023
 
 **CfP published**\
 27.02.2023

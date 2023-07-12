@@ -1,10 +1,16 @@
 ---
-pagetitle: SWIB23 TBD
+pagetitle: SWIB23 Registration
 ---
 
 <div id="main">
 
-TBD
+# Registration
+
+<a href='https://eveeno.com/892008387' target='_blank' style='font-weight:bold;color:#303030'>Register now »</a>
+
+Conference fee: 180€
+Workshop fee: 70€ (optional, only bookable in combination with conference participation)
+Conference Dinner: 39,50€ (optional)
 
 </div>
 
@@ -13,6 +19,9 @@ TBD
 ## News {.sidebox-title}
 
 :::{.sidebox-box}
+
+**SWIB23 programme published**\
+13.07.2023
 
 **CfP published**\
 27.02.2023

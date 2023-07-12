@@ -45,6 +45,9 @@ pagetitle: SWIB23 History
 
 :::{.sidebox-box}
 
+**SWIB23 programme published**\
+13.07.2023
+
 **CfP published**\
 27.02.2023
 
