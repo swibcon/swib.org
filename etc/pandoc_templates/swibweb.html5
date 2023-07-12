@@ -91,13 +91,19 @@ $endfor$
 
 <div id="organizers">
 <p>organized by:</p>
-<a href="https://www.hbz-nrw.de" target="_blank"><img src="images/logo_hbz.png" alt="hbz - Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen"></a>
-<a href="http://www.zbw.eu" target="_blank"><img src="images/logo_zbw.png" alt="ZBW - Leibniz-Informationszentrum Wirtschaft"></a>
+<a href="https://www.hbz-nrw.de" target="_blank">
+<img id="hbz-logo" src="images/logo_hbz.png" alt="hbz - Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen">
+</a>
+<a href="http://www.zbw.eu" target="_blank">
+<img id="zbw-logo" src="images/logo_zbw.png" alt="ZBW - Leibniz-Informationszentrum Wirtschaft">
+</a>
 </div>
 
 <div id="partners">
 <p>local partner:</p>
-<a href="https://staatsbibliothek-berlin.de/" target="_blank"><img src="images/logo_sbb.png" alt="Staatsbibliothek zu Berlin"></a>
+<a href="https://staatsbibliothek-berlin.de/" target="_blank">
+<img id="sbb-logo" src="images/logo_sbb.png" alt="Staatsbibliothek zu Berlin">
+</a>
 </div>
 
 </footer>
