@@ -1,4 +1,4 @@
-**SWIB23 programm published**\
+**SWIB23 programme published**\
 13.07.2023
 
 **CfP published**\
