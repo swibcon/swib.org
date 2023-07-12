@@ -326,7 +326,7 @@ sub output_programme_page {
         chair2_name   => $session{$session_id}{chair2_name},
         start_time    => $session{$session_id}{start_time},
         end_time      => $session{$session_id}{end_time},
-        epoch         => time2epoch( $date, $session{$session_id}{start_time} ),
+        # epoch         => time2epoch( $date, $session{$session_id}{start_time} ),
         session_info  => $session{$session_id}{session_info},
       );
 
