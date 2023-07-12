@@ -10,7 +10,7 @@ Conference fee: 180€\
 Workshop fee: 70€ (optional, only bookable in combination with conference participation)\
 Conference Dinner: 39,50€ (optional, only bookable in combination with conference participation)
 
-<a href='https://eveeno.com/892008387' target='_blank' style='font-weight:bold>Register now »</a>
+<a href='https://eveeno.com/892008387' target='_blank' style='font-weight:bold'>Register now »</a>
 
 </div>
 
