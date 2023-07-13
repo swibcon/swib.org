@@ -70,12 +70,12 @@ We provide a set of instructional videos and written exercises for the participa
 
 <tr id="contrib126"><td></td><td>
 
-#### Network of Terms: bringing links to your data
+#### Network of Terms: bringing links to your data (Workshop)
 
-[Enno Meijers](speakers.html#X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795) [<img src="images/orcid.png" title="ORCID: 0000-0002-2884-3523">](https://orcid.org/0000-0002-2884-3523)\
+[Enno Meijers](speakers.html#X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795) [<img src="images/orcid.png" title="ORCID: 0000-0002-2884-3523">](https://orcid.org/0000-0002-2884-3523), Bob Coret [<img src="images/orcid.png" title="ORCID: 0000-0002-7328-1312">](https://orcid.org/0000-0002-7328-1312)\
 National Library of the Netherlands / Dutch Digital Heritage Network
 
-How can you find information in heterogeneous Linked Data sources, available at different locations and managed by different owners? At the [Dutch Digital Heritage Network](https://netwerkdigitaalerfgoed.nl/) we developed a federated querying service to solve this problem: [the Network of Terms](https://termennetwerk.netwerkdigitaalerfgoed.nl/). We encourage cultural institutions to publish their data as Linked Data and assign standardized terms to their digital heritage information. Terms are standardized descriptions of concepts or entities that make heritage easier to find for anyone interested in it. Yet it is quite a challenge for institutions to use these terms, because the sources in which the terms are managed — such as thesauri and reference lists — have different API protocols and data models. The Network of Terms removes these barriers. It is a service that searches Linked Data sources in a federative way using the [Comunica framework](https://comunica.dev/). It has a unified SKOS based on GraphQL API that can be easily implemented in collection registration or other systems. It searches the sources for matching terms – real time, with SPARQL. The Network of Terms is published as [open source](https://github.com/netwerk-digitaal-erfgoed/network-of-terms) and its API is already integrated in five commercial systems and one open source system for collection registration. It also provides a Reconcilation API for use in Openrefine and other tools.
+How can you find information in heterogeneous Linked Data sources, available at different locations and managed by different owners? At the [Dutch Digital Heritage Network](https://netwerkdigitaalerfgoed.nl/) we developed a federated querying service to solve this problem: [the Network of Terms](https://termennetwerk.netwerkdigitaalerfgoed.nl/). We encourage cultural institutions to publish their data as Linked Data and assign standardized terms to their digital heritage information. Terms are standardized descriptions of concepts or entities that make heritage easier to find for anyone interested in it. Yet it is quite a challenge for institutions to use these terms, because the sources in which the terms are managed – such as thesauri and reference lists – have different API protocols and data models. The Network of Terms removes these barriers. It is a service that searches Linked Data sources in a federative way using the [Comunica framework](https://comunica.dev/). It has a unified SKOS based on GraphQL API that can be easily implemented in collection registration or other systems. It searches the sources for matching terms – real time, with SPARQL. The Network of Terms is published as [open source](https://github.com/netwerk-digitaal-erfgoed/network-of-terms) and its API is already integrated in five commercial systems and one open source system for collection registration. It also provides a Reconcilation API for use in Openrefine and other tools.
 
 Although the core of the software is written in Typescript, the configuration for adding terminology sources through a so-called catalogue requires only basic knowledge of JSON and SPARQL. For testing purposes local instances can be easily set up in Node.js compliant environments. In this workshop we demonstrate the functionality and work with participants to build their specific catalogue using the terminology sources of their preference.
 
@@ -218,7 +218,7 @@ This presentation will reflect on [Linked Data For Production] (https://wiki.lyr
 [Enno Meijers](speakers.html#X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795) [<img src="images/orcid.png" title="ORCID: 0000-0002-2884-3523">](https://orcid.org/0000-0002-2884-3523)\
 National Library of the Netherlands / Dutch Digital Heritage Network
 
-How can you find information in heterogeneous linked data sources, available at different locations and managed by different owners? At the [Dutch Digital Heritage Network](https://netwerkdigitaalerfgoed.nl/) we developed a federated querying service to solve this problem: [the Network of Terms](https://termennetwerk.netwerkdigitaalerfgoed.nl/). We encourage cultural institutions to publish their data as Linked Data and assign standardized terms to their digital heritage information. Terms are standardized descriptions of concepts or entities that make heritage easier to find for anyone interested in it. Yet it is quite a challenge for institutions to use these terms, because the sources in which the terms are managed — such as thesauri and reference lists — have different API protocols and data models.
+How can you find information in heterogeneous linked data sources, available at different locations and managed by different owners? At the [Dutch Digital Heritage Network](https://netwerkdigitaalerfgoed.nl/) we developed a federated querying service to solve this problem: [the Network of Terms](https://termennetwerk.netwerkdigitaalerfgoed.nl/). We encourage cultural institutions to publish their data as Linked Data and assign standardized terms to their digital heritage information. Terms are standardized descriptions of concepts or entities that make heritage easier to find for anyone interested in it. Yet it is quite a challenge for institutions to use these terms, because the sources in which the terms are managed – such as thesauri and reference lists – have different API protocols and data models.
 
 The Network of Terms removes these barriers. It is a service that searches linked data sources in a federative way using the [Comunica framework](https://comunica.dev/). It has a unified SKOS based on GraphQL API that can be easily implemented in collection registration or other systems. It searches the sources for matching terms – real time, with SPARQL. The Network of Terms is published as [open source](https://github.com/netwerk-digitaal-erfgoed/network-of-terms) and its API is already integrated in five commercial systems and one open source system for collection registration. It also provides a reconcilation API for use in OpenRefine and other tools. The Network of Terms has been already adopted widely in the cultural heritage domain in the Netherlands but we think it has potential for use in other countries and domains too and we would like to present our tool for the SWIB audience.
 
@@ -463,7 +463,7 @@ Indexers sporadically report specific concepts that Annif failed to suggest (fal
 
 <tr id="contrib133"><td></td><td>
 
-#### Implementation of the Albrecht Haupt collection portal based on the general-purpose semantic web application Vitro.
+#### Implementation of the Albrecht Haupt collection portal based on the general-purpose semantic web application Vitro
 
 Georgy Litvinov [<img src="images/orcid.png" title="ORCID: 0000-0001-5410-5674">](https://orcid.org/0000-0001-5410-5674), [Birte Rubach](speakers.html#Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3) [<img src="images/orcid.png" title="ORCID: 0000-0001-5319-0221">](https://orcid.org/0000-0001-5319-0221), [Tatiana Walther](speakers.html#Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3) [<img src="images/orcid.png" title="ORCID: 0000-0001-8127-2988">](https://orcid.org/0000-0001-8127-2988)\
 Technische Informationsbibliothek Hannover, Germany
@@ -594,14 +594,14 @@ Moderator: Adrian Pohl
 
 :::{.sidebox-box}
 
-**SWIB23 programme published**\
+**SWIB23 programme published & registration opened**\
 13.07.2023
 
 **CfP published**\
 27.02.2023
 
-**SWIB23 - Save the date**\
-11.-13. September 2023 in Berlin (Germany)\
+**SWIB23 – Save the date**\
+11.–13. September 2023 in Berlin (Germany)\
 02.12.2022
 
 ### 14th SWIB
@@ -610,17 +610,6 @@ Moderator: Adrian Pohl
 900 registrations from 58 countries\
 [Slides and videos are online](../swib22/programme.html) ([Youtube playlist](https://www.youtube.com/playlist?list=PL7fMsenbLiQ2xcclhSnk1nv752E4N_Nqx))\
 2.12.2022
-
-**300 registrations from 35 countries within 24 hours**\
-The first workshops are fully booked already.\
-19.10.2022
-
-**Registration opened**\
-18.10.2022
-
-**CfP published**\
-09.05.2022
-
 
 
 :::

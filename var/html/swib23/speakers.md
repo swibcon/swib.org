@@ -43,7 +43,7 @@ Marie-Saphira Flug graduated in Industrial Mathematics from the University of Br
 
 <div id="X233a86cd1508b481b813efcf1b99f463f69efc4145ecb5e230085146f4767290">
 
-## Folsom, Steven [<img src="images/orcid.png" title="ORCID: 0000-0003-3427-5769">](https://orcid.org/0000-0003-3427-5769)
+## Steven Folsom [<img src="images/orcid.png" title="ORCID: 0000-0003-3427-5769">](https://orcid.org/0000-0003-3427-5769)
 
 Steven Folsom is the Head of Metadata Design and Operations at Cornell University Library. His career has focused on creatively and sustainably developing metadata practices (with an emphasis on linked data) to aid discovery and access across both digital and physical collections.
 
@@ -230,14 +230,14 @@ Simeon Warner is Associate University Librarian and Director of IT at Cornell Un
 
 :::{.sidebox-box}
 
-**SWIB23 programme published**\
+**SWIB23 programme published & registration opened**\
 13.07.2023
 
 **CfP published**\
 27.02.2023
 
-**SWIB23 - Save the date**\
-11.-13. September 2023 in Berlin (Germany)\
+**SWIB23 – Save the date**\
+11.–13. September 2023 in Berlin (Germany)\
 02.12.2022
 
 ### 14th SWIB
@@ -246,17 +246,6 @@ Simeon Warner is Associate University Librarian and Director of IT at Cornell Un
 900 registrations from 58 countries\
 [Slides and videos are online](../swib22/programme.html) ([Youtube playlist](https://www.youtube.com/playlist?list=PL7fMsenbLiQ2xcclhSnk1nv752E4N_Nqx))\
 2.12.2022
-
-**300 registrations from 35 countries within 24 hours**\
-The first workshops are fully booked already.\
-19.10.2022
-
-**Registration opened**\
-18.10.2022
-
-**CfP published**\
-09.05.2022
-
 
 
 :::
