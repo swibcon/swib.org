@@ -22,7 +22,7 @@ The company Conftool GmbH operates and supervises the technical aspects of this 
 
 When registering on this registration platform, you conclude a contract with the ZBW as defined by Article 6 (1) (b) of the GDPR. This contract shall form the legal basis for the processing of your personal data. The following personal data will be processed when using the platform:
 
-When you register for this event, the following data will be stored for the logistical and administrative transaction of this event, for inquiries, for communication on the Mattermost event chat, the BigBlueButton video conferencing platform (for workshop participants) and for anonymised statistics:
+When you register for this event, the following data will be stored for the logistical and administrative transaction of this event, for inquiries, for communication on the Mattermost event chat, the BigBlueButton video conferencing platform (for workshop participants) and for anonymized statistics:
 
 * User name /password
 * Full name (transferred to Mattermost)
@@ -40,11 +40,11 @@ This data will be used for no other purpose and will not be passed on to third p
 
 ## Emails
 
-If you provide us with your email address it will be used only to correspond with you. It will not be used for other purposes or be passed on to third parties. Please be advised that emails transmitted without encryption can be noticed and even falsified by unauthorised persons.
+If you provide us with your email address it will be used only to correspond with you. It will not be used for other purposes or be passed on to third parties. Please be advised that emails transmitted without encryption can be noticed and even falsified by unauthorized persons.
 
 ## Encryption
 
-This website uses SSL encryption to protect your data. However, please be advised that because of security flaws, e.g. while using a browser, your data can be noticed or even falsified by unauthorised persons in spite of encryption.
+This website uses SSL encryption to protect your data. However, please be advised that because of security flaws, e.g. while using a browser, your data can be noticed or even falsified by unauthorized persons in spite of encryption.
 
 ## Contact
 

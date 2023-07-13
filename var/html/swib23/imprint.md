@@ -20,7 +20,7 @@ E-Mail: info-hbz@hbz-nrw.de
 
 Homepage: http://www.hbz-nrw.de
 
-## Authorised Representative
+## Authorized Representative
 
 Dr. Silke Schomburg (Director)
 
