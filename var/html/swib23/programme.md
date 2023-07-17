@@ -172,6 +172,21 @@ Let's delve into the realms of the lawful, neutral, and chaotic social web. This
 
 </td></tr>
 
+<tr id="contrib118"><td></td><td>
+
+#### From ambition to go live: The National Library Board of Singapore’s journey to an operational linked data management & discovery system
+
+[Richard Wallis](speakers.html#X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f)\
+Data Liberate, United Kingdom
+
+Like many institutions, the National Library Board (NLB) is responsible to curate, host, and manage many disparate systems across the National Library, national archives and public libraries, both print and digital. The NLB team evolved an ambitious vision for a management and discovery system built upon linked open data and the web, encompassing the many resources they manage. Richard, the project’s linked, structured, and web data, and library metadata consultant, explores the the two-year journey to a live production system.
+
+The agile project between NLB and commercial parters (utilizing a cloud-based environment hosting a semantic graph database, a knowledge graph development & management platform, and server-less compute services) overcame many interesting challenges, including the absence of a single source of truth. The requirements were to provide a continuously updated, reconciled, aggregation of data sources, providing a standardized view of five separate source data systems, each with their individual data formats, data models and curation teams, i.e., a data model capable of supporting a public discovery interface, which required the development of a model that provides a consistent view of all entities regardless of source system. This was constructed using combination of the BIBFRAME and Schema.org vocabularies and involved a data model capable of supporting the consolidated presentation of properties from multiple sources in single primary entities, automatic ingest and reconciliation of daily delta data dumps from source systems, and managing a project team spread across multiple geographies and timezones. There were lessons learnt and practical future plans made, which Richard will also discuss.
+
+
+
+</td></tr>
+
 
 
 
@@ -256,7 +271,7 @@ For the past 5 years, we have been using Wikidata QIDs as Berkeley Law faculty i
 
 
 
-<tr id="S3"><td class="times-col">14:00–15:00</td><td>
+<tr id="S3"><td class="times-col">14:00–15:30</td><td>
 ### Interactive Session
 
 Moderator: Jakob Voß
@@ -281,7 +296,7 @@ Use the opportunity to share your latest projects or ideas in a short lightning 
 
 
 
-<tr id="CB2"><td class="times-col">15:00–15:30</td><td>
+<tr id="CB2"><td class="times-col">15:30–16:00</td><td>
 ### Coffee Break
 
 
@@ -293,7 +308,7 @@ Use the opportunity to share your latest projects or ideas in a short lightning 
 
 
 
-<tr id="S4"><td class="times-col">15:30–17:00</td><td>
+<tr id="S4"><td class="times-col">16:00–17:00</td><td>
 ### Data Modelling
 
 Moderator: Osma Suominen
@@ -325,21 +340,6 @@ Tiziana Possemato<sup>1</sup>, [Jim Hahn](speakers.html#X734432ffbec6a5c0013f2cc
 <sup>1 </sup>@Cult/Casalini Libri, Italy; <sup>2 </sup>University of Pennsylvania, United States of America
 
 Share-VDE (SVDE) is a library-driven initiative which brings together the bibliographic catalogues and authority files of a community of libraries in a shared discovery environment based on the linked data ontology BIBFRAME. The SVDE Ontology is an extension to BIBFRAME. The design choices for the SVDE ontology support discovery tasks in the federated linked data environment. This presentation describes the ontology design process, goals, and principles. The overall goals for the SVDE ontology are: 1) the use of the web ontology language (OWL) to publish the classes, properties and constraints that are used in the SVDE environment; 2) to clarify the relationship among Share-VDE entities and other linked data vocabularies and ontologies, and 3) to provide internal (to SVDE) and external (to Library of Congress BIBFRAME) consistency and clarity to classes and properties used in the discovery layer of SVDE. The SVDE ontology is not intended to be a complete departure from BIBFRAME nor is it intended to be an all-new ontology, rather, it is based in BIBFRAME and SVDE is an extension. An overarching design principle is to re-use existing vocabularies wherever possible to reduce complexity of the SVDE ontology. The ontology editing process began by evaluating existing SVDE classes and documenting in OWL; moving next to properties; finally, the process concluded by evaluating any needed restrictions for entities. Entities discussed in this presentation which are novel to SVDE include svde:Opus; svde:Work, and the property svde:hasExpression. The SVDE ontology is interoperable among bibliographic models by using direct references among BIBFRAME, LRM, and RDA entity sets. Interoperability is achieved by asserting that bibliographic entities are described by attribute sets.
-
-
-
-</td></tr>
-
-<tr id="contrib118"><td></td><td>
-
-#### From ambition to go live: The National Library Board of Singapore’s journey to an operational linked data management & discovery system
-
-[Richard Wallis](speakers.html#X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f)\
-Data Liberate, United Kingdom
-
-Like many institutions, the National Library Board (NLB) is responsible to curate, host, and manage many disparate systems across the National Library, national archives and public libraries, both print and digital. The NLB team evolved an ambitious vision for a management and discovery system built upon linked open data and the web, encompassing the many resources they manage. Richard, the project’s linked, structured, and web data, and library metadata consultant, explores the the two-year journey to a live production system.
-
-The agile project between NLB and commercial parters (utilizing a cloud-based environment hosting a semantic graph database, a knowledge graph development & management platform, and server-less compute services) overcame many interesting challenges, including the absence of a single source of truth. The requirements were to provide a continuously updated, reconciled, aggregation of data sources, providing a standardized view of five separate source data systems, each with their individual data formats, data models and curation teams, i.e., a data model capable of supporting a public discovery interface, which required the development of a model that provides a consistent view of all entities regardless of source system. This was constructed using combination of the BIBFRAME and Schema.org vocabularies and involved a data model capable of supporting the consolidated presentation of properties from multiple sources in single primary entities, automatic ingest and reconciliation of daily delta data dumps from source systems, and managing a project team spread across multiple geographies and timezones. There were lessons learnt and practical future plans made, which Richard will also discuss.
 
 
 
