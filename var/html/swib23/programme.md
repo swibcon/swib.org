@@ -70,12 +70,12 @@ We provide a set of instructional videos and written exercises for the participa
 
 <tr id="contrib126"><td></td><td>
 
-#### Network of Terms: bringing links to your data
+#### Network of Terms: bringing links to your data (Workshop)
 
-[Enno Meijers](speakers.html#X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795) [<img src="images/orcid.png" title="ORCID: 0000-0002-2884-3523">](https://orcid.org/0000-0002-2884-3523)\
+[Enno Meijers](speakers.html#X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795) [<img src="images/orcid.png" title="ORCID: 0000-0002-2884-3523">](https://orcid.org/0000-0002-2884-3523), Bob Coret [<img src="images/orcid.png" title="ORCID: 0000-0002-7328-1312">](https://orcid.org/0000-0002-7328-1312)\
 National Library of the Netherlands / Dutch Digital Heritage Network
 
-How can you find information in heterogeneous Linked Data sources, available at different locations and managed by different owners? At the [Dutch Digital Heritage Network](https://netwerkdigitaalerfgoed.nl/) we developed a federated querying service to solve this problem: [the Network of Terms](https://termennetwerk.netwerkdigitaalerfgoed.nl/). We encourage cultural institutions to publish their data as Linked Data and assign standardized terms to their digital heritage information. Terms are standardized descriptions of concepts or entities that make heritage easier to find for anyone interested in it. Yet it is quite a challenge for institutions to use these terms, because the sources in which the terms are managed — such as thesauri and reference lists — have different API protocols and data models. The Network of Terms removes these barriers. It is a service that searches Linked Data sources in a federative way using the [Comunica framework](https://comunica.dev/). It has a unified SKOS based on GraphQL API that can be easily implemented in collection registration or other systems. It searches the sources for matching terms – real time, with SPARQL. The Network of Terms is published as [open source](https://github.com/netwerk-digitaal-erfgoed/network-of-terms) and its API is already integrated in five commercial systems and one open source system for collection registration. It also provides a Reconcilation API for use in Openrefine and other tools.
+How can you find information in heterogeneous Linked Data sources, available at different locations and managed by different owners? At the [Dutch Digital Heritage Network](https://netwerkdigitaalerfgoed.nl/) we developed a federated querying service to solve this problem: [the Network of Terms](https://termennetwerk.netwerkdigitaalerfgoed.nl/). We encourage cultural institutions to publish their data as Linked Data and assign standardized terms to their digital heritage information. Terms are standardized descriptions of concepts or entities that make heritage easier to find for anyone interested in it. Yet it is quite a challenge for institutions to use these terms, because the sources in which the terms are managed – such as thesauri and reference lists – have different API protocols and data models. The Network of Terms removes these barriers. It is a service that searches Linked Data sources in a federative way using the [Comunica framework](https://comunica.dev/). It has a unified SKOS based on GraphQL API that can be easily implemented in collection registration or other systems. It searches the sources for matching terms – real time, with SPARQL. The Network of Terms is published as [open source](https://github.com/netwerk-digitaal-erfgoed/network-of-terms) and its API is already integrated in five commercial systems and one open source system for collection registration. It also provides a Reconcilation API for use in Openrefine and other tools.
 
 Although the core of the software is written in Typescript, the configuration for adding terminology sources through a so-called catalogue requires only basic knowledge of JSON and SPARQL. For testing purposes local instances can be easily set up in Node.js compliant environments. In this workshop we demonstrate the functionality and work with participants to build their specific catalogue using the terminology sources of their preference.
 
@@ -172,6 +172,21 @@ Let's delve into the realms of the lawful, neutral, and chaotic social web. This
 
 </td></tr>
 
+<tr id="contrib118"><td></td><td>
+
+#### From ambition to go live: The National Library Board of Singapore’s journey to an operational linked data management & discovery system
+
+[Richard Wallis](speakers.html#X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f)\
+Data Liberate, United Kingdom
+
+Like many institutions, the National Library Board (NLB) is responsible to curate, host, and manage many disparate systems across the National Library, national archives and public libraries, both print and digital. The NLB team evolved an ambitious vision for a management and discovery system built upon linked open data and the web, encompassing the many resources they manage. Richard, the project’s linked, structured, and web data, and library metadata consultant, explores the the two-year journey to a live production system.
+
+The agile project between NLB and commercial parters (utilizing a cloud-based environment hosting a semantic graph database, a knowledge graph development & management platform, and server-less compute services) overcame many interesting challenges, including the absence of a single source of truth. The requirements were to provide a continuously updated, reconciled, aggregation of data sources, providing a standardized view of five separate source data systems, each with their individual data formats, data models and curation teams, i.e., a data model capable of supporting a public discovery interface, which required the development of a model that provides a consistent view of all entities regardless of source system. This was constructed using combination of the BIBFRAME and Schema.org vocabularies and involved a data model capable of supporting the consolidated presentation of properties from multiple sources in single primary entities, automatic ingest and reconciliation of daily delta data dumps from source systems, and managing a project team spread across multiple geographies and timezones. There were lessons learnt and practical future plans made, which Richard will also discuss.
+
+
+
+</td></tr>
+
 
 
 
@@ -218,7 +233,7 @@ This presentation will reflect on [Linked Data For Production] (https://wiki.lyr
 [Enno Meijers](speakers.html#X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795) [<img src="images/orcid.png" title="ORCID: 0000-0002-2884-3523">](https://orcid.org/0000-0002-2884-3523)\
 National Library of the Netherlands / Dutch Digital Heritage Network
 
-How can you find information in heterogeneous linked data sources, available at different locations and managed by different owners? At the [Dutch Digital Heritage Network](https://netwerkdigitaalerfgoed.nl/) we developed a federated querying service to solve this problem: [the Network of Terms](https://termennetwerk.netwerkdigitaalerfgoed.nl/). We encourage cultural institutions to publish their data as Linked Data and assign standardized terms to their digital heritage information. Terms are standardized descriptions of concepts or entities that make heritage easier to find for anyone interested in it. Yet it is quite a challenge for institutions to use these terms, because the sources in which the terms are managed — such as thesauri and reference lists — have different API protocols and data models.
+How can you find information in heterogeneous linked data sources, available at different locations and managed by different owners? At the [Dutch Digital Heritage Network](https://netwerkdigitaalerfgoed.nl/) we developed a federated querying service to solve this problem: [the Network of Terms](https://termennetwerk.netwerkdigitaalerfgoed.nl/). We encourage cultural institutions to publish their data as Linked Data and assign standardized terms to their digital heritage information. Terms are standardized descriptions of concepts or entities that make heritage easier to find for anyone interested in it. Yet it is quite a challenge for institutions to use these terms, because the sources in which the terms are managed – such as thesauri and reference lists – have different API protocols and data models.
 
 The Network of Terms removes these barriers. It is a service that searches linked data sources in a federative way using the [Comunica framework](https://comunica.dev/). It has a unified SKOS based on GraphQL API that can be easily implemented in collection registration or other systems. It searches the sources for matching terms – real time, with SPARQL. The Network of Terms is published as [open source](https://github.com/netwerk-digitaal-erfgoed/network-of-terms) and its API is already integrated in five commercial systems and one open source system for collection registration. It also provides a reconcilation API for use in OpenRefine and other tools. The Network of Terms has been already adopted widely in the cultural heritage domain in the Netherlands but we think it has potential for use in other countries and domains too and we would like to present our tool for the SWIB audience.
 
@@ -256,7 +271,7 @@ For the past 5 years, we have been using Wikidata QIDs as Berkeley Law faculty i
 
 
 
-<tr id="S3"><td class="times-col">14:00–15:00</td><td>
+<tr id="S3"><td class="times-col">14:00–15:30</td><td>
 ### Interactive Session
 
 Moderator: Jakob Voß
@@ -281,7 +296,7 @@ Use the opportunity to share your latest projects or ideas in a short lightning 
 
 
 
-<tr id="CB2"><td class="times-col">15:00–15:30</td><td>
+<tr id="CB2"><td class="times-col">15:30–16:00</td><td>
 ### Coffee Break
 
 
@@ -293,7 +308,7 @@ Use the opportunity to share your latest projects or ideas in a short lightning 
 
 
 
-<tr id="S4"><td class="times-col">15:30–17:00</td><td>
+<tr id="S4"><td class="times-col">16:00–17:00</td><td>
 ### Data Modelling
 
 Moderator: Osma Suominen
@@ -325,21 +340,6 @@ Tiziana Possemato<sup>1</sup>, [Jim Hahn](speakers.html#X734432ffbec6a5c0013f2cc
 <sup>1 </sup>@Cult/Casalini Libri, Italy; <sup>2 </sup>University of Pennsylvania, United States of America
 
 Share-VDE (SVDE) is a library-driven initiative which brings together the bibliographic catalogues and authority files of a community of libraries in a shared discovery environment based on the linked data ontology BIBFRAME. The SVDE Ontology is an extension to BIBFRAME. The design choices for the SVDE ontology support discovery tasks in the federated linked data environment. This presentation describes the ontology design process, goals, and principles. The overall goals for the SVDE ontology are: 1) the use of the web ontology language (OWL) to publish the classes, properties and constraints that are used in the SVDE environment; 2) to clarify the relationship among Share-VDE entities and other linked data vocabularies and ontologies, and 3) to provide internal (to SVDE) and external (to Library of Congress BIBFRAME) consistency and clarity to classes and properties used in the discovery layer of SVDE. The SVDE ontology is not intended to be a complete departure from BIBFRAME nor is it intended to be an all-new ontology, rather, it is based in BIBFRAME and SVDE is an extension. An overarching design principle is to re-use existing vocabularies wherever possible to reduce complexity of the SVDE ontology. The ontology editing process began by evaluating existing SVDE classes and documenting in OWL; moving next to properties; finally, the process concluded by evaluating any needed restrictions for entities. Entities discussed in this presentation which are novel to SVDE include svde:Opus; svde:Work, and the property svde:hasExpression. The SVDE ontology is interoperable among bibliographic models by using direct references among BIBFRAME, LRM, and RDA entity sets. Interoperability is achieved by asserting that bibliographic entities are described by attribute sets.
-
-
-
-</td></tr>
-
-<tr id="contrib118"><td></td><td>
-
-#### From ambition to go live: The National Library Board of Singapore’s journey to an operational linked data management & discovery system
-
-[Richard Wallis](speakers.html#X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f)\
-Data Liberate, United Kingdom
-
-Like many institutions, the National Library Board (NLB) is responsible to curate, host, and manage many disparate systems across the National Library, national archives and public libraries, both print and digital. The NLB team evolved an ambitious vision for a management and discovery system built upon linked open data and the web, encompassing the many resources they manage. Richard, the project’s linked, structured, and web data, and library metadata consultant, explores the the two-year journey to a live production system.
-
-The agile project between NLB and commercial parters (utilizing a cloud-based environment hosting a semantic graph database, a knowledge graph development & management platform, and server-less compute services) overcame many interesting challenges, including the absence of a single source of truth. The requirements were to provide a continuously updated, reconciled, aggregation of data sources, providing a standardized view of five separate source data systems, each with their individual data formats, data models and curation teams, i.e., a data model capable of supporting a public discovery interface, which required the development of a model that provides a consistent view of all entities regardless of source system. This was constructed using combination of the BIBFRAME and Schema.org vocabularies and involved a data model capable of supporting the consolidated presentation of properties from multiple sources in single primary entities, automatic ingest and reconciliation of daily delta data dumps from source systems, and managing a project team spread across multiple geographies and timezones. There were lessons learnt and practical future plans made, which Richard will also discuss.
 
 
 
@@ -463,7 +463,7 @@ Indexers sporadically report specific concepts that Annif failed to suggest (fal
 
 <tr id="contrib133"><td></td><td>
 
-#### Implementation of the Albrecht Haupt collection portal based on the general-purpose semantic web application Vitro.
+#### Implementation of the Albrecht Haupt collection portal based on the general-purpose semantic web application Vitro
 
 Georgy Litvinov [<img src="images/orcid.png" title="ORCID: 0000-0001-5410-5674">](https://orcid.org/0000-0001-5410-5674), [Birte Rubach](speakers.html#Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3) [<img src="images/orcid.png" title="ORCID: 0000-0001-5319-0221">](https://orcid.org/0000-0001-5319-0221), [Tatiana Walther](speakers.html#Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3) [<img src="images/orcid.png" title="ORCID: 0000-0001-8127-2988">](https://orcid.org/0000-0001-8127-2988)\
 Technische Informationsbibliothek Hannover, Germany
@@ -594,14 +594,14 @@ Moderator: Adrian Pohl
 
 :::{.sidebox-box}
 
-**SWIB23 programme published**\
+**SWIB23 programme published & registration opened**\
 13.07.2023
 
 **CfP published**\
 27.02.2023
 
-**SWIB23 - Save the date**\
-11.-13. September 2023 in Berlin (Germany)\
+**SWIB23 – Save the date**\
+11.–13. September 2023 in Berlin (Germany)\
 02.12.2022
 
 ### 14th SWIB
@@ -610,17 +610,6 @@ Moderator: Adrian Pohl
 900 registrations from 58 countries\
 [Slides and videos are online](../swib22/programme.html) ([Youtube playlist](https://www.youtube.com/playlist?list=PL7fMsenbLiQ2xcclhSnk1nv752E4N_Nqx))\
 2.12.2022
-
-**300 registrations from 35 countries within 24 hours**\
-The first workshops are fully booked already.\
-19.10.2022
-
-**Registration opened**\
-18.10.2022
-
-**CfP published**\
-09.05.2022
-
 
 
 :::

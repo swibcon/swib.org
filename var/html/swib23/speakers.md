@@ -43,7 +43,7 @@ Marie-Saphira Flug graduated in Industrial Mathematics from the University of Br
 
 <div id="X233a86cd1508b481b813efcf1b99f463f69efc4145ecb5e230085146f4767290">
 
-## Folsom, Steven [<img src="images/orcid.png" title="ORCID: 0000-0003-3427-5769">](https://orcid.org/0000-0003-3427-5769)
+## Steven Folsom [<img src="images/orcid.png" title="ORCID: 0000-0003-3427-5769">](https://orcid.org/0000-0003-3427-5769)
 
 Steven Folsom is the Head of Metadata Design and Operations at Cornell University Library. His career has focused on creatively and sustainably developing metadata practices (with an emphasis on linked data) to aid discovery and access across both digital and physical collections.
 
@@ -87,7 +87,7 @@ Antoine Isaac (Europeana Foundation) works as R&D Manager for Europeana. He has 
 
 ## Sarven Capadisli
 
-[Sarven](https://csarven.ca) has been actively involved in the development of open web standards since 2006. They chair the [W3C Solid Community Group](https://www.w3.org/groups/cg/solid/) and serve as the lead editor of the [Solid Protocol](https://solidproject.org/TR/protocol) and other Solid Technical Reports. They have a background in decentralising academic publishing and scientific communication and have been involved in the Solid project since 2015 alongside the Decentralized Information Group at MIT where they co-authored the [Linked Data Notifications](https://www.w3.org/TR/ldn/). Sarven is the maintainer of [dokieli](https://dokie.li/), an open source semantic authoring and publishing client. They are committed to an ethical and community-driven approach to web technologies and promoting decentralisation and personal data stewardship. Sarven also worked on the [Status Net](https://en.wikipedia.org/wiki/StatusNet) platform (2008–2010), which paved the way towards the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) with works such as Activity Vocabulary / Streams 2.0 and [ActivityPub](https://www.w3.org/TR/activitypub/) as part of the Social Web initiatives.
+[Sarven](https://csarven.ca) has been actively involved in the development of open web standards since 2006. They chair the [W3C Solid Community Group](https://www.w3.org/groups/cg/solid/) and serve as the lead editor of the [Solid Protocol](https://solidproject.org/TR/protocol) and other Solid Technical Reports. They have a background in decentralising academic publishing and scientific communication and have been involved in the Solid project since 2015 alongside the Decentralized Information Group at MIT where they co-authored the [Linked Data Notifications](https://www.w3.org/TR/ldn/). Sarven is the maintainer of [dokieli](https://dokie.li/), an open source semantic authoring and publishing client. They are committed to an ethical and community-driven approach to web technologies and promoting decentralisation and personal data stewardship. Sarven also worked on the [StatusNet](https://en.wikipedia.org/wiki/StatusNet) platform (2008–2010), which paved the way towards the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) with works such as Activity Vocabulary / Streams 2.0 and [ActivityPub](https://www.w3.org/TR/activitypub/) as part of the Social Web initiatives.
 
 </div>
 
@@ -230,14 +230,14 @@ Simeon Warner is Associate University Librarian and Director of IT at Cornell Un
 
 :::{.sidebox-box}
 
-**SWIB23 programme published**\
+**SWIB23 programme published & registration opened**\
 13.07.2023
 
 **CfP published**\
 27.02.2023
 
-**SWIB23 - Save the date**\
-11.-13. September 2023 in Berlin (Germany)\
+**SWIB23 – Save the date**\
+11.–13. September 2023 in Berlin (Germany)\
 02.12.2022
 
 ### 14th SWIB
@@ -246,17 +246,6 @@ Simeon Warner is Associate University Librarian and Director of IT at Cornell Un
 900 registrations from 58 countries\
 [Slides and videos are online](../swib22/programme.html) ([Youtube playlist](https://www.youtube.com/playlist?list=PL7fMsenbLiQ2xcclhSnk1nv752E4N_Nqx))\
 2.12.2022
-
-**300 registrations from 35 countries within 24 hours**\
-The first workshops are fully booked already.\
-19.10.2022
-
-**Registration opened**\
-18.10.2022
-
-**CfP published**\
-09.05.2022
-
 
 
 :::
