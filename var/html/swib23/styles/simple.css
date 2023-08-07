@@ -149,11 +149,4 @@ input[type=checkbox]:checked+label+div p {
   display: flex;
   flex-direction: column;
 }
-
-/* TODO: find out how to check if there are any abstracts and remove this stupid hack */
-/* "Welcome" hasn't any abstract */
-#toggle-abstract-contrib159,
-#toggle-abstract-contrib159 + label {
-  display: none;
-}
      
