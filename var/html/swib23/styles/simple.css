@@ -132,3 +132,28 @@ a:hover {
   }
 }
 
+/* Hide abstracts, show only on checked */
+input[type=checkbox]+label+div p {
+  visibility: collapse;
+  opacity: 0;
+  transition: visibility 0s linear 0.15s, opacity 0.15s linear;
+}
+
+input[type=checkbox]:checked+label+div p {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.abstract-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* TODO: find out how to check if there are any abstracts and remove this stupid hack */
+/* "Welcome" hasn't any abstract */
+#toggle-abstract-contrib159,
+#toggle-abstract-contrib159 + label {
+  display: none;
+}
+     
