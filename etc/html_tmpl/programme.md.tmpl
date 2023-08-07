@@ -35,7 +35,14 @@ pagetitle: <tmpl_var swib> Programme
 <tmpl_loop organisations_loop><tmpl_if index><sup><tmpl_var index> </sup></tmpl_if><tmpl_var name><tmpl_unless __last__>; </tmpl_unless></tmpl_loop>
 </tmpl_if>
 
+<tmpl_if abstract>
+<details>
+<summary>Abstract</summary>
+
 <tmpl_var abstract>
+
+</details>
+</tmpl_if>
 
 <tmpl_loop media_loop><a href="<tmpl_var url>"><tmpl_var label></a> &#160; </tmpl_loop>
 
