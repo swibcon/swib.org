@@ -36,11 +36,12 @@ pagetitle: <tmpl_var swib> Programme
 </tmpl_if>
 
 <tmpl_if abstract>
-<input type="checkbox" class="toggle-abstract" id="toggle-abstract-contrib<tmpl_var abstract_id>" />
-<label for="toggle-abstract-contrib<tmpl_var abstract_id>">Show abstract</label>
-<div class="abstract-container">
+<details>
+<summary>Abstract</summary>
+
 <tmpl_var abstract>
-</div>
+
+</details>
 </tmpl_if>
 
 <tmpl_loop media_loop><a href="<tmpl_var url>"><tmpl_var label></a> &#160; </tmpl_loop>
