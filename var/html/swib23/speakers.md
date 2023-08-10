@@ -230,6 +230,10 @@ Simeon Warner is Associate University Librarian and Director of IT at Cornell Un
 
 :::{.sidebox-box}
 
+**Livestream from SWIB will not be available this year**\
+We will try to provide recordings afterwards.\
+10.08.2023
+
 **SWIB23 programme published & registration opened**\
 13.07.2023
 

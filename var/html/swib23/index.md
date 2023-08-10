@@ -86,6 +86,10 @@ E-mail: swib(at)hbz-nrw.de
 
 :::{.sidebox-box}
 
+**Livestream from SWIB will not be available this year**\
+We will try to provide recordings afterwards.\
+10.08.2023
+
 **SWIB23 programme published & registration opened**\
 13.07.2023
 
