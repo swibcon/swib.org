@@ -139,7 +139,7 @@ In this workshop, participants will collaborate to develop the idea of what it m
 #### Creating linked open usable data with Metafacture
 
 
-[Pascal Christoph](speakers.html#X64176725f870d50355ee0a4a6870702dcd319615603144234f05125ab0649e12), Tobias Bülte, Katinka Tauber\
+[Pascal Christoph](speakers.html#X64176725f870d50355ee0a4a6870702dcd319615603144234f05125ab0649e12), Tobias Bülte\
 hbz, Germany
 
 
