@@ -718,8 +718,8 @@ Moderator: Julia Beck
 #### FranceArchives a portal for the French archives
 
 
-Élodie Thieblin, [Fabien Amarger](speakers.html#X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65), Saurfelt Katia\
-Logilab
+Élodie Thieblin<sup>1</sup>, [Fabien Amarger](speakers.html#X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65)<sup>1</sup>, Saurfelt Katia<sup>1</sup>, Mathilde Daugas<sup>2</sup>\
+<sup>1 </sup>Logilab; <sup>2 </sup>FranceArchives
 
 
 
