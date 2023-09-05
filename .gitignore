@@ -10,3 +10,5 @@ bin/.swib_upload
 var/src
 # for now, do not add media
 var/html/swib??/slides
+# we don't use sessions
+var/html/swib23/sessions/
