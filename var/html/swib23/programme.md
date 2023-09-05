@@ -372,26 +372,42 @@ For the past 5 years, we have been using Wikidata QIDs as Berkeley Law faculty i
 
 
 
-<tr id="S3"><td class="times-col">14:00–15:30</td><td>
-### Interactive Session
+<tr id="S3"><td class="times-col">14:00–14:25</td><td>
+### Lightning Talks
 
 Moderator: Jakob Voß
-
+<br><br>
+Use the opportunity to share your latest projects or ideas in a short lightning talk. Talks are registered after the start of the conference.
 
 </td></tr>
 
 
-<tr id="contrib162"><td></td><td>
 
-#### Lightning Talks
 
+
+<tr id="S3a"><td class="times-col">14:30–15:30</td><td>
+### Breakout Sessions
+
+
+Organize a one-hour session with others from the SWIB community on a topic you care about. Contact Anna & Adrian if you want to offer a session. This programme slot will be updated regularly as new sessions come in.
+
+</td></tr>
+
+
+<tr id="contrib169"><td></td><td>
+
+#### Shaping the future SWIB
+
+
+Adrian Pohl<sup>1</sup>, Anna Kasprzik<sup>2</sup>\
+<sup>1 </sup>North Rhine-Westphalian Library Service Centre (hbz), Germany; <sup>2 </sup>ZBW Leibniz Information Centre for Economics, Germany
 
 
 
 <details>
 <summary>Abstract</summary>
 
-Use the opportunity to share your latest projects or ideas in a short lightning talk. Talks are registered after the start of the conference.
+hbz and ZBW have been organizing SWIB for 15 years and have decided not to go back to a pre-COVID19 status with annual in-person meetings in Germany. In this breakout session led by Adrian and Anna we come together to share ideas for a future SWIB that remains international and interactive while also being inclusive and climate-friendly.
 
 </details>
 
@@ -400,17 +416,66 @@ Use the opportunity to share your latest projects or ideas in a short lightning 
 
 </td></tr>
 
-<tr id="contrib168"><td></td><td>
+<tr id="contrib170"><td></td><td>
 
-#### Breakout sessions
+#### Standardizing Changes to Entity Datasets
 
+
+Simeon Warner, Steven Folsom\
+Cornell University, United States of America
 
 
 
 <details>
 <summary>Abstract</summary>
 
-Organize a one-hour session with others from the SWIB community on a topic you care about. Contact Anna & Adrian if you want to offer a session. This programme slot will be updated regularly as new sessions come in.
+The [Entity Metadata Management API (EMM API)](https://ld4.github.io/entity_metadata_management/0.1/) is an effort with the LD4 community to define a specification for communicating changes to linked data entity datasets so that data consumers are aware of new, updated, and deprecated entities as the dataset evolves over time. Understanding these types of changes are critical for a number of use cases including local caching of labels and caching of full datasets. Simeon Warner and Steven Folsom will provide an introduction to the preliminary specification and facilitate a discussion to gather initial reactions and capture use case for possible future versions of the API.
+
+</details>
+
+
+
+
+</td></tr>
+
+<tr id="contrib171"><td></td><td>
+
+#### Libraries, Wikidata, and linked data projects
+
+
+Will Kent<sup>1</sup>, Eduards Skvireckis<sup>2</sup>\
+<sup>1 </sup>Wiki Education, United States of America; <sup>2 </sup>National Library of Latvia, Latvia
+
+
+
+<details>
+<summary>Abstract</summary>
+
+Eduards Skvireckis and Will Kent facilitate a breakout session to explore how library professionals are working with Wikidata. Whether it is using Wikidata's data, adding to Wikidata, or building projects with Wikidata in a library setting, we invite you to attend this session and share your experiences.
+
+</details>
+
+
+
+
+</td></tr>
+
+<tr id="contrib172"><td></td><td>
+
+#### Best Practices for sharing and discovering ETL workflows
+
+
+Tobias Bülte\
+North Rhine-Westphalian Library Service Centre (hbz), Germany
+
+
+
+<details>
+<summary>Abstract</summary>
+
+Many libraries do some kind of metadata transformation e.g. for indexing different data sources in a discovery service or for migrating to another LMS. However, usually ETL (extract, transform, load) workflows are not being shared between libraries let alone being discoverable for a wider community.
+
+In this session we want to discuss best practices to foster sharing and reuse of ETL workflows by discussing the following questions: What are use cased for finding and reuising ETL processes? How would people like to discover existing workflows? What core information helps discoverability and how should it be provided?
 
 </details>
 
