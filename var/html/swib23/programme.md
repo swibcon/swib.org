@@ -389,7 +389,7 @@ Use the opportunity to share your latest projects or ideas in a short lightning 
 ### Breakout Sessions
 
 
-Organize a one-hour session with others from the SWIB community on a topic you care about. Contact Anna & Adrian if you want to offer a session. This programme slot will be updated regularly as new sessions come in.
+
 
 </td></tr>
 
@@ -476,6 +476,30 @@ North Rhine-Westphalian Library Service Centre (hbz), Germany
 Many libraries do some kind of metadata transformation e.g. for indexing different data sources in a discovery service or for migrating to another LMS. However, usually ETL (extract, transform, load) workflows are not being shared between libraries let alone being discoverable for a wider community.
 
 In this session we want to discuss best practices to foster sharing and reuse of ETL workflows by discussing the following questions: What are use cased for finding and reuising ETL processes? How would people like to discover existing workflows? What core information helps discoverability and how should it be provided?
+
+</details>
+
+
+
+
+</td></tr>
+
+<tr id="contrib174"><td></td><td>
+
+#### SoVisu+: starting point and foundations of a national CRIS
+
+
+David Reymond<sup>1</sup>, Joachim Dornbush<sup>2</sup>, Alessandro Buccheri<sup>2</sup>, Raphaëlle Lapôtre<sup>3</sup>\
+<sup>1 </sup>Institut Méditerranéen des Sciences de l’Information et de la Communication, Toulon, France; <sup>2 </sup>University Paris, France; <sup>3 </sup>Ecole des Hautes Etudes en Sciences Sociales, France
+
+
+
+<details>
+<summary>Abstract</summary>
+
+In this session, David Reymond and Raphaëlle Lapotre would like to discuss the project SoVisu+.
+
+SoVisu+ is a project aimed at developing a modular, open-source, and shared Current Research Information System (CRIS), tailored to the needs of the French higher education and research community. It grounds low-level aspects with Solid protocols, PODs and linked data information architecture. SoVisu+ consolidates two existing proofs of concept (SoVisu and EFS) and federates a growing number of institutions. Its development is underway to support researchers and governance in implementing Open Science policies, with a focus on improving the quality of the researchers’ bibliographical data. The latter is an expert finder system powered by LLMs. We consolidate the developments and plan the use of Semantic Web technologies to extend their capabilities. SoVisu+ allows to capitalize, trace and index dynamically the researchers’ areas of expertise with the singularity of inviting them to be actors of the ecosystem: researchers check the quality of their own data and participate in this indexing. The project will impact many aspects of the information systems, but also data flows, data quality verification, and the relations between researchers and libraries. In this session, we will present Sovisu’s functionalities and SoviSu+ planed architecture, and we would llike to discuss the challenges and gather feedback.
 
 </details>
 
