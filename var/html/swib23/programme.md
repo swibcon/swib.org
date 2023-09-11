@@ -561,8 +561,8 @@ In this presentation, we examine three recent or emerging linked data standards 
 #### Development of the Share-VDE ontology: goals, principles, and process
 
 
-Tiziana Possemato<sup>1</sup>, [Jim Hahn](speakers.html#X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b) [<img src="images/orcid.png" title="ORCID: 0000-0001-7924-5294">](https://orcid.org/0000-0001-7924-5294)<sup>2</sup>\
-<sup>1 </sup>@Cult/Casalini Libri, Italy; <sup>2 </sup>University of Pennsylvania, United States of America
+Tiziana Possemato<sup>1</sup>, [Jim Hahn](speakers.html#X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b) [<img src="images/orcid.png" title="ORCID: 0000-0001-7924-5294">](https://orcid.org/0000-0001-7924-5294)<sup>2</sup>, Oddrun Ohren<sup>3</sup>\
+<sup>1 </sup>@Cult/Casalini Libri, Italy; <sup>2 </sup>University of Pennsylvania, United States of America; <sup>3 </sup>National Library of Norway
 
 
 
