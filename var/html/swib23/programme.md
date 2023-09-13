@@ -791,7 +791,7 @@ The German Digital Library (DDB) contains a vast collection of over 45 million d
 
 
 
-<tr id="S7"><td class="times-col">14:00–15:30</td><td>
+<tr id="S7"><td class="times-col">14:00–15:00</td><td>
 ### Aggregators
 
 Moderator: Julia Beck
@@ -849,7 +849,7 @@ Europeana is defining a general methodology to assess the overall quality of the
 
 
 
-<tr id="S8"><td class="times-col">15:30–16:00</td><td>
+<tr id="S8"><td class="times-col">15:00–15:30</td><td>
 ### Closing
 
 Moderator: Adrian Pohl
@@ -861,7 +861,7 @@ Moderator: Adrian Pohl
 
 
 
-<tr id="CB4"><td class="times-col">16:00–16:30</td><td>
+<tr id="CB4"><td class="times-col">15:30–16:00</td><td>
 ### Farewell Coffee
 
 
