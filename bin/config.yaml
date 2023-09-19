@@ -6,7 +6,7 @@ days:
 media_types:
   slides:
     label: Slides
-    url_type: local_file
+    url_type: full_url
   youtube:
     label: Video
     url_type: full_url
