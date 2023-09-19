@@ -1,0 +1,111 @@
+# Format for media types
+ - slides: filename,
+ - youtube: full URL
+
+
+# P1: Satellite Event
+
+# VIVO meetup
+134: 
+
+
+# P2: Workshops
+
+# Introduction to the Annif automated indexing tool
+111: 
+
+# Network of Terms: bringing links to your data (Workshop)
+126: 
+
+# Truly shared cataloguing ecosystem development workshop
+137: 
+
+# Creating linked open usable data with Metafacture
+139: 
+
+# Nightwatch – metadata management at your fingertips
+140: 
+
+
+# S1: Opening
+
+# Welcome
+159: 
+
+# Keynote: Inherently Social, Decentralized, and for Everyone
+160: 
+
+# From ambition to go live: The National Library Board of Singapore’s journey to an operational linked data management & discovery system
+118: 02_Richard Wallis__From Ambition to Go Live SWIB.pdf
+
+
+# S2: Authorities
+
+# Supporting sustainable lookup services
+120: 03_Steven Folsom_Supporting Sustainable Lookup Services.pdf
+
+# Network of Terms: bringing links to your data
+125: 04_Enno Meijers_SWIB2023 Network-of-Terms.pdf
+
+# Wikibase as an institutional repository authority file
+106: 05_Joe Cera_Michael Lindsey_Authorities presentation.pdf
+
+
+# S3a: Breakout Sessions
+
+# Shaping the future SWIB
+169: 
+
+# Standardizing Changes to Entity Datasets
+170: 
+
+# Libraries, Wikidata, and linked data projects
+171: 
+
+# Best Practices for sharing and discovering ETL workflows
+172: 
+
+# SoVisu+: starting point and foundations of a national CRIS
+174: 
+
+
+# S4: Data Modelling
+
+# Hollinger's Box: The retrieval object at the edge of the ontology
+108: 06_Heberlein_Tillman_Hollingers Box Slides SWIB23.pdf
+
+# Development of the Share-VDE ontology: goals, principles, and process
+104: 07_Jim Hahn_Oddun Ohren_development-of-SVDE-ontology.pdf
+
+
+# S5: Utilizing Wikimedia
+
+# From EAD to MARC to Wikidata and back again: tools and workflows for archival metadata at the University of Washington libraries
+110: 01_Crystal Yragui_Adam Schiff_SWIB2023.pdf
+
+# Developing a linked data workflow using Wikidata
+116: 02_Will Kent_Developing a linked data workflow - SWIB 2023.pdf
+
+# Entity linking historical document OCR by combining Wikidata and Wikipedia
+121: 03_Kai Labusch_Clemens Neudecker_SWIB23.pdf
+
+
+# S6: Collections
+
+# Machine-based subject indexing and beyond for scholarly literature in psychology at ZPID
+132: 04_Tina Trillitzsch_Floria Grässle_Machine-based_subject_indexing_with_Annif_at_ZPID.pdf
+
+# Implementation of the Albrecht Haupt collection portal based on the general-purpose semantic web application Vitro
+133: 
+
+# The DDB collection and the limits of artificial intelligence
+131: 06_Mary Ann Tan_SWIB2023 Final.pdf
+
+
+# S7: Aggregators
+
+# FranceArchives a portal for the French archives
+114: 07_Fabien Amarger_Slides.pdf
+
+# Towards a methodology for validation of metadata enrichments in Europeana
+138: 08_Antoine Isaac-MethodologyValidationMetadataEnrichments-SWIB23.pdf
