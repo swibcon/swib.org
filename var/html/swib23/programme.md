@@ -233,7 +233,7 @@ Let's delve into the realms of the lawful, neutral, and chaotic social web. This
 </details>
 
 
-
+<a href="https://csarven.ca/presentations/inherently-social-decentralised-and-for-everyone">Slides</a> &#160; 
 
 </td></tr>
 
@@ -257,7 +257,7 @@ The agile project between NLB and commercial parters (utilizing a cloud-based en
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/02_Richard Wallis__From Ambition to Go Live SWIB.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -305,7 +305,7 @@ This presentation will reflect on [Linked Data For Production] (https://wiki.lyr
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/03_Steven Folsom_Supporting Sustainable Lookup Services.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -329,7 +329,7 @@ The Network of Terms removes these barriers. It is a service that searches linke
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/04_Enno Meijers_SWIB2023 Network-of-Terms.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -353,7 +353,7 @@ For the past 5 years, we have been using Wikidata QIDs as Berkeley Law faculty i
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/05_Joe Cera_Michael Lindsey_Authorities presentation.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -552,7 +552,7 @@ In this presentation, we examine three recent or emerging linked data standards 
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/06_Heberlein_Tillman_Hollingers Box Slides SWIB23.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -574,7 +574,7 @@ Share-VDE (SVDE) is a library-driven initiative which brings together the biblio
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/07_Jim Hahn_Oddun Ohren_development-of-SVDE-ontology.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -630,7 +630,7 @@ The presenters will describe semi-automated workflows for the creation of Wikida
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/01_Crystal Yragui_Adam Schiff_SWIB2023.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -654,7 +654,7 @@ These courses gather together several library professionals in an effort to crea
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/02_Will Kent_Developing a linked data workflow - SWIB 2023.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -678,7 +678,7 @@ We used Wikidata to construct a comprehensive knowledge-base that holds informat
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/03_Kai Labusch_Clemens Neudecker_SWIB23.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -726,7 +726,7 @@ Indexers sporadically report specific concepts that Annif failed to suggest (fal
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/04_Tina Trillitzsch_Floria Grässle_Machine-based_subject_indexing_with_Annif_at_ZPID.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -772,7 +772,7 @@ The German Digital Library (DDB) contains a vast collection of over 45 million d
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/06_Mary Ann Tan_SWIB2023 Final.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -818,7 +818,7 @@ Moderator: Julia Beck
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/07_Fabien Amarger_Slides.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -842,7 +842,7 @@ Europeana is defining a general methodology to assess the overall quality of the
 </details>
 
 
-
+<a href="https://swib.org/swib23/slides/08_Antoine Isaac-MethodologyValidationMetadataEnrichments-SWIB23.pdf">Slides</a> &#160; 
 
 </td></tr>
 
