@@ -1,8 +1,3 @@
-# Format for media types
- - slides: filename,
- - youtube: full URL
-
-
 # P1: Satellite Event
 
 # VIVO meetup
@@ -33,40 +28,40 @@
 159: 
 
 # Keynote: Inherently Social, Decentralized, and for Everyone
-160: 
+160: https://youtu.be/IBZed6rHc0g 
 
 # From ambition to go live: The National Library Board of Singapore’s journey to an operational linked data management & discovery system
-118: 
+118: https://youtu.be/Y8SroJLmHzE
 
 
 # S2: Authorities
 
 # Supporting sustainable lookup services
-120: 
+120: https://youtu.be/bdpMAoq3hIs
 
 # Network of Terms: bringing links to your data
-125: 
+125: https://youtu.be/k3pyIoI2-rI
 
 # Wikibase as an institutional repository authority file
-106: 
+106: https://youtu.be/aKC0SiGp0H4
 
 
 # S3: Lightning Talks
 
 # paprika.idref.fr
-175: 
+175: https://youtu.be/qyW-MivhipE
 
 # Extracting metadata from grey literature using large language models
-176: 
+176: https://youtu.be/wOzWG60SS_g
 
 # Integrating Network of Terms into Cocoda Mapping Tool
-177: 
+177: https://youtu.be/fPGBMQ8NnIk
 
 # openglam-de@lists.wikimedia.org – New Mailing list on Wikimedia for Galleries, Libraries, Archives, Museums from German speaking Countries
-178: 
+178: https://youtu.be/pClvrvIr1Ww
 
 # Recent SkoHub developments
-179: 
+179: https://youtu.be/jzdU1zHKlNU
 
 
 # S3a: Breakout Sessions
@@ -90,40 +85,40 @@
 # S4: Data Modelling
 
 # Hollinger's Box: The retrieval object at the edge of the ontology
-108: 
+108: https://youtu.be/rGP8B3eUYVc 
 
 # Development of the Share-VDE ontology: goals, principles, and process
-104: 
+104: https://youtu.be/oyrVaKJYt7w
 
 
 # S5: Utilizing Wikimedia
 
 # From EAD to MARC to Wikidata and back again: tools and workflows for archival metadata at the University of Washington libraries
-110: 
+110: https://youtu.be/NXa7mz6bp8U
 
 # Developing a linked data workflow using Wikidata
-116: 
+116: https://youtu.be/CFLaYp7zRzc
 
 # Entity linking historical document OCR by combining Wikidata and Wikipedia
-121: 
+121: https://youtu.be/pGT5xE-jnOY
 
 
 # S6: Collections
 
 # Machine-based subject indexing and beyond for scholarly literature in psychology at ZPID
-132: 
+132: https://youtu.be/cR5aBkyjFMo
 
 # Implementation of the Albrecht Haupt collection portal based on the general-purpose semantic web application Vitro
-133: 
+133: https://youtu.be/sMPanaN8Xs0
 
 # The DDB collection and the limits of artificial intelligence
-131: 
+131: https://youtu.be/sgvI2UhhCoA
 
 
 # S7: Aggregators
 
 # FranceArchives a portal for the French archives
-114: 
+114: https://youtu.be/oFonNmLusg4
 
 # Towards a methodology for validation of metadata enrichments in Europeana
-138: 
+138: https://youtu.be/AflKKfv5S5s

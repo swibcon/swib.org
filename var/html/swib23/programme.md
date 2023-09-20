@@ -233,7 +233,7 @@ Let's delve into the realms of the lawful, neutral, and chaotic social web. This
 </details>
 
 
-<a href="https://csarven.ca/presentations/inherently-social-decentralised-and-for-everyone">Slides</a> &#160; 
+<a href="https://csarven.ca/presentations/inherently-social-decentralised-and-for-everyone">Slides</a> &#160; <a href="https://youtu.be/IBZed6rHc0g">Video</a> &#160; 
 
 </td></tr>
 
@@ -257,7 +257,7 @@ The agile project between NLB and commercial parters (utilizing a cloud-based en
 </details>
 
 
-<a href="https://swib.org/swib23/slides/02_Richard Wallis__From Ambition to Go Live SWIB.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/02_Richard Wallis__From Ambition to Go Live SWIB.pdf">Slides</a> &#160; <a href="https://youtu.be/Y8SroJLmHzE">Video</a> &#160; 
 
 </td></tr>
 
@@ -305,7 +305,7 @@ This presentation will reflect on [Linked Data For Production] (https://wiki.lyr
 </details>
 
 
-<a href="https://swib.org/swib23/slides/03_Steven Folsom_Supporting Sustainable Lookup Services.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/03_Steven Folsom_Supporting Sustainable Lookup Services.pdf">Slides</a> &#160; <a href="https://youtu.be/bdpMAoq3hIs">Video</a> &#160; 
 
 </td></tr>
 
@@ -329,7 +329,7 @@ The Network of Terms removes these barriers. It is a service that searches linke
 </details>
 
 
-<a href="https://swib.org/swib23/slides/04_Enno Meijers_SWIB2023 Network-of-Terms.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/04_Enno Meijers_SWIB2023 Network-of-Terms.pdf">Slides</a> &#160; <a href="https://youtu.be/k3pyIoI2-rI">Video</a> &#160; 
 
 </td></tr>
 
@@ -353,7 +353,7 @@ For the past 5 years, we have been using Wikidata QIDs as Berkeley Law faculty i
 </details>
 
 
-<a href="https://swib.org/swib23/slides/05_Joe Cera_Michael Lindsey_Authorities presentation.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/05_Joe Cera_Michael Lindsey_Authorities presentation.pdf">Slides</a> &#160; <a href="https://youtu.be/aKC0SiGp0H4">Video</a> &#160; 
 
 </td></tr>
 
@@ -381,6 +381,81 @@ Use the opportunity to share your latest projects or ideas in a short lightning 
 
 </td></tr>
 
+
+<tr id="contrib175"><td></td><td>
+
+#### paprika.idref.fr
+
+
+Carol Melzac\
+ABES, France
+
+
+
+
+<a href="https://swib.org/swib23/slides/Lightning Talk_Melzac_SWIB23_LT_Paprika.pdf">Slides</a> &#160; <a href="https://youtu.be/qyW-MivhipE">Video</a> &#160; 
+
+</td></tr>
+
+<tr id="contrib176"><td></td><td>
+
+#### Extracting metadata from grey literature using large language models
+
+
+Osma Suominen\
+National Library of Finland
+
+
+
+
+<a href="https://docs.google.com/presentation/d/1gZI5jX-m2R0fOA7tKMHo8sMGgw0e0OutVLcDEhxBgfs/">Slides</a> &#160; <a href="https://youtu.be/wOzWG60SS_g">Video</a> &#160; 
+
+</td></tr>
+
+<tr id="contrib177"><td></td><td>
+
+#### Integrating Network of Terms into Cocoda Mapping Tool
+
+
+Stefan Peters\
+VZG, Germany
+
+
+
+
+<a href="https://coli-conc.gbv.de/publications/2023-09-12-SWIB23-Lightning-Talk.pdf">Slides</a> &#160; <a href="https://youtu.be/fPGBMQ8NnIk">Video</a> &#160; 
+
+</td></tr>
+
+<tr id="contrib178"><td></td><td>
+
+#### openglam-de@lists.wikimedia.org – New Mailing list on Wikimedia for Galleries, Libraries, Archives, Museums from German speaking Countries
+
+
+Eva Seidlmayer\
+ZB MED, Germany
+
+
+
+
+<a href="https://swib.org/swib23/slides/Lightning Talk_Seidlmayer_SWIB23_Eva_Seidlmayer.pdf">Slides</a> &#160; <a href="https://youtu.be/pClvrvIr1Ww">Video</a> &#160; 
+
+</td></tr>
+
+<tr id="contrib179"><td></td><td>
+
+#### Recent SkoHub developments
+
+
+Adrian Pohl\
+hbz, Germany
+
+
+
+
+<a href="https://pad.gwdg.de/p/0ytHDo597#/">Slides</a> &#160; <a href="https://youtu.be/jzdU1zHKlNU">Video</a> &#160; 
+
+</td></tr>
 
 
 
@@ -552,7 +627,7 @@ In this presentation, we examine three recent or emerging linked data standards 
 </details>
 
 
-<a href="https://swib.org/swib23/slides/06_Heberlein_Tillman_Hollingers Box Slides SWIB23.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/06_Heberlein_Tillman_Hollingers Box Slides SWIB23.pdf">Slides</a> &#160; <a href="https://youtu.be/rGP8B3eUYVc">Video</a> &#160; 
 
 </td></tr>
 
@@ -574,7 +649,7 @@ Share-VDE (SVDE) is a library-driven initiative which brings together the biblio
 </details>
 
 
-<a href="https://swib.org/swib23/slides/07_Jim Hahn_Oddun Ohren_development-of-SVDE-ontology.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/07_Jim Hahn_Oddun Ohren_development-of-SVDE-ontology.pdf">Slides</a> &#160; <a href="https://youtu.be/oyrVaKJYt7w">Video</a> &#160; 
 
 </td></tr>
 
@@ -630,7 +705,7 @@ The presenters will describe semi-automated workflows for the creation of Wikida
 </details>
 
 
-<a href="https://swib.org/swib23/slides/01_Crystal Yragui_Adam Schiff_SWIB2023.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/01_Crystal Yragui_Adam Schiff_SWIB2023.pdf">Slides</a> &#160; <a href="https://youtu.be/NXa7mz6bp8U">Video</a> &#160; 
 
 </td></tr>
 
@@ -654,7 +729,7 @@ These courses gather together several library professionals in an effort to crea
 </details>
 
 
-<a href="https://swib.org/swib23/slides/02_Will Kent_Developing a linked data workflow - SWIB 2023.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/02_Will Kent_Developing a linked data workflow - SWIB 2023.pdf">Slides</a> &#160; <a href="https://youtu.be/CFLaYp7zRzc">Video</a> &#160; 
 
 </td></tr>
 
@@ -678,7 +753,7 @@ We used Wikidata to construct a comprehensive knowledge-base that holds informat
 </details>
 
 
-<a href="https://swib.org/swib23/slides/03_Kai Labusch_Clemens Neudecker_SWIB23.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/03_Kai Labusch_Clemens Neudecker_SWIB23.pdf">Slides</a> &#160; <a href="https://youtu.be/pGT5xE-jnOY">Video</a> &#160; 
 
 </td></tr>
 
@@ -726,7 +801,7 @@ Indexers sporadically report specific concepts that Annif failed to suggest (fal
 </details>
 
 
-<a href="https://swib.org/swib23/slides/04_Tina Trillitzsch_Floria Grässle_Machine-based_subject_indexing_with_Annif_at_ZPID.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/04_Tina Trillitzsch_Floria Grässle_Machine-based_subject_indexing_with_Annif_at_ZPID.pdf">Slides</a> &#160; <a href="https://youtu.be/cR5aBkyjFMo">Video</a> &#160; 
 
 </td></tr>
 
@@ -750,7 +825,7 @@ To describe the items in alignment with standards of cultural data description a
 </details>
 
 
-
+<a href="https://youtu.be/sMPanaN8Xs0">Video</a> &#160; 
 
 </td></tr>
 
@@ -772,7 +847,7 @@ The German Digital Library (DDB) contains a vast collection of over 45 million d
 </details>
 
 
-<a href="https://swib.org/swib23/slides/06_Mary Ann Tan_SWIB2023 Final.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/06_Mary Ann Tan_SWIB2023 Final.pdf">Slides</a> &#160; <a href="https://youtu.be/sgvI2UhhCoA">Video</a> &#160; 
 
 </td></tr>
 
@@ -818,7 +893,7 @@ Moderator: Julia Beck
 </details>
 
 
-<a href="https://swib.org/swib23/slides/07_Fabien Amarger_Slides.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/07_Fabien Amarger_Slides.pdf">Slides</a> &#160; <a href="https://youtu.be/oFonNmLusg4">Video</a> &#160; 
 
 </td></tr>
 
@@ -842,7 +917,7 @@ Europeana is defining a general methodology to assess the overall quality of the
 </details>
 
 
-<a href="https://swib.org/swib23/slides/08_Antoine Isaac-MethodologyValidationMetadataEnrichments-SWIB23.pdf">Slides</a> &#160; 
+<a href="https://swib.org/swib23/slides/08_Antoine Isaac-MethodologyValidationMetadataEnrichments-SWIB23.pdf">Slides</a> &#160; <a href="https://youtu.be/AflKKfv5S5s">Video</a> &#160; 
 
 </td></tr>
 
