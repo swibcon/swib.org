@@ -825,7 +825,7 @@ To describe the items in alignment with standards of cultural data description a
 </details>
 
 
-<a href="https://youtu.be/sMPanaN8Xs0">Video</a> &#160; 
+<a href="https://swib.org/swib23/slides/05_Walther_Litvinov_SWIB 2023 GESAH.pdf">Slides</a> &#160; <a href="https://youtu.be/sMPanaN8Xs0">Video</a> &#160; 
 
 </td></tr>
 
