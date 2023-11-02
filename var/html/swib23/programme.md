@@ -387,7 +387,7 @@ Use the opportunity to share your latest projects or ideas in a short lightning 
 #### paprika.idref.fr
 
 
-Carol Melzac\
+Carole Melzac\
 ABES, France
 
 
