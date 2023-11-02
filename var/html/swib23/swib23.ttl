@@ -4,49 +4,42 @@
 @prefix schema: <http://schema.org/> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 
-<https://swib.org/person/X48b9e2a998350f5e6372b4c3137696ede171dcbfb53886fece445775c8fd5167> a schema:Person .
-<https://swib.org/person/X48b9e2a998350f5e6372b4c3137696ede171dcbfb53886fece445775c8fd5167> schema:name "Lianne Heslinga" .
-<https://swib.org/person/X48b9e2a998350f5e6372b4c3137696ede171dcbfb53886fece445775c8fd5167> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
+<https://swib.org/person/X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f> a schema:Person .
+<https://swib.org/person/X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f> schema:name "Richard Wallis" .
+<https://swib.org/person/X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f> schema:description '''Independent Consultant and Evangelist, Richard is a distinguished thought leader in linked data and semantic web who has been at the forefront of the emergence of these technologies for over 30 years. He is Chair of W3C Community Groups, including [Schema Bib Extend](https://www.w3.org/community/schemabibex/) & [Bibframe2Schema.org](https://bibframe2schema.org). An evangelist for the adoption of linked data in cultural heritage and the wider Web. He has an international reputation for insightful and entertaining keynote sessions at library, web, and semantic web focused events. He is currently working with the National Library Board of Singapore, Google, and others on the extension, application and use of the Schema.org vocabulary, plus its relationship with other vocabularies such as Bibframe. Whilst delivering practical linked data solutions to real-world data challenges. He is a pragmatist who believes in searching for implementable solutions.''' .
+<https://swib.org/person/X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f> schema:affiliation [ a schema:Organization; schema:name "Data Liberate, United Kingdom" ]  .
 
-<https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> a schema:Person .
-<https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> schema:name "Juho Inkinen" .
-<https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> frapo:hasORCID "0000-0002-6497-6171" .
-<https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> owl:sameAs <http://orcid.org/0000-0002-6497-6171> .
-<https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> schema:affiliation [ a schema:Organization; schema:name "National Library of Finland, Finland" ]  .
+<https://swib.org/person/X881c2cbe6eef28fb1d4b891ebe141e29884dc47ce7368f06257cb5173cd19e80> a schema:Person .
+<https://swib.org/person/X881c2cbe6eef28fb1d4b891ebe141e29884dc47ce7368f06257cb5173cd19e80> schema:name "Carole Melzac" .
+<https://swib.org/person/X881c2cbe6eef28fb1d4b891ebe141e29884dc47ce7368f06257cb5173cd19e80> schema:affiliation [ a schema:Organization; schema:name "ABES, France" ]  .
 
-<https://swib.org/person/X261ceae03d33fc70923efc7b6a4522a733a1fb440cc192154ca12ee03ec39bf0> a schema:Person .
-<https://swib.org/person/X261ceae03d33fc70923efc7b6a4522a733a1fb440cc192154ca12ee03ec39bf0> schema:name "Michael Lindsey" .
-<https://swib.org/person/X261ceae03d33fc70923efc7b6a4522a733a1fb440cc192154ca12ee03ec39bf0> schema:description '''Michael Lindsey is the Director of Library Web Development at the University of California, Berkeley School of Law where he has been a librarian and developer since 2001. Primary interests are systems analysis for local problem solving, and emerging standards that ensure libraries' continued leadership in a networked cultural heritage environment. ''' .
-<https://swib.org/person/X261ceae03d33fc70923efc7b6a4522a733a1fb440cc192154ca12ee03ec39bf0> schema:affiliation [ a schema:Organization; schema:name "Berkeley Law Library, United States of America" ]  .
-
-<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> a schema:Person .
-<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> schema:name "Lena-Luise Stahn" .
-<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> schema:description '''With degrees in classical archaeology, library and information science and computer science Lena-Luise Stahn has worked in several information infrastructure and digital humanities projects. At present, she is a staff member of the DH-Team at Bergische Universität Wuppertal, and works for the Digital Edition project "Niklas Luhmann – Theory as passion", mainly taking care of the entire technical side. Aside from that she is pursuing a dissertation in the field of knowledge organization and ontology engineering in estates.''' .
-<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> frapo:hasORCID "0000-0003-1298-5145" .
-<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> owl:sameAs <http://orcid.org/0000-0003-1298-5145> .
-<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> schema:affiliation [ a schema:Organization; schema:name "Bergische Universität Wuppertal, Germany" ]  .
+<https://swib.org/person/Xcde9afacd4471f2ad25ee41c09d7686ee150da03e6e2ad0fa60f4142a1cb19ca> a schema:Person .
+<https://swib.org/person/Xcde9afacd4471f2ad25ee41c09d7686ee150da03e6e2ad0fa60f4142a1cb19ca> schema:name "Oddrun Ohren" .
+<https://swib.org/person/Xcde9afacd4471f2ad25ee41c09d7686ee150da03e6e2ad0fa60f4142a1cb19ca> schema:affiliation [ a schema:Organization; schema:name "National Library of Norway" ]  .
 
 <https://swib.org/person/X64176725f870d50355ee0a4a6870702dcd319615603144234f05125ab0649e12> a schema:Person .
 <https://swib.org/person/X64176725f870d50355ee0a4a6870702dcd319615603144234f05125ab0649e12> schema:name "Pascal Christoph" .
 <https://swib.org/person/X64176725f870d50355ee0a4a6870702dcd319615603144234f05125ab0649e12> schema:description '''[Pascal](https://lobid.org/team/pc/#!) is employed at the North Rhine-Westphalian Library Service Center (hbz) since 2008 as developer and administrator of open source software with the scope on LOD, especially [lobid-resources](https://lobid.org/resources/) and [metafacture](https://metafacture.org/).''' .
 <https://swib.org/person/X64176725f870d50355ee0a4a6870702dcd319615603144234f05125ab0649e12> schema:affiliation [ a schema:Organization; schema:name "hbz, Germany" ]  .
 
-<https://swib.org/person/X5b7755a5b3315bc219b87c2815e3021e5bbedb70843ad97f579458d6b9609dab> a schema:Person .
-<https://swib.org/person/X5b7755a5b3315bc219b87c2815e3021e5bbedb70843ad97f579458d6b9609dab> schema:name "Will Kent" .
-<https://swib.org/person/X5b7755a5b3315bc219b87c2815e3021e5bbedb70843ad97f579458d6b9609dab> schema:description '''Will Kent is the program manager for the Scholars and Scientists program at Wiki Education. He develops the curriculum and facilitates courses for both Wikipedia and Wikidata. Since 2019 he has taught Wikidata courses. In 2022–23 Wiki Education demoed a new curriculum, built around Wikidata project workflows. He has spoken at Wikimania, Wikidata Con, and WikiConference – North America. Prior to working at Wiki Education, Will was an electronic resources and instruction librarian. He is an open data advocate.''' .
-<https://swib.org/person/X5b7755a5b3315bc219b87c2815e3021e5bbedb70843ad97f579458d6b9609dab> schema:affiliation [ a schema:Organization; schema:name "Wiki Education, United States of America" ]  .
+<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> a schema:Person .
+<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> schema:name "Clemens Neudecker" .
+<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> schema:description '''Clemens Neudecker works as Research Coordinator at the Berlin State Library. He holds a Master of Arts in Philosophy, Computer Science and Political Science from the University of Munich (LMU). Since 2003, he has been active in research & development for digital libraries and implemented various large-scale international projects in the area of digitization of cultural heritage with a focus on computer vision, natural language processing and applications in the digital humanities.''' .
+<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> frapo:hasORCID "0000-0001-5293-8322" .
+<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> owl:sameAs <http://orcid.org/0000-0001-5293-8322> .
+<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> schema:affiliation [ a schema:Organization; schema:name "Berlin State Library, Germany" ]  .
 
-<https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> a schema:Person .
-<https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> schema:name "Jose Francisco Salm Junior" .
-<https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> frapo:hasORCID "0000-0002-8492-1645" .
-<https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> owl:sameAs <http://orcid.org/0000-0002-8492-1645> .
-<https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> schema:affiliation [ a schema:Organization; schema:name "Universidade Federal de Santa Catarina, Brazil" ]  .
+<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> a schema:Person .
+<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> schema:name "Tina Trillitzsch" .
+<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> schema:description '''[Tina](https://leibniz-psychology.org/en/staff/profile-tina-trillitzsch/) wears many hats at the Leibniz Institute for Psychology (ZPID) in Germany. She is in charge of the controlled vocabularies used in the PSYNDEX research literature database, converting existing schemes, creating new ones as needed, and enabling their use in both PSYNDEXER and PsychPorta (new custom cataloging software and search portal, both in development) and the Linked Open Data knowledge graph that will be served in parallel with PsychPorta. Moreover, for PSYNDEXER, she coordinates its Linked-Data friendliness and the migration of existing database records to the new software. For PsychPorta, she is also responsible for exposing the PSYNDEX database as Linked Open Data by developing a BIBFRAME-based metadata scheme. Finally, she applies her background in user-focused computer science to user research and front-end development for PsychPorta.''' .
+<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> frapo:hasORCID "0000-0001-7239-4844" .
+<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> owl:sameAs <http://orcid.org/0000-0001-7239-4844> .
+<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> schema:affiliation [ a schema:Organization; schema:name "Leibniz Institute for Psychology (ZPID), Germany" ]  .
 
-<https://swib.org/person/Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650> a schema:Person .
-<https://swib.org/person/Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650> schema:name "Bob Coret" .
-<https://swib.org/person/Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650> frapo:hasORCID "0000-0002-7328-1312" .
-<https://swib.org/person/Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650> owl:sameAs <http://orcid.org/0000-0002-7328-1312> .
-<https://swib.org/person/Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650> schema:affiliation [ a schema:Organization; schema:name "National Library of the Netherlands / Dutch Digital Heritage Network" ]  .
+<https://swib.org/person/X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65> a schema:Person .
+<https://swib.org/person/X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65> schema:name "Fabien Amarger" .
+<https://swib.org/person/X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65> schema:description '''Fabien Amarger is a doctor/engineer in computer sciences, specialized in semantic web technologies. He defended his PhD in 2015 with the main idea to merge non-ontological sources into a knowledge-base-based regarding the trust given on each source. He has now been working at the Logilab company for several years. Logilab is a French company specialized in application development, free software, Python, Linked Open Data and Semantic Web technologies. Logilab has developed and maintained the application behind [https://francearchives.gouv.fr](https://francearchives.gouv.fr) since the beginning of the project. It is in this context that they exposed the France Archives data in RDF using the RiC-O ontology.''' .
+<https://swib.org/person/X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65> schema:affiliation [ a schema:Organization; schema:name "Logilab" ]  .
 
 <https://swib.org/person/X8f957d7f7d5690d75cb4a4117e960aa20e007b415eff5524bdb963062f1f627e> a schema:Person .
 <https://swib.org/person/X8f957d7f7d5690d75cb4a4117e960aa20e007b415eff5524bdb963062f1f627e> schema:name "Antoine Isaac" .
@@ -55,12 +48,9 @@
 <https://swib.org/person/X8f957d7f7d5690d75cb4a4117e960aa20e007b415eff5524bdb963062f1f627e> owl:sameAs <http://orcid.org/0000-0001-9767-6979> .
 <https://swib.org/person/X8f957d7f7d5690d75cb4a4117e960aa20e007b415eff5524bdb963062f1f627e> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
 
-<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> a schema:Person .
-<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> schema:name "Kai Labusch" .
-<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> schema:description '''Kai Labusch works as a research fellow in the "Mensch-Maschine-Kultur" project at the Berlin State Library. He studied computer science at the University of Lübeck with a minor in neuro-informatics and bio-mathematics. Based on his work at the Institute for Neuro- and Bioinformatics of the University of Lübeck he received a PhD degree for his thesis titled "Soft-competitive learning of sparse data models". He joined in 2011 the software industry where he applied machine learning methods to NLP problems, process optimization in the steel industry and visualization. In 2019 he came to the Berlin State Library as part of the Qurator team where he focussed on entity recognition and linking as well as image search applications. His publications have been focussed on unsupervised learning for sparse coding with application in image- and audio signal processing and more recently in the field of named entity recognition and linking in historical documents.''' .
-<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> frapo:hasORCID "0000-0002-7275-5483" .
-<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> owl:sameAs <http://orcid.org/0000-0002-7275-5483> .
-<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> schema:affiliation [ a schema:Organization; schema:name "Berlin State Library, Germany" ]  .
+<https://swib.org/person/X2dc37eac0cc56df8a6b51a14827492a67b9494e09507ad5e0aad85ecc8802470> a schema:Person .
+<https://swib.org/person/X2dc37eac0cc56df8a6b51a14827492a67b9494e09507ad5e0aad85ecc8802470> schema:name "Mathilde Daugas" .
+<https://swib.org/person/X2dc37eac0cc56df8a6b51a14827492a67b9494e09507ad5e0aad85ecc8802470> schema:affiliation [ a schema:Organization; schema:name "FranceArchives" ]  .
 
 <https://swib.org/person/X233a86cd1508b481b813efcf1b99f463f69efc4145ecb5e230085146f4767290> a schema:Person .
 <https://swib.org/person/X233a86cd1508b481b813efcf1b99f463f69efc4145ecb5e230085146f4767290> schema:name "Steven Folsom" .
@@ -69,22 +59,35 @@
 <https://swib.org/person/X233a86cd1508b481b813efcf1b99f463f69efc4145ecb5e230085146f4767290> owl:sameAs <http://orcid.org/0000-0003-3427-5769> .
 <https://swib.org/person/X233a86cd1508b481b813efcf1b99f463f69efc4145ecb5e230085146f4767290> schema:affiliation [ a schema:Organization; schema:name "Cornell University, United States of America" ]  .
 
-<https://swib.org/person/X1d181a501799920d70be14d24d158d7f298db7aae105a95a64e0bdc71efbb80f> a schema:Person .
-<https://swib.org/person/X1d181a501799920d70be14d24d158d7f298db7aae105a95a64e0bdc71efbb80f> schema:name "Marie-Saphira Flug" .
-<https://swib.org/person/X1d181a501799920d70be14d24d158d7f298db7aae105a95a64e0bdc71efbb80f> schema:description '''Marie-Saphira Flug graduated in Industrial Mathematics from the University of Bremen and has been working as a software developer at the Staats- und Universitätsbibliothek Bremen (SuUB) since 2022. She is involved in the management of metadata, the development of an open source tool for metadata processing (Nightwatch), the integration of FOLIO in the library's own discovery system and development support for the specialized information service for political sciences POLLUX. Before she started at the library, she worked in Horizon 2020 research projects in the area of domain specific languages, big data analytics, multi-robot systems, digital twin, containerization and automatic deployment. Her university studies included courses in material science and process engineering.''' .
-<https://swib.org/person/X1d181a501799920d70be14d24d158d7f298db7aae105a95a64e0bdc71efbb80f> schema:affiliation [ a schema:Organization; schema:name "Staats- und Universitätsbibliothek Bremen, Germany" ]  .
+<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> a schema:Person .
+<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> schema:name "Mary Ann Tan" .
+<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> schema:description '''Mary Ann Tan, Msc., is a PhD candidate at the Karlsruhe Institute of Technology and a junior researcher at FIZ Karlsruhe. She completed her bachelor’s degree in computer science majoring in computer engineering from the De La Salle University, Manila, Philippines. Her thesis dealt with Filipino speech recognition. She has extensive software engineering experience in telecommunications and enterprise resource planning. She co-chaired the first PyCon in the Philippines and conducted a bootcamp for OpenERP. She moved to Germany and completed a Masters in computational linguistics and computer science at Ludwig-Maximilians-Universität München (LMU). During her studies at LMU, she contributed to the CIS’ WittFind project by implementing semantic search. For her master thesis, she worked on building cross-lingual word embeddings for an extremely low-resource language, Hiligayon, which also happens to be her mother tongue. Since December 2020, she is working on improving search and retrieval at the German Digital Library (DDB) by combining approaches in NLP, semantic web, and machine learning. Her ongoing work has been presented in various top-tier Semantic Web conferences since 2021.''' .
+<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> frapo:hasORCID "0000-0003-3634-3550" .
+<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> owl:sameAs <http://orcid.org/0000-0003-3634-3550> .
+<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> schema:affiliation [ a schema:Organization; schema:name "FIZ Karlsruhe, Germany" ]  .
+<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> schema:affiliation [ a schema:Organization; schema:name "Karlsruhe Institute of Technology, Germany" ]  .
 
-<https://swib.org/person/Xd3c6d3fc39cda3bc7a621ab146e5fd3a853577026c2fe88454ad78893022b577> a schema:Person .
-<https://swib.org/person/Xd3c6d3fc39cda3bc7a621ab146e5fd3a853577026c2fe88454ad78893022b577> schema:name "Saurfelt Katia" .
-<https://swib.org/person/Xd3c6d3fc39cda3bc7a621ab146e5fd3a853577026c2fe88454ad78893022b577> schema:affiliation [ a schema:Organization; schema:name "Logilab" ]  .
+<https://swib.org/person/X3b54eaacf869c6afe4a20402e949f2ccaf5a5db83c5e5e194f2f948264a46c2a> a schema:Person .
+<https://swib.org/person/X3b54eaacf869c6afe4a20402e949f2ccaf5a5db83c5e5e194f2f948264a46c2a> schema:name "Paolo Scalia" .
+<https://swib.org/person/X3b54eaacf869c6afe4a20402e949f2ccaf5a5db83c5e5e194f2f948264a46c2a> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
 
-<https://swib.org/person/X76c091f3dd02ffb5fc272e85566234afc056432f610a3145e61dfba95db1d691> a schema:Person .
-<https://swib.org/person/X76c091f3dd02ffb5fc272e85566234afc056432f610a3145e61dfba95db1d691> schema:name "Alexander Raginsky" .
-<https://swib.org/person/X76c091f3dd02ffb5fc272e85566234afc056432f610a3145e61dfba95db1d691> schema:affiliation [ a schema:Organization; schema:name "Jewish Heritage Network" ]  .
+<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> a schema:Person .
+<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> schema:name "Birte Rubach" .
+<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> schema:description '''Birte Rubach is an art historian currently working in the GESAH project at German National Library of Information and Technology (TIB) in Hannover, Germany, where she combines her research interests on European printmaking and digital art history. Her activities currently focus on the structured indexing of prints and drawings and the conceptual development of the necessary indexing systems for this purpose.''' .
+<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> frapo:hasORCID "0000-0001-5319-0221" .
+<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> owl:sameAs <http://orcid.org/0000-0001-5319-0221> .
+<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> schema:affiliation [ a schema:Organization; schema:name "Technische Informationsbibliothek Hannover, Germany" ]  .
 
-<https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> a schema:Person .
-<https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> schema:name "Osma Suominen" .
-<https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> schema:affiliation [ a schema:Organization; schema:name "National Library of Finland" ]  .
+<https://swib.org/person/Xe4f56d779d71221a27a1d759dd2d68ec9c318106a780d6f7569da422b0d04ad3> a schema:Person .
+<https://swib.org/person/Xe4f56d779d71221a27a1d759dd2d68ec9c318106a780d6f7569da422b0d04ad3> schema:name "Vadim Shestopalov" .
+<https://swib.org/person/Xe4f56d779d71221a27a1d759dd2d68ec9c318106a780d6f7569da422b0d04ad3> schema:affiliation [ a schema:Organization; schema:name "Jewish Heritage Network" ]  .
+
+<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> a schema:Person .
+<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> schema:name "Tatiana Walther" .
+<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> schema:description '''Tatiana Walther is a Linked Data librarian at the Open Science Lab of the German National Library of Science and Technology (TIB) Hannover. The scope of her work covers ontology development, data mantainance and customization of [VIVO](https://wiki.lyrasis.org/display/VIVO/VIVO)- and [Vitro](https://wiki.lyrasis.org/display/VIVO/Vitro)-based applications. She supports various institutions in the implementation of research information systems. In the [GESAH project](https://projects.tib.eu/en/haupt/project/) her work was focused on creation of GESAH Graphic Arts Ontology in alignment with [CIDOC CRM](https://www.cidoc-crm.org/) and [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview). In addition to this Tatiana is involved in VIVO community efforts related to integration of national and international research standards like [CERIF](https://eurocris.org/services/main-features-cerif) and [KDSF](https://www.kerndatensatz-forschung.de/) into VIVO.''' .
+<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> frapo:hasORCID "0000-0001-8127-2988" .
+<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> owl:sameAs <http://orcid.org/0000-0001-8127-2988> .
+<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> schema:affiliation [ a schema:Organization; schema:name "Technische Informationsbibliothek Hannover, Germany" ]  .
 
 <https://swib.org/person/X0d3dc6cfa15cc2c71ed6aa14e73733d4704ade78b76b646d31f5037f9ffceb26> a schema:Person .
 <https://swib.org/person/X0d3dc6cfa15cc2c71ed6aa14e73733d4704ade78b76b646d31f5037f9ffceb26> schema:name "Ruth K. Tillman" .
@@ -92,20 +95,112 @@
 <https://swib.org/person/X0d3dc6cfa15cc2c71ed6aa14e73733d4704ade78b76b646d31f5037f9ffceb26> owl:sameAs <http://orcid.org/0000-0003-4547-8879> .
 <https://swib.org/person/X0d3dc6cfa15cc2c71ed6aa14e73733d4704ade78b76b646d31f5037f9ffceb26> schema:affiliation [ a schema:Organization; schema:name "Penn State University Libraries, United States of America" ]  .
 
-<https://swib.org/person/X2dc37eac0cc56df8a6b51a14827492a67b9494e09507ad5e0aad85ecc8802470> a schema:Person .
-<https://swib.org/person/X2dc37eac0cc56df8a6b51a14827492a67b9494e09507ad5e0aad85ecc8802470> schema:name "Mathilde Daugas" .
-<https://swib.org/person/X2dc37eac0cc56df8a6b51a14827492a67b9494e09507ad5e0aad85ecc8802470> schema:affiliation [ a schema:Organization; schema:name "FranceArchives" ]  .
+<https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> a schema:Person .
+<https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> schema:name "Osma Suominen" .
+<https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> schema:affiliation [ a schema:Organization; schema:name "National Library of Finland" ]  .
 
-<https://swib.org/person/Xb31c3e894844fb8071c393c9028ffb2a9a229b622091f40be1f6f0595d50eeac> a schema:Person .
-<https://swib.org/person/Xb31c3e894844fb8071c393c9028ffb2a9a229b622091f40be1f6f0595d50eeac> schema:name "Joe Cera" .
-<https://swib.org/person/Xb31c3e894844fb8071c393c9028ffb2a9a229b622091f40be1f6f0595d50eeac> schema:description '''Joe Cera is the Digital Initiatives and Scholarly Communications Librarian at the Berkeley Law Library and has managed the institutional repository for 10+ years. An adaptation/evolution in this position allows him to focus less on reference duties and more on repository development and other programming needs within the library. Many of his projects focus on identifiers and building applications from repository data and the implications of linked data in the library environment.''' .
-<https://swib.org/person/Xb31c3e894844fb8071c393c9028ffb2a9a229b622091f40be1f6f0595d50eeac> schema:affiliation [ a schema:Organization; schema:name "Berkeley Law Library, United States of America" ]  .
+<https://swib.org/person/X261ceae03d33fc70923efc7b6a4522a733a1fb440cc192154ca12ee03ec39bf0> a schema:Person .
+<https://swib.org/person/X261ceae03d33fc70923efc7b6a4522a733a1fb440cc192154ca12ee03ec39bf0> schema:name "Michael Lindsey" .
+<https://swib.org/person/X261ceae03d33fc70923efc7b6a4522a733a1fb440cc192154ca12ee03ec39bf0> schema:description '''Michael Lindsey is the Director of Library Web Development at the University of California, Berkeley School of Law where he has been a librarian and developer since 2001. Primary interests are systems analysis for local problem solving, and emerging standards that ensure libraries' continued leadership in a networked cultural heritage environment. ''' .
+<https://swib.org/person/X261ceae03d33fc70923efc7b6a4522a733a1fb440cc192154ca12ee03ec39bf0> schema:affiliation [ a schema:Organization; schema:name "Berkeley Law Library, United States of America" ]  .
 
-<https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> a schema:Person .
-<https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> schema:name "Christian Hauschke" .
-<https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> frapo:hasORCID "0000-0003-2499-7741" .
-<https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> owl:sameAs <http://orcid.org/0000-0003-2499-7741> .
-<https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> schema:affiliation [ a schema:Organization; schema:name "Technische Informationsbibliothek (TIB), Germany" ]  .
+<https://swib.org/person/X6e8bdb2be668f7b61130d9cc8e265149b915b64960ea9eab7614ff8d40f2da54> a schema:Person .
+<https://swib.org/person/X6e8bdb2be668f7b61130d9cc8e265149b915b64960ea9eab7614ff8d40f2da54> schema:name "Lena Klaproth" .
+<https://swib.org/person/X6e8bdb2be668f7b61130d9cc8e265149b915b64960ea9eab7614ff8d40f2da54> schema:affiliation [ a schema:Organization; schema:name "Staats- und Universitätsbibliothek Bremen, Germany" ]  .
+
+<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> a schema:Person .
+<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> schema:name "Simeon Warner" .
+<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> schema:description '''Simeon Warner is Associate University Librarian and Director of IT at Cornell University Library. Responsibilities include oversight of IT operations, user experience, web programming, digital preservation, and open scholarly publishing. He has particular interest in interoperability between information systems and the development of standards and collaborations to facilitate that. Current work includes digital preservation (OCFL), evolution of the FOLIO library services platform, use of linked open data for description and discovery of library resources (LD4L/LD4P), image and A/V interoperability (IIIF), and repositories for open-access scholarly publishing (including work with Samvera and ORCID). Past projects include technical direction of the arXiv e-print archive and development of the OAI-PMH and ResourceSync standards.''' .
+<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> frapo:hasORCID "0000-0002-7970-7855" .
+<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> owl:sameAs <http://orcid.org/0000-0002-7970-7855> .
+<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> schema:affiliation [ a schema:Organization; schema:name "Cornell University, United States of America" ]  .
+
+<https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> a schema:Person .
+<https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> schema:name "Nuno Freire" .
+<https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> frapo:hasORCID "0000-0002-3632-8046" .
+<https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> owl:sameAs <http://orcid.org/0000-0002-3632-8046> .
+<https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
+
+<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> a schema:Person .
+<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> schema:name "Florian A. Grässle" .
+<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> schema:description '''[Florian Grässle](https://leibniz-psychology.org/en/staff/profile-florian-graessle/) works as a research engineer at the Leibniz Institute for Psychology (ZPID) in Trier, Germany. There he is in charge of the Linked Open Data infrastructure as well as the PsychPorta search portal. Florian has a background in UX, so he makes sure users' needs are put first.''' .
+<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> frapo:hasORCID "0000-0002-7726-4296" .
+<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> owl:sameAs <http://orcid.org/0000-0002-7726-4296> .
+<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> schema:affiliation [ a schema:Organization; schema:name "Leibniz Institute for Psychology (ZPID), Germany" ]  .
+
+<https://swib.org/person/Xd593be5add133a71c13d14b27fb364cf7b53c7d490110fdbefc418760f72c58c> a schema:Person .
+<https://swib.org/person/Xd593be5add133a71c13d14b27fb364cf7b53c7d490110fdbefc418760f72c58c> schema:name "José Grano de Oro" .
+<https://swib.org/person/Xd593be5add133a71c13d14b27fb364cf7b53c7d490110fdbefc418760f72c58c> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
+
+<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> a schema:Person .
+<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> schema:name "Enno Meijers" .
+<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> schema:description '''Enno Meijers is advisor at the Research Department at KB | National Library of the Netherlands. His main focus area is information infrastructures and (semantic) web technologies. As Chief Technology Officer for the Dutch Digital Heritage Network (NDE), he is leading this innovation program to improve the usability and discoverability of the Dutch heritage collections. Linked data and distributed web technologies are the main building blocks for this infrastructure. ''' .
+<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> frapo:hasORCID "0000-0002-2884-3523" .
+<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> owl:sameAs <http://orcid.org/0000-0002-2884-3523> .
+<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> schema:affiliation [ a schema:Organization; schema:name "National Library of the Netherlands / Dutch Digital Heritage Network" ]  .
+
+<https://swib.org/person/Xc24122340ea1c2078939ea57ee2f0c245240928076fe0f1d16b1c4e1c4540603> a schema:Person .
+<https://swib.org/person/Xc24122340ea1c2078939ea57ee2f0c245240928076fe0f1d16b1c4e1c4540603> schema:name "Hugo Manguinhas" .
+<https://swib.org/person/Xc24122340ea1c2078939ea57ee2f0c245240928076fe0f1d16b1c4e1c4540603> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
+
+<https://swib.org/person/X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8> a schema:Person .
+<https://swib.org/person/X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8> schema:name "Raphaëlle Lapôtre" .
+<https://swib.org/person/X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8> schema:affiliation [ a schema:Organization; schema:name "Ecole des Hautes Etudes en Sciences Sociales, France" ]  .
+
+<https://swib.org/person/X3c3eb1799f3b14bafeb827684c47f89b26cd6af186254a01f7f954a5e366d569> a schema:Person .
+<https://swib.org/person/X3c3eb1799f3b14bafeb827684c47f89b26cd6af186254a01f7f954a5e366d569> schema:name "Lakshmi Bashyam" .
+<https://swib.org/person/X3c3eb1799f3b14bafeb827684c47f89b26cd6af186254a01f7f954a5e366d569> schema:affiliation [ a schema:Organization; schema:name "ZBW – Leibniz Information Centre for Economics, Germany" ]  .
+
+<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> a schema:Person .
+<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> schema:name "Adam Schiff" .
+<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> schema:description '''Adam L. Schiff is Principal Cataloger at the University of Washington Libraries (UWL), in Seattle, USA. He served as a lead advisor for the UWL's participation in the Program for Cooperative Cataloging's (PCC) Wikidata Pilot Project, and in the course of the project was accepted as one of just 51 property creators in Wikidata. He has had nearly 200 Wikidata property proposals approved and created. Adam has been a member of the PCC Standing Committee on Standards, and served on a number of PCC task groups, including the Task Group on Linked Data Best Practices, the Task Group on URIs in MARC, the Linked Data Advisory Committee/Identity Management Advisory Committee URIs Guidance Subgroup, and coordinator of the UW Libraries' participation in the PCC URIs in MARC Pilot Project. He is currently a consultant on Wikidata for the Task Group on Linked Data Training. He is one of two American Library Association representatives on the North American RDA Committee, and a former member of the Core Subject Analysis Committee, and the MARC Advisory Committee. Adam has an A.B. in biology from Cornell University, and an M.L.I.S. from the University of California, Berkeley.''' .
+<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> frapo:hasORCID "0000-0002-6275-6909" .
+<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> owl:sameAs <http://orcid.org/0000-0002-6275-6909> .
+<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> schema:affiliation [ a schema:Organization; schema:name "University of Washington Libraries, United States of America" ]  .
+
+<https://swib.org/person/X76c091f3dd02ffb5fc272e85566234afc056432f610a3145e61dfba95db1d691> a schema:Person .
+<https://swib.org/person/X76c091f3dd02ffb5fc272e85566234afc056432f610a3145e61dfba95db1d691> schema:name "Alexander Raginsky" .
+<https://swib.org/person/X76c091f3dd02ffb5fc272e85566234afc056432f610a3145e61dfba95db1d691> schema:affiliation [ a schema:Organization; schema:name "Jewish Heritage Network" ]  .
+
+<https://swib.org/person/X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c> a schema:Person .
+<https://swib.org/person/X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c> schema:name "Adrian Pohl" .
+<https://swib.org/person/X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c> schema:affiliation [ a schema:Organization; schema:name "hbz, Germany" ]  .
+
+<https://swib.org/person/Xc133e5f3235db9c9c47734cfd3dcf661827b1ef51a90c7aa7dc3651f4f9d7808> a schema:Person .
+<https://swib.org/person/Xc133e5f3235db9c9c47734cfd3dcf661827b1ef51a90c7aa7dc3651f4f9d7808> schema:name "Élodie Thieblin" .
+<https://swib.org/person/Xc133e5f3235db9c9c47734cfd3dcf661827b1ef51a90c7aa7dc3651f4f9d7808> schema:affiliation [ a schema:Organization; schema:name "Logilab" ]  .
+
+<https://swib.org/person/Xf2fed43e2ded7e565d355e6c7d1532616e1c356c447889d4c84729634ade11d5> a schema:Person .
+<https://swib.org/person/Xf2fed43e2ded7e565d355e6c7d1532616e1c356c447889d4c84729634ade11d5> schema:name "Tiziana Possemato" .
+<https://swib.org/person/Xf2fed43e2ded7e565d355e6c7d1532616e1c356c447889d4c84729634ade11d5> schema:affiliation [ a schema:Organization; schema:name "@Cult/Casalini Libri, Italy" ]  .
+
+<https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> a schema:Person .
+<https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> schema:name "Juho Inkinen" .
+<https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> frapo:hasORCID "0000-0002-6497-6171" .
+<https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> owl:sameAs <http://orcid.org/0000-0002-6497-6171> .
+<https://swib.org/person/X5c47880e81839b45e9f1b77ae7e748a40097cf1ea8099741f069af264f808782> schema:affiliation [ a schema:Organization; schema:name "National Library of Finland, Finland" ]  .
+
+<https://swib.org/person/Xcea3ada3775bb9e2d40f686b8fa58406a14cec85f1deb36a42b0a30c39ed2f31> a schema:Person .
+<https://swib.org/person/Xcea3ada3775bb9e2d40f686b8fa58406a14cec85f1deb36a42b0a30c39ed2f31> schema:name "Georgy Litvinov" .
+<https://swib.org/person/Xcea3ada3775bb9e2d40f686b8fa58406a14cec85f1deb36a42b0a30c39ed2f31> frapo:hasORCID "0000-0001-5410-5674" .
+<https://swib.org/person/Xcea3ada3775bb9e2d40f686b8fa58406a14cec85f1deb36a42b0a30c39ed2f31> owl:sameAs <http://orcid.org/0000-0001-5410-5674> .
+<https://swib.org/person/Xcea3ada3775bb9e2d40f686b8fa58406a14cec85f1deb36a42b0a30c39ed2f31> schema:affiliation [ a schema:Organization; schema:name "Technische Informationsbibliothek Hannover, Germany" ]  .
+
+<https://swib.org/person/X1d181a501799920d70be14d24d158d7f298db7aae105a95a64e0bdc71efbb80f> a schema:Person .
+<https://swib.org/person/X1d181a501799920d70be14d24d158d7f298db7aae105a95a64e0bdc71efbb80f> schema:name "Marie-Saphira Flug" .
+<https://swib.org/person/X1d181a501799920d70be14d24d158d7f298db7aae105a95a64e0bdc71efbb80f> schema:description '''Marie-Saphira Flug graduated in Industrial Mathematics from the University of Bremen and has been working as a software developer at the Staats- und Universitätsbibliothek Bremen (SuUB) since 2022. She is involved in the management of metadata, the development of an open source tool for metadata processing (Nightwatch), the integration of FOLIO in the library's own discovery system and development support for the specialized information service for political sciences POLLUX. Before she started at the library, she worked in Horizon 2020 research projects in the area of domain specific languages, big data analytics, multi-robot systems, digital twin, containerization and automatic deployment. Her university studies included courses in material science and process engineering.''' .
+<https://swib.org/person/X1d181a501799920d70be14d24d158d7f298db7aae105a95a64e0bdc71efbb80f> schema:affiliation [ a schema:Organization; schema:name "Staats- und Universitätsbibliothek Bremen, Germany" ]  .
+
+<https://swib.org/person/X6393a77465843c411c416c27c78ff499c798ea64e1edeb035222760c52bdfacc> a schema:Person .
+<https://swib.org/person/X6393a77465843c411c416c27c78ff499c798ea64e1edeb035222760c52bdfacc> schema:name "Tobias Bülte" .
+<https://swib.org/person/X6393a77465843c411c416c27c78ff499c798ea64e1edeb035222760c52bdfacc> schema:affiliation [ a schema:Organization; schema:name "hbz, Germany" ]  .
+
+<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> a schema:Person .
+<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> schema:name "Jim Hahn" .
+<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> schema:description '''Jim Hahn is the Head of Metadata Research at the University of Pennsylvania Libraries leading linked data and metadata projects and research for the Libraries. Working collaboratively across the Penn Libraries, his work is developing a vision for the services, technologies and policies to enhance discovery of collections, following international standards and best practices for linked data and metadata. He holds an M.S. and C.A.S. in Library and Information Science from University of Illinois and he is currently a PhD student in Information Sciences at the University of Illinois.''' .
+<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> frapo:hasORCID "0000-0001-7924-5294" .
+<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> owl:sameAs <http://orcid.org/0000-0001-7924-5294> .
+<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> schema:affiliation [ a schema:Organization; schema:name "University of Pennsylvania, United States of America" ]  .
 
 <https://swib.org/person/Xad5d7f16f7e1fc14edc7713c9829d51c4bdacc00dd0afeb42fcba2913d72063c> a schema:Person .
 <https://swib.org/person/Xad5d7f16f7e1fc14edc7713c9829d51c4bdacc00dd0afeb42fcba2913d72063c> schema:name "Regine Heberlein" .
@@ -116,34 +211,28 @@
 <https://swib.org/person/Xad5d7f16f7e1fc14edc7713c9829d51c4bdacc00dd0afeb42fcba2913d72063c> owl:sameAs <http://orcid.org/0000-0002-0803-8025> .
 <https://swib.org/person/Xad5d7f16f7e1fc14edc7713c9829d51c4bdacc00dd0afeb42fcba2913d72063c> schema:affiliation [ a schema:Organization; schema:name "Princeton University Library, United States of America" ]  .
 
-<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> a schema:Person .
-<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> schema:name "Simeon Warner" .
-<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> schema:description '''Simeon Warner is Associate University Librarian and Director of IT at Cornell University Library. Responsibilities include oversight of IT operations, user experience, web programming, digital preservation, and open scholarly publishing. He has particular interest in interoperability between information systems and the development of standards and collaborations to facilitate that. Current work includes digital preservation (OCFL), evolution of the FOLIO library services platform, use of linked open data for description and discovery of library resources (LD4L/LD4P), image and A/V interoperability (IIIF), and repositories for open-access scholarly publishing (including work with Samvera and ORCID). Past projects include technical direction of the arXiv e-print archive and development of the OAI-PMH and ResourceSync standards.''' .
-<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> frapo:hasORCID "0000-0002-7970-7855" .
-<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> owl:sameAs <http://orcid.org/0000-0002-7970-7855> .
-<https://swib.org/person/Xd337b636b1fc07169653c59db94770bb7fade8e975aad6cd48aabff1927d91c9> schema:affiliation [ a schema:Organization; schema:name "Cornell University, United States of America" ]  .
-
-<https://swib.org/person/X10f433740819deb5d1b4e609cb71ddd4a1b5eb8a28a47032f61042ca98801c8f> a schema:Person .
-<https://swib.org/person/X10f433740819deb5d1b4e609cb71ddd4a1b5eb8a28a47032f61042ca98801c8f> schema:name "Stefan Peters" .
-<https://swib.org/person/X10f433740819deb5d1b4e609cb71ddd4a1b5eb8a28a47032f61042ca98801c8f> schema:affiliation [ a schema:Organization; schema:name "VZG, Germany" ]  .
-
 <https://swib.org/person/Xbf39a715ec9f81cd1ba9fc4d78d8865dba9951274a66f890207e34b4d3cb9d37> a schema:Person .
 <https://swib.org/person/Xbf39a715ec9f81cd1ba9fc4d78d8865dba9951274a66f890207e34b4d3cb9d37> schema:name "Sarven Capadisli" .
 <https://swib.org/person/Xbf39a715ec9f81cd1ba9fc4d78d8865dba9951274a66f890207e34b4d3cb9d37> schema:description '''[Sarven](https://csarven.ca) has been actively involved in the development of open web standards since 2006. They chair the [W3C Solid Community Group](https://www.w3.org/groups/cg/solid/) and serve as the lead editor of the [Solid Protocol](https://solidproject.org/TR/protocol) and other Solid Technical Reports. They have a background in decentralising academic publishing and scientific communication and have been involved in the Solid project since 2015 alongside the Decentralized Information Group at MIT where they co-authored the [Linked Data Notifications](https://www.w3.org/TR/ldn/). Sarven is the maintainer of [dokieli](https://dokie.li/), an open source semantic authoring and publishing client. They are committed to an ethical and community-driven approach to web technologies and promoting decentralisation and personal data stewardship. Sarven also worked on the [StatusNet](https://en.wikipedia.org/wiki/StatusNet) platform (2008–2010), which paved the way towards the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) with works such as Activity Vocabulary / Streams 2.0 and [ActivityPub](https://www.w3.org/TR/activitypub/) as part of the Social Web initiatives.''' .
 <https://swib.org/person/Xbf39a715ec9f81cd1ba9fc4d78d8865dba9951274a66f890207e34b4d3cb9d37> schema:affiliation [ a schema:Organization; schema:name "Web Standards Architect" ]  .
 
-<https://swib.org/person/X6e8bdb2be668f7b61130d9cc8e265149b915b64960ea9eab7614ff8d40f2da54> a schema:Person .
-<https://swib.org/person/X6e8bdb2be668f7b61130d9cc8e265149b915b64960ea9eab7614ff8d40f2da54> schema:name "Lena Klaproth" .
-<https://swib.org/person/X6e8bdb2be668f7b61130d9cc8e265149b915b64960ea9eab7614ff8d40f2da54> schema:affiliation [ a schema:Organization; schema:name "Staats- und Universitätsbibliothek Bremen, Germany" ]  .
+<https://swib.org/person/Xb31c3e894844fb8071c393c9028ffb2a9a229b622091f40be1f6f0595d50eeac> a schema:Person .
+<https://swib.org/person/Xb31c3e894844fb8071c393c9028ffb2a9a229b622091f40be1f6f0595d50eeac> schema:name "Joe Cera" .
+<https://swib.org/person/Xb31c3e894844fb8071c393c9028ffb2a9a229b622091f40be1f6f0595d50eeac> schema:description '''Joe Cera is the Digital Initiatives and Scholarly Communications Librarian at the Berkeley Law Library and has managed the institutional repository for 10+ years. An adaptation/evolution in this position allows him to focus less on reference duties and more on repository development and other programming needs within the library. Many of his projects focus on identifiers and building applications from repository data and the implications of linked data in the library environment.''' .
+<https://swib.org/person/Xb31c3e894844fb8071c393c9028ffb2a9a229b622091f40be1f6f0595d50eeac> schema:affiliation [ a schema:Organization; schema:name "Berkeley Law Library, United States of America" ]  .
 
-<https://swib.org/person/X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8> a schema:Person .
-<https://swib.org/person/X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8> schema:name "Raphaëlle Lapôtre" .
-<https://swib.org/person/X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8> schema:affiliation [ a schema:Organization; schema:name "Ecole des Hautes Etudes en Sciences Sociales, France" ]  .
+<https://swib.org/person/Xd3c6d3fc39cda3bc7a621ab146e5fd3a853577026c2fe88454ad78893022b577> a schema:Person .
+<https://swib.org/person/Xd3c6d3fc39cda3bc7a621ab146e5fd3a853577026c2fe88454ad78893022b577> schema:name "Saurfelt Katia" .
+<https://swib.org/person/Xd3c6d3fc39cda3bc7a621ab146e5fd3a853577026c2fe88454ad78893022b577> schema:affiliation [ a schema:Organization; schema:name "Logilab" ]  .
 
-<https://swib.org/person/X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65> a schema:Person .
-<https://swib.org/person/X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65> schema:name "Fabien Amarger" .
-<https://swib.org/person/X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65> schema:description '''Fabien Amarger is a doctor/engineer in computer sciences, specialized in semantic web technologies. He defended his PhD in 2015 with the main idea to merge non-ontological sources into a knowledge-base-based regarding the trust given on each source. He has now been working at the Logilab company for several years. Logilab is a French company specialized in application development, free software, Python, Linked Open Data and Semantic Web technologies. Logilab has developed and maintained the application behind [https://francearchives.gouv.fr](https://francearchives.gouv.fr) since the beginning of the project. It is in this context that they exposed the France Archives data in RDF using the RiC-O ontology.''' .
-<https://swib.org/person/X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65> schema:affiliation [ a schema:Organization; schema:name "Logilab" ]  .
+<https://swib.org/person/X5b7755a5b3315bc219b87c2815e3021e5bbedb70843ad97f579458d6b9609dab> a schema:Person .
+<https://swib.org/person/X5b7755a5b3315bc219b87c2815e3021e5bbedb70843ad97f579458d6b9609dab> schema:name "Will Kent" .
+<https://swib.org/person/X5b7755a5b3315bc219b87c2815e3021e5bbedb70843ad97f579458d6b9609dab> schema:description '''Will Kent is the program manager for the Scholars and Scientists program at Wiki Education. He develops the curriculum and facilitates courses for both Wikipedia and Wikidata. Since 2019 he has taught Wikidata courses. In 2022–23 Wiki Education demoed a new curriculum, built around Wikidata project workflows. He has spoken at Wikimania, Wikidata Con, and WikiConference – North America. Prior to working at Wiki Education, Will was an electronic resources and instruction librarian. He is an open data advocate.''' .
+<https://swib.org/person/X5b7755a5b3315bc219b87c2815e3021e5bbedb70843ad97f579458d6b9609dab> schema:affiliation [ a schema:Organization; schema:name "Wiki Education, United States of America" ]  .
+
+<https://swib.org/person/X346eaac73941fada47714f3da7629f82b4b65107339bd1c4a55bf29170162790> a schema:Person .
+<https://swib.org/person/X346eaac73941fada47714f3da7629f82b4b65107339bd1c4a55bf29170162790> schema:name "Eva Seidlmayer" .
+<https://swib.org/person/X346eaac73941fada47714f3da7629f82b4b65107339bd1c4a55bf29170162790> schema:affiliation [ a schema:Organization; schema:name "ZB MED, Germany" ]  .
 
 <https://swib.org/person/X819cc62bd0b0371582dbd601114ec16f627df259b40c0fd1cca07938e8f00be1> a schema:Person .
 <https://swib.org/person/X819cc62bd0b0371582dbd601114ec16f627df259b40c0fd1cca07938e8f00be1> schema:name "Mona Lehtinen" .
@@ -152,44 +241,6 @@
 <https://swib.org/person/X819cc62bd0b0371582dbd601114ec16f627df259b40c0fd1cca07938e8f00be1> owl:sameAs <http://orcid.org/0000-0002-4735-0214> .
 <https://swib.org/person/X819cc62bd0b0371582dbd601114ec16f627df259b40c0fd1cca07938e8f00be1> schema:affiliation [ a schema:Organization; schema:name "National Library of Finland, Finland" ]  .
 
-<https://swib.org/person/Xcea3ada3775bb9e2d40f686b8fa58406a14cec85f1deb36a42b0a30c39ed2f31> a schema:Person .
-<https://swib.org/person/Xcea3ada3775bb9e2d40f686b8fa58406a14cec85f1deb36a42b0a30c39ed2f31> schema:name "Georgy Litvinov" .
-<https://swib.org/person/Xcea3ada3775bb9e2d40f686b8fa58406a14cec85f1deb36a42b0a30c39ed2f31> frapo:hasORCID "0000-0001-5410-5674" .
-<https://swib.org/person/Xcea3ada3775bb9e2d40f686b8fa58406a14cec85f1deb36a42b0a30c39ed2f31> owl:sameAs <http://orcid.org/0000-0001-5410-5674> .
-<https://swib.org/person/Xcea3ada3775bb9e2d40f686b8fa58406a14cec85f1deb36a42b0a30c39ed2f31> schema:affiliation [ a schema:Organization; schema:name "Technische Informationsbibliothek Hannover, Germany" ]  .
-
-<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> a schema:Person .
-<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> schema:name "Enno Meijers" .
-<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> schema:description '''Enno Meijers is advisor at the Research Department at KB | National Library of the Netherlands. His main focus area is information infrastructures and (semantic) web technologies. As Chief Technology Officer for the Dutch Digital Heritage Network (NDE), he is leading this innovation program to improve the usability and discoverability of the Dutch heritage collections. Linked data and distributed web technologies are the main building blocks for this infrastructure. ''' .
-<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> frapo:hasORCID "0000-0002-2884-3523" .
-<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> owl:sameAs <http://orcid.org/0000-0002-2884-3523> .
-<https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> schema:affiliation [ a schema:Organization; schema:name "National Library of the Netherlands / Dutch Digital Heritage Network" ]  .
-
-<https://swib.org/person/X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c> a schema:Person .
-<https://swib.org/person/X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c> schema:name "Adrian Pohl" .
-<https://swib.org/person/X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c> schema:affiliation [ a schema:Organization; schema:name "hbz, Germany" ]  .
-
-<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> a schema:Person .
-<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> schema:name "Tatiana Walther" .
-<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> schema:description '''Tatiana Walther is a Linked Data librarian at the Open Science Lab of the German National Library of Science and Technology (TIB) Hannover. The scope of her work covers ontology development, data mantainance and customization of [VIVO](https://wiki.lyrasis.org/display/VIVO/VIVO)- and [Vitro](https://wiki.lyrasis.org/display/VIVO/Vitro)-based applications. She supports various institutions in the implementation of research information systems. In the [GESAH project](https://projects.tib.eu/en/haupt/project/) her work was focused on creation of GESAH Graphic Arts Ontology in alignment with [CIDOC CRM](https://www.cidoc-crm.org/) and [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview). In addition to this Tatiana is involved in VIVO community efforts related to integration of national and international research standards like [CERIF](https://eurocris.org/services/main-features-cerif) and [KDSF](https://www.kerndatensatz-forschung.de/) into VIVO.''' .
-<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> frapo:hasORCID "0000-0001-8127-2988" .
-<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> owl:sameAs <http://orcid.org/0000-0001-8127-2988> .
-<https://swib.org/person/Xcc92065d16612fea6c82590c018f47e1bb8316cd6461df6393e44591695a8cc3> schema:affiliation [ a schema:Organization; schema:name "Technische Informationsbibliothek Hannover, Germany" ]  .
-
-<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> a schema:Person .
-<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> schema:name "Birte Rubach" .
-<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> schema:description '''Birte Rubach is an art historian currently working in the GESAH project at German National Library of Information and Technology (TIB) in Hannover, Germany, where she combines her research interests on European printmaking and digital art history. Her activities currently focus on the structured indexing of prints and drawings and the conceptual development of the necessary indexing systems for this purpose.''' .
-<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> frapo:hasORCID "0000-0001-5319-0221" .
-<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> owl:sameAs <http://orcid.org/0000-0001-5319-0221> .
-<https://swib.org/person/Xfffeaa166233421ec71262a37de9a6055da38b132c8f0f2d1cb18f30f0d4c6f3> schema:affiliation [ a schema:Organization; schema:name "Technische Informationsbibliothek Hannover, Germany" ]  .
-
-<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> a schema:Person .
-<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:name "Crystal Yragui" .
-<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:description '''[Crystal Yragui (she/her)](https://github.com/CECSpecialistI) is a cataloguer and member of the Linked Data Team at the University of Washington Libraries in Seattle. Her work focuses on providing high-quality metadata to users in a rapidly changing environment. Crystal has played key roles in the University of Washington’s [LD4P2](https://wiki.lyrasis.org/display/LD4P2) subgrant project, [PCC Wikidata Pilot Project](https://www.wikidata.org/wiki/Wikidata:WikiProject_PCC_Wikidata_Pilot/University_of_Washington), [RDA to BIBFRAME mapping](https://www.lib.washington.edu/cams/swr/rda-rdf-to-bibframe-mapping/view), and [MARC21 to LRM/RDA/RDF mapping](https://github.com/uwlib-cams/MARC2RDA). She is a collaborator on [WikiProject Personal Prounouns](https://www.wikidata.org/wiki/Wikidata:WikiProject_Personal_Pronouns) and is an incoming co-chair of the Program for Cooperative Cataloging (PCC) [Identity Management Advisory Committee (IMAC)](https://www.loc.gov/aba/pcc/advisory/identity-management.html). Crystal holds an MLIS from the University of Washington Information School.''' .
-<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> frapo:hasORCID "0000-0001-5000-282X" .
-<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> owl:sameAs <http://orcid.org/0000-0001-5000-282X> .
-<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:affiliation [ a schema:Organization; schema:name "University of Washington Libraries, United States of America" ]  .
-
 <https://swib.org/person/X4509cd011de2c65a35cdcc877b93b7b2eb7d880fc6094be061fc6b17aa99ed7a> a schema:Person .
 <https://swib.org/person/X4509cd011de2c65a35cdcc877b93b7b2eb7d880fc6094be061fc6b17aa99ed7a> schema:name "Harald Sack" .
 <https://swib.org/person/X4509cd011de2c65a35cdcc877b93b7b2eb7d880fc6094be061fc6b17aa99ed7a> frapo:hasORCID "0000-0001-7069-9804" .
@@ -197,117 +248,18 @@
 <https://swib.org/person/X4509cd011de2c65a35cdcc877b93b7b2eb7d880fc6094be061fc6b17aa99ed7a> schema:affiliation [ a schema:Organization; schema:name "FIZ Karlsruhe, Germany" ]  .
 <https://swib.org/person/X4509cd011de2c65a35cdcc877b93b7b2eb7d880fc6094be061fc6b17aa99ed7a> schema:affiliation [ a schema:Organization; schema:name "Karlsruhe Institute of Technology, Germany" ]  .
 
-<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> a schema:Person .
-<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> schema:name "Adam Schiff" .
-<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> schema:description '''Adam L. Schiff is Principal Cataloger at the University of Washington Libraries (UWL), in Seattle, USA. He served as a lead advisor for the UWL's participation in the Program for Cooperative Cataloging's (PCC) Wikidata Pilot Project, and in the course of the project was accepted as one of just 51 property creators in Wikidata. He has had nearly 200 Wikidata property proposals approved and created. Adam has been a member of the PCC Standing Committee on Standards, and served on a number of PCC task groups, including the Task Group on Linked Data Best Practices, the Task Group on URIs in MARC, the Linked Data Advisory Committee/Identity Management Advisory Committee URIs Guidance Subgroup, and coordinator of the UW Libraries' participation in the PCC URIs in MARC Pilot Project. He is currently a consultant on Wikidata for the Task Group on Linked Data Training. He is one of two American Library Association representatives on the North American RDA Committee, and a former member of the Core Subject Analysis Committee, and the MARC Advisory Committee. Adam has an A.B. in biology from Cornell University, and an M.L.I.S. from the University of California, Berkeley.''' .
-<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> frapo:hasORCID "0000-0002-6275-6909" .
-<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> owl:sameAs <http://orcid.org/0000-0002-6275-6909> .
-<https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> schema:affiliation [ a schema:Organization; schema:name "University of Washington Libraries, United States of America" ]  .
-
-<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> a schema:Person .
-<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> schema:name "Clemens Neudecker" .
-<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> schema:description '''Clemens Neudecker works as Research Coordinator at the Berlin State Library. He holds a Master of Arts in Philosophy, Computer Science and Political Science from the University of Munich (LMU). Since 2003, he has been active in research & development for digital libraries and implemented various large-scale international projects in the area of digitization of cultural heritage with a focus on computer vision, natural language processing and applications in the digital humanities.''' .
-<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> frapo:hasORCID "0000-0001-5293-8322" .
-<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> owl:sameAs <http://orcid.org/0000-0001-5293-8322> .
-<https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> schema:affiliation [ a schema:Organization; schema:name "Berlin State Library, Germany" ]  .
-
-<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> a schema:Person .
-<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> schema:name "Mary Ann Tan" .
-<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> schema:description '''Mary Ann Tan, Msc., is a PhD candidate at the Karlsruhe Institute of Technology and a junior researcher at FIZ Karlsruhe. She completed her bachelor’s degree in computer science majoring in computer engineering from the De La Salle University, Manila, Philippines. Her thesis dealt with Filipino speech recognition. She has extensive software engineering experience in telecommunications and enterprise resource planning. She co-chaired the first PyCon in the Philippines and conducted a bootcamp for OpenERP. She moved to Germany and completed a Masters in computational linguistics and computer science at Ludwig-Maximilians-Universität München (LMU). During her studies at LMU, she contributed to the CIS’ WittFind project by implementing semantic search. For her master thesis, she worked on building cross-lingual word embeddings for an extremely low-resource language, Hiligayon, which also happens to be her mother tongue. Since December 2020, she is working on improving search and retrieval at the German Digital Library (DDB) by combining approaches in NLP, semantic web, and machine learning. Her ongoing work has been presented in various top-tier Semantic Web conferences since 2021.''' .
-<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> frapo:hasORCID "0000-0003-3634-3550" .
-<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> owl:sameAs <http://orcid.org/0000-0003-3634-3550> .
-<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> schema:affiliation [ a schema:Organization; schema:name "FIZ Karlsruhe, Germany" ]  .
-<https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> schema:affiliation [ a schema:Organization; schema:name "Karlsruhe Institute of Technology, Germany" ]  .
-
-<https://swib.org/person/X3c3eb1799f3b14bafeb827684c47f89b26cd6af186254a01f7f954a5e366d569> a schema:Person .
-<https://swib.org/person/X3c3eb1799f3b14bafeb827684c47f89b26cd6af186254a01f7f954a5e366d569> schema:name "Lakshmi Bashyam" .
-<https://swib.org/person/X3c3eb1799f3b14bafeb827684c47f89b26cd6af186254a01f7f954a5e366d569> schema:affiliation [ a schema:Organization; schema:name "ZBW – Leibniz Information Centre for Economics, Germany" ]  .
-
-<https://swib.org/person/Xd593be5add133a71c13d14b27fb364cf7b53c7d490110fdbefc418760f72c58c> a schema:Person .
-<https://swib.org/person/Xd593be5add133a71c13d14b27fb364cf7b53c7d490110fdbefc418760f72c58c> schema:name "José Grano de Oro" .
-<https://swib.org/person/Xd593be5add133a71c13d14b27fb364cf7b53c7d490110fdbefc418760f72c58c> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
-
-<https://swib.org/person/X881c2cbe6eef28fb1d4b891ebe141e29884dc47ce7368f06257cb5173cd19e80> a schema:Person .
-<https://swib.org/person/X881c2cbe6eef28fb1d4b891ebe141e29884dc47ce7368f06257cb5173cd19e80> schema:name "Carol Melzac" .
-<https://swib.org/person/X881c2cbe6eef28fb1d4b891ebe141e29884dc47ce7368f06257cb5173cd19e80> schema:affiliation [ a schema:Organization; schema:name "ABES, France" ]  .
-
-<https://swib.org/person/Xc24122340ea1c2078939ea57ee2f0c245240928076fe0f1d16b1c4e1c4540603> a schema:Person .
-<https://swib.org/person/Xc24122340ea1c2078939ea57ee2f0c245240928076fe0f1d16b1c4e1c4540603> schema:name "Hugo Manguinhas" .
-<https://swib.org/person/Xc24122340ea1c2078939ea57ee2f0c245240928076fe0f1d16b1c4e1c4540603> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
-
-<https://swib.org/person/X3b54eaacf869c6afe4a20402e949f2ccaf5a5db83c5e5e194f2f948264a46c2a> a schema:Person .
-<https://swib.org/person/X3b54eaacf869c6afe4a20402e949f2ccaf5a5db83c5e5e194f2f948264a46c2a> schema:name "Paolo Scalia" .
-<https://swib.org/person/X3b54eaacf869c6afe4a20402e949f2ccaf5a5db83c5e5e194f2f948264a46c2a> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
-
-<https://swib.org/person/Xf2fed43e2ded7e565d355e6c7d1532616e1c356c447889d4c84729634ade11d5> a schema:Person .
-<https://swib.org/person/Xf2fed43e2ded7e565d355e6c7d1532616e1c356c447889d4c84729634ade11d5> schema:name "Tiziana Possemato" .
-<https://swib.org/person/Xf2fed43e2ded7e565d355e6c7d1532616e1c356c447889d4c84729634ade11d5> schema:affiliation [ a schema:Organization; schema:name "@Cult/Casalini Libri, Italy" ]  .
-
-<https://swib.org/person/X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f> a schema:Person .
-<https://swib.org/person/X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f> schema:name "Richard Wallis" .
-<https://swib.org/person/X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f> schema:description '''Independent Consultant and Evangelist, Richard is a distinguished thought leader in linked data and semantic web who has been at the forefront of the emergence of these technologies for over 30 years. He is Chair of W3C Community Groups, including [Schema Bib Extend](https://www.w3.org/community/schemabibex/) & [Bibframe2Schema.org](https://bibframe2schema.org). An evangelist for the adoption of linked data in cultural heritage and the wider Web. He has an international reputation for insightful and entertaining keynote sessions at library, web, and semantic web focused events. He is currently working with the National Library Board of Singapore, Google, and others on the extension, application and use of the Schema.org vocabulary, plus its relationship with other vocabularies such as Bibframe. Whilst delivering practical linked data solutions to real-world data challenges. He is a pragmatist who believes in searching for implementable solutions.''' .
-<https://swib.org/person/X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f> schema:affiliation [ a schema:Organization; schema:name "Data Liberate, United Kingdom" ]  .
-
-<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> a schema:Person .
-<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> schema:name "Jim Hahn" .
-<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> schema:description '''Jim Hahn is the Head of Metadata Research at the University of Pennsylvania Libraries leading linked data and metadata projects and research for the Libraries. Working collaboratively across the Penn Libraries, his work is developing a vision for the services, technologies and policies to enhance discovery of collections, following international standards and best practices for linked data and metadata. He holds an M.S. and C.A.S. in Library and Information Science from University of Illinois and he is currently a PhD student in Information Sciences at the University of Illinois.''' .
-<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> frapo:hasORCID "0000-0001-7924-5294" .
-<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> owl:sameAs <http://orcid.org/0000-0001-7924-5294> .
-<https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> schema:affiliation [ a schema:Organization; schema:name "University of Pennsylvania, United States of America" ]  .
-
-<https://swib.org/person/Xc133e5f3235db9c9c47734cfd3dcf661827b1ef51a90c7aa7dc3651f4f9d7808> a schema:Person .
-<https://swib.org/person/Xc133e5f3235db9c9c47734cfd3dcf661827b1ef51a90c7aa7dc3651f4f9d7808> schema:name "Élodie Thieblin" .
-<https://swib.org/person/Xc133e5f3235db9c9c47734cfd3dcf661827b1ef51a90c7aa7dc3651f4f9d7808> schema:affiliation [ a schema:Organization; schema:name "Logilab" ]  .
-
-<https://swib.org/person/X346eaac73941fada47714f3da7629f82b4b65107339bd1c4a55bf29170162790> a schema:Person .
-<https://swib.org/person/X346eaac73941fada47714f3da7629f82b4b65107339bd1c4a55bf29170162790> schema:name "Eva Seidlmayer" .
-<https://swib.org/person/X346eaac73941fada47714f3da7629f82b4b65107339bd1c4a55bf29170162790> schema:affiliation [ a schema:Organization; schema:name "ZB MED, Germany" ]  .
-
-<https://swib.org/person/Xbf6dd04fc2ce70766e2916fcfac89af31de4b5eca2bc281d712c4221a268a1db> a schema:Person .
-<https://swib.org/person/Xbf6dd04fc2ce70766e2916fcfac89af31de4b5eca2bc281d712c4221a268a1db> schema:name "Eleftheria Tsoupra" .
-<https://swib.org/person/Xbf6dd04fc2ce70766e2916fcfac89af31de4b5eca2bc281d712c4221a268a1db> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
-
 <https://swib.org/person/X5712335554604be43ba0fb7c35b3d59c5c91568fa3d21c3af8856c3c6aa4a1bb> a schema:Person .
 <https://swib.org/person/X5712335554604be43ba0fb7c35b3d59c5c91568fa3d21c3af8856c3c6aa4a1bb> schema:name "Monica Marrero" .
 <https://swib.org/person/X5712335554604be43ba0fb7c35b3d59c5c91568fa3d21c3af8856c3c6aa4a1bb> frapo:hasORCID "0000-0002-2359-6340" .
 <https://swib.org/person/X5712335554604be43ba0fb7c35b3d59c5c91568fa3d21c3af8856c3c6aa4a1bb> owl:sameAs <http://orcid.org/0000-0002-2359-6340> .
 <https://swib.org/person/X5712335554604be43ba0fb7c35b3d59c5c91568fa3d21c3af8856c3c6aa4a1bb> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
 
-<https://swib.org/person/Xe4f56d779d71221a27a1d759dd2d68ec9c318106a780d6f7569da422b0d04ad3> a schema:Person .
-<https://swib.org/person/Xe4f56d779d71221a27a1d759dd2d68ec9c318106a780d6f7569da422b0d04ad3> schema:name "Vadim Shestopalov" .
-<https://swib.org/person/Xe4f56d779d71221a27a1d759dd2d68ec9c318106a780d6f7569da422b0d04ad3> schema:affiliation [ a schema:Organization; schema:name "Jewish Heritage Network" ]  .
-
-<https://swib.org/person/Xcde9afacd4471f2ad25ee41c09d7686ee150da03e6e2ad0fa60f4142a1cb19ca> a schema:Person .
-<https://swib.org/person/Xcde9afacd4471f2ad25ee41c09d7686ee150da03e6e2ad0fa60f4142a1cb19ca> schema:name "Oddrun Ohren" .
-<https://swib.org/person/Xcde9afacd4471f2ad25ee41c09d7686ee150da03e6e2ad0fa60f4142a1cb19ca> schema:affiliation [ a schema:Organization; schema:name "National Library of Norway" ]  .
-
-<https://swib.org/person/Xa064b14e092fb4388b3e39463a3c6f1c4b91e8789479a4d887410a2159201318> a schema:Person .
-<https://swib.org/person/Xa064b14e092fb4388b3e39463a3c6f1c4b91e8789479a4d887410a2159201318> schema:name "Valentine Charles" .
-<https://swib.org/person/Xa064b14e092fb4388b3e39463a3c6f1c4b91e8789479a4d887410a2159201318> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
-
-<https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> a schema:Person .
-<https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> schema:name "Nuno Freire" .
-<https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> frapo:hasORCID "0000-0002-3632-8046" .
-<https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> owl:sameAs <http://orcid.org/0000-0002-3632-8046> .
-<https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
-
-<https://swib.org/person/X6393a77465843c411c416c27c78ff499c798ea64e1edeb035222760c52bdfacc> a schema:Person .
-<https://swib.org/person/X6393a77465843c411c416c27c78ff499c798ea64e1edeb035222760c52bdfacc> schema:name "Tobias Bülte" .
-<https://swib.org/person/X6393a77465843c411c416c27c78ff499c798ea64e1edeb035222760c52bdfacc> schema:affiliation [ a schema:Organization; schema:name "hbz, Germany" ]  .
-
-<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> a schema:Person .
-<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> schema:name "Tina Trillitzsch" .
-<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> schema:description '''[Tina](https://leibniz-psychology.org/en/staff/profile-tina-trillitzsch/) wears many hats at the Leibniz Institute for Psychology (ZPID) in Germany. She is in charge of the controlled vocabularies used in the PSYNDEX research literature database, converting existing schemes, creating new ones as needed, and enabling their use in both PSYNDEXER and PsychPorta (new custom cataloging software and search portal, both in development) and the Linked Open Data knowledge graph that will be served in parallel with PsychPorta. Moreover, for PSYNDEXER, she coordinates its Linked-Data friendliness and the migration of existing database records to the new software. For PsychPorta, she is also responsible for exposing the PSYNDEX database as Linked Open Data by developing a BIBFRAME-based metadata scheme. Finally, she applies her background in user-focused computer science to user research and front-end development for PsychPorta.''' .
-<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> frapo:hasORCID "0000-0001-7239-4844" .
-<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> owl:sameAs <http://orcid.org/0000-0001-7239-4844> .
-<https://swib.org/person/X74ad6699398f9ceb780c2442ff7a32113cc058fab06f56e99911f6aca82f1d13> schema:affiliation [ a schema:Organization; schema:name "Leibniz Institute for Psychology (ZPID), Germany" ]  .
-
-<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> a schema:Person .
-<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> schema:name "Florian A. Grässle" .
-<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> schema:description '''[Florian Grässle](https://leibniz-psychology.org/en/staff/profile-florian-graessle/) works as a research engineer at the Leibniz Institute for Psychology (ZPID) in Trier, Germany. There he is in charge of the Linked Open Data infrastructure as well as the PsychPorta search portal. Florian has a background in UX, so he makes sure users' needs are put first.''' .
-<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> frapo:hasORCID "0000-0002-7726-4296" .
-<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> owl:sameAs <http://orcid.org/0000-0002-7726-4296> .
-<https://swib.org/person/Xea02654253d60681bb567559aef37bee7c53e7bd2dd2e6e570c62d5015758e88> schema:affiliation [ a schema:Organization; schema:name "Leibniz Institute for Psychology (ZPID), Germany" ]  .
+<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> a schema:Person .
+<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> schema:name "Kai Labusch" .
+<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> schema:description '''Kai Labusch works as a research fellow in the "Mensch-Maschine-Kultur" project at the Berlin State Library. He studied computer science at the University of Lübeck with a minor in neuro-informatics and bio-mathematics. Based on his work at the Institute for Neuro- and Bioinformatics of the University of Lübeck he received a PhD degree for his thesis titled "Soft-competitive learning of sparse data models". He joined in 2011 the software industry where he applied machine learning methods to NLP problems, process optimization in the steel industry and visualization. In 2019 he came to the Berlin State Library as part of the Qurator team where he focussed on entity recognition and linking as well as image search applications. His publications have been focussed on unsupervised learning for sparse coding with application in image- and audio signal processing and more recently in the field of named entity recognition and linking in historical documents.''' .
+<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> frapo:hasORCID "0000-0002-7275-5483" .
+<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> owl:sameAs <http://orcid.org/0000-0002-7275-5483> .
+<https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> schema:affiliation [ a schema:Organization; schema:name "Berlin State Library, Germany" ]  .
 
 <https://swib.org/person/Xa39ba4cf9bd02308fb8dbb8875971f9d14b1ef108058011be5c32d2540657d7b> a schema:Person .
 <https://swib.org/person/Xa39ba4cf9bd02308fb8dbb8875971f9d14b1ef108058011be5c32d2540657d7b> schema:name "Jason Kovari" .
@@ -316,9 +268,111 @@
 <https://swib.org/person/Xa39ba4cf9bd02308fb8dbb8875971f9d14b1ef108058011be5c32d2540657d7b> owl:sameAs <http://orcid.org/0000-0002-7090-9071> .
 <https://swib.org/person/Xa39ba4cf9bd02308fb8dbb8875971f9d14b1ef108058011be5c32d2540657d7b> schema:affiliation [ a schema:Organization; schema:name "Cornell University, United States of America" ]  .
 
+<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> a schema:Person .
+<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:name "Crystal Yragui" .
+<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:description '''[Crystal Yragui (she/her)](https://github.com/CECSpecialistI) is a cataloguer and member of the Linked Data Team at the University of Washington Libraries in Seattle. Her work focuses on providing high-quality metadata to users in a rapidly changing environment. Crystal has played key roles in the University of Washington’s [LD4P2](https://wiki.lyrasis.org/display/LD4P2) subgrant project, [PCC Wikidata Pilot Project](https://www.wikidata.org/wiki/Wikidata:WikiProject_PCC_Wikidata_Pilot/University_of_Washington), [RDA to BIBFRAME mapping](https://www.lib.washington.edu/cams/swr/rda-rdf-to-bibframe-mapping/view), and [MARC21 to LRM/RDA/RDF mapping](https://github.com/uwlib-cams/MARC2RDA). She is a collaborator on [WikiProject Personal Prounouns](https://www.wikidata.org/wiki/Wikidata:WikiProject_Personal_Pronouns) and is an incoming co-chair of the Program for Cooperative Cataloging (PCC) [Identity Management Advisory Committee (IMAC)](https://www.loc.gov/aba/pcc/advisory/identity-management.html). Crystal holds an MLIS from the University of Washington Information School.''' .
+<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> frapo:hasORCID "0000-0001-5000-282X" .
+<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> owl:sameAs <http://orcid.org/0000-0001-5000-282X> .
+<https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> schema:affiliation [ a schema:Organization; schema:name "University of Washington Libraries, United States of America" ]  .
+
+<https://swib.org/person/Xbf6dd04fc2ce70766e2916fcfac89af31de4b5eca2bc281d712c4221a268a1db> a schema:Person .
+<https://swib.org/person/Xbf6dd04fc2ce70766e2916fcfac89af31de4b5eca2bc281d712c4221a268a1db> schema:name "Eleftheria Tsoupra" .
+<https://swib.org/person/Xbf6dd04fc2ce70766e2916fcfac89af31de4b5eca2bc281d712c4221a268a1db> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
+
+<https://swib.org/person/Xa064b14e092fb4388b3e39463a3c6f1c4b91e8789479a4d887410a2159201318> a schema:Person .
+<https://swib.org/person/Xa064b14e092fb4388b3e39463a3c6f1c4b91e8789479a4d887410a2159201318> schema:name "Valentine Charles" .
+<https://swib.org/person/Xa064b14e092fb4388b3e39463a3c6f1c4b91e8789479a4d887410a2159201318> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
+
+<https://swib.org/person/X10f433740819deb5d1b4e609cb71ddd4a1b5eb8a28a47032f61042ca98801c8f> a schema:Person .
+<https://swib.org/person/X10f433740819deb5d1b4e609cb71ddd4a1b5eb8a28a47032f61042ca98801c8f> schema:name "Stefan Peters" .
+<https://swib.org/person/X10f433740819deb5d1b4e609cb71ddd4a1b5eb8a28a47032f61042ca98801c8f> schema:affiliation [ a schema:Organization; schema:name "VZG, Germany" ]  .
+
+<https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> a schema:Person .
+<https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> schema:name "Christian Hauschke" .
+<https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> frapo:hasORCID "0000-0003-2499-7741" .
+<https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> owl:sameAs <http://orcid.org/0000-0003-2499-7741> .
+<https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> schema:affiliation [ a schema:Organization; schema:name "Technische Informationsbibliothek (TIB), Germany" ]  .
+
+<https://swib.org/person/X48b9e2a998350f5e6372b4c3137696ede171dcbfb53886fece445775c8fd5167> a schema:Person .
+<https://swib.org/person/X48b9e2a998350f5e6372b4c3137696ede171dcbfb53886fece445775c8fd5167> schema:name "Lianne Heslinga" .
+<https://swib.org/person/X48b9e2a998350f5e6372b4c3137696ede171dcbfb53886fece445775c8fd5167> schema:affiliation [ a schema:Organization; schema:name "Europeana Foundation, The Netherlands" ]  .
+
+<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> a schema:Person .
+<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> schema:name "Lena-Luise Stahn" .
+<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> schema:description '''With degrees in classical archaeology, library and information science and computer science Lena-Luise Stahn has worked in several information infrastructure and digital humanities projects. At present, she is a staff member of the DH-Team at Bergische Universität Wuppertal, and works for the Digital Edition project "Niklas Luhmann – Theory as passion", mainly taking care of the entire technical side. Aside from that she is pursuing a dissertation in the field of knowledge organization and ontology engineering in estates.''' .
+<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> frapo:hasORCID "0000-0003-1298-5145" .
+<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> owl:sameAs <http://orcid.org/0000-0003-1298-5145> .
+<https://swib.org/person/X04ec5baae9ca005d4fc310930e8e6effb8dbd093b05c379192a61608eda4a0c6> schema:affiliation [ a schema:Organization; schema:name "Bergische Universität Wuppertal, Germany" ]  .
+
+<https://swib.org/person/Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650> a schema:Person .
+<https://swib.org/person/Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650> schema:name "Bob Coret" .
+<https://swib.org/person/Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650> frapo:hasORCID "0000-0002-7328-1312" .
+<https://swib.org/person/Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650> owl:sameAs <http://orcid.org/0000-0002-7328-1312> .
+<https://swib.org/person/Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650> schema:affiliation [ a schema:Organization; schema:name "National Library of the Netherlands / Dutch Digital Heritage Network" ]  .
+
+<https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> a schema:Person .
+<https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> schema:name "Jose Francisco Salm Junior" .
+<https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> frapo:hasORCID "0000-0002-8492-1645" .
+<https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> owl:sameAs <http://orcid.org/0000-0002-8492-1645> .
+<https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> schema:affiliation [ a schema:Organization; schema:name "Universidade Federal de Santa Catarina, Brazil" ]  .
+
 
 <https://swib.org/swib23/conference> a swc:ConferenceEvent, schema:Event .
 
+
+<https://swib.org/swib23/session/S4> a swc:SessionEvent, schema:Event .
+<https://swib.org/swib23/session/S4> schema:superEvent <https://swib.org/swib23/conference> .
+<https://swib.org/swib23/session/S4> schema:name "Data Modelling" .
+<https://swib.org/swib23/session/S4> schema:startDate "2023-09-12" .
+
+<https://swib.org/swib23/contribution/108> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/108> schema:featuredAt <https://swib.org/swib23/session/S4> .
+<https://swib.org/swib23/contribution/108> schema:name "Hollinger's Box: The retrieval object at the edge of the ontology" .
+<https://swib.org/swib23/contribution/108> schema:abstract '''This presentation examines the extent to which recent and emerging linked data ontologies for archival description allow for a deliberate "contact zone" between intellectual and physical description of archival resources. We define as the contact zone the descriptive space occupied by the retrieval object: the place where the handoff occurs between a discovery system and an administrative system concerned with object management. Archival resources, due to their aggregate and unattested nature, present specific descriptive challenges not shared by other domains within cultural resource description. More often than not, archival resources are represented in intellectual groupings in a way that contextualizes their meaning, while being housed and shelved opportunistically in nested containers in a way that minimizes their footprint, thereby dissociating their physical presence from their intellectual groupings. As a result, the intellectual object identified and requested by a researcher rarely maps one-to-one to the retrieval object stored and paged by a repository.
+
+In this presentation, we examine three recent or emerging linked data standards for archival resources – Records in Contexts, the Art and Rare Materials BIBFRAME extension, and Linked.Art – from the perspective of facilitating retrieval. To what extent do these graphs either engage with the concept of the retrieval object directly or position their edge as a contact zone that may seamlessly integrate with external models defining such an object? How comfortably do the graphs map onto current community practices for handling the ultimate goal of our researchers: getting their hands on the box?''' .
+<https://swib.org/swib23/contribution/108> schema:author <https://swib.org/person/X0d3dc6cfa15cc2c71ed6aa14e73733d4704ade78b76b646d31f5037f9ffceb26> .
+<https://swib.org/swib23/contribution/108> schema:author <https://swib.org/person/Xad5d7f16f7e1fc14edc7713c9829d51c4bdacc00dd0afeb42fcba2913d72063c> .
+
+<https://swib.org/swib23/contribution/104> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/104> schema:featuredAt <https://swib.org/swib23/session/S4> .
+<https://swib.org/swib23/contribution/104> schema:name "Development of the Share-VDE ontology: goals, principles, and process" .
+<https://swib.org/swib23/contribution/104> schema:abstract '''Share-VDE (SVDE) is a library-driven initiative which brings together the bibliographic catalogues and authority files of a community of libraries in a shared discovery environment based on the linked data ontology BIBFRAME. The SVDE Ontology is an extension to BIBFRAME. The design choices for the SVDE ontology support discovery tasks in the federated linked data environment. This presentation describes the ontology design process, goals, and principles. The overall goals for the SVDE ontology are: 1) the use of the web ontology language (OWL) to publish the classes, properties and constraints that are used in the SVDE environment; 2) to clarify the relationship among Share-VDE entities and other linked data vocabularies and ontologies, and 3) to provide internal (to SVDE) and external (to Library of Congress BIBFRAME) consistency and clarity to classes and properties used in the discovery layer of SVDE. The SVDE ontology is not intended to be a complete departure from BIBFRAME nor is it intended to be an all-new ontology, rather, it is based in BIBFRAME and SVDE is an extension. An overarching design principle is to re-use existing vocabularies wherever possible to reduce complexity of the SVDE ontology. The ontology editing process began by evaluating existing SVDE classes and documenting in OWL; moving next to properties; finally, the process concluded by evaluating any needed restrictions for entities. Entities discussed in this presentation which are novel to SVDE include svde:Opus; svde:Work, and the property svde:hasExpression. The SVDE ontology is interoperable among bibliographic models by using direct references among BIBFRAME, LRM, and RDA entity sets. Interoperability is achieved by asserting that bibliographic entities are described by attribute sets.''' .
+<https://swib.org/swib23/contribution/104> schema:author <https://swib.org/person/Xf2fed43e2ded7e565d355e6c7d1532616e1c356c447889d4c84729634ade11d5> .
+<https://swib.org/swib23/contribution/104> schema:author <https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> .
+<https://swib.org/swib23/contribution/104> schema:author <https://swib.org/person/Xcde9afacd4471f2ad25ee41c09d7686ee150da03e6e2ad0fa60f4142a1cb19ca> .
+
+<https://swib.org/swib23/session/S7> a swc:SessionEvent, schema:Event .
+<https://swib.org/swib23/session/S7> schema:superEvent <https://swib.org/swib23/conference> .
+<https://swib.org/swib23/session/S7> schema:name "Aggregators" .
+<https://swib.org/swib23/session/S7> schema:startDate "2023-09-13" .
+
+<https://swib.org/swib23/contribution/114> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/114> schema:featuredAt <https://swib.org/swib23/session/S7> .
+<https://swib.org/swib23/contribution/114> schema:name "FranceArchives a portal for the French archives" .
+<https://swib.org/swib23/contribution/114> schema:abstract '''[FranceArchives](https://francearchives.gouv.fr/) is an online aggregator portal designed to provide a single access point to metadata of about 140 French archival institutions. Based on CubicWeb, an open source software, it allows archivists to import archival metadata, publish articles, etc. Researchers, students, genealogy enthusiasts can search above 21 millions of documents. The authorities (people, institutions, places, themes) indexed in the archives are semi-automatically aligned with linked open data repositories (geonames, wikidata, data.culture.fr). This allows disambiguation and cross-referencing of archival data from different sources. The portal information on the authorities is enriched thanks to these alignments. To integrate FranceArchives into the linked open data cloud, the data is also published in RDF, described in the Records In Contexts ontology (RiC-O). [Records in Contexts](https://www.ica.org/en/records-in-contexts-conceptual-model) is a new standard promoted by the International Council on Archives to reconcile the current four standards of description. FranceArchives is one of the first projects to use this standard at such a large scale with success. It is also one of the first archival data repository of this size published as linked open data. A SPARQL endpoint is currently being set up to make the data queryable.''' .
+<https://swib.org/swib23/contribution/114> schema:author <https://swib.org/person/Xc133e5f3235db9c9c47734cfd3dcf661827b1ef51a90c7aa7dc3651f4f9d7808> .
+<https://swib.org/swib23/contribution/114> schema:author <https://swib.org/person/X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65> .
+<https://swib.org/swib23/contribution/114> schema:author <https://swib.org/person/Xd3c6d3fc39cda3bc7a621ab146e5fd3a853577026c2fe88454ad78893022b577> .
+<https://swib.org/swib23/contribution/114> schema:author <https://swib.org/person/X2dc37eac0cc56df8a6b51a14827492a67b9494e09507ad5e0aad85ecc8802470> .
+
+<https://swib.org/swib23/contribution/138> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/138> schema:featuredAt <https://swib.org/swib23/session/S7> .
+<https://swib.org/swib23/contribution/138> schema:name "Towards a methodology for validation of metadata enrichments in Europeana" .
+<https://swib.org/swib23/contribution/138> schema:abstract '''Metadata enrichment is a powerful way to augment the description of cultural heritage entities, improving data discoverability and supporting end-users in having access to critical context for a given entity. In the Europeana network, several aggregators and projects aim to enrich metadata and/or content for cultural heritage objects that they provide to Europeana. This includes semantic tagging using linked open data vocabularies, translations, transcriptions, etc. A variety of processes are used to produce enrichments, from fully manual (e.g., using crowdsourcing) to fully automatic (e.g., geo-enrichment), and these will vary in terms of quality, reliability and informational value. Therefore, before the enrichments can be integrated into the Europeana services, they must be validated. If the appropriate acceptance criteria are not met, the enrichments should either be rejected or pushed back for improvement.
+
+Europeana is defining a general methodology to assess the overall quality of the enrichments produced by a project or a tool. This methodology does not need to aim at global accept/reject decisions – it can, for example, help to select a subset of the produced enrichments that is deemed trustable enough. The validation efforts may be carried out by members/partners of the network or by the Europeana Foundation – ideally both being involved in some way. Although many projects are prepared so as to include an evaluation effort to assess the quality of the enrichments they produce, Europeana Foundation as the operator of the Europeana service, has the final responsibility for the quality of Europeana's data, therefore it should always be involved in the final vetting. This presentation will introduce the methodology and describe the outcomes of its first application to validate the geo-enrichments provided by the Jewish History Tours project.''' .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X8f957d7f7d5690d75cb4a4117e960aa20e007b415eff5524bdb963062f1f627e> .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/Xc24122340ea1c2078939ea57ee2f0c245240928076fe0f1d16b1c4e1c4540603> .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/Xa064b14e092fb4388b3e39463a3c6f1c4b91e8789479a4d887410a2159201318> .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X5712335554604be43ba0fb7c35b3d59c5c91568fa3d21c3af8856c3c6aa4a1bb> .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/Xbf6dd04fc2ce70766e2916fcfac89af31de4b5eca2bc281d712c4221a268a1db> .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/Xd593be5add133a71c13d14b27fb364cf7b53c7d490110fdbefc418760f72c58c> .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X3b54eaacf869c6afe4a20402e949f2ccaf5a5db83c5e5e194f2f948264a46c2a> .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X48b9e2a998350f5e6372b4c3137696ede171dcbfb53886fece445775c8fd5167> .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X76c091f3dd02ffb5fc272e85566234afc056432f610a3145e61dfba95db1d691> .
+<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/Xe4f56d779d71221a27a1d759dd2d68ec9c318106a780d6f7569da422b0d04ad3> .
 
 <https://swib.org/swib23/session/S3a> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib23/session/S3a> schema:superEvent <https://swib.org/swib23/conference> .
@@ -365,35 +419,48 @@ SoVisu+ is a project aimed at developing a modular, open-source, and shared Curr
 <https://swib.org/swib23/contribution/174> schema:author <https://swib.org/person/X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8> .
 <https://swib.org/swib23/contribution/174> schema:author <https://swib.org/person/X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8> .
 
-<https://swib.org/swib23/session/S2> a swc:SessionEvent, schema:Event .
-<https://swib.org/swib23/session/S2> schema:superEvent <https://swib.org/swib23/conference> .
-<https://swib.org/swib23/session/S2> schema:name "Authorities" .
-<https://swib.org/swib23/session/S2> schema:startDate "2023-09-12" .
+<https://swib.org/swib23/session/P1> a swc:SessionEvent, schema:Event .
+<https://swib.org/swib23/session/P1> schema:superEvent <https://swib.org/swib23/conference> .
+<https://swib.org/swib23/session/P1> schema:name "Satellite Event" .
+<https://swib.org/swib23/session/P1> schema:startDate "2023-09-11" .
 
-<https://swib.org/swib23/contribution/120> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/120> schema:featuredAt <https://swib.org/swib23/session/S2> .
-<https://swib.org/swib23/contribution/120> schema:name "Supporting sustainable lookup services" .
-<https://swib.org/swib23/contribution/120> schema:abstract '''As presented at previous SWIB conferences, the [LD4P Authority Lookup Service](https://lookup.ld4l.org/), maintained by Cornell University Library, is designed to be a translation layer that provides an easily consumable normalized API response when searching across multiple authority data sources.
+<https://swib.org/swib23/contribution/134> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/134> schema:featuredAt <https://swib.org/swib23/session/P1> .
+<https://swib.org/swib23/contribution/134> schema:name "VIVO meetup" .
+<https://swib.org/swib23/contribution/134> schema:abstract '''VIVO is a linked data based research information system. This collocated event serves as a user meeting of the VIVO community to discuss current concerns and deepen cooperation. Topics of concern include improving the ontologies to describe research projects and funding, and mapping initiatives for example with the CERIF community. Anyone interested in research information systems and related ontologies (KDSF, Lattes, PTCris, ROH/Hercules, VIVO) is welcome. The meeting will be held in English. Agenda and meeting notes: [link](https://pad.gwdg.de/vivo_swib23)''' .
+<https://swib.org/swib23/contribution/134> schema:author <https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> .
+<https://swib.org/swib23/contribution/134> schema:author <https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> .
 
-This presentation will reflect on [Linked Data For Production] (https://wiki.lyrasis.org/display/LD4P3)'s recent efforts to more sustainably support lookups in Sinopia (an RDF cataloguing tool, [https://sinopia.io/](https://sinopia.io/)), and share what we have learned about the requirements for robust lookup services. We will describe the opportunities and challenges of relying on caching for lookups, and explain how the significant maintenance costs associated with caching a large number of authorities led us to a no-cache approach, where we instead translate existing authority search APIs into a normalized response. We maintain hope that cache-based lookup services will be feasible for vendors and consortia to support. To this end, and based on the persistent challenge we faced with keeping cached data current, this talk will also describe an [API specification](https://github.com/LD4/entity_metadata_management) we are developing to as a possible way to standardize how data providers communicate changes to their data more frequently than periodic data dumps.''' .
-<https://swib.org/swib23/contribution/120> schema:author <https://swib.org/person/X233a86cd1508b481b813efcf1b99f463f69efc4145ecb5e230085146f4767290> .
+<https://swib.org/swib23/session/S5> a swc:SessionEvent, schema:Event .
+<https://swib.org/swib23/session/S5> schema:superEvent <https://swib.org/swib23/conference> .
+<https://swib.org/swib23/session/S5> schema:name "Utilizing Wikimedia" .
+<https://swib.org/swib23/session/S5> schema:startDate "2023-09-13" .
 
-<https://swib.org/swib23/contribution/125> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/125> schema:featuredAt <https://swib.org/swib23/session/S2> .
-<https://swib.org/swib23/contribution/125> schema:name "Network of Terms: bringing links to your data" .
-<https://swib.org/swib23/contribution/125> schema:abstract '''How can you find information in heterogeneous linked data sources, available at different locations and managed by different owners? At the [Dutch Digital Heritage Network](https://netwerkdigitaalerfgoed.nl/) we developed a federated querying service to solve this problem: [the Network of Terms](https://termennetwerk.netwerkdigitaalerfgoed.nl/). We encourage cultural institutions to publish their data as Linked Data and assign standardized terms to their digital heritage information. Terms are standardized descriptions of concepts or entities that make heritage easier to find for anyone interested in it. Yet it is quite a challenge for institutions to use these terms, because the sources in which the terms are managed – such as thesauri and reference lists – have different API protocols and data models.
+<https://swib.org/swib23/contribution/110> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/110> schema:featuredAt <https://swib.org/swib23/session/S5> .
+<https://swib.org/swib23/contribution/110> schema:name "From EAD to MARC to Wikidata and back again: tools and workflows for archival metadata at the University of Washington libraries" .
+<https://swib.org/swib23/contribution/110> schema:abstract '''The Labor Archives of Washington (LAW) is a collaboration between the University of Washington Libraries (UWL) and the Harry Bridges Center for Labor Studies with support from the local labour community. With over two hundred collections, the archive is one of the largest repositories for labour materials in the United States. Since 2020, UWL has been finding creative ways to integrate traditional library metadata for archival collections into Wikidata. The goal of this work is to better serve researchers by contributing linked open data to Wikidata and to link back from Wikidata to local library metadata.
 
-The Network of Terms removes these barriers. It is a service that searches linked data sources in a federative way using the [Comunica framework](https://comunica.dev/). It has a unified SKOS based on GraphQL API that can be easily implemented in collection registration or other systems. It searches the sources for matching terms – real time, with SPARQL. The Network of Terms is published as [open source](https://github.com/netwerk-digitaal-erfgoed/network-of-terms) and its API is already integrated in five commercial systems and one open source system for collection registration. It also provides a reconcilation API for use in OpenRefine and other tools. The Network of Terms has been already adopted widely in the cultural heritage domain in the Netherlands but we think it has potential for use in other countries and domains too and we would like to present our tool for the SWIB audience.''' .
-<https://swib.org/swib23/contribution/125> schema:author <https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> .
+The presenters will describe semi-automated workflows for the creation of Wikidata items for the people, organizations, and collections in LAW. EAD finding aids are used to generate Wikidata items for agents using Python and OpenRefine. The EAD is also used to generate MARC bibliographic records for the collections, which are then mapped to Wikidata using MarcEdit and OpenRefine. The presenters will also discuss the creation and implementation of a new Wikidata property for Archives West finding aid identifiers and the UWL Wikidata application profile for archival collections. Finally, presenters will share several workflows for interlinking MARC records, library authority records, archival finding aids, Wikipedia articles, and Wikidata items using open source tools such as MarcEdit, OpenRefine, and Quickstatements.''' .
+<https://swib.org/swib23/contribution/110> schema:author <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> .
+<https://swib.org/swib23/contribution/110> schema:author <https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> .
 
-<https://swib.org/swib23/contribution/106> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/106> schema:featuredAt <https://swib.org/swib23/session/S2> .
-<https://swib.org/swib23/contribution/106> schema:name "Wikibase as an institutional repository authority file" .
-<https://swib.org/swib23/contribution/106> schema:abstract '''The Berkeley Law Library manages the institutional repository (IR) for Berkeley Law. The IR is part of the institutional TIND integrated library system (ILS). Since these systems are linked through many shared functionalities, we explored various options for creating authority records for the IR that wouldn’t interfere with the ILS authority records file. Prior to this effort, there were no authority records for the IR and all data was added manually which created a great potential for data to be out of sync.
+<https://swib.org/swib23/contribution/116> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/116> schema:featuredAt <https://swib.org/swib23/session/S5> .
+<https://swib.org/swib23/contribution/116> schema:name "Developing a linked data workflow using Wikidata" .
+<https://swib.org/swib23/contribution/116> schema:abstract '''As Wikidata becomes a more popular hub for linked data for libraries and the whole internet, more and more linked data projects use Wikidata. As a decentralized, open source, community-oriented platform, there is no manual for Wikidata work. On one hand this is a relief as it encourages any approach to projects and linked data. On the other hand, it can be overwhelming to start, execute, and finish a project. This presentation will explore some essential takeaways from several project-oriented Wikidata courses.
 
-For the past 5 years, we have been using Wikidata QIDs as Berkeley Law faculty identifiers in the IR. In order to maintain consistency, we used the Wikidata API to create an external HTML page used to gather a handful of properties for each QID in the IR which would make manual entry easier and more consistent. In the past 6 months, the IR platform had an authority file update which motivated us to move away from a spreadsheet approach to managing the structure of these records to a more linked data friendly and dynamic method. We created a Wikibase using the wikibase.cloud platform to host this data and explore the potential of using our own Wikibase for internal applications. This instance helps us track data that is more local to our needs while also maintaining connections to other data sources. Entity modification timestamps and revision IDs are used to determine whether or not to initiate an update to our wikibase or to wikidata itself. Updates are limited to a controlled list of properties, such as Library of Congress identifiers, ORCiD, CV, etc. Directionality of particular properties is governed at the application level by the narrative logic of the script.''' .
-<https://swib.org/swib23/contribution/106> schema:author <https://swib.org/person/Xb31c3e894844fb8071c393c9028ffb2a9a229b622091f40be1f6f0595d50eeac> .
-<https://swib.org/swib23/contribution/106> schema:author <https://swib.org/person/X261ceae03d33fc70923efc7b6a4522a733a1fb440cc192154ca12ee03ec39bf0> .
+These courses gather together several library professionals in an effort to create a working community around project-based work. The nature of these projects is diverse – every collection and institution has their own way of setting goals, scoping the work, collection specifics, and how staff can engage with these projects. Drawing on the experience of these participants, we have identified some universal recommendations for realizing Wikidata projects. Embedded in these takeaways are broader themes of linked data education and training around crowdsourcing data models, contributing to community ontologies, and collaboration across collections. Rather than a prescribed set of steps, the conclusions of this presentation are meant to serve as a toolkit for anyone at any point of Wikidata work at their library. In sharing with this community it is our hope we can foster more project work and begin address some of the systemic bias and major content gaps on Wikidata. We also hope to encourage more interest in linked data, its applications, and its adoption into new institutions, tools, and research.''' .
+<https://swib.org/swib23/contribution/116> schema:author <https://swib.org/person/X5b7755a5b3315bc219b87c2815e3021e5bbedb70843ad97f579458d6b9609dab> .
+
+<https://swib.org/swib23/contribution/121> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/121> schema:featuredAt <https://swib.org/swib23/session/S5> .
+<https://swib.org/swib23/contribution/121> schema:name "Entity linking historical document OCR by combining Wikidata and Wikipedia" .
+<https://swib.org/swib23/contribution/121> schema:abstract '''Named entities like persons, locations and organisations are a prominent target for search in digitized collections. While named entity recognition can be used to automatically detect named entities in texts, through the additional disambiguation and linking of the entities to authority files their usability for retrieval and linking to other sources is significantly improved.
+
+We used Wikidata to construct a comprehensive knowledge-base that holds information on linkable entities and combined it with a Wikipedia-derived corpus of text references that can be used by a neural network-based entity linking system to find references of entities in historical German texts. We demonstrate the feasibility of the approach on ~5,000,000 pages of historical German texts obtained by OCR and show how the entity linking results can be used to group the entire historical text corpus by latent dirichlet allocation. All software components are also released as open source for others to adapt and reuse.''' .
+<https://swib.org/swib23/contribution/121> schema:author <https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> .
+<https://swib.org/swib23/contribution/121> schema:author <https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> .
 
 <https://swib.org/swib23/session/P2> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib23/session/P2> schema:superEvent <https://swib.org/swib23/conference> .
@@ -449,6 +516,36 @@ In this workshop, participants will create and execute a complete cycle of metad
 <https://swib.org/swib23/contribution/140> schema:author <https://swib.org/person/X1d181a501799920d70be14d24d158d7f298db7aae105a95a64e0bdc71efbb80f> .
 <https://swib.org/swib23/contribution/140> schema:author <https://swib.org/person/X6e8bdb2be668f7b61130d9cc8e265149b915b64960ea9eab7614ff8d40f2da54> .
 
+<https://swib.org/swib23/session/S2> a swc:SessionEvent, schema:Event .
+<https://swib.org/swib23/session/S2> schema:superEvent <https://swib.org/swib23/conference> .
+<https://swib.org/swib23/session/S2> schema:name "Authorities" .
+<https://swib.org/swib23/session/S2> schema:startDate "2023-09-12" .
+
+<https://swib.org/swib23/contribution/120> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/120> schema:featuredAt <https://swib.org/swib23/session/S2> .
+<https://swib.org/swib23/contribution/120> schema:name "Supporting sustainable lookup services" .
+<https://swib.org/swib23/contribution/120> schema:abstract '''As presented at previous SWIB conferences, the [LD4P Authority Lookup Service](https://lookup.ld4l.org/), maintained by Cornell University Library, is designed to be a translation layer that provides an easily consumable normalized API response when searching across multiple authority data sources.
+
+This presentation will reflect on [Linked Data For Production] (https://wiki.lyrasis.org/display/LD4P3)'s recent efforts to more sustainably support lookups in Sinopia (an RDF cataloguing tool, [https://sinopia.io/](https://sinopia.io/)), and share what we have learned about the requirements for robust lookup services. We will describe the opportunities and challenges of relying on caching for lookups, and explain how the significant maintenance costs associated with caching a large number of authorities led us to a no-cache approach, where we instead translate existing authority search APIs into a normalized response. We maintain hope that cache-based lookup services will be feasible for vendors and consortia to support. To this end, and based on the persistent challenge we faced with keeping cached data current, this talk will also describe an [API specification](https://github.com/LD4/entity_metadata_management) we are developing to as a possible way to standardize how data providers communicate changes to their data more frequently than periodic data dumps.''' .
+<https://swib.org/swib23/contribution/120> schema:author <https://swib.org/person/X233a86cd1508b481b813efcf1b99f463f69efc4145ecb5e230085146f4767290> .
+
+<https://swib.org/swib23/contribution/125> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/125> schema:featuredAt <https://swib.org/swib23/session/S2> .
+<https://swib.org/swib23/contribution/125> schema:name "Network of Terms: bringing links to your data" .
+<https://swib.org/swib23/contribution/125> schema:abstract '''How can you find information in heterogeneous linked data sources, available at different locations and managed by different owners? At the [Dutch Digital Heritage Network](https://netwerkdigitaalerfgoed.nl/) we developed a federated querying service to solve this problem: [the Network of Terms](https://termennetwerk.netwerkdigitaalerfgoed.nl/). We encourage cultural institutions to publish their data as Linked Data and assign standardized terms to their digital heritage information. Terms are standardized descriptions of concepts or entities that make heritage easier to find for anyone interested in it. Yet it is quite a challenge for institutions to use these terms, because the sources in which the terms are managed – such as thesauri and reference lists – have different API protocols and data models.
+
+The Network of Terms removes these barriers. It is a service that searches linked data sources in a federative way using the [Comunica framework](https://comunica.dev/). It has a unified SKOS based on GraphQL API that can be easily implemented in collection registration or other systems. It searches the sources for matching terms – real time, with SPARQL. The Network of Terms is published as [open source](https://github.com/netwerk-digitaal-erfgoed/network-of-terms) and its API is already integrated in five commercial systems and one open source system for collection registration. It also provides a reconcilation API for use in OpenRefine and other tools. The Network of Terms has been already adopted widely in the cultural heritage domain in the Netherlands but we think it has potential for use in other countries and domains too and we would like to present our tool for the SWIB audience.''' .
+<https://swib.org/swib23/contribution/125> schema:author <https://swib.org/person/X7b154e9e21ff33df24142bd521d11e44ec6c913cb01a1b4b4edd50861b713795> .
+
+<https://swib.org/swib23/contribution/106> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/106> schema:featuredAt <https://swib.org/swib23/session/S2> .
+<https://swib.org/swib23/contribution/106> schema:name "Wikibase as an institutional repository authority file" .
+<https://swib.org/swib23/contribution/106> schema:abstract '''The Berkeley Law Library manages the institutional repository (IR) for Berkeley Law. The IR is part of the institutional TIND integrated library system (ILS). Since these systems are linked through many shared functionalities, we explored various options for creating authority records for the IR that wouldn’t interfere with the ILS authority records file. Prior to this effort, there were no authority records for the IR and all data was added manually which created a great potential for data to be out of sync.
+
+For the past 5 years, we have been using Wikidata QIDs as Berkeley Law faculty identifiers in the IR. In order to maintain consistency, we used the Wikidata API to create an external HTML page used to gather a handful of properties for each QID in the IR which would make manual entry easier and more consistent. In the past 6 months, the IR platform had an authority file update which motivated us to move away from a spreadsheet approach to managing the structure of these records to a more linked data friendly and dynamic method. We created a Wikibase using the wikibase.cloud platform to host this data and explore the potential of using our own Wikibase for internal applications. This instance helps us track data that is more local to our needs while also maintaining connections to other data sources. Entity modification timestamps and revision IDs are used to determine whether or not to initiate an update to our wikibase or to wikidata itself. Updates are limited to a controlled list of properties, such as Library of Congress identifiers, ORCiD, CV, etc. Directionality of particular properties is governed at the application level by the narrative logic of the script.''' .
+<https://swib.org/swib23/contribution/106> schema:author <https://swib.org/person/Xb31c3e894844fb8071c393c9028ffb2a9a229b622091f40be1f6f0595d50eeac> .
+<https://swib.org/swib23/contribution/106> schema:author <https://swib.org/person/X261ceae03d33fc70923efc7b6a4522a733a1fb440cc192154ca12ee03ec39bf0> .
+
 <https://swib.org/swib23/session/S1> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib23/session/S1> schema:superEvent <https://swib.org/swib23/conference> .
 <https://swib.org/swib23/session/S1> schema:name "Opening" .
@@ -475,17 +572,35 @@ In this workshop, participants will create and execute a complete cycle of metad
 The agile project between NLB and commercial parters (utilizing a cloud-based environment hosting a semantic graph database, a knowledge graph development & management platform, and server-less compute services) overcame many interesting challenges, including the absence of a single source of truth. The requirements were to provide a continuously updated, reconciled, aggregation of data sources, providing a standardized view of five separate source data systems, each with their individual data formats, data models and curation teams, i.e., a data model capable of supporting a public discovery interface, which required the development of a model that provides a consistent view of all entities regardless of source system. This was constructed using combination of the BIBFRAME and Schema.org vocabularies and involved a data model capable of supporting the consolidated presentation of properties from multiple sources in single primary entities, automatic ingest and reconciliation of daily delta data dumps from source systems, and managing a project team spread across multiple geographies and timezones. There were lessons learnt and practical future plans made, which Richard will also discuss.''' .
 <https://swib.org/swib23/contribution/118> schema:author <https://swib.org/person/X2f59d49c78d886bf95d8e6a8d0d7095973e0e75cb7c2dbf2d7b0cac2c1b5696f> .
 
-<https://swib.org/swib23/session/P1> a swc:SessionEvent, schema:Event .
-<https://swib.org/swib23/session/P1> schema:superEvent <https://swib.org/swib23/conference> .
-<https://swib.org/swib23/session/P1> schema:name "Satellite Event" .
-<https://swib.org/swib23/session/P1> schema:startDate "2023-09-11" .
+<https://swib.org/swib23/session/S3> a swc:SessionEvent, schema:Event .
+<https://swib.org/swib23/session/S3> schema:superEvent <https://swib.org/swib23/conference> .
+<https://swib.org/swib23/session/S3> schema:name "Lightning Talks" .
+<https://swib.org/swib23/session/S3> schema:startDate "2023-09-12" .
 
-<https://swib.org/swib23/contribution/134> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/134> schema:featuredAt <https://swib.org/swib23/session/P1> .
-<https://swib.org/swib23/contribution/134> schema:name "VIVO meetup" .
-<https://swib.org/swib23/contribution/134> schema:abstract '''VIVO is a linked data based research information system. This collocated event serves as a user meeting of the VIVO community to discuss current concerns and deepen cooperation. Topics of concern include improving the ontologies to describe research projects and funding, and mapping initiatives for example with the CERIF community. Anyone interested in research information systems and related ontologies (KDSF, Lattes, PTCris, ROH/Hercules, VIVO) is welcome. The meeting will be held in English. Agenda and meeting notes: [link](https://pad.gwdg.de/vivo_swib23)''' .
-<https://swib.org/swib23/contribution/134> schema:author <https://swib.org/person/X27a270f7363d79d1c8ad68fce178cac6d8ddf28d3891e47764503030bebd8dba> .
-<https://swib.org/swib23/contribution/134> schema:author <https://swib.org/person/Xdfd096b379e0f4de6f72b6a313a5f87f8be9e937392bed12b98d4bee0c11fde2> .
+<https://swib.org/swib23/contribution/175> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/175> schema:featuredAt <https://swib.org/swib23/session/S3> .
+<https://swib.org/swib23/contribution/175> schema:name "paprika.idref.fr" .
+<https://swib.org/swib23/contribution/175> schema:author <https://swib.org/person/X881c2cbe6eef28fb1d4b891ebe141e29884dc47ce7368f06257cb5173cd19e80> .
+
+<https://swib.org/swib23/contribution/176> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/176> schema:featuredAt <https://swib.org/swib23/session/S3> .
+<https://swib.org/swib23/contribution/176> schema:name "Extracting metadata from grey literature using large language models" .
+<https://swib.org/swib23/contribution/176> schema:author <https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> .
+
+<https://swib.org/swib23/contribution/177> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/177> schema:featuredAt <https://swib.org/swib23/session/S3> .
+<https://swib.org/swib23/contribution/177> schema:name "Integrating Network of Terms into Cocoda Mapping Tool" .
+<https://swib.org/swib23/contribution/177> schema:author <https://swib.org/person/X10f433740819deb5d1b4e609cb71ddd4a1b5eb8a28a47032f61042ca98801c8f> .
+
+<https://swib.org/swib23/contribution/178> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/178> schema:featuredAt <https://swib.org/swib23/session/S3> .
+<https://swib.org/swib23/contribution/178> schema:name "openglam-de@lists.wikimedia.org – New Mailing list on Wikimedia for Galleries, Libraries, Archives, Museums from German speaking Countries" .
+<https://swib.org/swib23/contribution/178> schema:author <https://swib.org/person/X346eaac73941fada47714f3da7629f82b4b65107339bd1c4a55bf29170162790> .
+
+<https://swib.org/swib23/contribution/179> a schema:CreativeWork .
+<https://swib.org/swib23/contribution/179> schema:featuredAt <https://swib.org/swib23/session/S3> .
+<https://swib.org/swib23/contribution/179> schema:name "Recent SkoHub developments" .
+<https://swib.org/swib23/contribution/179> schema:author <https://swib.org/person/X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c> .
 
 <https://swib.org/swib23/session/S6> a swc:SessionEvent, schema:Event .
 <https://swib.org/swib23/session/S6> schema:superEvent <https://swib.org/swib23/conference> .
@@ -517,118 +632,3 @@ To describe the items in alignment with standards of cultural data description a
 <https://swib.org/swib23/contribution/131> schema:abstract '''The German Digital Library (DDB) contains a vast collection of over 45 million digitized objects from more than 400 memory institutions across Germany, making it both voluminous and heterogeneous. This presentation includes a discussion of the results of our data analysis on the metadata of digitized objects in the library sector, taking into account the historical background of bibliographic cataloguing, with a particular focus on determining the languages, content, and length of the metadata’s descriptive attributes in the context of the French revolution when the card catalogue was developed. The presentation also covers the results of automatic evaluation of metadata quality, according to metrics such as completeness, accuracy, conformance, consistency, and coherence. This evaluation highlights the extent to which semantic web technologies, namely linked open data and controlled vocabularies, were employed in the DDB. The ultimate goal is to improve the searchability of the DDB collection. With this goal, the presentation includes a demonstration of the advantages of FRBR-ization of DDB’s bibliographic dataset in terms of searchability. This presentation concludes with a discussion of the challenges of the aforementioned proposal, as well as solutions for each of the identified challenges, taking into consideration the recent and rapid developments in the research fields of natural language processing, machine learning, and knowledge graph embeddings.''' .
 <https://swib.org/swib23/contribution/131> schema:author <https://swib.org/person/X459e0d4873e36a50a21cfefd59555d7e13abbcb285f1b2a44076013a09210307> .
 <https://swib.org/swib23/contribution/131> schema:author <https://swib.org/person/X4509cd011de2c65a35cdcc877b93b7b2eb7d880fc6094be061fc6b17aa99ed7a> .
-
-<https://swib.org/swib23/session/S7> a swc:SessionEvent, schema:Event .
-<https://swib.org/swib23/session/S7> schema:superEvent <https://swib.org/swib23/conference> .
-<https://swib.org/swib23/session/S7> schema:name "Aggregators" .
-<https://swib.org/swib23/session/S7> schema:startDate "2023-09-13" .
-
-<https://swib.org/swib23/contribution/114> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/114> schema:featuredAt <https://swib.org/swib23/session/S7> .
-<https://swib.org/swib23/contribution/114> schema:name "FranceArchives a portal for the French archives" .
-<https://swib.org/swib23/contribution/114> schema:abstract '''[FranceArchives](https://francearchives.gouv.fr/) is an online aggregator portal designed to provide a single access point to metadata of about 140 French archival institutions. Based on CubicWeb, an open source software, it allows archivists to import archival metadata, publish articles, etc. Researchers, students, genealogy enthusiasts can search above 21 millions of documents. The authorities (people, institutions, places, themes) indexed in the archives are semi-automatically aligned with linked open data repositories (geonames, wikidata, data.culture.fr). This allows disambiguation and cross-referencing of archival data from different sources. The portal information on the authorities is enriched thanks to these alignments. To integrate FranceArchives into the linked open data cloud, the data is also published in RDF, described in the Records In Contexts ontology (RiC-O). [Records in Contexts](https://www.ica.org/en/records-in-contexts-conceptual-model) is a new standard promoted by the International Council on Archives to reconcile the current four standards of description. FranceArchives is one of the first projects to use this standard at such a large scale with success. It is also one of the first archival data repository of this size published as linked open data. A SPARQL endpoint is currently being set up to make the data queryable.''' .
-<https://swib.org/swib23/contribution/114> schema:author <https://swib.org/person/Xc133e5f3235db9c9c47734cfd3dcf661827b1ef51a90c7aa7dc3651f4f9d7808> .
-<https://swib.org/swib23/contribution/114> schema:author <https://swib.org/person/X1be14ddfc4ce7c0209a7192bc2a00d8099583cd39a6b1b1b3e8f6b9c68e09b65> .
-<https://swib.org/swib23/contribution/114> schema:author <https://swib.org/person/Xd3c6d3fc39cda3bc7a621ab146e5fd3a853577026c2fe88454ad78893022b577> .
-<https://swib.org/swib23/contribution/114> schema:author <https://swib.org/person/X2dc37eac0cc56df8a6b51a14827492a67b9494e09507ad5e0aad85ecc8802470> .
-
-<https://swib.org/swib23/contribution/138> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/138> schema:featuredAt <https://swib.org/swib23/session/S7> .
-<https://swib.org/swib23/contribution/138> schema:name "Towards a methodology for validation of metadata enrichments in Europeana" .
-<https://swib.org/swib23/contribution/138> schema:abstract '''Metadata enrichment is a powerful way to augment the description of cultural heritage entities, improving data discoverability and supporting end-users in having access to critical context for a given entity. In the Europeana network, several aggregators and projects aim to enrich metadata and/or content for cultural heritage objects that they provide to Europeana. This includes semantic tagging using linked open data vocabularies, translations, transcriptions, etc. A variety of processes are used to produce enrichments, from fully manual (e.g., using crowdsourcing) to fully automatic (e.g., geo-enrichment), and these will vary in terms of quality, reliability and informational value. Therefore, before the enrichments can be integrated into the Europeana services, they must be validated. If the appropriate acceptance criteria are not met, the enrichments should either be rejected or pushed back for improvement.
-
-Europeana is defining a general methodology to assess the overall quality of the enrichments produced by a project or a tool. This methodology does not need to aim at global accept/reject decisions – it can, for example, help to select a subset of the produced enrichments that is deemed trustable enough. The validation efforts may be carried out by members/partners of the network or by the Europeana Foundation – ideally both being involved in some way. Although many projects are prepared so as to include an evaluation effort to assess the quality of the enrichments they produce, Europeana Foundation as the operator of the Europeana service, has the final responsibility for the quality of Europeana's data, therefore it should always be involved in the final vetting. This presentation will introduce the methodology and describe the outcomes of its first application to validate the geo-enrichments provided by the Jewish History Tours project.''' .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X8f957d7f7d5690d75cb4a4117e960aa20e007b415eff5524bdb963062f1f627e> .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/Xc24122340ea1c2078939ea57ee2f0c245240928076fe0f1d16b1c4e1c4540603> .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/Xa064b14e092fb4388b3e39463a3c6f1c4b91e8789479a4d887410a2159201318> .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X5712335554604be43ba0fb7c35b3d59c5c91568fa3d21c3af8856c3c6aa4a1bb> .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1> .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/Xbf6dd04fc2ce70766e2916fcfac89af31de4b5eca2bc281d712c4221a268a1db> .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/Xd593be5add133a71c13d14b27fb364cf7b53c7d490110fdbefc418760f72c58c> .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X3b54eaacf869c6afe4a20402e949f2ccaf5a5db83c5e5e194f2f948264a46c2a> .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X48b9e2a998350f5e6372b4c3137696ede171dcbfb53886fece445775c8fd5167> .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/X76c091f3dd02ffb5fc272e85566234afc056432f610a3145e61dfba95db1d691> .
-<https://swib.org/swib23/contribution/138> schema:author <https://swib.org/person/Xe4f56d779d71221a27a1d759dd2d68ec9c318106a780d6f7569da422b0d04ad3> .
-
-<https://swib.org/swib23/session/S5> a swc:SessionEvent, schema:Event .
-<https://swib.org/swib23/session/S5> schema:superEvent <https://swib.org/swib23/conference> .
-<https://swib.org/swib23/session/S5> schema:name "Utilizing Wikimedia" .
-<https://swib.org/swib23/session/S5> schema:startDate "2023-09-13" .
-
-<https://swib.org/swib23/contribution/110> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/110> schema:featuredAt <https://swib.org/swib23/session/S5> .
-<https://swib.org/swib23/contribution/110> schema:name "From EAD to MARC to Wikidata and back again: tools and workflows for archival metadata at the University of Washington libraries" .
-<https://swib.org/swib23/contribution/110> schema:abstract '''The Labor Archives of Washington (LAW) is a collaboration between the University of Washington Libraries (UWL) and the Harry Bridges Center for Labor Studies with support from the local labour community. With over two hundred collections, the archive is one of the largest repositories for labour materials in the United States. Since 2020, UWL has been finding creative ways to integrate traditional library metadata for archival collections into Wikidata. The goal of this work is to better serve researchers by contributing linked open data to Wikidata and to link back from Wikidata to local library metadata.
-
-The presenters will describe semi-automated workflows for the creation of Wikidata items for the people, organizations, and collections in LAW. EAD finding aids are used to generate Wikidata items for agents using Python and OpenRefine. The EAD is also used to generate MARC bibliographic records for the collections, which are then mapped to Wikidata using MarcEdit and OpenRefine. The presenters will also discuss the creation and implementation of a new Wikidata property for Archives West finding aid identifiers and the UWL Wikidata application profile for archival collections. Finally, presenters will share several workflows for interlinking MARC records, library authority records, archival finding aids, Wikipedia articles, and Wikidata items using open source tools such as MarcEdit, OpenRefine, and Quickstatements.''' .
-<https://swib.org/swib23/contribution/110> schema:author <https://swib.org/person/X78798216429916b486194ae86276d555adaaafc8d658f22d6c6365ea992ac136> .
-<https://swib.org/swib23/contribution/110> schema:author <https://swib.org/person/Xd6d76cc20adc018ac1cf0c731164740694576aade78fd375c4c04d33189e4ce6> .
-
-<https://swib.org/swib23/contribution/116> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/116> schema:featuredAt <https://swib.org/swib23/session/S5> .
-<https://swib.org/swib23/contribution/116> schema:name "Developing a linked data workflow using Wikidata" .
-<https://swib.org/swib23/contribution/116> schema:abstract '''As Wikidata becomes a more popular hub for linked data for libraries and the whole internet, more and more linked data projects use Wikidata. As a decentralized, open source, community-oriented platform, there is no manual for Wikidata work. On one hand this is a relief as it encourages any approach to projects and linked data. On the other hand, it can be overwhelming to start, execute, and finish a project. This presentation will explore some essential takeaways from several project-oriented Wikidata courses.
-
-These courses gather together several library professionals in an effort to create a working community around project-based work. The nature of these projects is diverse – every collection and institution has their own way of setting goals, scoping the work, collection specifics, and how staff can engage with these projects. Drawing on the experience of these participants, we have identified some universal recommendations for realizing Wikidata projects. Embedded in these takeaways are broader themes of linked data education and training around crowdsourcing data models, contributing to community ontologies, and collaboration across collections. Rather than a prescribed set of steps, the conclusions of this presentation are meant to serve as a toolkit for anyone at any point of Wikidata work at their library. In sharing with this community it is our hope we can foster more project work and begin address some of the systemic bias and major content gaps on Wikidata. We also hope to encourage more interest in linked data, its applications, and its adoption into new institutions, tools, and research.''' .
-<https://swib.org/swib23/contribution/116> schema:author <https://swib.org/person/X5b7755a5b3315bc219b87c2815e3021e5bbedb70843ad97f579458d6b9609dab> .
-
-<https://swib.org/swib23/contribution/121> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/121> schema:featuredAt <https://swib.org/swib23/session/S5> .
-<https://swib.org/swib23/contribution/121> schema:name "Entity linking historical document OCR by combining Wikidata and Wikipedia" .
-<https://swib.org/swib23/contribution/121> schema:abstract '''Named entities like persons, locations and organisations are a prominent target for search in digitized collections. While named entity recognition can be used to automatically detect named entities in texts, through the additional disambiguation and linking of the entities to authority files their usability for retrieval and linking to other sources is significantly improved.
-
-We used Wikidata to construct a comprehensive knowledge-base that holds information on linkable entities and combined it with a Wikipedia-derived corpus of text references that can be used by a neural network-based entity linking system to find references of entities in historical German texts. We demonstrate the feasibility of the approach on ~5,000,000 pages of historical German texts obtained by OCR and show how the entity linking results can be used to group the entire historical text corpus by latent dirichlet allocation. All software components are also released as open source for others to adapt and reuse.''' .
-<https://swib.org/swib23/contribution/121> schema:author <https://swib.org/person/X4c8875ee38504158de79a8ac9e33eb692a33c126da92c58a3aba0c31e95f3ba8> .
-<https://swib.org/swib23/contribution/121> schema:author <https://swib.org/person/X6750b7bcd1a88f24fcc6a05968b2849c949aca2cb2092a51c7d3e2e4099b3e87> .
-
-<https://swib.org/swib23/session/S4> a swc:SessionEvent, schema:Event .
-<https://swib.org/swib23/session/S4> schema:superEvent <https://swib.org/swib23/conference> .
-<https://swib.org/swib23/session/S4> schema:name "Data Modelling" .
-<https://swib.org/swib23/session/S4> schema:startDate "2023-09-12" .
-
-<https://swib.org/swib23/contribution/108> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/108> schema:featuredAt <https://swib.org/swib23/session/S4> .
-<https://swib.org/swib23/contribution/108> schema:name "Hollinger's Box: The retrieval object at the edge of the ontology" .
-<https://swib.org/swib23/contribution/108> schema:abstract '''This presentation examines the extent to which recent and emerging linked data ontologies for archival description allow for a deliberate "contact zone" between intellectual and physical description of archival resources. We define as the contact zone the descriptive space occupied by the retrieval object: the place where the handoff occurs between a discovery system and an administrative system concerned with object management. Archival resources, due to their aggregate and unattested nature, present specific descriptive challenges not shared by other domains within cultural resource description. More often than not, archival resources are represented in intellectual groupings in a way that contextualizes their meaning, while being housed and shelved opportunistically in nested containers in a way that minimizes their footprint, thereby dissociating their physical presence from their intellectual groupings. As a result, the intellectual object identified and requested by a researcher rarely maps one-to-one to the retrieval object stored and paged by a repository.
-
-In this presentation, we examine three recent or emerging linked data standards for archival resources – Records in Contexts, the Art and Rare Materials BIBFRAME extension, and Linked.Art – from the perspective of facilitating retrieval. To what extent do these graphs either engage with the concept of the retrieval object directly or position their edge as a contact zone that may seamlessly integrate with external models defining such an object? How comfortably do the graphs map onto current community practices for handling the ultimate goal of our researchers: getting their hands on the box?''' .
-<https://swib.org/swib23/contribution/108> schema:author <https://swib.org/person/X0d3dc6cfa15cc2c71ed6aa14e73733d4704ade78b76b646d31f5037f9ffceb26> .
-<https://swib.org/swib23/contribution/108> schema:author <https://swib.org/person/Xad5d7f16f7e1fc14edc7713c9829d51c4bdacc00dd0afeb42fcba2913d72063c> .
-
-<https://swib.org/swib23/contribution/104> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/104> schema:featuredAt <https://swib.org/swib23/session/S4> .
-<https://swib.org/swib23/contribution/104> schema:name "Development of the Share-VDE ontology: goals, principles, and process" .
-<https://swib.org/swib23/contribution/104> schema:abstract '''Share-VDE (SVDE) is a library-driven initiative which brings together the bibliographic catalogues and authority files of a community of libraries in a shared discovery environment based on the linked data ontology BIBFRAME. The SVDE Ontology is an extension to BIBFRAME. The design choices for the SVDE ontology support discovery tasks in the federated linked data environment. This presentation describes the ontology design process, goals, and principles. The overall goals for the SVDE ontology are: 1) the use of the web ontology language (OWL) to publish the classes, properties and constraints that are used in the SVDE environment; 2) to clarify the relationship among Share-VDE entities and other linked data vocabularies and ontologies, and 3) to provide internal (to SVDE) and external (to Library of Congress BIBFRAME) consistency and clarity to classes and properties used in the discovery layer of SVDE. The SVDE ontology is not intended to be a complete departure from BIBFRAME nor is it intended to be an all-new ontology, rather, it is based in BIBFRAME and SVDE is an extension. An overarching design principle is to re-use existing vocabularies wherever possible to reduce complexity of the SVDE ontology. The ontology editing process began by evaluating existing SVDE classes and documenting in OWL; moving next to properties; finally, the process concluded by evaluating any needed restrictions for entities. Entities discussed in this presentation which are novel to SVDE include svde:Opus; svde:Work, and the property svde:hasExpression. The SVDE ontology is interoperable among bibliographic models by using direct references among BIBFRAME, LRM, and RDA entity sets. Interoperability is achieved by asserting that bibliographic entities are described by attribute sets.''' .
-<https://swib.org/swib23/contribution/104> schema:author <https://swib.org/person/Xf2fed43e2ded7e565d355e6c7d1532616e1c356c447889d4c84729634ade11d5> .
-<https://swib.org/swib23/contribution/104> schema:author <https://swib.org/person/X734432ffbec6a5c0013f2ccd1eb2206543eeb30a22353b7e581a8306b980820b> .
-<https://swib.org/swib23/contribution/104> schema:author <https://swib.org/person/Xcde9afacd4471f2ad25ee41c09d7686ee150da03e6e2ad0fa60f4142a1cb19ca> .
-
-<https://swib.org/swib23/session/S3> a swc:SessionEvent, schema:Event .
-<https://swib.org/swib23/session/S3> schema:superEvent <https://swib.org/swib23/conference> .
-<https://swib.org/swib23/session/S3> schema:name "Lightning Talks" .
-<https://swib.org/swib23/session/S3> schema:startDate "2023-09-12" .
-
-<https://swib.org/swib23/contribution/175> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/175> schema:featuredAt <https://swib.org/swib23/session/S3> .
-<https://swib.org/swib23/contribution/175> schema:name "paprika.idref.fr" .
-<https://swib.org/swib23/contribution/175> schema:author <https://swib.org/person/X881c2cbe6eef28fb1d4b891ebe141e29884dc47ce7368f06257cb5173cd19e80> .
-
-<https://swib.org/swib23/contribution/176> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/176> schema:featuredAt <https://swib.org/swib23/session/S3> .
-<https://swib.org/swib23/contribution/176> schema:name "Extracting metadata from grey literature using large language models" .
-<https://swib.org/swib23/contribution/176> schema:author <https://swib.org/person/X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d> .
-
-<https://swib.org/swib23/contribution/177> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/177> schema:featuredAt <https://swib.org/swib23/session/S3> .
-<https://swib.org/swib23/contribution/177> schema:name "Integrating Network of Terms into Cocoda Mapping Tool" .
-<https://swib.org/swib23/contribution/177> schema:author <https://swib.org/person/X10f433740819deb5d1b4e609cb71ddd4a1b5eb8a28a47032f61042ca98801c8f> .
-
-<https://swib.org/swib23/contribution/178> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/178> schema:featuredAt <https://swib.org/swib23/session/S3> .
-<https://swib.org/swib23/contribution/178> schema:name "openglam-de@lists.wikimedia.org – New Mailing list on Wikimedia for Galleries, Libraries, Archives, Museums from German speaking Countries" .
-<https://swib.org/swib23/contribution/178> schema:author <https://swib.org/person/X346eaac73941fada47714f3da7629f82b4b65107339bd1c4a55bf29170162790> .
-
-<https://swib.org/swib23/contribution/179> a schema:CreativeWork .
-<https://swib.org/swib23/contribution/179> schema:featuredAt <https://swib.org/swib23/session/S3> .
-<https://swib.org/swib23/contribution/179> schema:name "Recent SkoHub developments" .
-<https://swib.org/swib23/contribution/179> schema:author <https://swib.org/person/X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c> .
