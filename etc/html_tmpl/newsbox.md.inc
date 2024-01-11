@@ -2,7 +2,7 @@
 25.–27. November 2024 online\
 12.01.2024
 
-### 145th SWIB
+### 15th SWIB
 
 **Livestream from SWIB will not be available this year**\
 We will try to provide recordings afterwards.\
