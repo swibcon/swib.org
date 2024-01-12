@@ -87,3 +87,20 @@ indicates that abstract output should be omitted, and '.' in the first
 firstname and lastname Author entries indicate, that author and organisation
 should be omitted for the contribution.
 
+## Deployment
+
+This is how we build the website on hbz servers ATM.
+
+### Stage
+
+A cron job is executing `bin/update-swib-website.sh` every 5 minutes on our *test-metadaten-nrw* server. This will pull changes from conftool and generate the static files in `var/html`, available at http://swib.test.metadaten.nrw/swib23/.
+
+Check for modified files by `cd git/swib.org/` and `git status`.
+
+If markdown or other source files were changed you have to do `git pull` and execute `bin/update-swib-website.sh` manually (or wait for cron).
+
+After changes pass review do `git add` `git commit` and `git push` then merge the feature branch into main.
+
+### Prod
+
+All files in main should be up to date already. You only have to do `git pull` on *metadaten-nrw*.
