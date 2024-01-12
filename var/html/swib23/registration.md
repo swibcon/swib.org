@@ -20,6 +20,12 @@ Conference Dinner: 39,50€ (optional, only bookable in combination with confere
 
 :::{.sidebox-box}
 
+**SWIB24 – Save the date**\
+25.–27. November 2024 online\
+12.01.2024
+
+### 15th SWIB
+
 **Livestream from SWIB will not be available this year**\
 We will try to provide recordings afterwards.\
 10.08.2023
@@ -33,14 +39,6 @@ We will try to provide recordings afterwards.\
 **SWIB23 – Save the date**\
 11.–13. September 2023 in Berlin (Germany)\
 02.12.2022
-
-### 14th SWIB
-
-**SWIB22 finished**\
-900 registrations from 58 countries\
-[Slides and videos are online](../swib22/programme.html) ([Youtube playlist](https://www.youtube.com/playlist?list=PL7fMsenbLiQ2xcclhSnk1nv752E4N_Nqx))\
-2.12.2022
-
 
 :::
 
