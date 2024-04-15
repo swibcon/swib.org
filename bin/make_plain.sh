@@ -3,7 +3,7 @@
 
 # Creates a website with cfp, without creating programme etc. pages
 
-cd /opt/swib.org/bin
+cd ~/git/swib.org/bin
 
 # read conference name from config.yaml
 SWIB=`grep ^swib: config.yaml | cut -d: -f2 | column -t`
