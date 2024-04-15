@@ -1,8 +1,8 @@
-swib: SWIB23
+swib: SWIB24
 days:
-  - DAY 1 | Monday, 2023-09-11
-  - DAY 2 | Tuesday, 2023-09-12
-  - DAY 3 | Wednesday, 2023-09-13
+  - DAY 1 | Monday, 2024-11-25
+  - DAY 2 | Tuesday, 2024-11-26
+  - DAY 3 | Wednesday, 2024-11-27
 media_types:
   slides:
     label: Slides
