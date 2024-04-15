@@ -45,34 +45,10 @@ $else$
 <a href="index.html">HOME</a>
 $endif$
 &#160; | &#160;
-$if(is_programme)$
-PROGRAMME
-$else$
-<a href="programme.html">PROGRAMME</a>
-$endif$
-&#160; | &#160;
-$if(is_speakers)$
-SPEAKERS
-$else$
-<a href="speakers.html">SPEAKERS</a>
-$endif$
-&#160; | &#160;
-$if(is_impressions)$
-IMPRESSIONS
-$else$
-<a href="impressions.html">IMPRESSIONS</a>
-$endif$
-&#160; | &#160;
 $if(is_general-information)$
 GENERAL INFORMATION
 $else$
 <a href="general-information.html">GENERAL INFORMATION</a>
-$endif$
-&#160; | &#160;
-$if(is_history)$
-HISTORY
-$else$
-<a href="history.html">HISTORY</a>
 $endif$
 &#160; | &#160;
 $if(is_coc)$
@@ -100,10 +76,6 @@ $endfor$
 </div>
 
 <div id="partners">
-<p>local partner:</p>
-<a href="https://staatsbibliothek-berlin.de/" target="_blank">
-<img id="sbb-logo" src="images/logo_sbb.png" alt="Staatsbibliothek zu Berlin">
-</a>
 </div>
 
 </footer>
