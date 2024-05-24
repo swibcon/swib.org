@@ -1,5 +1,8 @@
 ### 16th SWIB
 
+**CfP deadline extended to 2024-06-09**\
+24.05.2024
+
 **CfP published**\
 19.04.2024
 
