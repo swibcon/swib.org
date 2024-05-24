@@ -22,6 +22,9 @@ Hands-on workshops will happen on Monday, 25th before and after the presentation
 
 ### 16th SWIB
 
+**CfP deadline extended to 2024-06-09**\
+24.05.2024
+
 **CfP published**\
 19.04.2024
 

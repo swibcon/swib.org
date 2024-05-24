@@ -1,10 +1,14 @@
 ---
-pagetitle: SWIB24 TBD
+pagetitle: SWIB24 Speakers
 ---
 
 <div id="main">
 
+# Speakers
+
+
 TBD
+
 
 </div>
 
@@ -15,6 +19,9 @@ TBD
 :::{.sidebox-box}
 
 ### 16th SWIB
+
+**CfP deadline extended to 2024-06-09**\
+24.05.2024
 
 **CfP published**\
 19.04.2024
