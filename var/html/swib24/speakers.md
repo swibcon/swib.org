@@ -45,16 +45,6 @@ TBD
 
 :::
 
-## Twitter {.sidebox-title}
-
-:::{.sidebox-box}
-
-@swibcon
-
-#swib24
-
-:::
-
 </div>
 
 

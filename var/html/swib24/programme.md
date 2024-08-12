@@ -71,16 +71,6 @@ pagetitle: SWIB24 Programme
 
 :::
 
-## Twitter {.sidebox-title}
-
-:::{.sidebox-box}
-
-@swibcon
-
-#swib24
-
-:::
-
 </div>
 
 

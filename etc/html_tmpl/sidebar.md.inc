@@ -19,15 +19,5 @@
 
 :::
 
-## Twitter {.sidebox-title}
-
-:::{.sidebox-box}
-
-@swibcon
-
-#<tmpl_var lc_swib>
-
-:::
-
 </div>
 

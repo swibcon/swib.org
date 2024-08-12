@@ -110,16 +110,6 @@ The Regional Anti-Discrimination Agency NRW: www.aric-nrw.de, Fon: +49 (0)203 28
 
 :::
 
-## Twitter {.sidebox-title}
-
-:::{.sidebox-box}
-
-@swibcon
-
-#swib24
-
-:::
-
 </div>
 
 

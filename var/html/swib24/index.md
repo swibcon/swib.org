@@ -159,16 +159,6 @@ E-mail: a.kasprzik(at)zbw-online.eu
 
 :::
 
-## Twitter {.sidebox-title}
-
-:::{.sidebox-box}
-
-@swibcon
-
-#swib24
-
-:::
-
 </div>
 
 

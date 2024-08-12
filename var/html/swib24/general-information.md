@@ -47,16 +47,6 @@ Hands-on workshops will happen on Monday, 25th before and after the presentation
 
 :::
 
-## Twitter {.sidebox-title}
-
-:::{.sidebox-box}
-
-@swibcon
-
-#swib24
-
-:::
-
 </div>
 
 

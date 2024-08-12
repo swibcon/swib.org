@@ -47,16 +47,6 @@ Conference Dinner: 39,50€ (optional, only bookable in combination with confere
 
 :::
 
-## Twitter {.sidebox-title}
-
-:::{.sidebox-box}
-
-@swibcon
-
-#swib24
-
-:::
-
 </div>
 
 
