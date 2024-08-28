@@ -104,3 +104,26 @@ After changes pass review do `git add` `git commit` and `git push` then merge th
 ### Prod
 
 All files in main should be up to date already. You only have to do `git pull` on *metadaten-nrw*.
+
+## Steps to create pages for a new conference
+
+### Preparation
+
+- Upload new logos to https://github.com/swibcon/swib-orga
+
+### Publish CfP
+
+- Update CfP text https://github.com/swibcon/swib-orga/blob/main/cfp.md
+- Include CfP in homepage `etc/html_tmpl/index.md.tmpl` (remove homepage content of last conference)
+- Replace full navigation by slimmed down one for cfp in `etc/pandoc_templates/swibweb.html5`
+- Update "general information" text
+- Build new pages using `bin/make_plain.sh`
+- Update Rewrite `swib.org -> swib.org/swib` in Apache proxy server
+
+### Publish programme
+
+- Add data in conftool
+- Add homepage text in `etc/html_tmpl/index.md.tmpl` (remove CfP)
+- Replace full navigation by slimmed down one for cfp in `etc/pandoc_templates/swibweb.html5`
+- Update history page `etc/html_tmpl/history.md.tmpl`
+- Build new pages using `bin/update-swib-website.sh` (you may want to run this by cron on test/staging server)
