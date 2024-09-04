@@ -8,13 +8,10 @@ pagetitle: SWIB24 Home
 
 ## 25 – 27 November 2024, online
 
-## Call for Proposals
-
-**Submission Deadline (extended): 9th June 2024**
-
 SWIB conference (Semantic Web in Libraries) is an annual conference, being held
 for the 16th time. SWIB24 will happen online to ensure inclusion of as many
 participants as possible while minimizing the ecological footprint of the conference.
+An [online forum](https://forum.swib.org) serves as communication space for SWIB24 and future conferences.
 
 SWIB focuses on Linked Open Data (LOD) in libraries and related organizations.
 It is well established as an event where IT staff, developers, librarians, and
@@ -29,57 +26,7 @@ Service Centre (hbz)](https://www.hbz-nrw.de/)** and **[ZBW – Leibniz Informat
 Economics](https://www.zbw.eu/en)**. The conference language is
 English.
 
-We are accepting proposals for two formats:
-
-- Presentations (20 minutes plus 5 q&a)
-- Practical workshops or tutorials (maximum 4h, including breaks), introductory tutorials are very welcome
-
-The presentations will be held in the time from 14:00 to 17:00 UTC. **Note that we will support three different time slots for workshops to accommodate workshop facilitators and participants from different time zones (East Asia/Australia, Europe/Africa, Americas).**
-
-We appreciate proposals on the following or related topics:
-
-### Projects & Applications
-
-* integration of LOD into productive library applications
-* re-use of LOD (from libraries, Wikidata and other sources)
-* presenting & visualizing LOD
-* graphical user interfaces for interaction with LOD (e.g. editing or annotation)
-* (other) applications in the context of open science
-
-### Technology & Tools (focus on Open Source software)
-
-* data transformation/integration/cleansing/enhancement/mapping/interlinking/validation
-* data flow management, read/write linked data, providing updates & syncing data sources
-* machine learning applications in/for libraries
-* integration of symbolic and subsymbolic approaches
-
-### Standards & Best Practices
-
-* implementation of FAIR data principles, interoperability
-* open web standards relevant for libraries, data models, usable APIs
-* application profiles & provenance information
-* working with controlled vocabularies & knowledge organization systems
-* preservation, maintenance & sustainability
-
-### Culture
-
-* decentralization, federated structures
-* consolidating open source projects
-* collaboration, crowdsourcing, community building and empowerment
-* diversity sensitivity, equity, inclusion, and accessibility
-
-We are looking forward to receiving your proposals for presentations or
-workshops by **~~26 May 2024~~ 9 June 2024**. Please submit an abstract of 1000–1500
-characters using our conference system
-[https://www.conftool.org/swib24](https://www.conftool.org/swib24). If you
-intend to present a specific software solution, please include links to the
-source code repository and make sure it is [openly
-licensed](https://opensource.org/licenses).
-
-
 ### SWIB programme committee
-
-Proposals will be reviewed by the programme committee:
 
 ::: committee
 
@@ -101,7 +48,7 @@ Proposals will be reviewed by the programme committee:
 :::
 
 
-**Website**: https://swib.org/swib24 \
+**Conference Forum**: [https://forum.swib.org](https://forum.swib.org) \
 **Hashtag**: #swib24\
 **Mastodon**: [\@swib@openbiblio.social](https://openbiblio.social/@swib)
 
@@ -160,6 +107,5 @@ E-mail: a.kasprzik(at)zbw-online.eu
 :::
 
 </div>
-
 
 
