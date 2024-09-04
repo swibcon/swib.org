@@ -168,6 +168,7 @@ sub get_abstract_data {
       abstract_id   => $node->findvalue('./paperID'),
       title         => $node->findvalue('./title'),
       abstract      => $node->findvalue('./abstract'),
+      forum_link         => $node->findvalue('./presenting_author_cv'),
       authors       => get_authors($node),
       organisations => get_organisations($node),
     );
@@ -336,6 +337,7 @@ sub output_programme_page {
         my $entry = {
           abstract_id        => $abstract_id,
           abstract_title     => $abstract{$abstract_id}{title},
+	  forum_link     => $abstract{$abstract_id}{forum_link},
           authors_loop       => mk_authors_loop($abstract_id),
           organisations_loop => mk_organisations_loop($abstract_id),
         };

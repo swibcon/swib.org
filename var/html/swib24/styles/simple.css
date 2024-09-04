@@ -135,3 +135,12 @@ a:hover {
 details > summary {
   cursor: pointer;
 }
+
+.forum-link {
+  padding-left: 5px;
+}
+
+.forum-link img {
+  width: 18px;
+  height: 18px;
+}

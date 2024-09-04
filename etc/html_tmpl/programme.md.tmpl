@@ -28,7 +28,7 @@ pagetitle: <tmpl_var swib> Programme
 <tmpl_loop abstracts_loop>
 <tr id="contrib<tmpl_var abstract_id>"><td></td><td>
 
-#### <tmpl_var abstract_title>
+#### <tmpl_var abstract_title> <tmpl_if forum_link><a class="forum-link" href="<tmpl_var forum_link>"><img src="images/Discourse_icon.svg" title="Join the discussion on the SWIB forum"/></a></tmpl_if>
 
 <tmpl_if authors_loop>
 <tmpl_loop authors_loop><tmpl_if author_id>[</tmpl_if><tmpl_var name><tmpl_if author_id>](speakers.html#<tmpl_var author_id>)</tmpl_if><tmpl_if orcid> [<img src="images/orcid.png" title="ORCID: <tmpl_var orcid>">](https://orcid.org/<tmpl_var orcid>)</tmpl_if><tmpl_if index><sup><tmpl_var index></sup></tmpl_if><tmpl_unless __last__>, </tmpl_unless></tmpl_loop>\
