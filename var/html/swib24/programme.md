@@ -17,7 +17,7 @@ pagetitle: SWIB24 Programme
 
 <table>
 
-<tr id="W1"><td class="times-col">05:00–09:00</td><td>
+<tr id="W1"><td class="times-col">[04:00–08:00 h UTC](https://zonestamp.toolforge.org/1732507200)</td><td>
 ### Workshop slot East Asia / Australia
 
 
@@ -57,7 +57,7 @@ Since LLMs are resource-intensive, participants are expected to have a computer 
 
 
 
-<tr id="W2"><td class="times-col">09:00–13:00</td><td>
+<tr id="W2"><td class="times-col">[08:00–12:00 h UTC](https://zonestamp.toolforge.org/1732521600)</td><td>
 ### Workshop slot Europe / Africa
 
 
@@ -173,7 +173,7 @@ In this workshop we will give a brief introduction to ORKG's vision, followed by
 
 
 
-<tr id="S1"><td class="times-col">15:00–16:15</td><td>
+<tr id="S1"><td class="times-col">[14:00–15:15 h UTC](https://zonestamp.toolforge.org/1732543200)</td><td>
 ### Opening
 
 Moderator: Anna Kasprzik, Katherine Thornton
@@ -261,7 +261,7 @@ The talk will briefly introduce purpose and scope of the metadata profile, descr
 
 
 
-<tr id="CB1"><td class="times-col">16:15–16:30</td><td>
+<tr id="CB1"><td class="times-col">[15:15–15:30 h UTC](https://zonestamp.toolforge.org/1732547700)</td><td>
 ### Coffee Break
 
 
@@ -273,7 +273,7 @@ The talk will briefly introduce purpose and scope of the metadata profile, descr
 
 
 
-<tr id="S2"><td class="times-col">16:30–17:45</td><td>
+<tr id="S2"><td class="times-col">[15:30–16:45 h UTC](https://zonestamp.toolforge.org/1732548600)</td><td>
 ### Data & Interoperability
 
 
@@ -361,7 +361,7 @@ Given that cataloguing policies have an impact on the interoperability of biblio
 
 
 
-<tr id="W3"><td class="times-col">18:00–22:00</td><td>
+<tr id="W3"><td class="times-col">[17:00–21:00 h UTC](https://zonestamp.toolforge.org/1732554000)</td><td>
 ### Workshop slot Americas
 
 
@@ -454,7 +454,7 @@ Prerequisites: Participants should have basic knowledge of controlled vocabulari
 
 <table>
 
-<tr id="S3"><td class="times-col">15:00–16:15</td><td>
+<tr id="S3"><td class="times-col">[14:00–15:15 h UTC](https://zonestamp.toolforge.org/1732629600)</td><td>
 ### Generating Linked Metadata
 
 
@@ -538,7 +538,7 @@ We are currently working on integrating ANTELOPE functionality in research frame
 
 
 
-<tr id="CB2"><td class="times-col">16:15–16:30</td><td>
+<tr id="CB2"><td class="times-col">[15:15–15:30 h UTC](https://zonestamp.toolforge.org/1732634100)</td><td>
 ### Coffee Break
 
 
@@ -550,7 +550,7 @@ We are currently working on integrating ANTELOPE functionality in research frame
 
 
 
-<tr id="S4"><td class="times-col">16:30–17:45</td><td>
+<tr id="S4"><td class="times-col">[15:30–16:45 h UTC](https://zonestamp.toolforge.org/1732635000)</td><td>
 ### LOD for End Users
 
 
@@ -646,7 +646,7 @@ E-LAUTE (https://e-laute.info/) is creating a comprehensive edition of German re
 
 <table>
 
-<tr id="LT"><td class="times-col">15:00–15:25</td><td>
+<tr id="LT"><td class="times-col">[14:00–14:25 h UTC](https://zonestamp.toolforge.org/1732716000)</td><td>
 ### Lightning Talks
 
 
@@ -658,7 +658,7 @@ Use the opportunity to share your latest projects or ideas in a short (3-5 min) 
 
 
 
-<tr id="S5"><td class="times-col">15:25–16:15</td><td>
+<tr id="S5"><td class="times-col">[14:25–15:15 h UTC](https://zonestamp.toolforge.org/1732717500)</td><td>
 ### Workflows
 
 
@@ -724,7 +724,7 @@ The University of Chicago Library is creating a single platform to support the d
 
 
 
-<tr id="CB3"><td class="times-col">16:15–16:30</td><td>
+<tr id="CB3"><td class="times-col">[15:15–15:30 h UTC](https://zonestamp.toolforge.org/1732720500)</td><td>
 ### Coffee Break
 
 
@@ -736,7 +736,7 @@ The University of Chicago Library is creating a single platform to support the d
 
 
 
-<tr id="S6"><td class="times-col">16:30–17:45</td><td>
+<tr id="S6"><td class="times-col">[15:30–16:45 h UTC](https://zonestamp.toolforge.org/1732721400)</td><td>
 ### Vocabularies
 
 
@@ -828,7 +828,7 @@ In the future, the interface will be extended to also cover updated MeSH terms i
 
 
 
-<tr id="CL"><td class="times-col">17:45–18:00</td><td>
+<tr id="CL"><td class="times-col">[16:45–17:00 h UTC](https://zonestamp.toolforge.org/1732725900)</td><td>
 ### Closing
 
 
