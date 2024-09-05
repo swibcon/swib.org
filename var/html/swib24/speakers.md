@@ -53,11 +53,7 @@ Nuno Freire holds a PhD in Informatics and Computer Engineering from the Univers
 
 ## Andrea Gazzarini [<img src="images/orcid.png" title="ORCID: 0009-0001-4650-8999">](https://orcid.org/0009-0001-4650-8999)
 
-Andrea Gazzarini is a curious software engineer mainly focused on Java technology.
-
-He intensely loves coding and likes to be considered a developer. Andrea has over 15 years of experience in various software engineering areas, from telecommunications to banking. He has worked for several medium- and large-scale companies, such as IBM and Orga Systems.
-
-In 2009, Andrea entered the beautiful world of open-source projects and became a committer for the Apache Qpid project. In 2010, he began his adventure in information retrieval. Since then, he has been involved as a search engineer for many projects in different fields (bibliography, e-government, e-commerce, geospatial search). In 2015, he wrote “Apache Solr Essentials” published by Packt Publishing. Currently, he is the lead architect of the Share-VDE initiative.
+Andrea Gazzarini is a curious software engineer mainly focused on Java technology. He intensely loves coding and likes to be considered a developer. Andrea has over 15 years of experience in various software engineering areas, from telecommunications to banking. He has worked for several medium- and large-scale companies, such as IBM and Orga Systems. In 2009, Andrea entered the beautiful world of open-source projects and became a committer for the Apache Qpid project. In 2010, he began his adventure in information retrieval. Since then, he has been involved as a search engineer for many projects in different fields (bibliography, e-government, e-commerce, geospatial search). In 2015, he wrote “Apache Solr Essentials” published by Packt Publishing. Currently, he is the lead architect of the Share-VDE initiative.
 
 </div>
 

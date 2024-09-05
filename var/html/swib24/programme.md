@@ -39,7 +39,7 @@ pagetitle: SWIB24 Programme
 <details>
 <summary>Abstract</summary>
 
-Local LLMs are becoming popular due to their privacy-first approach, security, and cost-effectiveness. This workshop introduces participants to the basics of setting up and running local LLMs using open-source tools.
+Local large language models (LLMs) are becoming popular due to their privacy-first approach, security, and cost-effectiveness. This workshop introduces participants to the basics of setting up and running local LLMs using open-source tools.
 
 The workshop will cover both basic and intermediate topics. In Part 1, participants will learn about the basics of LLMs and related concepts, setting up local LLMs, selecting the right tools and models, and the fundamentals of prompting. In Part 2, the focus will shift to intermediate topics such as programmatically using local LLMs and automating tasks, vector embeddings and semantic search, and retrieval augmented generation (RAG) basics.
 
@@ -107,7 +107,7 @@ Verbundzentrale des GBV, Germany
 <details>
 <summary>Abstract</summary>
 
-Property Graphs are a powerful and flexible data structure used to represent relationships and properties based on graphs. The tutorial will give an introduction to property graphs including a comparision with RDF and how to map between both data structuring languages. After basic definition of property graphs and their elements we will look at examples and practical applications as well as tools and technologies such as graph database management systems and visualization tools. The workshop will include exercises using an online graph database and introduction to the query language CYPHER and to the property graph exchange format PG. Data modeling with property graphs is shown and compared to RDF with each of its advantages and limitations.
+Property graphs are a powerful and flexible data structure used to represent relationships and properties based on graphs. The tutorial will give an introduction to property graphs including a comparision with RDF and how to map between both data structuring languages. After basic definition of property graphs and their elements we will look at examples and practical applications as well as tools and technologies such as graph database management systems and visualization tools. The workshop will include exercises using an online graph database and introduction to the query language CYPHER and to the property graph exchange format PG. Data modeling with property graphs is shown and compared to RDF with each of its advantages and limitations.
 
 </details>
 
@@ -142,11 +142,11 @@ For more information, visit Zurich Zentralbibliothek Jupyter Notebook’s [proje
 
 <tr id="contrib131"><td></td><td>
 
-#### The Open Research Knowledge Graph - a lighthouse in the publication flood <a class="forum-link" href="https://forum.swib.org/t/workshop-the-open-research-knowledge-graph-a-lighthouse-in-the-publication-flood/141"><img src="images/Discourse_icon.svg" title="Join the discussion on the SWIB forum"/></a>
+#### The Open Research Knowledge Graph – a lighthouse in the publication flood <a class="forum-link" href="https://forum.swib.org/t/workshop-the-open-research-knowledge-graph-a-lighthouse-in-the-publication-flood/141"><img src="images/Discourse_icon.svg" title="Join the discussion on the SWIB forum"/></a>
 
 
 [Anna-Lena Lorenz](speakers.html#Xdd76a6520f9c8bd11ae4b9ab1d8432842b699e574519737a878c8c18cd23ea05)\
-TIB - Leibniz Information Centre for Science and Technology, Germany
+TIB – Leibniz Information Centre for Science and Technology, Germany
 
 
 
@@ -409,9 +409,7 @@ Steffen Rörtgen [<img src="images/orcid.png" title="ORCID: 0000-0001-6378-2618"
 <details>
 <summary>Abstract</summary>
 
-This hands-on workshop will guide participants through the process of publishing controlled vocabularies encoded in SKOS using [SkoHub Pages](https://github.com/skohub-io/skohub-pages). SkoHub Pages offers an efficient way to publish vocabularies in both human and machine-readable formats without requiring an additional server using GitHub Pages.
-
-After that we will see how to use these vocabularies in reconciliation tasks with [SkoHub Reconcile](https://github.com/skohub-io/skohub-reconcile)
+This hands-on workshop will guide participants through the process of publishing controlled vocabularies encoded in SKOS using [SkoHub Pages](https://github.com/skohub-io/skohub-pages). SkoHub Pages offers an efficient way to publish vocabularies in both human and machine-readable formats without requiring an additional server using GitHub Pages. After that we will see how to use these vocabularies in reconciliation tasks with [SkoHub Reconcile](https://github.com/skohub-io/skohub-reconcile)
 
 Agenda:
 
@@ -434,13 +432,9 @@ Agenda:
 5. Q&A and Discussion
 - Addressing participants' questions and discussing potential applications.
 
-Target Audience:
+Target Audience: Librarians, information professionals, and developers interested in Semantic Web technologies, linked data, and vocabulary management.
 
-Librarians, information professionals, and developers interested in Semantic Web technologies, linked data, and vocabulary management.
-
-Prerequisites:
-
-Participants should have basic knowledge of controlled vocabularies.
+Prerequisites: Participants should have basic knowledge of controlled vocabularies.
 
 </details>
 
