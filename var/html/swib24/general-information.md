@@ -10,10 +10,7 @@ SWIB24 will happen online from 25th to 27th November 2024. Registration will be 
 
 Presentations will be held on all three days from 14:00 to 16:45 UTC. The link to the live stream will be provided on the home page, recordings of the SWIB24 will be made available afterwards soon.
 
-Hands-on workshops will happen on Monday, 25th before and after the presentation slot . We are supporting three different time slots for workshops to accommodate workshop facilitators and participants from different time zones (East Asia/Australia, Europe/Africa, Americas), see the [overview over the seven SWIB24 workshops](https://forum.swib.org/t/workshops-at-swib24/134). To register your participation in a workshop click on the “Going” button on the respective workshop forum page. Watch out to not register for two parallel workshops.
-[/quote]
-
-
+Hands-on workshops will happen on Monday, 25th before and after the presentation slot. We will support three different time slots for workshops to accommodate workshop facilitators and participants from different time zones (East Asia/Australia, Europe/Africa, Americas).
 
 </div>
 
