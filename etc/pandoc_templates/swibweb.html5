@@ -84,6 +84,12 @@ $else$
 <a href="speakers.html">SPEAKERS</a>
 $endif$
 &#160; | &#160;
+$if(is_registration)$
+REGISTRATION
+$else$
+<a href="registration.html">REGISTRATION</a>
+$endif$
+&#160; | &#160;
 <!--
 $if(is_impressions)$
 IMPRESSIONS
