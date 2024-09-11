@@ -287,7 +287,7 @@ The talk will briefly introduce purpose and scope of the metadata profile, descr
 #### CapData Opéra: ease data interoperability for opera houses <a class="forum-link" href="https://forum.swib.org/t/capdata-opera-ease-data-interoperability-for-opera-houses/118"><img src="images/Discourse_icon.svg" title="Join the discussion on the SWIB forum"/></a>
 
 
-[Fabien Amarger](speakers.html#X743982693ed2e3f8a99c829d2933774ab17b3871da39c7aca9d287a483232a8b)<sup>1</sup>, Nicolas Chauvat<sup>1</sup>, Eudes Peyre<sup>2</sup>\
+Fabien Amarger<sup>1</sup>, [Nicolas Chauvat](speakers.html#Xe4b4dee77bfd2d2bddd5aef330c5e9fb5a3b1ed5e64a77ac945d73eaf1b13b29)<sup>1</sup>, Eudes Peyre<sup>2</sup>\
 <sup>1 </sup>Logilab, France; <sup>2 </sup>Réunion des Opéras de France
 
 
@@ -618,7 +618,7 @@ In this presentation I will outline some of the DH projects that form part of Ib
 #### E-LAUTE: establishing a music edition platform using Semantic Web technologies <a class="forum-link" href="https://forum.swib.org/t/e-laute-establishing-a-music-edition-platform-using-semantic-web-technologies/126"><img src="images/Discourse_icon.svg" title="Join the discussion on the SWIB forum"/></a>
 
 
-[Ilias Kyriazis](speakers.html#X4df23b57654958311fb8e45f972bd47e82463292e67cd55c50a62faccffa7f3f) [<img src="images/orcid.png" title="ORCID: 0000-0001-8958-0168">](https://orcid.org/0000-0001-8958-0168)<sup>1</sup>, David M. Weigl [<img src="images/orcid.png" title="ORCID: 0000-0003-1502-1528">](https://orcid.org/0000-0003-1502-1528)<sup>2</sup>, [Christoph Steindl](speakers.html#Xc5eebe7d34341c0cebd59e55231b90ee1fba5f997b87b160f1dd6e2583eb4d0b) [<img src="images/orcid.png" title="ORCID: 0000-0002-3651-8114">](https://orcid.org/0000-0002-3651-8114)<sup>1</sup>\
+[Ilias Kyriazis](speakers.html#X4df23b57654958311fb8e45f972bd47e82463292e67cd55c50a62faccffa7f3f) [<img src="images/orcid.png" title="ORCID: 0000-0001-8958-0168">](https://orcid.org/0000-0001-8958-0168)<sup>1</sup>, [David M. Weigl](speakers.html#X93bb527b358daeabe1c98e9e59560414ba06ec51bbff1fbe15307a100ee92ef9) [<img src="images/orcid.png" title="ORCID: 0000-0003-1502-1528">](https://orcid.org/0000-0003-1502-1528)<sup>2</sup>, Christoph Steindl [<img src="images/orcid.png" title="ORCID: 0000-0002-3651-8114">](https://orcid.org/0000-0002-3651-8114)<sup>1</sup>\
 <sup>1 </sup>Austrian National Library, Vienna, Austria; <sup>2 </sup>University of Music and Performing Arts, Vienna, Austria
 
 

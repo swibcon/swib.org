@@ -9,14 +9,6 @@ pagetitle: SWIB24 Speakers
 
 
 
-<div id="X743982693ed2e3f8a99c829d2933774ab17b3871da39c7aca9d287a483232a8b">
-
-## Fabien Amarger
-
-Fabien Amarger is a doctor/engineer in Computer Science, specialized in Semantic Web technologies. He defended his PhD in 2015 with the main idea to merge non-ontological sources into a knowledge-base-based one regarding the trust given on each source. He has now been working at the Logilab company for several years. Logilab is a French company specialized in application development, free software, Python, Linked Open Data and Semantic Web technologies. At Logilab he has worked on the CapData Opéra project since the beginning as a Semantic Web specialist and developer team.
-
-</div>
-
 <div id="X86b59ec662461e893483166b9ff09884903896659d53d2e8820c12215634a2cb">
 
 ## Kolja Bailly
@@ -30,6 +22,14 @@ Kolja Bailly completed his studies in Computer Science at the TU Berlin in 2009.
 ## Pierre Beauguitte [<img src="images/orcid.png" title="ORCID: 0000-0003-3711-8419">](https://orcid.org/0000-0003-3711-8419)
 
 Pierre works as a software engineer at the National Library of Norway, where he is part of a team responsible for developing solutions for inflow and cataloguing of text material, both physical and digital. He completed his Master's degree at Ircam (Paris, France) in 2011 and received his PhD in music information retrieval from Technological University Dublin, Ireland, in 2019.
+
+</div>
+
+<div id="Xe4b4dee77bfd2d2bddd5aef330c5e9fb5a3b1ed5e64a77ac945d73eaf1b13b29">
+
+## Nicolas Chuvat
+
+After studying engineering, Nicolas Chauvat worked in a research lab on artificial intelligence topic then started Logilab where he has been acting as CEO. His interests are the semantic web, programming languages, free software and horizontal organizational schemes.
 
 </div>
 
@@ -91,9 +91,9 @@ Denny Vrandečić is the founder of Wikidata and co-creator of Semantic MediaWik
 
 <div id="X4df23b57654958311fb8e45f972bd47e82463292e67cd55c50a62faccffa7f3f">
 
-## David M. Weigl [<img src="images/orcid.png" title="ORCID: 0000-0001-8958-0168">](https://orcid.org/0000-0001-8958-0168)
+## Ilias Kyriazis [<img src="images/orcid.png" title="ORCID: 0000-0001-8958-0168">](https://orcid.org/0000-0001-8958-0168)
 
-David M. Weigl conducts research at the intersection of music informatics, information studies, digital musicology, and Web science. He earned his PhD from McGill's School of Information Studies, collaborating with computer scientists, cognitive psychologists, and musicologists at the Centre for Interdisciplinary Research in Music Media and Technology. As a postdoc at the University of Oxford, he applied Linked Data approaches to music information across modalities such as symbolic music encodings, audiovisual recordings, and concert ephemera, addressing industry and scholarly perspectives, and investigating user behaviors and information needs in large-scale digital libraries. At the University of Music and Performing Arts Vienna, he leads Signature Sound Vienna, an interdisciplinary investigation of Vienna's New Year's Concert series, and collaborates on E-LAUTE, an international project creating an Electronic Linked Annotated Unified Tablature Edition of German lute tablatures.
+Ilias Kyriazis is data curator at the Austrian National Library, working on the e-Laute digital music edition. He holds degrees in musicology from Aristotle University of Thessaloniki (Greece), information science from Indiana University Bloomington (USA), and digital media from the School of Fine Arts Bremen (Germany). He worked as information scientist at the UCLAB (Fachhochschule Potsdam), Deutsche Nationalbibliothek (Cultural Hackathon Coding da Vinci / DDB), Bayerische Staatsbibliothek, Indiana University Jacobs School of Music, Hochschule für Musik und Tanz Köln, Athens Concert Hall, and Hellenic-American Institute. He has been a Fulbright, Alexandros S. Onassis, Greek State and Lilian Voudouri Scholar. His activities concentrate on digital humanities / musicology, open GLAM data, and information technologies.
 
 </div>
 
@@ -171,14 +171,6 @@ Linda Samsinger was appointed data librarian at the Zentralbibliothek Zürich in
 
 </div>
 
-<div id="Xc5eebe7d34341c0cebd59e55231b90ee1fba5f997b87b160f1dd6e2583eb4d0b">
-
-## Christoph Steindl [<img src="images/orcid.png" title="ORCID: 0000-0002-3651-8114">](https://orcid.org/0000-0002-3651-8114)
-
-Christoph Steindl works at the Austrian National Library in the Department for Research and Dataservices. He is involved in technical support and conception in the area of Digital Humanities at the ÖNB, which includes, among other things, the Sustainable Infrastructure for Digital Editions and the ÖNB Labs. His research interests are in the fields of data modeling and data provision, with a strong focus on GLAM institutions. Most recently, he worked on the implementation of the digital edition projects Wenzelsbibel Digital, Peter Handke Notizbücher and E-LAUTE, e.g. in the development of a modeling concept in TEI. He studied media informatics at the University of Vienna and worked there as a software developer and in the area of system administration.
-
-</div>
-
 <div id="X088813f912cfb2642e4bd0c232ac930fb241be5d0fba9e28551a2ea5787c8c3d">
 
 ## Osma Suominen [<img src="images/orcid.png" title="ORCID: 0000-0003-0042-0745">](https://orcid.org/0000-0003-0042-0745)
@@ -208,6 +200,14 @@ Jakob Voß works in research and development at the head office of the Common Li
 ## Shuai Wang [<img src="images/orcid.png" title="ORCID: 0000-0002-1261-9930">](https://orcid.org/0000-0002-1261-9930)
 
 Shuai Wang is a scientific engineer in the Vrije Universiteit Amsterdam. He studied Computer Science in Manchester, Paris and Amsterdam. The past few years, his research has included Semantic Web and Linked Data. His submission is built on top of the Master's thesis of Maria Adamidou, a Master student he co-supervised. 
+
+</div>
+
+<div id="X93bb527b358daeabe1c98e9e59560414ba06ec51bbff1fbe15307a100ee92ef9">
+
+## David M. Weigl [<img src="images/orcid.png" title="ORCID: 0000-0003-1502-1528">](https://orcid.org/0000-0003-1502-1528)
+
+David M. Weigl conducts research at the intersection of music informatics, information studies, digital musicology, and Web science. He earned his PhD from McGill's School of Information Studies, collaborating with computer scientists, cognitive psychologists, and musicologists at the Centre for Interdisciplinary Research in Music Media and Technology. As a postdoc at the University of Oxford, he applied Linked Data approaches to music information across modalities such as symbolic music encodings, audiovisual recordings, and concert ephemera, addressing industry and scholarly perspectives, and investigating user behaviors and information needs in large-scale digital libraries. At the University of Music and Performing Arts Vienna, he leads Signature Sound Vienna, an interdisciplinary investigation of Vienna's New Year's Concert series, and collaborates on E-LAUTE, an international project creating an Electronic Linked Annotated Unified Tablature Edition of German lute tablatures.
 
 </div>
 
