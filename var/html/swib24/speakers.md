@@ -27,7 +27,7 @@ Pierre works as a software engineer at the National Library of Norway, where he 
 
 <div id="Xe4b4dee77bfd2d2bddd5aef330c5e9fb5a3b1ed5e64a77ac945d73eaf1b13b29">
 
-## Nicolas Chuvat
+## Nicolas Chauvat
 
 After studying engineering, Nicolas Chauvat worked in a research lab on artificial intelligence topic then started Logilab where he has been acting as CEO. His interests are the semantic web, programming languages, free software and horizontal organizational schemes.
 
