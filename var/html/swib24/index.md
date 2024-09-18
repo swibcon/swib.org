@@ -68,7 +68,7 @@ or
 Anna Kasprzik\
 ZBW\
 Tel. +49-(0)40-42834425\
-E-mail: a.kasprzik(at)zbw-online.eu
+E-mail: a.kasprzik(at)zbw.eu
 
 
 </div>
