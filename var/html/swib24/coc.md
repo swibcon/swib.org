@@ -85,6 +85,10 @@ The Regional Anti-Discrimination Agency NRW: www.aric-nrw.de, Fon: +49 (0)203 28
 
 ### 16th SWIB
 
+**Registration for the SWIB community forum**\
+Join the forum at [https://forum.swib.org/signup](https://forum.swib.org/signup)
+05.09.2024
+
 **SWIB24 – programme published**\
 05.09.2024
 
