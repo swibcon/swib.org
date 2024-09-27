@@ -5,7 +5,7 @@ pagetitle: SWIB24 Programme
 <div id="main">
 
 ::: hint
-[Day 1](#day1) &#160; [Day 2](#day2) &#160; [Day 3](#day3) &#160; 
+[Day 1](#day1) &#160; [Day 2](#day2) &#160; [Day 3](#day3) &#160; [Day 4](#day4) &#160; 
 :::
 
 # Programme
@@ -13,7 +13,27 @@ pagetitle: SWIB24 Programme
 
 <div id="day1">
 
-## DAY 1 | Monday, 2024-11-25
+## DAY 1 | Monday, 2024-11-21
+
+<table>
+
+<tr id="SAT1"><td class="times-col">[14:00–18:00 h UTC](https://zonestamp.toolforge.org/1732197600)</td><td>
+### Satellite Event: VIVO Community Meeting
+
+
+This is a meeting of the VIVO community.
+
+</td></tr>
+
+
+
+</table>
+
+</div>
+
+<div id="day2">
+
+## DAY 2 | Monday, 2024-11-25
 
 <table>
 
@@ -448,9 +468,9 @@ Prerequisites: Participants should have basic knowledge of controlled vocabulari
 
 </div>
 
-<div id="day2">
+<div id="day3">
 
-## DAY 2 | Tuesday, 2024-11-26
+## DAY 3 | Tuesday, 2024-11-26
 
 <table>
 
@@ -640,9 +660,9 @@ E-LAUTE (https://e-laute.info/) is creating a comprehensive edition of German re
 
 </div>
 
-<div id="day3">
+<div id="day4">
 
-## DAY 3 | Wednesday, 2024-11-27
+## DAY 4 | Wednesday, 2024-11-27
 
 <table>
 
