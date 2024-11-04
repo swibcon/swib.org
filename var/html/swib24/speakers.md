@@ -89,6 +89,14 @@ Denny Vrandečić is the founder of Wikidata and co-creator of Semantic MediaWik
 
 </div>
 
+<div id="Xe348ec8a37bcfa5f4e4924b88d8419996dcd2d8a5690e7f4d6ebd75c062f636d">
+
+## Manuel Kummerländer
+
+After working a software developer in the private sector for many years Manuel has been working at edu-sharing.net e.V. since 2022. The association is primarily involved in the open education community. Manuel leads the content and metadata team for WirLernenOnline.de in the current project, which is funded by the Federal Ministry of Education and Research (BMBF). Together with his team, he is responsible for the indexing, generation and enrichment of metadata for educational content. His team develops automated services that relieve people of manual input and at the same time improve the quality of metadata. In this way, it contributes to improving the usefulness and usability of open educational resources (OER). 
+
+</div>
+
 <div id="X4df23b57654958311fb8e45f972bd47e82463292e67cd55c50a62faccffa7f3f">
 
 ## Ilias Kyriazis [<img src="images/orcid.png" title="ORCID: 0000-0001-8958-0168">](https://orcid.org/0000-0001-8958-0168)

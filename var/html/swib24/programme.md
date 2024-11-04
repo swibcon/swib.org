@@ -235,8 +235,8 @@ In this talk we will work on some of the answers how these two technologies migh
 #### Community-based development of a metadata profile for educational resources <a class="forum-link" href="https://forum.swib.org/t/community-based-development-of-a-metadata-profile-for-educational-resources/117"><img src="images/Discourse_icon.svg" title="Join the discussion on the SWIB forum"/></a>
 
 
-[Adrian Pohl](speakers.html#X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c) [<img src="images/orcid.png" title="ORCID: 0000-0001-9083-7442">](https://orcid.org/0000-0001-9083-7442)\
-hbz, Germany
+[Adrian Pohl](speakers.html#X6f1b769f74f8338558f0951c10cd8617499d278713931f50c4cd21746c28212c) [<img src="images/orcid.png" title="ORCID: 0000-0001-9083-7442">](https://orcid.org/0000-0001-9083-7442)<sup>1</sup>, [Manuel Kummerländer](speakers.html#Xe348ec8a37bcfa5f4e4924b88d8419996dcd2d8a5690e7f4d6ebd75c062f636d)<sup>2</sup>\
+<sup>1 </sup>hbz, Germany; <sup>2 </sup>edu-sharing.net e.V., Germany
 
 
 
