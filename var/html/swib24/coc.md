@@ -61,7 +61,7 @@ assisting those experiencing harassment to feel safe for the duration of the
 conference. We value your attendance.
 
 
-**Contact: u.ellendt(at)zbw-online.eu**
+**Contact: swib-coc-enforcement(at)hbz-nrw.de**
 
 :::{.hint}
 
