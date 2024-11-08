@@ -33,6 +33,16 @@ After studying engineering, Nicolas Chauvat worked in a research lab on artifici
 
 </div>
 
+<div id="Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650">
+
+## Bob Coret
+
+Bob Coret works at KB, the National Library of the Netherlands and the Dutch Digital Heritage Network (NDE). He helps develop a system of national facilities and services for improving the visibility, usability, and sustainability of digital heritage and helps archives, museums and libraries with topics like linked (open) data and IIIF.
+
+
+
+</div>
+
 <div id="X7b790a30e11a3da3ce18ad0c76c4da7e2a71ea84e94cc8d6c7f321a143d57999">
 
 ## Ee Min Hoon [<img src="images/orcid.png" title="ORCID: 0009-0009-7101-9319">](https://orcid.org/0009-0009-7101-9319)

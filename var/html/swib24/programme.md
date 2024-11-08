@@ -313,7 +313,7 @@ In this presentation, we aim to share with the SWIB community the objectives and
 #### An aggregation workflow based on Linked Data for the common European data space for cultural heritage <a class="forum-link" href="https://forum.swib.org/t/an-aggregation-workflow-based-on-linked-data-for-the-common-european-data-space-for-cultural-heritage/119"><img src="images/Discourse_icon.svg" title="Join the discussion on the SWIB forum"/></a>
 
 
-[Nuno Freire](speakers.html#X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1)<sup>1</sup>, Bob Coret<sup>2</sup>, Enno Meijers<sup>2</sup>, Hugo Manguinhas<sup>1</sup>, Jochen Vermeulen<sup>1</sup>, Antoine Isaac<sup>1</sup>, Dimitra Atsidis<sup>3</sup>\
+[Nuno Freire](speakers.html#X7d6d9e9f40b516fd8dcee52b7cbb2fa7df5a0820de6cd21da4c2d1898b3ae4e1)<sup>1</sup>, [Bob Coret](speakers.html#Xb54f2b41c3bc505de6de4762c963fa34662f53f7954eaca6b5562e5ca598d650)<sup>2</sup>, Enno Meijers<sup>2</sup>, Hugo Manguinhas<sup>1</sup>, Jochen Vermeulen<sup>1</sup>, Antoine Isaac<sup>1</sup>, Dimitra Atsidis<sup>3</sup>\
 <sup>1 </sup>Europeana Foundation, The Netherlands; <sup>2 </sup>Digital Heritage Network, The Netherlands; <sup>3 </sup>Netherlands Institute for Sound & Vision, The Netherlands
 
 
