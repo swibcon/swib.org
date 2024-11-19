@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>SWIB24: Workshop slot Europe / Africa</title>
+  <link rel="stylesheet" href="../styles/normalize.css" />
+  <link rel="stylesheet" href="../styles/slide.css" />
+  <link rel="stylesheet" href="../styles/simplyCountdown.theme.default.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="top">
+<div class="column left">
+<img src="../images/swib.png" title="swib logo" />
+</div>
+<div class="column middle">
+Workshop slot Europe / Africa
+</div>
+<div id="countdown" class="column right">
+
+</div>
+</div>
+<div id="prog">
+<div>
+
+</div>
+<h2 id="introduction-to-the-annif-automated-indexing-tool">Introduction to the Annif automated indexing tool</h2>
+<p><b><u>Osma Suominen</u>, <u>Mona Lehtinen</u>, Juho Inkinen, Anna Kasprzik, Ghulam Mustafa Majal, Lakshmi Rajendram Bashyam</b></p>
+<h2 id="introduction-to-property-graphs">Introduction to property graphs</h2>
+<p><b><u>Jakob Voß</u></b></p>
+<h2 id="leveraging-zurich-zentralbibliotheks-jupyter-notebooks-for-metadata-retrieval-and-analysis-from-alma">Leveraging Zurich Zentralbibliothek’s Jupyter Notebooks for metadata retrieval and analysis from Alma</h2>
+<p><b><u>Linda Samsinger</u></b></p>
+<h2 id="the-open-research-knowledge-graph-a-lighthouse-in-the-publication-flood">The Open Research Knowledge Graph – a lighthouse in the publication flood</h2>
+<p><b><u>Anna-Lena Lorenz</u></b></p>
+</div>
+<script src="../scripts/moment.min.js"></script>
+<script>
+  var startDate = moment.utc("2024-11-25T08:00:00");
+
+  var x = setInterval(function() {
+    var now = moment();
+    var t = startDate - now;
+
+    var days = Math.floor( t / ( 1000 * 60 * 60 * 24 ));
+    var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((t % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML = days + "d "
+        + hours + "h " + minutes + "m " + seconds + "s ";
+    if (t < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").innerHTML = "STARTING ...";
+    }
+  }, 1000);
+</script>
+</body>
+</html>

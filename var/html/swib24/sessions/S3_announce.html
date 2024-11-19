@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>SWIB24: Generating Linked Metadata</title>
+  <link rel="stylesheet" href="../styles/normalize.css" />
+  <link rel="stylesheet" href="../styles/slide.css" />
+  <link rel="stylesheet" href="../styles/simplyCountdown.theme.default.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="top">
+<div class="column left">
+<img src="../images/swib.png" title="swib logo" />
+</div>
+<div class="column middle">
+Generating Linked Metadata
+</div>
+<div id="countdown" class="column right">
+
+</div>
+</div>
+<div id="prog">
+<div>
+Moderators: Adrian Pohl, Niklas Lindström
+</div>
+<h2 id="automating-metadata-extraction-and-cataloguing-experiences-from-the-national-libraries-of-norway-and-finland">Automating metadata extraction and cataloguing: experiences from the National Libraries of Norway and Finland</h2>
+<p><b><u>Pierre Beauguitte</u>, <u>Osma Suominen</u></b></p>
+<h2 id="marc21-bibliographic-to-lrmrdardf-mapping-and-conversion-project">MARC21 bibliographic to LRM/RDA/RDF mapping and conversion project</h2>
+<p><b><u>Crystal Elisabeth Yragui</u>, <u>Junghae Lee</u>, <u>Cypress Payne</u></b></p>
+<h2 id="antelope-open-source-service-for-accessible-semantic-annotation-in-glam">ANTELOPE: open source service for accessible semantic annotation in GLAM</h2>
+<p><b><u>Kolja Bailly</u>, Lozana Rossenova, Ina Blümel, Thassilo Schiepanski</b></p>
+</div>
+<script src="../scripts/moment.min.js"></script>
+<script>
+  var startDate = moment.utc("2024-11-26T14:00:00");
+
+  var x = setInterval(function() {
+    var now = moment();
+    var t = startDate - now;
+
+    var days = Math.floor( t / ( 1000 * 60 * 60 * 24 ));
+    var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((t % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML = days + "d "
+        + hours + "h " + minutes + "m " + seconds + "s ";
+    if (t < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").innerHTML = "STARTING ...";
+    }
+  }, 1000);
+</script>
+</body>
+</html>
