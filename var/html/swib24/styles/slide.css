@@ -75,6 +75,10 @@ h1 {
   font-size: 160%;
 }
 
+#countdown {
+  font-size: 1.5em;
+}
+
 @media screen and (max-width: 500px) {
   .middle {
     font-size: 150%;
