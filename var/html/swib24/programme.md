@@ -276,7 +276,7 @@ The talk will briefly introduce purpose and scope of the metadata profile, descr
 <tr id="S2"><td class="times-col">[15:30–16:45 h UTC](https://zonestamp.toolforge.org/1732548600)</td><td>
 ### Data & Interoperability
 
-
+Moderator: Julia Beck, Uldis Bojars
 
 
 </td></tr>
@@ -457,7 +457,7 @@ Prerequisites: Participants should have basic knowledge of controlled vocabulari
 <tr id="S3"><td class="times-col">[14:00–15:15 h UTC](https://zonestamp.toolforge.org/1732629600)</td><td>
 ### Generating Linked Metadata
 
-
+Moderator: Adrian Pohl, Niklas Lindström
 
 
 </td></tr>
@@ -553,7 +553,7 @@ We are currently working on integrating ANTELOPE functionality in research frame
 <tr id="S4"><td class="times-col">[15:30–16:45 h UTC](https://zonestamp.toolforge.org/1732635000)</td><td>
 ### LOD for End Users
 
-
+Moderator: MJ Suhonos, Julia Beck
 
 
 </td></tr>
@@ -649,7 +649,7 @@ E-LAUTE (https://e-laute.info/) is creating a comprehensive edition of German re
 <tr id="LT"><td class="times-col">[14:00–14:25 h UTC](https://zonestamp.toolforge.org/1732716000)</td><td>
 ### Lightning Talks
 
-
+Moderator: Huda Khan, Nuno Freire
 Use the opportunity to share your latest projects or ideas in a short (3-5 min) lightning talk. Registration of talks will open in the forum with the start of the conference.
 
 </td></tr>
@@ -661,7 +661,7 @@ Use the opportunity to share your latest projects or ideas in a short (3-5 min) 
 <tr id="S5"><td class="times-col">[14:25–15:15 h UTC](https://zonestamp.toolforge.org/1732717500)</td><td>
 ### Workflows
 
-
+Moderator: Huda Khan, Nuno Freire
 
 
 </td></tr>
@@ -739,7 +739,7 @@ The University of Chicago Library is creating a single platform to support the d
 <tr id="S6"><td class="times-col">[15:30–16:45 h UTC](https://zonestamp.toolforge.org/1732721400)</td><td>
 ### Vocabularies
 
-
+Moderator: Jakob Voß, Osma Suominen
 
 
 </td></tr>
