@@ -192,13 +192,6 @@ hbz, Germany
 
 
 
-<details>
-<summary>Abstract</summary>
-
--
-
-</details>
-
 
 
 
