@@ -18,7 +18,7 @@ pagetitle: "SWIB24: Opening"
 
 ## Welcome
 
-<b><u>N.N. N.N.</u></b>
+<b><u>Silke Schomburg</u></b>
 
 
 

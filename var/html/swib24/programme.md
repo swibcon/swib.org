@@ -187,8 +187,8 @@ Moderator: Anna Kasprzik, Katherine Thornton
 #### Welcome 
 
 
-[N.N. N.N.](speakers.html#X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8)\
-N.N.
+[Silke Schomburg](speakers.html#X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8)\
+hbz, Germany
 
 
 
