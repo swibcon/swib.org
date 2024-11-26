@@ -643,7 +643,7 @@ E-LAUTE (https://e-laute.info/) is creating a comprehensive edition of German re
 ### Lightning Talks
 
 Moderator: Huda Khan, Nuno Freire
-Use the opportunity to share your latest projects or ideas in a short (3-5 min) lightning talk. Registration of talks will open in the forum with the start of the conference.
+<br>Use the opportunity to share your latest projects or ideas in a short (3-5 min) lightning talk. Registration of talks will open in the forum with the start of the conference.
 
 </td></tr>
 
