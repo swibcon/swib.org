@@ -219,7 +219,7 @@ In this talk we will work on some of the answers how these two technologies migh
 </details>
 
 
-
+<a href="https://www.youtube.com/watch?v=NmCbTOZ4Yos">Video</a> &#160; 
 
 </td></tr>
 
@@ -247,7 +247,7 @@ The talk will briefly introduce purpose and scope of the metadata profile, descr
 </details>
 
 
-
+<a href="https://pad.lobid.org/p/amb@swib24">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=wyWCSqiG5kg">Video</a> &#160; 
 
 </td></tr>
 
@@ -297,7 +297,7 @@ In this presentation, we aim to share with the SWIB community the objectives and
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-capdata-opera-ease-data-interoperability-for-opera-houses.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=QOCY46vmfzo">Video</a> &#160; 
 
 </td></tr>
 
@@ -325,7 +325,7 @@ The method was tested in practice in a pilot where several datasets from the Dut
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-an-aggregation-workflow-based-on-linked-data-for-the-common-european-data-space-for-cultural-heritage.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -347,7 +347,7 @@ Given that cataloguing policies have an impact on the interoperability of biblio
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-it-is-not-all-greek-anymore-use-of-lod-to-increase-the-interoperability-of-data-created-by-the-national-library-of-greece.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=AXnR9G9Jv9g">Video</a> &#160; 
 
 </td></tr>
 
@@ -474,7 +474,7 @@ The increasing volume of grey literature, such as reports produced by public sec
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-automating-metadata-extraction-and-cataloguing-experiences-from-the-national-libraries-of-norway-and-finland.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=ZDzf0ZbhFRM">Video</a> &#160; 
 
 </td></tr>
 
@@ -496,7 +496,7 @@ Initiated in 2021, the University of Washington Libraries have committed to usin
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-marc21-bibliographic-to-lrm-rda-rdf-mapping-and-conversion-project.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=Gyb_-wuJDBg">Video</a> &#160; 
 
 </td></tr>
 
@@ -524,7 +524,7 @@ We are currently working on integrating ANTELOPE functionality in research frame
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-antelope-open-source-service-for-accessible-semantic-annotation-in-glam.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=zXkcpxVRY6s">Video</a> &#160; 
 
 </td></tr>
 
@@ -602,7 +602,7 @@ In this presentation I will outline some of the DH projects that form part of Ib
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-setting-the-stage-enabling-curation-spaces-for-dialogues-with-ibali-digital-collections-uct.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=bP9hzTqbN7M">Video</a> &#160; 
 
 </td></tr>
 
@@ -688,7 +688,7 @@ The ongoing development will be applied to the linked data underlying [SVDE disc
 </details>
 
 
-
+<a href="https://www.youtube.com/watch?v=CnN3lco3tYU">Video</a> &#160; 
 
 </td></tr>
 
@@ -710,7 +710,7 @@ The University of Chicago Library is creating a single platform to support the d
 </details>
 
 
-
+<a href="https://svirgilgood.github.io/constraining-linked-open-data">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=Mlkb8ab5vfw">Video</a> &#160; 
 
 </td></tr>
 
@@ -762,7 +762,7 @@ Both the RO main components (OWL and SHACL RDF/XML files) and the bibliographic 
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-this-is-an-ontology-not-a-screwdriver.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=Bezvj31DbfQ">Video</a> &#160; 
 
 </td></tr>
 
@@ -784,7 +784,7 @@ The past years witnessed a significant adoption of LGBTQ+ ontologies and structu
 </details>
 
 
-
+<a href="https://www.canva.com/design/DAGXgJp0Wz0/mvPJ32nTu5J1XpcSgkrtzA/view?utm_content=DAGXgJp0Wz0&utm_campaign=designshare&utm_medium=link&utm_source=editor">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=sVVAMR5feGI">Video</a> &#160; 
 
 </td></tr>
 
@@ -814,7 +814,7 @@ In the future, the interface will be extended to also cover updated MeSH terms i
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-a-web-based-translation-interface-for-the-mesh-vocabulary.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=9oTaaWh-ojo">Video</a> &#160; 
 
 </td></tr>
 

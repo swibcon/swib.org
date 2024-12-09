@@ -177,6 +177,7 @@ Wikimedia Foundation, Germany</p>
 <p>In areas such as libraries, bibliography, healthcare, finance, science metrics, and many others, we have invested heavily in structured knowledge representations, such as metadata and knowledge graphs, and it is not immediately clear how Semantic Web technologies and other structured knowledge representations will fit into a world that is being rapidly transformed by the deployment of large language models.</p>
 <p>In this talk we will work on some of the answers how these two technologies might evolve and co-evolve. We will explore the weaknesses and strengths of the different approaches, and aim to identify the opportunities where they may complement each other. We may dream what may lay beyond knowledge graphs and metadata, and how the advances in language models might allow us to reach bold new frontiers in knowledge representation which might not have been accessible before.</p>
 </details>
+<p><a href="https://www.youtube.com/watch?v=NmCbTOZ4Yos">Video</a>  </p>
 </td>
 </tr>
 <tr id="contrib130">
@@ -193,6 +194,7 @@ Wikimedia Foundation, Germany</p>
 <p>The AMB had already been adopted and implemented by different players when in draft status and is pushed by different players especially in the educational sector. It has been a notable tool for bringing good metadata practices on the Web, like SKOS, into projects from the education sector.</p>
 <p>The talk will briefly introduce purpose and scope of the metadata profile, describe the tools and processes used for the development, examine motivations for joining the development community and the benefits of implementation. It will close with challenges and lessons learned e.g. regarding tools, community work, and contributions to upstream standard specs.</p>
 </details>
+<p><a href="https://pad.lobid.org/p/amb@swib24">Slides</a>   <a href="https://www.youtube.com/watch?v=wyWCSqiG5kg">Video</a>  </p>
 </td>
 </tr>
 <tr id="CB1">
@@ -225,6 +227,7 @@ Wikimedia Foundation, Germany</p>
 <p>The aim is to aggregate data produced by various domain actors to make it globally searchable. This highlights previously invisible data, such as the exchange of creative works and performances between opera houses. To achieve this, an ontology has been designed to define a common vocabulary and implement data interoperability objectives. This ontology is aligned with schema.org, and we are working to align additional models. A set of SHACL rules has been created to validate the data before publication. A dedicated tool, Rodolf, has been developed to monitor the RDF publishing process. This tool is used to execute the process and track which sources have been uploaded to the SPARQL endpoint, including upload times and any errors encountered. Exporting RDF data can be challenging for institutions unfamiliar with Semantic Web technologies, so a dedicated Software Development Kit (SDK) has been developed to assist web developers in exporting CapData RDF data even if they lack experience in this area.</p>
 <p>In this presentation, we aim to share with the SWIB community the objectives and solutions we have found to federate heterogeneous data. We will present feedback on this project, focusing on technical and management aspects, and then describe the results we have achieved and the future of this project.</p>
 </details>
+<p><a href="https://swib.org/swib24/slides/SWIB24-capdata-opera-ease-data-interoperability-for-opera-houses.pdf">Slides</a>   <a href="https://www.youtube.com/watch?v=QOCY46vmfzo">Video</a>  </p>
 </td>
 </tr>
 <tr id="contrib119">
@@ -241,6 +244,7 @@ Wikimedia Foundation, Germany</p>
 <p>The aggregation workflow starts when a provider informs Europeana of the URI of a dataset. The URI must either be resolvable to a DCAT description of the dataset, or be queryable with a DESCRIBE SPARQL query on a SPARQL endpoint (also informed by the provider). Next, the location of downloadable distributions of the dataset in EDM are obtained from the metadata and automatically downloaded by Europeana. The dataset distributions do not have to follow the EDM RDF/XML schema (any well known RDF serialisation may be used) because Europeana segments the RDF data into individual EDM records. At this point, the datasets are ready for the normal ingestion process of Europeana.</p>
 <p>The method was tested in practice in a pilot where several datasets from the Dutch National Archives of The Netherlands were aggregated into Europeana. The datasets were converted by the Dutch aggregator DC4EU from the National Archives ontology to EDM, and the DCAT metadata was made available in the dataset register of the Dutch Heritage Network.</p>
 </details>
+<p><a href="https://swib.org/swib24/slides/SWIB24-an-aggregation-workflow-based-on-linked-data-for-the-common-european-data-space-for-cultural-heritage.pdf">Slides</a>  </p>
 </td>
 </tr>
 <tr id="contrib113">
@@ -254,6 +258,7 @@ Wikimedia Foundation, Germany</p>
 <p><summary>Abstract</summary></p>
 <p>Given that cataloguing policies have an impact on the interoperability of bibliographic data, the National Library of Greece (NLG) initiated its efforts to increase the interoperability of Greek bibliographic data by selecting a new set of standards to implement, and by changing its cataloguing policies and workflows. The set of selected standards consists of the IFLA/LRM model, the official RDA rules, the MARC21 format (Linky Marc approach) for the Koha integrated library system, and the RDA/RDF format for the Wikibase prototype. The presentation summarizes the key decisions and practices applied in everyday business to integrate Linked Data in MARC21 records and to enable future transformations of those records to Linked Data using the RDA/RDF vocabulary. As a proof of concept, the NLG develops and maintains a Wikibase prototype where NLG data is transformed, mapped, and linked to other Linked Data sources. This is an ongoing process that, in each iteration, focuses on a specific RDA entity. So far, the authority records describing RDA Persons have been represented using RDA/RDF. The next RDA entity to be transformed and mapped using the LRM/RDA conceptualizations and vocabularies is the RDA Nomen entity. Nomens (e.g., pseudonyms) related to the RDA Persons will be incorporated, aiming to provide integrated displays of a Person and the names (Nomens) that this person has used. The presentation will conclude with a short demonstration of the Wikibase prototype and a discussion of the next steps for transforming data and further developing the prototype.</p>
 </details>
+<p><a href="https://swib.org/swib24/slides/SWIB24-it-is-not-all-greek-anymore-use-of-lod-to-increase-the-interoperability-of-data-created-by-the-national-library-of-greece.pdf">Slides</a>   <a href="https://www.youtube.com/watch?v=AXnR9G9Jv9g">Video</a>  </p>
 </td>
 </tr>
 <tr id="W3">
@@ -354,6 +359,7 @@ NC State University Libraries, United States of America</p>
 <p><summary>Abstract</summary></p>
 <p>The increasing volume of grey literature, such as reports produced by public sector organizations and academia, poses significant cataloguing, discoverability, and accessibility challenges in digital libraries. To help address these challenges, the National Library of Norway (NLN) and the National Library of Finland (NLF) have explored different strategies to automatically extract bibliographic metadata from PDF files. This presentation will first discuss <a href="https://github.com/NationalLibraryOfNorway/meteor">METEOR</a>, an open-source tool developed by the NLN that uses rule-based logic and keywords and is already integrated in the production workflow as a suggestion engine for librarians. Meanwhile, the NLF is <a href="https://github.com/NatLibFi/FinGreyLit">exploring</a> the potential of fine-tuned, locally hosted large language models for extracting bibliographic metadata. The strengths and weaknesses of both approaches are analyzed, as well as the common obstacles they face. This talk will also present our joint efforts to prepare high quality datasets for training and evaluation of metadata extraction systems along with newly developed metrics suited to the task. Finally, the discussion will focus on the integration of external catalogues and authority registries in these processes, enabling the use of persistent identifiers for entities in the metadata. Our presentation seeks to share practical solutions, promote methodology exchange, and inspire community collaboration.</p>
 </details>
+<p><a href="https://swib.org/swib24/slides/SWIB24-automating-metadata-extraction-and-cataloguing-experiences-from-the-national-libraries-of-norway-and-finland.pdf">Slides</a>   <a href="https://www.youtube.com/watch?v=ZDzf0ZbhFRM">Video</a>  </p>
 </td>
 </tr>
 <tr id="contrib108">
@@ -367,6 +373,7 @@ University of Washington Libraries, United States of America</p>
 <p><summary>Abstract</summary></p>
 <p>Initiated in 2021, the University of Washington Libraries have committed to using LRM/RDA/RDF (RDA as Linked Data) to represent RDA description sets. While LRM/RDA/RDF has not been widely adopted and few test datasets exist, this could change rapidly if libraries transform legacy MARC data to LRM/RDA/RDF. As they near completion of Phase 1 of the project, presenters will describe a groundbreaking mapping and conversion project between the MARC21 bibliographic standard and LRM/RDA/RDF. In addition to describing the cross-organizational team, the presentation summarizes the scope and strategy of the first phase of the project, describes key discussions, highlights important decisions, and shares project workflows. Challenges with aggregate works and expressions, ambiguously-described entities, reproduction manifestations, inconsistent cataloging practices, and more are discussed. Advance releases of project deliverables are shared ahead of their anticipated official publication at the end of 2024, including mappings in .csv format, XSLT transformation code, and sample transformation data in the original MARC21 format and the resulting LRM/RDA/RDF which will be published in a Wikibase Cloud instance. Project members hope that Phase 2 of the project will address entity reconciliation and identity management as well as more complex aggregate types. More information about the open project can be found in the following GitHub repository: https://github.com/uwlib-cams/MARC2RDA</p>
 </details>
+<p><a href="https://swib.org/swib24/slides/SWIB24-marc21-bibliographic-to-lrm-rda-rdf-mapping-and-conversion-project.pdf">Slides</a>   <a href="https://www.youtube.com/watch?v=Gyb_-wuJDBg">Video</a>  </p>
 </td>
 </tr>
 <tr id="contrib129">
@@ -383,6 +390,7 @@ TIB Hannover, Germany</p>
 <p>More precisely, ANTELOPE currently provides three search interfaces: Straightforward, terminology search applies a given term to designated terminology sources and presents results in a distinctive hierarchy graph. Entity recognition accepts fulltext input that supplies contextual information for narrowed down results. Image recognition accepts image files instead and applies powerful image classifiers to bridge multimedia approaches. Ultimately, there will be a universal results interface that allows entity selection, storage and export.</p>
 <p>We are currently working on integrating ANTELOPE functionality in research frameworks, such as TS4NFDI and Wikibase to make usage as seamless as possible.</p>
 </details>
+<p><a href="https://swib.org/swib24/slides/SWIB24-antelope-open-source-service-for-accessible-semantic-annotation-in-glam.pdf">Slides</a>   <a href="https://www.youtube.com/watch?v=zXkcpxVRY6s">Video</a>  </p>
 </td>
 </tr>
 <tr id="CB2">
@@ -431,6 +439,7 @@ University of Cape Town, South Africa</p>
 <p>Omeka S allows, through the many modules developed by its growing open-source community, as well as its customisable nature, the building of very diverse yet structured showcase sites. At UCT we have tried to balance this flexibility with the institutional aims of making sure media and digital objects are consistently presented under the university umbrella and enhanced with LOD descriptions. This way our guiding principle is not only about the content, but how well each site weaves the content.​ In other words, with the help of Linked Data, how many useful links and connections ​within and across the showcase collections can be built?</p>
 <p>In this presentation I will outline some of the DH projects that form part of Ibali, from collections of landscape photographs, historical documents and creative curations. I will also unpack the various customisations we have enabled towards a more open space for stories to be shared. This is in the hope to extend the digital showcase space for potential storytellers: embracing the transactional, transformative, and migratory nature of images, events, recordings of our archives and our collective memories.</p>
 </details>
+<p><a href="https://swib.org/swib24/slides/SWIB24-setting-the-stage-enabling-curation-spaces-for-dialogues-with-ibali-digital-collections-uct.pdf">Slides</a>   <a href="https://www.youtube.com/watch?v=bP9hzTqbN7M">Video</a>  </p>
 </td>
 </tr>
 <tr id="contrib116">
@@ -485,6 +494,7 @@ University of Cape Town, South Africa</p>
 <p>A working prototype will be used during the presentation. However, the overall work is under development as we follow two parallel “investigation paths”: the first using a plain RDBMS and the second using a NoSQL storage. As part of the presentation, we will discuss technical details and the architecture/infrastructure by examining the lessons learned and the challenges.</p>
 <p>The ongoing development will be applied to the linked data underlying <a href="https://svde.org">SVDE discovery portal</a>. It will benefit the other interconnected initiatives that are part of the broader <a href="https://share-family.org">Share Family linked data ecosystem</a>.</p>
 </details>
+<p><a href="https://www.youtube.com/watch?v=CnN3lco3tYU">Video</a>  </p>
 </td>
 </tr>
 <tr id="contrib107">
@@ -498,6 +508,7 @@ University of Chicago, United States of America</p>
 <p><summary>Abstract</summary></p>
 <p>The University of Chicago Library is creating a single platform to support the development of future digital humanities projects and to maintain existing projects. This project is called UChicagoNode. The goal of the platform is to increase the visibility and sustainability of digital humanities work of the students and scholars at the university. At the forefront of making the data more discoverable is adopting the RDF standards of Dublin Core and the Europeana Data Model. We are using OCHRE as the data imput platform, which is feeding a MarkLogic TripleStore. However, how do we ensure that the data is accurate and standardized for ease of search? We have adopted SHACL, the Shapes Constraint Language, to validate the data in our RDF store and to ensure its accuracy. The implementation of SHACL we are currently using is the Topbraid reference implementation. SHACL provides some practical constraints for the open-world assumption of OWL. Providing constraints on RDF data provides several benefits: better reliability in querying the data, ensuring the quality of the data, and accuracy of data integration pipelines. This presentation will show how SHACL fits into our workflow, how SHACL aids the quality control over our Linked Open Data, and some examples of complex SHACL constraints.</p>
 </details>
+<p><a href="https://svirgilgood.github.io/constraining-linked-open-data">Slides</a>   <a href="https://www.youtube.com/watch?v=Mlkb8ab5vfw">Video</a>  </p>
 </td>
 </tr>
 <tr id="CB3">
@@ -531,6 +542,7 @@ University of Chicago, United States of America</p>
 <p>RO demonstration will focus on solving two interoperability problems of RDA (Resource Description and Access) and BIBFRAME (Bibliographic Framework Initiative): i) the polysemy of the bf:Work class (multiple correspondence between bf:Work and RDA concepts of Work and Expression); and ii) the lack of transitivity, non-reflexivity and asymmetry in RDA and BIBFRAME formalization of whole-part relationships. The RO will be applied to real-world bibliographic examples from the Library of Congress and the Biblioteca Nacional de España datasets.</p>
 <p>Both the RO main components (OWL and SHACL RDF/XML files) and the bibliographic examples datasets are available at <a href="https://libraryreferenceontology.com">https://libraryreferenceontology.com</a>.</p>
 </details>
+<p><a href="https://swib.org/swib24/slides/SWIB24-this-is-an-ontology-not-a-screwdriver.pdf">Slides</a>   <a href="https://www.youtube.com/watch?v=Bezvj31DbfQ">Video</a>  </p>
 </td>
 </tr>
 <tr id="contrib102">
@@ -544,6 +556,7 @@ VU Amsterdam, Netherlands, The</p>
 <p><summary>Abstract</summary></p>
 <p>The past years witnessed a significant adoption of LGBTQ+ ontologies and structured vocabularies in libraries. Some of them are published as Linked Data in the Semantic Web. Homosaurus is among the most popular ones with links from/to the QLIT, GSSO, Wikidata, LCSH, etc. Over the past years, three versions of Homosaurus have been released with updates every half a year. Despite its rapid development, little has been reported about the properties of these links. In this study, we first retrieve all the mappings and links between them as well as links about concept replacement to form an integrated knowledge graph, together with some obtained links about redirection. Using them, we perform qualitative and quantitative analysis. We discuss the discovery of missing links using weakly connected components. Among 105 newly discovered links from QLIT to LCSH, experts confirmed that 78 (72.38%) could be included. We analyze concept drift and change by providing examples of the convergence and divergence of concepts. Moreover, we study the reuse of multilingual labels. Our program discovered 775 labels in Swedish in Wikidata (524 prefLabels and 251 altLabels) for 524 entities for QLIT. Finally, we discuss potential issues with publishing related multilingual information in the semantic web and the consequences of our findings in practice in libraries, heritages, and online literature databases. The project is available on GitHub at: https://github.com/Multilingual-LGBTQIA-Vocabularies/Examing_LGBTQ_Concepts.</p>
 </details>
+<p><a href="https://www.canva.com/design/DAGXgJp0Wz0/mvPJ32nTu5J1XpcSgkrtzA/view?utm_content=DAGXgJp0Wz0&utm_campaign=designshare&utm_medium=link&utm_source=editor">Slides</a>   <a href="https://www.youtube.com/watch?v=sVVAMR5feGI">Video</a>  </p>
 </td>
 </tr>
 <tr id="contrib126">
@@ -561,6 +574,7 @@ ZB MED Information Centre for Life Sciences, Germany</p>
 <p>The interface builds upon the web framework Nuxt 3, uses SQLite database integrated with Prisma ORM, and is deployed with Nginx. The interface prioritizes one-to-one translation of English MeSH main headings, with additional synonyms capturing, e.g., variations across German-speaking countries and regions, providing German-speakers a localized experience. A curator then approves translations and the XML file is produced. This application could be used for translations to other languages by changing the DeepL seed.</p>
 <p>In the future, the interface will be extended to also cover updated MeSH terms in addition to the new ones, to better reflect modified and deleted main headings, preferred labels, and synonyms. Although the interface itself is tailored to the MeSH vocabulary, the DeepL translation-curation process could be adapted to other vocabularies.</p>
 </details>
+<p><a href="https://swib.org/swib24/slides/SWIB24-a-web-based-translation-interface-for-the-mesh-vocabulary.pdf">Slides</a>   <a href="https://www.youtube.com/watch?v=9oTaaWh-ojo">Video</a>  </p>
 </td>
 </tr>
 <tr id="CL">
