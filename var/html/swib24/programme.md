@@ -648,6 +648,74 @@ Moderator: Huda Khan, Nuno Freire
 </td></tr>
 
 
+<tr id="contrib165"><td></td><td>
+
+#### Chatbot assistant for searching the Finna.fi LAM discovery portal 
+
+
+[Osma Suominen](speakers.html#X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8), [Unni Kohonen](speakers.html#X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8), [Saga Jacksen](speakers.html#X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8)\
+National Library of Finland, Finland
+
+
+
+<details>
+<summary>Abstract</summary>
+
+[Finna.fi](https://finna.fi/) is a search service that collects material from hundreds of Finnish cultural heritage organisations under one roof. It is a heavily customized version of VuFind and provides a faceted search user interface for accessing the nearly 19 million records currently in Finna. It is very widely used, with several millions of visits per year.
+
+However, the advanced search facilities available in Finna may not always be intuitive especially for new users. We have created an experimental chatbot-style user interface that translates natural language questions such as “what kind of mittens are in finna” or “can you find reports related to carbon sequestration” into search queries and facet selections for Finna using a large language model (currently OpenAI gpt-4o-mini) and shows the results within the same user interface. The current prototype system can translate such questions into search queries with some success. We are currently analyzing the results of the experiment and in the next phase, assuming we receive additional funding, we will start planning how such a facility could be deployed to at least a subset of Finna users.
+
+</details>
+
+
+
+
+</td></tr>
+
+<tr id="contrib167"><td></td><td>
+
+#### Northwestern University’s Wikidata Workflow Experiment 
+
+
+[Abby Dover](speakers.html#X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8)\
+Northwestern University, USA
+
+
+
+<details>
+<summary>Abstract</summary>
+
+I would like to speak about “Northwestern University’s Wikidata Workflow Experiment,” where in September 2024 we decided to try making 2-4 hours a week of Wikidata work a regular part of our NACO catalogers’ workflows. I’ll touch on our reasoning for this experiment, how it was implemented, how the first 3 months have gone, and future goals.
+
+</details>
+
+
+<a href="https://swib.org/swib24/slides/SWIB24-Chatbot-assistant-for-searching-the-Finna-fi-LAM-discovery-portal.pdf">Slides</a> &#160; 
+
+</td></tr>
+
+<tr id="contrib166"><td></td><td>
+
+#### The BIBFRAMINATOR 
+
+
+[Jim Hahn](speakers.html#X46e2fc5761cbebb3fd1d4a0cbc174e00d1fe47db0ecaa4d663d854eb596faba8)\
+Penn Libraries, University of Pennsylvania, USA
+
+
+
+<details>
+<summary>Abstract</summary>
+
+I will present a work in progress, the “BIBFRAMINATOR” browser plugin designed to enrich the Penn Libraries Catalog by integrating author knowledge cards. This plugin leverages the Share-VDE APIs to populate data about authors’ BIBFRAME works, providing users with a comprehensive view of an author’s contributions. Inspired by the SQID app’s framework, the plugin also incorporates biographical information from Wikidata, offering a succinct view of the author’s background along with the authorship clusters. The plugin is intended to support user tasks of author disambiguation in the Find catalog.
+
+</details>
+
+
+<a href="https://swib.org/swib24/slides/SWIB24-BIBFRAMINATOR-browser-plugin-linked-data-find.pdf">Slides</a> &#160; 
+
+</td></tr>
+
 
 
 

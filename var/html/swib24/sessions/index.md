@@ -12,6 +12,7 @@ pagetitle: "SWIB24: Session slide index"
 - 2024-11-25 17:00: Workshop slot Americas ([announce](W3_announce.html), [background](W3.html))
 - 2024-11-26 14:00: Generating Linked Metadata ([announce](S3_announce.html), [background](S3.html))
 - 2024-11-26 15:30: LOD for End Users ([announce](S4_announce.html), [background](S4.html))
+- 2024-11-27 14:00: Lightning Talks ([announce](LT_announce.html), [background](LT.html))
 - 2024-11-27 14:25: Workflows ([announce](S5_announce.html), [background](S5.html))
 - 2024-11-27 15:30: Vocabularies ([announce](S6_announce.html), [background](S6.html))
 
