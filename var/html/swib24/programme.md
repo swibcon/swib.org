@@ -668,7 +668,7 @@ However, the advanced search facilities available in Finna may not always be int
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-Chatbot-assistant-for-searching-the-Finna-fi-LAM-discovery-portal.pdf">Slides</a> &#160; 
 
 </td></tr>
 
@@ -690,7 +690,7 @@ I would like to speak about “Northwestern University’s Wikidata Workflow Exp
 </details>
 
 
-<a href="https://swib.org/swib24/slides/SWIB24-Chatbot-assistant-for-searching-the-Finna-fi-LAM-discovery-portal.pdf">Slides</a> &#160; 
+
 
 </td></tr>
 
