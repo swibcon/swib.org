@@ -756,7 +756,7 @@ The ongoing development will be applied to the linked data underlying [SVDE disc
 </details>
 
 
-<a href="https://www.youtube.com/watch?v=CnN3lco3tYU">Video</a> &#160; 
+<a href="https://swib.org/swib24/slides/SWIB24-leveraging-linked-data-fragments-for-enhanced-data-publication-the-share-vde-case-study.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=CnN3lco3tYU">Video</a> &#160; 
 
 </td></tr>
 
