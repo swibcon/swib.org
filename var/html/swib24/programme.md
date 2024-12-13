@@ -297,7 +297,7 @@ In this presentation, we aim to share with the SWIB community the objectives and
 </details>
 
 
-<a href="https://swib.org/swib24/slides/SWIB24-capdata-opera-ease-data-interoperability-for-opera-houses.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=QOCY46vmfzo">Video</a> &#160; 
+<a href="https://swib.org/swib24/slides/SWIB24-capdata-opera-ease-data-interoperability-for-opera-houses.pdf">Slides</a> &#160; 
 
 </td></tr>
 
