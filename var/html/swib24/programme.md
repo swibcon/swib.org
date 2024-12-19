@@ -219,7 +219,7 @@ In this talk we will work on some of the answers how these two technologies migh
 </details>
 
 
-<a href="https://www.youtube.com/watch?v=NmCbTOZ4Yos">Video</a> &#160; 
+<a href="https://swib.org/swib24/slides/SWIB24-keynote-how-knowledge-representation-is-changing-in-a-world-of-large-language-models.pdf">Slides</a> &#160; <a href="https://www.youtube.com/watch?v=NmCbTOZ4Yos">Video</a> &#160; 
 
 </td></tr>
 
