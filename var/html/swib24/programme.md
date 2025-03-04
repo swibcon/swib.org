@@ -576,7 +576,7 @@ Future directions include integrating user feedback, enhancing semantic analysis
 </details>
 
 
-
+<a href="https://swib.org/swib24/slides/SWIB24-empowering-user-discovery-with-linked-data-and-semantic-web-technologies.pdf">Slides</a> &#160; 
 
 </td></tr>
 
