@@ -20,20 +20,11 @@ You also need an account on the SWIB forum in order to register your participati
 
 :::{.sidebox-box}
 
-### 16th SWIB
+### 17th SWIB
 
-**Registration for the SWIB community forum**\
-Join the forum at [https://forum.swib.org/signup](https://forum.swib.org/signup)
-05.09.2024
-
-**SWIB24 – programme published**\
-05.09.2024
-
-**CfP deadline extended to 2024-06-09**\
-24.05.2024
-
-**CfP published**\
-19.04.2024
+**SWIB25 will happen on 17-19 November**\
+This years SWIB will happen a bit earlier as usual, from 17th to 19th November 2025
+25.03.2025
 
 
 :::
